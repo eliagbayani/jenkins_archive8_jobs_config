@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec># once a day on the 15th of Mar Jun Sep Dec - quarterly
+#H H 15 3,5,6,9,11,1 *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+### This will overwrite any current download request. 
+### Run this once ONLY every harvest per taxon group.
+
+php gbif_download_request_for_CtryChecklists.php jenkins &apos;{&quot;task&quot;:&quot;send_download_request&quot;, &quot;taxon&quot;:&quot;Country_checklists&quot;}&apos;
+### Will wait for another hour to check if downloads are ready
+sleep 1h
+
+### This will generate the .sh file if download is ready. 
+### The .sh file is the curl command to download.
+php gbif_download_request_for_CtryChecklists.php jenkins &apos;{&quot;task&quot;:&quot;generate_sh_file&quot;, &quot;taxon&quot;:&quot;Country_checklists&quot;}&apos;
+
+
+# orig post build:
+# 02 Check if ready to start</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

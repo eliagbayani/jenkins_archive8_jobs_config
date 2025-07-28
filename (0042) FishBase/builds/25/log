@@ -1,0 +1,34 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0042) FishBase
+[(0042) FishBase] $ /bin/sh -xe /jenkins_tmp/jenkins4411252487188935762.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 42.php jenkins
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://editors.eol.org/other_files/contributor_mappings/FishBase_contributors.tsv :: [lib/connectors/FishBaseArchiveAPI.php [83]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_56036.file :: [lib/connectors/FishBaseArchiveAPI.php [83]]<br>
+Sending get request to https://editors.eol.org/other_files/contributor_mappings/FishBase_contributors.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+ contributor_mappings: 2422
+
+spreadsheet: [https://github.com/eliagbayani/EOL-connector-data-files/raw/master/FishBase/fishbase%20mappings.xlsx]
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/FishBase/fishbase%20mappings.xlsx :: [lib/connectors/GBIFCountryTypeRecordAPI.php [185]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_34483.file.xlsx :: [lib/connectors/GBIFCountryTypeRecordAPI.php [185]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_34483.file.xlsx]
+Warning: The use statement with non-compound name 'AllowDynamicProperties' has no effect in /var/www/html/eol_php8_code/vendor/PHPExcel/Classes/PHPExcel/Calculation.php on line 62
+
+Updated /Volumes/AKiTiO4/eol_php_code_tmp/dir_69907//taxon_references.txt
+
+ taxa references -- DONE
+ taxa -- DONETerminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

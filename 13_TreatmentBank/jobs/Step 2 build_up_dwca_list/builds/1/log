@@ -1,0 +1,24 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 2 build_up_dwca_list
+[Step 2 build_up_dwca_list] $ /bin/sh -xe /jenkins_tmp/jenkins1107055206217108252.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php treatment_bank.php _ {"task": "build_up_dwca_list"}
+Current PHP version: 8.2.28<br>Array
+(
+    [0] => treatment_bank.php
+    [1] => _
+    [2] => {"task": "build_up_dwca_list"}
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip -- [18170] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/2FA310679C2750C8A8A6E8F23049F5C6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/62EE7731821A5CDCA1EABE8D8F357D85.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/66372D0BD3C55F8C94919BE9969A3CD8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/7B12C7BF7D72516ABAB48A98DA795000.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/13198FCAE3155574A77B62F0A86E0BDE.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/FDD096FC5C3855298AA102AABA6B03E3.xml : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

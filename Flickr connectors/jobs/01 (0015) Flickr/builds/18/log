@@ -1,0 +1,74 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/(0015) Flickr
+[(0015) Flickr] $ /bin/sh -xe /jenkins_tmp/jenkins608443846718980191.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 15.php _
+Current PHP version: 8.2.28<br>
+-----------------------------------
+STEP 1: query Flickr and write results to file
+-----------------------------------
+
+total_pages = [421055] 843
+getting page 1: 1.368139
+
+ page 1 of 843 | total taxa =  421055 | 15 
+
+ -- response photos count per page: 500
+taxon: 200 (51901931679): 1.434652
+taxon: 400 (51483073876): 1.474971
+getting page 2: 1.49399
+
+ page 2 of 843 | total taxa =  421411 | 15 
+
+ -- response photos count per page: 500
+taxon: 600 (51426745573): 1.514584
+getting page 3: 1.523474
+
+ page 3 of 843 | total taxa =  421411 | 15 
+
+ -- response photos count per page: 500
+taxon: 800 (51398518100): 1.554168
+taxon: 1000 (51038318048): 1.591955
+getting page 4: 1.61906
+
+ page 4 of 843 | total taxa =  421431 | 15 
+
+ -- response photos count per page: 500
+taxon: 1200 (51113882508): 1.630532
+taxon: 1400 (51267303895): 1.667636
+taxon: 1600 (52895328110): 48.060084
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+E_DEPRECATED: htmlspecialchars(): Passing null to parameter #1 ($string) of type string is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 67
+getting page 5: 55.280576
+
+ page 5 of 848 | total taxa =  423611 | 15 
+
+ -- response photos count per page: 500
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

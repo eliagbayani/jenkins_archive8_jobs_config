@@ -1,0 +1,2015 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0214) Vimeo
+[(0214) Vimeo] $ /bin/sh -xe /jenkins_tmp/jenkins14706384855159334271.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php vimeo2020.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//214_working/]
+
+25
+
+25
+
+25
+
+25
+
+6
+
+videos batch for user [11693212]: 0
+
+videos batch for user [113877002]: 1
+
+videos batch for user [83097635]: 1
+
+videos batch for user [9631819]: 25
+
+videos batch for user [9631819]: 17
+
+videos batch for user [57935283]: 0
+
+videos batch for user [52343637]: 1
+
+videos batch for user [18185227]: 0
+
+videos batch for user [42837716]: 1
+
+videos batch for user [29295959]: 0
+
+videos batch for user [35303038]: 5
+
+videos batch for user [2645235]: 0
+
+videos batch for user [52295316]: 0
+
+videos batch for user [50646381]: 0
+
+videos batch for user [20408866]: 1
+
+videos batch for user [7236634]: 2
+
+videos batch for user [23533664]: 0
+
+videos batch for user [46106751]: 0
+
+videos batch for user [38227377]: 2
+
+videos batch for user [4164781]: 7
+
+videos batch for user [5123116]: 1
+
+videos batch for user [36173775]: 0
+
+videos batch for user [12254084]: 0
+
+videos batch for user [5592673]: 0
+
+videos batch for user [31109380]: 0
+
+videos batch for user [114971]: 0
+
+videos batch for user [13412315]: 0
+
+videos batch for user [19493365]: 0
+
+videos batch for user [20482338]: 3
+
+videos batch for user [14323767]: 0
+
+videos batch for user [494460]: 25
+
+videos batch for user [494460]: 25
+
+videos batch for user [494460]: 21
+
+videos batch for user [12417022]: 0
+
+videos batch for user [6066268]: 0
+
+videos batch for user [6095901]: 0
+
+videos batch for user [8299185]: 0
+
+videos batch for user [9911539]: 1
+
+videos batch for user [16208134]: 0
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 25
+
+videos batch for user [15839872]: 16
+
+videos batch for user [20733578]: 0
+
+videos batch for user [22774412]: 0
+
+videos batch for user [24713116]: 0
+
+videos batch for user [24558755]: 0
+
+videos batch for user [5673329]: 0
+
+videos batch for user [16620588]: 1
+
+videos batch for user [8802684]: 25
+
+videos batch for user [8802684]: 4
+
+videos batch for user [21928914]: 0
+
+videos batch for user [11023266]: 0
+
+videos batch for user [19152534]: 0
+
+videos batch for user [6515809]: 5
+
+videos batch for user [6357734]: 0
+
+videos batch for user [10444211]: 25
+
+videos batch for user [10444211]: 18
+
+videos batch for user [19224725]: 0
+
+videos batch for user [19151375]: 4
+
+videos batch for user [1526260]: 3
+
+videos batch for user [8646691]: 0
+
+videos batch for user [6055867]: 0
+
+videos batch for user [2250575]: 0
+
+videos batch for user [6745557]: 0
+
+videos batch for user [14836208]: 0
+
+videos batch for user [2130791]: 25
+
+videos batch for user [2130791]: 24
+
+videos batch for user [3289925]: 24
+
+videos batch for user [3289925]: 25
+
+This needs checking.../videos/152329661Array
+(
+    [0] => Higa
+    [1] => Merlin
+)
+
+videos batch for user [3289925]: 25
+
+videos batch for user [3289925]: 9
+
+videos batch for user [6346688]: 1
+
+videos batch for user [16033325]: 0
+
+videos batch for user [4462530]: 25
+
+videos batch for user [4462530]: 11
+
+videos batch for user [7837321]: 25
+
+videos batch for user [7837321]: 25
+
+videos batch for user [7837321]: 25
+
+videos batch for user [7837321]: 25
+
+videos batch for user [7837321]: 25
+
+videos batch for user [7837321]: 25
+
+videos batch for user [7837321]: 5
+
+videos batch for user [10915359]: 19
+Sending get request to https://player.vimeo.com/video/57118741 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/57118741): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/57010078 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/57010078): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/57009994 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/57009994): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/57009892 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/57009892): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/57009866 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/57009866): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/56516722 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/56516722): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/56516721 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/56516721): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/52731326 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/52731326): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [6261375]: 2
+Sending get request to https://player.vimeo.com/video/38728404 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38728404): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [2313806]: 25
+
+videos batch for user [2313806]: 25
+
+videos batch for user [2313806]: 25
+
+videos batch for user [2313806]: 25
+
+videos batch for user [2313806]: 25
+
+videos batch for user [2313806]: 10
+
+videos batch for user [9144010]: 0
+
+videos batch for user [599654]: 0
+
+videos batch for user [1725093]: 25
+
+videos batch for user [1725093]: 25
+
+videos batch for user [1725093]: 25
+Sending get request to https://player.vimeo.com/video/62134043 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/62134043): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/60501780 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/60501780): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/57635398 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/57635398): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [1725093]: 25
+Sending get request to https://player.vimeo.com/video/33031728 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/33031728): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/33031310 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/33031310): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/33030683 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/33030683): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/31223474 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/31223474): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [1725093]: 25
+Sending get request to https://player.vimeo.com/video/18940092 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/18940092): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/16663617 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/16663617): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15496311 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15496311): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15496304 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15496304): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15492320 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15492320): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15491343 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15491343): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15490925 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15490925): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15490597 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15490597): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15443242 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15443242): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15443214 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15443214): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15443064 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15443064): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442854 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442854): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442854 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442854): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442854 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442854): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442854 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442854): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442854 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442854): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [1725093]: 25
+Sending get request to https://player.vimeo.com/video/15442441 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442441): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442399 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442399): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442051 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442051): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15442009 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15442009): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15440684 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15440684): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15440525 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15440525): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15437347 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15437347): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15436689 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15436689): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15436152 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15436152): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15436152 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15436152): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15436152 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15436152): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434969 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15434969): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15434138 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://player.vimeo.com/video/15432698 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15432698): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/15394009 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/15394009): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/12797355 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/12797355): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/12669846 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/12669846): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/12644964 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/12644964): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/12643110 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/12643110): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/12589245 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/12589245): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/12081002 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/12081002): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/11871607 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/11871607): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/11801925 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/11801925): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [1725093]: 20
+Sending get request to https://player.vimeo.com/video/10526334 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/10526334): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/8698014 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/8698014): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/8572476 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/8572476): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/8350760 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/8350760): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/8021348 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/8021348): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [12325100]: 5
+Sending get request to https://player.vimeo.com/video/44866707 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/44866707): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/44866700 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/44866700): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/44866698 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/44866698): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/44866696 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/44866696): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/44866695 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/44866695): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [6028962]: 5
+Sending get request to https://player.vimeo.com/video/42478464 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/42478464): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/42478464 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/42478464): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20416868 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20416868): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20416868 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20416868): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [698959]: 2
+
+videos batch for user [11260218]: 1
+
+videos batch for user [3023918]: 18
+
+videos batch for user [1193857]: 25
+
+videos batch for user [1193857]: 25
+
+videos batch for user [1193857]: 25
+
+videos batch for user [1193857]: 13
+Sending get request to https://player.vimeo.com/video/6758203 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/6758203): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [2804299]: 2
+Sending get request to https://player.vimeo.com/video/16429565 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/16429565): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [10058367]: 0
+
+videos batch for user [9853703]: 25
+Sending get request to https://player.vimeo.com/video/34581109 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34581109): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34580954 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34580954): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34580693 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34580693): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34580071 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34580071): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34575355 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34575355): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34530273 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34530273): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34529754 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34529754): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34529025 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34529025): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [9853703]: 10
+Sending get request to https://player.vimeo.com/video/34480052 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34480052): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34479478 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34479478): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34479399 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34479399): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34479130 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34479130): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34478040 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34478040): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34478032 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34478032): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34477717 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34477717): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34477595 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34477595): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34476847 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34476847): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34476847 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34476847): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34476624 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34476624): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34476624 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34476624): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [9550550]: 0
+
+videos batch for user [8994527]: 25
+Sending get request to https://player.vimeo.com/video/49579948 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49579948): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49579947 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49579947): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49579196 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49579196): The requested URL returned error: 404 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49579195 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49579195): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49579194 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49579194): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49579192 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49579192): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49578459 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49578459): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49578458 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49578458): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49578456 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49578456): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49578455 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49578455): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49577574 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49577574): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49577573 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49577573): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49577572 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49577572): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49577567 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49577567): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576904 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576904): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576903 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576903): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576901 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576901): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576900 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576900): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [8994527]: 16
+Sending get request to https://player.vimeo.com/video/49576899 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576899): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576145 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576145): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576143 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576143): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576142 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576142): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576141 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576141): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49576140 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49576140): The requested URL returned error: 404 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49575389 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49575389): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49575388 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49575388): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49575386 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49575386): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49575385 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49575385): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49575384 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49575384): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49574798 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49574798): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49574797 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49574797): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49574796 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49574796): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49574795 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49574795): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [8994527]: 25
+Sending get request to https://player.vimeo.com/video/38810645 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810645): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810644 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810644): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810285 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810285): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810284 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810284): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810282 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810282): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810281 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810281): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810280 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810280): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810034 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810034): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810032 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810032): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810030 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810030): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38810028 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38810028): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38809955 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38809955): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38809954 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38809954): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38809953 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38809953): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38808617 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38808617): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38808616 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38808616): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38808613 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38808613): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38808610 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38808610): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38801445 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38801445): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38801444 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38801444): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38801443 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38801443): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/38801442 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38801442): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [8994527]: 13
+Sending get request to https://player.vimeo.com/video/38801440 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/38801440): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/31035419 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/31035419): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/31035339 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/31035339): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/31035185 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/31035185): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/31034659 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/31034659): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/31034301 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/31034301): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/31013201 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/31013201): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/30987362 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/30987362): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/30941280 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/30941280): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [8594403]: 2
+
+videos batch for user [8734254]: 6
+
+videos batch for user [2397345]: 14
+
+videos batch for user [7662815]: 0
+
+videos batch for user [2250178]: 1
+
+videos batch for user [5185017]: 0
+
+videos batch for user [3168966]: 23
+Sending get request to https://player.vimeo.com/video/86244357 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/86244357): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28356987 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28356987): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/12492807 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/12492807): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/10894052 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/10894052): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [7892770]: 25
+Sending get request to https://player.vimeo.com/video/252766172 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/252766172): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/180608198 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/180608198): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/180608193 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/180608193): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/180424702 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/180424702): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/180422124 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/180422124): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/151121210 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/151121210): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/134115714 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/134115714): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/134115713 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/134115713): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/133535735 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/133535735): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/89605962 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/89605962): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/64358450 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/64358450): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [7892770]: 25
+Sending get request to https://player.vimeo.com/video/28882222 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28882222): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28820033 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28820033): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28819771 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28819771): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28819598 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28819598): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28818416 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28818416): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28818046 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28818046): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28816915 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28816915): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28815333 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28815333): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28815124 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28815124): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28814249 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28814249): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28295503 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28295503): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28295200 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28295200): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28295200 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28295200): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [7892770]: 25
+Sending get request to https://player.vimeo.com/video/28109416 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28109416): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28104542 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28104542): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28104388 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28104388): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28102789 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28102789): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28094618 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28094618): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28060464 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28060464): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28059384 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28059384): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28058196 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28058196): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28058196 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28058196): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28057926 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28057926): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27859428 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27859428): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27858934 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27858934): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27799263 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27799263): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27721030 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27721030): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27720435 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27720435): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27719985 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27719985): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [7892770]: 10
+Sending get request to https://player.vimeo.com/video/27715244 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27715244): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27715008 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27715008): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27712738 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27712738): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27618679 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27618679): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27618255 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27618255): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27611672 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27611672): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26915500 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26915500): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [7215480]: 12
+Sending get request to https://player.vimeo.com/video/24880964 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/24880964): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [1747626]: 25
+
+This needs checking.../videos/413979986Array
+(
+    [0] => accessed Oct. 4, 2019
+    [1] => accessed Oct. 4, 2019
+)
+
+videos batch for user [1747626]: 25
+Sending get request to https://player.vimeo.com/video/49846316 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49846316): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/42101481 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/42101481): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/37915206 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/37915206): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/35558617 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/35558617): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/35204083 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/35204083): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/34528791 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/34528791): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [1747626]: 25
+Sending get request to https://player.vimeo.com/video/33911124 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/33911124): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/33803778 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/33803778): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/33803564 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/33803564): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+This needs checking.../videos/33746058Array
+(
+    [0] => taxonomy:common=Tardigrades
+)
+Sending get request to https://player.vimeo.com/video/33739448 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/33739448): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28729851 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28729851): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [1747626]: 17
+
+videos batch for user [428114]: 25
+Sending get request to https://player.vimeo.com/video/176253901 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/176253901): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/174127966 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/174127966): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/174113298 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/174113298): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/172824671 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/172824671): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/171331408 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/171331408): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/166664926 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/166664926): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/166523223 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/166523223): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/150482145 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/150482145): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/150482145 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/150482145): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/150482145 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/150482145): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/150482145 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/150482145): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/150482145 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/150482145): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/106311053 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/106311053): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/47218821 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/47218821): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/46562101 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/46562101): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/46275474 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/46275474): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/28652489 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28652489): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25949203 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25949203): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+This needs checking.../videos/13602158Array
+(
+    [0] => 2010/10/26
+)
+
+videos batch for user [428114]: 7
+
+videos batch for user [4276310]: 6
+Sending get request to https://player.vimeo.com/video/13951110 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/13951110): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/13951110 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/13951110): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [6833772]: 25
+Sending get request to https://player.vimeo.com/video/62257957 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/62257957): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/62257957 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/62257957): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/62257668 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/62257668): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/62257668 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/62257668): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/62257331 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/62257331): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/62257331 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/62257331): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49323191 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49323191): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49323187 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49323187): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/49323186 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/49323186): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36788537 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36788537): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36788537 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36788537): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36788537 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36788537): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36786217 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36786217): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36786217 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36786217): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36771513 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36771513): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36771513 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36771513): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36771513 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36771513): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36727989 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36727989): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36727989 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36727989): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/36727989 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/36727989): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [6833772]: 25
+Sending get request to https://player.vimeo.com/video/28011345 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28011345): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27625204 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27625204): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27446323 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27446323): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27446313 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27446313): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27257759 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27257759): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27068182 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27068182): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26218020 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26218020): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26218014 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26218014): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26218008 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26218008): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26218006 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26218006): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25919761 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25919761): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25919760 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25919760): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25919760 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25919760): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25919750 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25919750): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25315293 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25315293): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25315293 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25315293): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [6833772]: 10
+Sending get request to https://player.vimeo.com/video/25314938 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25314938): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25314938 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25314938): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25312376 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25312376): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25312376 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25312376): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/24787993 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/24787993): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/24704678 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/24704678): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [5805465]: 4
+
+videos batch for user [7001778]: 0
+
+videos batch for user [6595790]: 0
+
+videos batch for user [558708]: 2
+Sending get request to https://player.vimeo.com/video/2156713 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/2156713): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [178897]: 0
+
+videos batch for user [6136460]: 15
+Sending get request to https://player.vimeo.com/video/21354398 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/21354398): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/21239638 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/21239638): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20652873 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20652873): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20486955 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20486955): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20486325 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20486325): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20486013 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20486013): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20484912 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20484912): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20478932 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20478932): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20478599 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20478599): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20477931 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20477931): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20477512 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20477512): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/20473109 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/20473109): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [6052168]: 19
+Sending get request to https://player.vimeo.com/video/28115018 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/28115018): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27665896 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27665896): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27665722 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27665722): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27665551 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27665551): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/27665453 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/27665453): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26180190 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26180190): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26174050 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26174050): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/26160879 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/26160879): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25370164 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25370164): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25363128 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25363128): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25309604 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25309604): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25293802 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25293802): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25292806 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25292806): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25292685 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25292685): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25207563 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25207563): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25204619 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25204619): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/25204345 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/25204345): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/24902320 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/24902320): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Sending get request to https://player.vimeo.com/video/24752907 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/24752907): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [2576640]: 25
+
+videos batch for user [2576640]: 25
+
+videos batch for user [2576640]: 18
+
+videos batch for user [5361059]: 1
+Sending get request to https://player.vimeo.com/video/19172833 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/19172833): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+
+videos batch for user [5814509]: 10
+
+videos batch for user [5352360]: 1
+Sending get request to https://player.vimeo.com/video/18761917 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (https://player.vimeo.com/video/18761917): The requested URL returned error: 401 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+failed download file after 1 attempts :: [lib/connectors/VimeoAPI2020.php [315]]<br>
+Array
+(
+    [licenses] => Array
+        (
+            [0] => 
+            [http://creativecommons.org/licenses/by/3.0/] => 
+            [http://creativecommons.org/licenses/by-nc/3.0/] => 
+            [http://creativecommons.org/licenses/by-nc-sa/3.0/] => 
+            [http://creativecommons.org/licenses/by-sa/3.0/] => 
+        )
+
+    [raw license] => Array
+        (
+            [by] => 
+            [by-nc] => 
+            [by-nc-sa] => 
+            [by-nc-nd] => 
+            [by-nd] => 
+            [by-sa] => 
+        )
+
+    [missing videos] => Array
+        (
+            [/videos/57118741] => 
+            [/videos/57010078] => 
+            [/videos/57009994] => 
+            [/videos/57009892] => 
+            [/videos/57009866] => 
+            [/videos/56516722] => 
+            [/videos/56516721] => 
+            [/videos/52731326] => 
+            [/videos/38728404] => 
+            [/videos/62134043] => 
+            [/videos/60501780] => 
+            [/videos/57635398] => 
+            [/videos/33031728] => 
+            [/videos/33031310] => 
+            [/videos/33030683] => 
+            [/videos/31223474] => 
+            [/videos/18940092] => 
+            [/videos/16663617] => 
+            [/videos/15496311] => 
+            [/videos/15496304] => 
+            [/videos/15492320] => 
+            [/videos/15491343] => 
+            [/videos/15490925] => 
+            [/videos/15490597] => 
+            [/videos/15443242] => 
+            [/videos/15443214] => 
+            [/videos/15443064] => 
+            [/videos/15442854] => 
+            [/videos/15442441] => 
+            [/videos/15442399] => 
+            [/videos/15442051] => 
+            [/videos/15442009] => 
+            [/videos/15440684] => 
+            [/videos/15440525] => 
+            [/videos/15437347] => 
+            [/videos/15436689] => 
+            [/videos/15436152] => 
+            [/videos/15434969] => 
+            [/videos/15432698] => 
+            [/videos/15394009] => 
+            [/videos/12797355] => 
+            [/videos/12669846] => 
+            [/videos/12644964] => 
+            [/videos/12643110] => 
+            [/videos/12589245] => 
+            [/videos/12081002] => 
+            [/videos/11871607] => 
+            [/videos/11801925] => 
+            [/videos/10526334] => 
+            [/videos/8698014] => 
+            [/videos/8572476] => 
+            [/videos/8350760] => 
+            [/videos/8021348] => 
+            [/videos/44866707] => 
+            [/videos/44866700] => 
+            [/videos/44866698] => 
+            [/videos/44866696] => 
+            [/videos/44866695] => 
+            [/videos/42478464] => 
+            [/videos/20416868] => 
+            [/videos/6758203] => 
+            [/videos/16429565] => 
+            [/videos/34581109] => 
+            [/videos/34580954] => 
+            [/videos/34580693] => 
+            [/videos/34580071] => 
+            [/videos/34575355] => 
+            [/videos/34530273] => 
+            [/videos/34529754] => 
+            [/videos/34529025] => 
+            [/videos/34480052] => 
+            [/videos/34479478] => 
+            [/videos/34479399] => 
+            [/videos/34479130] => 
+            [/videos/34478040] => 
+            [/videos/34478032] => 
+            [/videos/34477717] => 
+            [/videos/34477595] => 
+            [/videos/34476847] => 
+            [/videos/34476624] => 
+            [/videos/49579948] => 
+            [/videos/49579947] => 
+            [/videos/49579195] => 
+            [/videos/49579194] => 
+            [/videos/49579192] => 
+            [/videos/49578459] => 
+            [/videos/49578458] => 
+            [/videos/49578456] => 
+            [/videos/49578455] => 
+            [/videos/49577574] => 
+            [/videos/49577573] => 
+            [/videos/49577572] => 
+            [/videos/49577567] => 
+            [/videos/49576904] => 
+            [/videos/49576903] => 
+            [/videos/49576901] => 
+            [/videos/49576900] => 
+            [/videos/49576899] => 
+            [/videos/49576145] => 
+            [/videos/49576143] => 
+            [/videos/49576142] => 
+            [/videos/49576141] => 
+            [/videos/49575389] => 
+            [/videos/49575388] => 
+            [/videos/49575386] => 
+            [/videos/49575385] => 
+            [/videos/49575384] => 
+            [/videos/49574798] => 
+            [/videos/49574797] => 
+            [/videos/49574796] => 
+            [/videos/49574795] => 
+            [/videos/38810645] => 
+            [/videos/38810644] => 
+            [/videos/38810285] => 
+            [/videos/38810284] => 
+            [/videos/38810282] => 
+            [/videos/38810281] => 
+            [/videos/38810280] => 
+            [/videos/38810034] => 
+            [/videos/38810032] => 
+            [/videos/38810030] => 
+            [/videos/38810028] => 
+            [/videos/38809955] => 
+            [/videos/38809954] => 
+            [/videos/38809953] => 
+            [/videos/38808617] => 
+            [/videos/38808616] => 
+            [/videos/38808613] => 
+            [/videos/38808610] => 
+            [/videos/38801445] => 
+            [/videos/38801444] => 
+            [/videos/38801443] => 
+            [/videos/38801442] => 
+            [/videos/38801440] => 
+            [/videos/31035419] => 
+            [/videos/31035339] => 
+            [/videos/31035185] => 
+            [/videos/31034659] => 
+            [/videos/31034301] => 
+            [/videos/31013201] => 
+            [/videos/30987362] => 
+            [/videos/30941280] => 
+            [/videos/86244357] => 
+            [/videos/28356987] => 
+            [/videos/12492807] => 
+            [/videos/10894052] => 
+            [/videos/252766172] => 
+            [/videos/180608198] => 
+            [/videos/180608193] => 
+            [/videos/180424702] => 
+            [/videos/180422124] => 
+            [/videos/151121210] => 
+            [/videos/134115714] => 
+            [/videos/134115713] => 
+            [/videos/133535735] => 
+            [/videos/89605962] => 
+            [/videos/64358450] => 
+            [/videos/28882222] => 
+            [/videos/28820033] => 
+            [/videos/28819771] => 
+            [/videos/28819598] => 
+            [/videos/28818416] => 
+            [/videos/28818046] => 
+            [/videos/28816915] => 
+            [/videos/28815333] => 
+            [/videos/28815124] => 
+            [/videos/28814249] => 
+            [/videos/28295503] => 
+            [/videos/28295200] => 
+            [/videos/28109416] => 
+            [/videos/28104542] => 
+            [/videos/28104388] => 
+            [/videos/28102789] => 
+            [/videos/28094618] => 
+            [/videos/28060464] => 
+            [/videos/28059384] => 
+            [/videos/28058196] => 
+            [/videos/28057926] => 
+            [/videos/27859428] => 
+            [/videos/27858934] => 
+            [/videos/27799263] => 
+            [/videos/27721030] => 
+            [/videos/27720435] => 
+            [/videos/27719985] => 
+            [/videos/27715244] => 
+            [/videos/27715008] => 
+            [/videos/27712738] => 
+            [/videos/27618679] => 
+            [/videos/27618255] => 
+            [/videos/27611672] => 
+            [/videos/26915500] => 
+            [/videos/24880964] => 
+            [/videos/49846316] => 
+            [/videos/42101481] => 
+            [/videos/37915206] => 
+            [/videos/35558617] => 
+            [/videos/35204083] => 
+            [/videos/34528791] => 
+            [/videos/33911124] => 
+            [/videos/33803778] => 
+            [/videos/33803564] => 
+            [/videos/33739448] => 
+            [/videos/28729851] => 
+            [/videos/176253901] => 
+            [/videos/174127966] => 
+            [/videos/174113298] => 
+            [/videos/172824671] => 
+            [/videos/171331408] => 
+            [/videos/166664926] => 
+            [/videos/166523223] => 
+            [/videos/150482145] => 
+            [/videos/106311053] => 
+            [/videos/47218821] => 
+            [/videos/46562101] => 
+            [/videos/46275474] => 
+            [/videos/28652489] => 
+            [/videos/25949203] => 
+            [/videos/13951110] => 
+            [/videos/62257957] => 
+            [/videos/62257668] => 
+            [/videos/62257331] => 
+            [/videos/49323191] => 
+            [/videos/49323187] => 
+            [/videos/49323186] => 
+            [/videos/36788537] => 
+            [/videos/36786217] => 
+            [/videos/36771513] => 
+            [/videos/36727989] => 
+            [/videos/28011345] => 
+            [/videos/27625204] => 
+            [/videos/27446323] => 
+            [/videos/27446313] => 
+            [/videos/27257759] => 
+            [/videos/27068182] => 
+            [/videos/26218020] => 
+            [/videos/26218014] => 
+            [/videos/26218008] => 
+            [/videos/26218006] => 
+            [/videos/25919761] => 
+            [/videos/25919760] => 
+            [/videos/25919750] => 
+            [/videos/25315293] => 
+            [/videos/25314938] => 
+            [/videos/25312376] => 
+            [/videos/24787993] => 
+            [/videos/24704678] => 
+            [/videos/2156713] => 
+            [/videos/21354398] => 
+            [/videos/21239638] => 
+            [/videos/20652873] => 
+            [/videos/20486955] => 
+            [/videos/20486325] => 
+            [/videos/20486013] => 
+            [/videos/20484912] => 
+            [/videos/20478932] => 
+            [/videos/20478599] => 
+            [/videos/20477931] => 
+            [/videos/20477512] => 
+            [/videos/20473109] => 
+            [/videos/28115018] => 
+            [/videos/27665896] => 
+            [/videos/27665722] => 
+            [/videos/27665551] => 
+            [/videos/27665453] => 
+            [/videos/26180190] => 
+            [/videos/26174050] => 
+            [/videos/26160879] => 
+            [/videos/25370164] => 
+            [/videos/25363128] => 
+            [/videos/25309604] => 
+            [/videos/25293802] => 
+            [/videos/25292806] => 
+            [/videos/25292685] => 
+            [/videos/25207563] => 
+            [/videos/25204619] => 
+            [/videos/25204345] => 
+            [/videos/24902320] => 
+            [/videos/24752907] => 
+            [/videos/19172833] => 
+            [/videos/18761917] => 
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/214/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [2]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/214/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [10]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/214/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [9]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/214/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [214]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/214//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://eol.org/schema/media/document
+)
+
+ agent  -- OK
+
+ taxon  -- OK
+
+ document  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 17.83 minutes 
+elapsed time = 0.3 hours 
+
+Done processing.
+
+File permission update: [1] OK
+Completed vimeo2020.php :: [ []]<br>
+Finished: SUCCESS

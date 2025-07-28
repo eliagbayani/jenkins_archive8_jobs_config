@@ -1,0 +1,54 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0037) USDA Plants Images
+[(0037) USDA Plants Images] $ /bin/sh -xe /jenkins_tmp/jenkins3974826550456532349.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php usda_plant_images.php _
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//usda_plant_images_working/]
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/USDA_Plants/US_State_list.tsv :: [lib/connectors/USDAPlantNewAPI.php [85]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_41624.file :: [lib/connectors/USDAPlantNewAPI.php [85]]<br>
+
+US States/Territories: 53 /Volumes/AKiTiO4/eol_php_code_tmp/tmp_41624.file
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/refs/heads/master/USDA_Plants/plantlst.txt :: [lib/connectors/USDAPlantNewAPI.php [90]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_23284.file :: [lib/connectors/USDAPlantNewAPI.php [90]]<br>
+No. of rows: 93157 /Volumes/AKiTiO4/eol_php_code_tmp/tmp_23284.file
+
+Symbol: ABAB | Plant ID: 65791 | HasImages: 1 | No. of images: 1
+Symbol: ABAB70 | Plant ID: 9925 | HasImages: 1 | No. of images: 3
+Symbol: ABAL | Plant ID: 59306 | HasImages:  | no images
+Symbol: ABAL3 | Plant ID: 15307 | HasImages: 1 | No. of images: 2
+Symbol: ABAM | Plant ID: 15308 | HasImages: 1 | No. of images: 16
+Symbol: ABAM2 | Plant ID: 59307 | HasImages: 1 | No. of images: 1
+Symbol: ABAM3 | Plant ID: 59308 | HasImages:  | no images
+Symbol: ABAN | Plant ID: 59310 | HasImages: 1 | No. of images: 4
+Symbol: ABAR | Plant ID: 59313 | HasImages:  | no images
+Symbol: ABAU | Plant ID: 65795 | HasImages:  | no images
+Symbol: ABAU3 | Plant ID: 66556 | HasImages:  | no images
+Symbol: ABBA | Plant ID: 15309 | HasImages: 1 | No. of images: 15
+Symbol: ABBAB | Plant ID: 15310 | HasImages:  | no images
+Symbol: ABBAP | Plant ID: 15312 | HasImages:  | no images
+Symbol: ABBE | Plant ID: 65796 | HasImages:  | no images
+Symbol: ABBE2 | Plant ID: 6903 | HasImages:  | no imagesSending get request to https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ABBI : only attempt :: [lib/Functions.php [148]]<br>
+
+Symbol: ABBI | Plant ID: 59314 | HasImages: 1Sending get request to https://plantsservices.sc.egov.usda.gov/api/PlantImages?plantId=59314 : only attempt :: [lib/Functions.php [148]]<br>
+ | No. of images: 2Sending get request to https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ABBO : only attempt :: [lib/Functions.php [148]]<br>
+
+Symbol: ABBO | Plant ID: 59315 | HasImages:  | no imagesSending get request to https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ABBR : only attempt :: [lib/Functions.php [148]]<br>
+
+Symbol: ABBR | Plant ID: 15314 | HasImages: 1Sending get request to https://plantsservices.sc.egov.usda.gov/api/PlantImages?plantId=15314 : only attempt :: [lib/Functions.php [148]]<br>
+ | No. of images: 8Sending get request to https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ABBR3 : only attempt :: [lib/Functions.php [148]]<br>
+
+Symbol: ABBR3 | Plant ID: 6904 | HasImages:  | no imagesSending get request to https://plantsservices.sc.egov.usda.gov/api/PlantProfile?symbol=ABCA : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

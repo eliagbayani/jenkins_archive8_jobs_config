@@ -1,0 +1,117 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/neo4j/01_Brazilian_Flora
+[01_Brazilian_Flora] $ /bin/sh -xe /jenkins_tmp/jenkins2788986601174530681.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php dwca_utility.php _ Brazilian_Flora Y
+Current PHP version: 8.2.29<br>Array
+(
+    [jenkins_or_cron] => _
+    [resource_id] => Brazilian_Flora
+    [generate_higherClassification_YN] => Y
+)
+
+[Brazilian_Flora-with-higherClassification] [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora.tar.gz] [Y]
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//Brazilian_Flora-with-higherClassification_working/]
+
+doing this: convert_archive_by_adding_higherClassification()
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [631]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_09590/ :: [lib/connectors/DwCA_Utility.php [631]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora.tar.gz] :: [lib/connectors/DwCA_Utility.php [631]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_09590//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+carry_over...[taxon][/Volumes/AKiTiO4/eol_php_code_tmp/dir_09590//taxon.tab]
+
+100,000
+1 of 3
+
+2 of 3
+
+3 of 3
+
+carry_over...[vernacular][/Volumes/AKiTiO4/eol_php_code_tmp/dir_09590//vernacular_name.tab]
+
+carry_over...[reference][/Volumes/AKiTiO4/eol_php_code_tmp/dir_09590//reference.tab]
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_09590//occurrence.tab]
+
+100,000
+200,000
+300,000
+400,000
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_09590//measurement_or_fact_specific.tab]
+
+100,000
+200,000
+300,000
+400,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_09590/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [413020]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [404891]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [55234]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [122658]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [9124]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [Brazilian_Flora-with-higherClassification]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/taxon
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/taxon
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ reference  -- OK
+
+ occurrence  -- OK
+
+ taxon  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+
+ elapsed time = 4.8753972666667 minutes
+ elapsed time = 0.081256621111111 hours
+ Done processing.
+Completed dwca_utility.php :: [ []]<br>
+Finished: SUCCESS

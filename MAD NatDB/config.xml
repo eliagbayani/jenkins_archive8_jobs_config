@@ -1,0 +1,58 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+
+###php mad_natdb.php jenkins
+# generates natdb.tar.gz OK
+
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;natdb_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+#-&gt;occurrenceRemarks
+# generates natdb_meta_recoded_1.tar.gz OK
+
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;natdb_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+#-&gt;lifeStage
+# generates natdb_meta_recoded.tar.gz OK
+
+php dwca_MoF_reassign_values.php jenkins &apos;{&quot;resource_id&quot;:&quot;natdb_meta_recoded&quot;, &quot;resource&quot;:&quot;MoF_reassign_values&quot;}&apos;
+# generates natdb_temp_1.tar.gz OK
+
+#LAST STEP: copy last transactional DwCA to MAD_traits.tar.gz OK
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp natdb_temp_1.tar.gz MAD_traits.tar.gz
+ls -lt natdb_temp_1.tar.gz
+ls -lt MAD_traits.tar.gz
+rm -f natdb_temp_1.tar.gz
+
+#NEXT STEP: Update respective Zenodo record
+cd /var/www/html/eol_php8_code/update_resources/connectors
+###php update_Zenodo_record_using_EOL_resourceID_directly.php jenkins &apos;{&quot;resource_id&quot;:&quot;MAD_traits&quot;, &quot;zenodo_id&quot;:&quot;15345249&quot;}&apos;
+### works OK</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

@@ -1,0 +1,121 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0891) NMNH type specimen data
+[(0891) NMNH type specimen data] $ /bin/sh -xe /jenkins_tmp/jenkins1926212971296804139.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 891.php
+Current PHP version: 8.2.28<br>Array
+(
+    [dwca_file] => http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/dwca-nmnh_extant_dwc-a-v1.10.zip
+    [uri_file] => http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/nmnh-mappings.xlsx
+    [row_type] => http://rs.tdwg.org/dwc/terms/occurrence
+    [location] => occurrence.txt
+    [dataset] => NMNH
+    [type] => structured data
+    [resource_id] => 891
+)
+
+
+ Saving remote file: http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/nmnh-mappings.xlsx :: [lib/connectors/NMNHTypeRecordAPI_v2.php [175]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_14224.file.xlsx :: [lib/connectors/NMNHTypeRecordAPI_v2.php [175]]<br>
+Sending get request to http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/nmnh-mappings.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_14224.file.xlsx]
+Array
+(
+    [url] => http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/dwca-nmnh_extant_dwc-a-v1.10.zip
+    [force_extension] => zip
+)
+
+Downloading...cmd: [wget -q                 --progress=bar:force:noscroll -O "/Volumes/AKiTiO4/eol_php_code_tmp/dir_76496/dwca-nmnh_extant_dwc-a-v1.10.zip" http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/dwca-nmnh_extant_dwc-a-v1.10.zip]
+Array
+(
+    [downloaded_file] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_76496/dwca-nmnh_extant_dwc-a-v1.10.zip
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_76496/
+)
+
+dwca_file: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_76496/dwca-nmnh_extant_dwc-a-v1.10.zip]
+
+destination_path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_76496/]
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_76496//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+Extraction OK.
+
+Start: process_row_type()
+
+structured data - 100000 
+structured data - 200000 
+structured data - 300000 
+structured data - 400000 
+structured data - 500000 
+structured data - 600000 
+structured data - 700000 
+structured data - 800000 
+structured data - 900000 
+structured data - 1000000 
+structured data - 1100000 
+structured data - 1200000 
+structured data - 1300000 
+structured data - 1400000 
+structured data - 1500000 
+structured data - 1600000 
+structured data - 1700000 
+structured data - 1800000 
+structured data - 1900000 
+structured data - 2000000 
+structured data - 2100000 
+structured data - 2200000 
+structured data - 2300000 
+structured data - 2400000 
+structured data - 2500000 
+structured data - 2600000 
+structured data - 2700000 
+structured data - 2800000 
+structured data - 2900000 
+structured data - 3000000 
+structured data - 3100000 
+structured data - 3200000 
+structured data - 3300000 
+structured data - 3400000 
+structured data - 3500000 
+structured data - 3600000 
+structured data - 3700000 
+structured data - 3800000 
+structured data - 3900000 
+structured data - 4000000 
+structured data - 4100000 
+structured data - 4200000 
+structured data - 4300000 
+structured data - 4400000 
+structured data - 4500000 
+structured data - 4600000 
+structured data - 4700000 
+structured data - 4800000 
+structured data - 4900000 
+structured data - 5000000 
+structured data - 5100000 
+structured data - 5200000 
+structured data - 5300000 
+structured data - 5400000 
+structured data - 5500000 
+structured data - 5600000 
+structured data - 5700000 
+structured data - 5800000 
+structured data - 5900000 
+structured data - 6000000 
+structured data - 6100000 
+structured data - 6200000 
+structured data - 6300000 
+structured data - 6400000 
+structured data - 6500000 
+structured data - 6600000 
+structured data - 6700000 
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_76496/<b>Uncaught TypeError</b>: count(): Argument #1 ($value) must be of type Countable|array, null given<br/>
+in /var/www/html/eol_php8_code/lib/connectors/NMNHTypeRecordAPI_v2.php[151]<br/>
+<pre>#0 /var/www/html/eol_php8_code/lib/connectors/NMNHTypeRecordAPI_v2.php(151): count()
+#1 /var/www/html/eol_php8_code/update_resources/connectors/891.php(105): php_active_record\NMNHTypeRecordAPI_v2->start()
+#2 {main}</pre>
+Completed 891.php :: [ []]<br>
+Finished: SUCCESS

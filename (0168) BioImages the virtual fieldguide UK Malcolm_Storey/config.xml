@@ -1,0 +1,54 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>http://www.eol.org/content_partners/2/resources/42</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+
+# step 1: OK
+php 168.php jenkins
+# generate 168.tar.gz
+
+# step 2: OK
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;168_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+# generate 168_meta_recoded.tar.gz
+
+#LAST STEP: copy last transactional DwCA to Bioimages.tar.gz OK
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp 168_meta_recoded.tar.gz Bioimages.tar.gz
+ls -lt 168_meta_recoded.tar.gz
+ls -lt Bioimages.tar.gz
+rm -f 168_meta_recoded.tar.gz
+
+#NEXT STEP: needed to explicitly update the CKAN record. Since &apos;168_meta_recoded&apos; was renamed to &apos;Bioimages&apos;.
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php ckan_api_access.php _ &quot;5b1ebec7-efd0-47b5-860e-5c841d88d366&quot;
+
+#NEXT STEP: Update respective Zenodo record | below not yet tested for PHP 8.2
+php update_Zenodo_record_using_EOL_resourceID.php _ &apos;Bioimages&apos;</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

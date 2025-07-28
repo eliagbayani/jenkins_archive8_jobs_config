@@ -1,0 +1,707 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0022) Animal Diversity Web Descriptions
+[(0022) Animal Diversity Web Descriptions] $ /bin/sh -xe /jenkins_tmp/jenkins14077681667457774802.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php quaardvark.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//22_working/]
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_86239.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_86239.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [update_resources/connectors/quaardvark.php [50]]<br>
+
+ Habitat
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Habitat Regions
+    [5] => Terrestrial Biomes
+    [6] => Aquatic Biomes
+    [7] => Wetlands
+    [8] => Other Habitat Features
+)
+
+2. 201
+ Geographic Range
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Biogeographic Regions
+    [5] => Other Geographic Terms
+)
+
+2. 201
+ Physical Description
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Other Physical Features
+    [5] => Sexual Dimorphism
+    [6] => Mass - average - g
+    [7] => Mass - extreme low - g
+    [8] => Mass - extreme high - g
+    [9] => Length - average - mm
+    [10] => Length - extreme high - mm
+    [11] => Length - extreme low - mm
+    [12] => Wingspan - average - mm
+    [13] => Wingspan - extreme low - mm
+    [14] => Wingspan - extreme high - mm
+    [15] => Basal Metabolic Rate - average - W
+    [16] => Basal Metabolic Rate - extreme low - W
+    [17] => Basal Metabolic Rate - extreme high - W
+)
+
+2. 201
+ Reproduction: Mating Systems
+ total_pages: [1946]
+ loops: [10]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Mating System
+)
+
+2. 201
+ Reproduction: Parental Investment
+ total_pages: [2823]
+ loops: [15]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Parental Investment
+)
+
+2. 201
+ Behavior
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Key Behaviors
+    [5] => Territory Size - average - cm^2
+    [6] => Territory Size - extreme low - cm^2
+    [7] => Territory Size - extreme high - cm^2
+)
+
+2. 201
+ Food Habits
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Primary Diet
+    [5] => Animal Foods
+    [6] => Plant Foods
+    [7] => Other Foods
+    [8] => Foraging Behavior
+)
+
+2. 201
+ Media Assets: Subjects > Live Animal
+ total_pages: [7119]
+ loops: [36]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Live Animal :: Live Animal
+)
+
+2. 201
+ Media Assets: Subjects > Behaviors
+ total_pages: [1808]
+ loops: [10]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Behaviors :: Behaviors
+)
+
+2. 201
+ Media Assets: Subjects > Habitat
+ total_pages: [79]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Habitat :: Habitat
+)
+
+ Media Assets: Subjects > Life Stages and Gender
+ total_pages: [6976]
+ loops: [35]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Life Stages and Gender :: Life Stages and Gender
+)
+
+2. 201
+ Media Assets: Subjects > Anatomy
+ total_pages: [4934]
+ loops: [25]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Anatomy :: Anatomy
+)
+
+2. 201
+ Media Assets: Specimens > Specimen: Foot
+ total_pages: [36]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Foot :: Foot
+    [5] => Foot :: Dorsal View
+    [6] => Foot :: Lateral View
+    [7] => Foot :: Ventral View
+)
+
+ Media Assets: Specimens > Specimen: Forefoot
+ total_pages: [27]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Forefoot :: Forefoot
+    [5] => Forefoot :: Dorsal View
+    [6] => Forefoot :: Ventral View
+)
+
+ Media Assets: Specimens > Specimen: Forelimb
+ total_pages: [19]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Forelimb :: Forelimb
+    [5] => Forelimb :: Humerus
+    [6] => Forelimb :: Radius
+    [7] => Forelimb :: Ulna
+)
+
+ Media Assets: Specimens > Specimen: Hindfoot
+ total_pages: [53]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Hindfoot :: Hindfoot
+    [5] => Hindfoot :: Dorsal View
+    [6] => Hindfoot :: Ventral View
+)
+
+ Media Assets: Specimens > Specimen: Lower Jaw
+ total_pages: [584]
+ loops: [3]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Lower Jaw :: Lower Jaw
+    [5] => Lower Jaw :: Dorsal View
+    [6] => Lower Jaw :: Lateral View
+)
+
+2. 201
+ Media Assets: Specimens > Specimen: Skull
+ total_pages: [762]
+ loops: [4]
+
+1. 1
+2. 201
+ Media Assets: Specimens > Specimen: Teeth
+ total_pages: [709]
+ loops: [4]
+
+1. 1
+2. 201
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Teeth :: Teeth
+    [5] => Teeth :: Incisors
+    [6] => Teeth :: Lower Tooth Row
+    [7] => Teeth :: Molars
+    [8] => Teeth :: Molars :: Lower
+    [9] => Teeth :: Molars :: Upper
+    [10] => Teeth :: Unicuspids
+    [11] => Teeth :: Unicuspids :: Lateral View
+    [12] => Teeth :: Unicuspids :: Ventral View
+    [13] => Teeth :: Upper Tooth Row
+)
+
+Array
+(
+    [Habitat] => Array
+        (
+            [Habitat Regions] => Array
+                (
+                    [Freshwater] => 
+                    [Temperate] => 
+                    [Terrestrial] => 
+                    [Tropical] => 
+                )
+
+            [Terrestrial Biomes] => Array
+                (
+                    [Forest] => 
+                    [Savanna or grassland] => 
+                )
+
+            [Aquatic Biomes] => Array
+                (
+                    [Lakes and Ponds] => 
+                    [Rivers and Streams] => 
+                )
+
+            [Other Habitat Features] => Array
+                (
+                    [Agricultural] => 
+                    [Riparian] => 
+                    [Urban] => 
+                )
+
+            [Wetlands] => Array
+                (
+                    [Marsh] => 
+                )
+
+        )
+
+    [Geographic Range] => Array
+        (
+            [Biogeographic Regions] => Array
+                (
+                    [Nearctic] => 
+                    [Nearctic :: Introduced] => 
+                    [Oceanic Islands] => 
+                    [Oceanic Islands :: Introduced] => 
+                    [Oriental] => 
+                    [Oriental :: Introduced] => 
+                    [Oriental :: Native] => 
+                    [Palearctic] => 
+                    [Palearctic :: Introduced] => 
+                    [Palearctic :: Native] => 
+                )
+
+        )
+
+    [Physical Description] => Array
+        (
+            [Other Physical Features] => Array
+                (
+                    [Bilateral symmetry] => 
+                    [Ectothermic] => 
+                    [Endothermic] => 
+                    [Heterothermic] => 
+                    [Homoiothermic] => 
+                )
+
+            [Sexual Dimorphism] => Array
+                (
+                    [Female larger] => 
+                    [Male more colorful] => 
+                    [Sexes colored or patterned differently] => 
+                )
+
+        )
+
+    [Reproduction: Mating Systems] => Array
+        (
+            [Mating System] => Array
+                (
+                    [Monogamous] => 
+                    [Polygynandrous (promiscuous)] => 
+                    [Polygynous] => 
+                )
+
+        )
+
+    [Reproduction: Parental Investment] => Array
+        (
+            [Parental Investment] => Array
+                (
+                    [No parental involvement] => 
+                    [Pre-fertilization] => 
+                    [Pre-fertilization :: Protecting] => 
+                    [Pre-fertilization :: Protecting :: Female] => 
+                    [Pre-fertilization :: Provisioning] => 
+                    [Pre-hatching/birth] => 
+                    [Pre-hatching/birth :: Protecting] => 
+                    [Pre-hatching/birth :: Protecting :: Female] => 
+                    [Pre-hatching/birth :: Provisioning] => 
+                    [Pre-hatching/birth :: Provisioning :: Female] => 
+                    [Pre-weaning/fledging] => 
+                    [Pre-weaning/fledging :: Provisioning] => 
+                    [Pre-weaning/fledging :: Provisioning :: Female] => 
+                    [Precocial] => 
+                )
+
+        )
+
+    [Behavior] => Array
+        (
+            [Key Behaviors] => Array
+                (
+                    [diurnal] => 
+                    [flies] => 
+                    [fossorial] => 
+                    [hibernation] => 
+                    [motile] => 
+                    [nocturnal] => 
+                    [saltatorial] => 
+                    [sedentary] => 
+                    [social] => 
+                    [terricolous] => 
+                )
+
+        )
+
+    [Food Habits] => Array
+        (
+            [Primary Diet] => Array
+                (
+                    [Carnivore] => 
+                    [Carnivore :: Eats non-insect arthropods] => 
+                    [Carnivore :: Insectivore] => 
+                    [Carnivore :: Vermivore] => 
+                    [Herbivore] => 
+                    [Herbivore :: Granivore] => 
+                    [Omnivore] => 
+                )
+
+            [Animal Foods] => Array
+                (
+                    [Insects] => 
+                    [Mollusks] => 
+                    [Terrestrial Non-insect Arthropods] => 
+                    [Terrestrial Worms] => 
+                )
+
+            [Plant Foods] => Array
+                (
+                    [Seeds, grains, and nuts] => 
+                )
+
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [8]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [59]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [41]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [58]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [55]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [22]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/22//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [3] => http://eol.org/schema/agent/agent
+    [4] => http://eol.org/schema/media/document
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [3] => http://eol.org/schema/agent/agent
+    [4] => http://eol.org/schema/media/document
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+ agent  -- OK
+
+ document  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+
+ elapsed time = 84.507272 seconds
+ elapsed time = 1.4084545333333 minutes
+ elapsed time = 0.023474242222222 hours
+ Done processing.
+Completed quaardvark.php :: [ []]<br>
++ php rem_marine_terr_desc.php jenkins {"resource_id":"22"}
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//22_cleaned_MoF_habitat_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_46687/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/22.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_46687/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_46687/22.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_46687/22.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_46687//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/agent/agent]: agent...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/media/document]: document...
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//1_working/]
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 171
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 172
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1567
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1568
+
+
+Running build_occurID_taxonID_info...
+
+Running build_measurement_occurrence_info...
+
+Running log_habitat_use...
+taxonIDs with both marine and terrestrial habitats: 0
+
+
+Running log_habitat_use_step2...
+
+Running write_occurrence_type2...
+
+Running write_MoF...Array
+(
+    [0] => measurementID
+    [1] => occurrenceID
+    [2] => measurementOfTaxon
+    [3] => measurementType
+    [4] => measurementValue
+    [5] => measurementRemarks
+    [6] => source
+)
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_46687/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22_cleaned_MoF_habitat/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [8]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22_cleaned_MoF_habitat/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [59]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22_cleaned_MoF_habitat/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [41]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22_cleaned_MoF_habitat/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [58]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/22_cleaned_MoF_habitat/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [55]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [22_cleaned_MoF_habitat]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/22_cleaned_MoF_habitat//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ agent  -- OK
+
+ document  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 2.09 seconds 
+elapsed time = 0.03 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+resource_id: [22_cleaned_MoF_habitat]
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/22_cleaned_MoF_habitat/taxon.tab)
+
+Total undefined parents:0
+Completed rem_marine_terr_desc.php :: [ []]<br>
++ cd /var/www/html/eol_php8_code/applications/content_server/resources_3
++ cp 22_cleaned_MoF_habitat.tar.gz AnimalDiversityWeb.tar.gz
++ ls -lt 22_cleaned_MoF_habitat.tar.gz
+-rwxrwxr-x 1 jenkins jenkins 10434 May 20 07:42 22_cleaned_MoF_habitat.tar.gz
++ ls -lt AnimalDiversityWeb.tar.gz
+-rwxr-xr-x 1 jenkins jenkins 10434 May 20 07:42 AnimalDiversityWeb.tar.gz
++ rm -f 22_cleaned_MoF_habitat.tar.gz
+Finished: SUCCESS

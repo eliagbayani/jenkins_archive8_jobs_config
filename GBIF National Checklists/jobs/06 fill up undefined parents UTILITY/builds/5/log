@@ -1,0 +1,105 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/06 fill up undefined parents UTILITY
+[06 fill up undefined parents UTILITY] $ /bin/sh -xe /jenkins_tmp/jenkins6677361511754832470.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php fill_up_undefined_parents_real_GBIFChecklists.php _ {"resource_id": "SC_unitedarabemirates", "source_dwca": "SC_unitedarabemirates", "resource": "fillup_missing_parents_GBIFChecklists"}
+Current PHP version: 8.2.28<br>
+--------------------START: fillup missing parent entries--------------------
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_unitedarabemirates_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_15031/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/SC_unitedarabemirates.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_15031/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_15031/SC_unitedarabemirates.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_15031/SC_unitedarabemirates.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_15031//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+E_DEPRECATED: Optional parameter $counter declared before required parameter $task is implicitly treated as a required parameter in /var/www/html/eol_php8_code/lib/connectors/NationalChecklistsAPI.php on line 314
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_15031//taxon.tab)
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_15031//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_15031//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_15031//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_15031/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [40]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [20]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [91]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_unitedarabemirates]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 2.01 seconds 
+elapsed time = 0.03 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_unitedarabemirates].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates/taxon.tab)
+
+Undefined parents now [1]: 0
+
+--------------------END: fillup missing parent entries--------------------
+Completed fill_up_undefined_parents_real_GBIFChecklists.php :: [ []]<br>
+Finished: SUCCESS

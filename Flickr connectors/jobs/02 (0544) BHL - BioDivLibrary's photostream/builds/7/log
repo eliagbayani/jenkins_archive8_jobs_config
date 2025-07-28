@@ -1,0 +1,178 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/(0544) BHL - BioDivLibrary's photostream
+[(0544) BHL - BioDivLibrary's photostream] $ /bin/sh -xe /jenkins_tmp/jenkins14958128628709120382.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 544.php jenkins
+Current PHP version: 8.2.28<br>
+ count: 186
+ count: 372
+
+ From: 2010-01-01 To: 2010-01-31
+
+total_pages = [0] 0
+
+
+ From: 2010-02-01 To: 2010-02-31
+
+total_pages = [0] 0
+
+
+ From: 2010-03-01 To: 2010-03-31
+
+total_pages = [0] 0
+
+
+ From: 2010-04-01 To: 2010-04-31
+
+total_pages = [0] 0
+
+
+ From: 2010-05-01 To: 2010-05-31
+
+total_pages = [0] 0
+
+
+ From: 2010-06-01 To: 2010-06-31
+
+total_pages = [0] 0
+
+
+ From: 2010-07-01 To: 2010-07-31
+
+total_pages = [0] 0
+
+
+ From: 2010-08-01 To: 2010-08-31
+
+total_pages = [0] 0
+
+
+ From: 2010-09-01 To: 2010-09-31
+
+total_pages = [0] 0
+
+
+ From: 2010-10-01 To: 2010-10-31
+
+total_pages = [0] 0
+
+
+ From: 2010-11-01 To: 2010-11-31
+
+total_pages = [0] 0
+
+
+ From: 2010-12-01 To: 2010-12-31
+
+total_pages = [0] 0
+
+
+ From: 2011-01-01 To: 2011-01-31
+
+total_pages = [0] 0
+
+
+ From: 2011-02-01 To: 2011-02-31
+
+total_pages = [0] 0
+
+
+ From: 2011-03-01 To: 2011-03-31
+
+total_pages = [3] 1
+getting page 1: 0.794421
+
+ page 1 of 1 | total taxa =  3 | 544 
+
+ -- response photos count per page: 3
+
+
+ From: 2011-04-01 To: 2011-04-31
+
+total_pages = [19] 1
+getting page 1: 0.799908
+
+ page 1 of 1 | total taxa =  19 | 544 
+
+ -- response photos count per page: 19
+
+
+ From: 2011-05-01 To: 2011-05-31
+
+total_pages = [12] 1
+getting page 1: 0.812987
+
+ page 1 of 1 | total taxa =  12 | 544 
+
+ -- response photos count per page: 12
+
+
+ From: 2011-06-01 To: 2011-06-31
+
+total_pages = [23] 1
+getting page 1: 0.820212
+
+ page 1 of 1 | total taxa =  23 | 544 
+
+ -- response photos count per page: 23
+
+
+ From: 2011-07-01 To: 2011-07-31
+
+total_pages = [1781] 4
+getting page 1: 0.833738
+
+ page 1 of 4 | total taxa =  1781 | 544 
+
+ -- response photos count per page: 500
+taxon: 200 (5974973700): 0.961249
+taxon: 400 (5977791234): 1.0569
+getting page 2: 1.152341
+
+ page 2 of 4 | total taxa =  1781 | 544 
+
+ -- response photos count per page: 500
+taxon: 600 (5978358320): 1.178018
+taxon: 800 (5978546348): 73.080312
+taxon: 1000 (5981542577): 2761.471283
+getting page 3: 2999.482686
+
+ page 3 of 4 | total taxa =  1781 | 544 
+
+ -- response photos count per page: 500
+taxon: 1200 (5984483583): 5572.698189
+taxon: 1400 (5984924555): 10013.184834
+getting page 4: 11305.271084
+
+ page 4 of 4 | total taxa =  1781 | 544 
+
+ -- response photos count per page: 281
+taxon: 1600 (5987369037): 11348.971908
+taxon: 1800 (5988400918): 16871.824414
+
+
+ From: 2011-08-01 To: 2011-08-31
+
+total_pages = [9112] 19
+getting page 1: 17029.387837
+
+ page 1 of 19 | total taxa =  9112 | 544 
+
+ -- response photos count per page: 500
+taxon: 2000 (5999155504): 19835.783711
+taxon: 2200 (6001274951): 23143.632658
+getting page 2: 26748.539599
+
+ page 2 of 19 | total taxa =  9112 | 544 
+
+ -- response photos count per page: 500
+taxon: 2400 (6001937465): 26807.495036
+<b>Uncaught Error</b>: Attempt to assign property "bhl_addtl" on null<br/>
+in /var/www/html/eol_php8_code/lib/FlickrAPI.php[231]<br/>
+<pre>#0 /var/www/html/eol_php8_code/lib/FlickrAPI.php(181): php_active_record\FlickrAPI::get_taxa_for_photo()
+#1 /var/www/html/eol_php8_code/lib/FlickrAPI.php(101): php_active_record\FlickrAPI::get_eol_photos()
+#2 /var/www/html/eol_php8_code/lib/FlickrAPI.php(797): php_active_record\FlickrAPI::get_all_eol_photos()
+#3 /var/www/html/eol_php8_code/update_resources/connectors/544.php(106): php_active_record\FlickrAPI::get_photostream_photos()
+#4 {main}</pre>
+Finished: SUCCESS

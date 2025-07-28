@@ -1,0 +1,112 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Global Register of Introduced and Invasive Species GRIIS
+[Global Register of Introduced and Invasive Species GRIIS] $ /bin/sh -xe /jenkins_tmp/jenkins11482361923236392759.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php global_register_IIS.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//griis_working/]
+
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/master/Tropicos/countries_with_added_URIs.txt :: [lib/Functions.php [2485]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_84935.file :: [lib/Functions.php [2485]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_84935.file]
+
+79 - URIs were added from Tropicos. 
+
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/master/Turbellaria/unmapped_countries%202%202.txt :: [lib/Functions.php [2492]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_86900.file :: [lib/Functions.php [2492]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_86900.file]
+
+443 - URIs were added from Turbellarian (185). 
+
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/master/GISD/mapped_location_strings.txt :: [lib/Functions.php [2499]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_59480.file :: [lib/Functions.php [2499]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_59480.file]
+
+1457 - URIs were added from GISD (751). 
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/Invasive%20Species%20Compendium/mapped_locations.txt :: [lib/Functions.php [2506]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_95589.file :: [lib/Functions.php [2506]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_95589.file]
+
+1552 - URIs were added from CABI ISC (760). 
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/CatalogueOfLife/CoLMissingGeoTerms.txt :: [lib/Functions.php [2513]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_74468.file :: [lib/Functions.php [2513]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_74468.file]
+
+1836 - URIs were added from COLDataAPI.php. 
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/FishBase/mapped_locations.txt :: [lib/Functions.php [2520]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_61744.file :: [lib/Functions.php [2520]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_61744.file]
+
+2116 - URIs were added from FishBaseArchiveAPI.php. 
+
+'Cura ao' OLD: http://www.wikidata.org/entity/Q25279
+
+
+ Saving remote file: https://github.com/EOL/textmine_rules/raw/refs/heads/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/Functions.php [2529]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_22652.file :: [lib/Functions.php [2529]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_22652.file]
+
+remapped_terms: 257
+
+mappings: 2116
+
+mappings: 2116
+
+Remapping OK. 'Cura ao' NEW: http://www.geonames.org/7626836
+
+Bosnia and Herzegovina: http://www.geonames.org/3277605
+
+Antarctic: http://www.geonames.org/6632710
+
+mappings count 1: 2116
+
+allowed_terms_URIs from EOL terms file: [10529]
+
+mappings count 2: 2116
+E_DEPRECATED: Creation of dynamic property php_active_record\GlobalRegister_IntroducedInvasiveSpecies::$uris is deprecated in /var/www/html/eol_php8_code/lib/connectors/GlobalRegister_IntroducedInvasiveSpecies.php on line 880
+
+URIs total: 2116
+E_DEPRECATED: Creation of dynamic property php_active_record\GlobalRegister_IntroducedInvasiveSpecies::$report_only_YN is deprecated in /var/www/html/eol_php8_code/lib/connectors/GlobalRegister_IntroducedInvasiveSpecies.php on line 90
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=0&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=20&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=40&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=60&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=80&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=100&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=120&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://www.gbif.org/api/dataset/search?facet=type&facet=publishing_org&facet=hosting_org&facet=publishing_country&facet=project_id&facet=license&locale=en&offset=140&publishing_org=cdef28b1-db4e-4c58-aa71-3c5238c2d0b5&type=CHECKLIST : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

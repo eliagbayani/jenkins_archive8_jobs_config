@@ -1,0 +1,8 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/04 divide_into_country_files
+[04 divide_into_country_files] $ /bin/sh -xe /jenkins_tmp/jenkins4566370037054536125.sh
++ cd /var/www/html/eol_php_code/update_resources/connectors
+/jenkins_tmp/jenkins4566370037054536125.sh: 2: cd: can't cd to /var/www/html/eol_php_code/update_resources/connectors
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

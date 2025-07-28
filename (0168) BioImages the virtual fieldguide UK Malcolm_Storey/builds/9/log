@@ -1,0 +1,14 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0168) BioImages - Malcolm Storey
+[(0168) BioImages - Malcolm Storey] $ /bin/sh -xe /jenkins_tmp/jenkins10576156581910463235.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ cd /var/www/html/eol_php8_code/applications/content_server/resources_3
++ cp 168_meta_recoded.tar.gz Bioimages.tar.gz
++ ls -lt 168_meta_recoded.tar.gz
+-rwxrwxr-x 1 jenkins jenkins 6626377 May 21 15:07 168_meta_recoded.tar.gz
++ ls -lt Bioimages.tar.gz
+-rwxr-xr-x 1 jenkins jenkins 6626377 May 21 15:09 Bioimages.tar.gz
++ rm -f 168_meta_recoded.tar.gz
++ exit 0
+Finished: SUCCESS

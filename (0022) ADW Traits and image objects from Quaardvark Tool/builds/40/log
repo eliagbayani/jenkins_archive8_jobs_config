@@ -1,0 +1,407 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0022) Animal Diversity Web Descriptions
+[(0022) Animal Diversity Web Descriptions] $ /bin/sh -xe /jenkins_tmp/jenkins3355179684541047655.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php quaardvark.php jenkins
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_84013.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_84013.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [update_resources/connectors/quaardvark.php [50]]<br>
+
+ Habitat
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Habitat Regions
+    [5] => Terrestrial Biomes
+    [6] => Aquatic Biomes
+    [7] => Wetlands
+    [8] => Other Habitat Features
+)
+
+2. 201
+ Geographic Range
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Biogeographic Regions
+    [5] => Other Geographic Terms
+)
+
+2. 201
+ Physical Description
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Other Physical Features
+    [5] => Sexual Dimorphism
+    [6] => Mass - average - g
+    [7] => Mass - extreme low - g
+    [8] => Mass - extreme high - g
+    [9] => Length - average - mm
+    [10] => Length - extreme high - mm
+    [11] => Length - extreme low - mm
+    [12] => Wingspan - average - mm
+    [13] => Wingspan - extreme low - mm
+    [14] => Wingspan - extreme high - mm
+    [15] => Basal Metabolic Rate - average - W
+    [16] => Basal Metabolic Rate - extreme low - W
+    [17] => Basal Metabolic Rate - extreme high - W
+)
+
+2. 201
+ Reproduction: Mating Systems
+ total_pages: [1946]
+ loops: [10]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Mating System
+)
+
+2. 201
+ Reproduction: Parental Investment
+ total_pages: [2823]
+ loops: [15]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Parental Investment
+)
+
+2. 201
+ Behavior
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Key Behaviors
+    [5] => Territory Size - average - cm^2
+    [6] => Territory Size - extreme low - cm^2
+    [7] => Territory Size - extreme high - cm^2
+)
+
+2. 201
+ Food Habits
+ total_pages: [6369]
+ loops: [32]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Primary Diet
+    [5] => Animal Foods
+    [6] => Plant Foods
+    [7] => Other Foods
+    [8] => Foraging Behavior
+)
+
+2. 201
+ Media Assets: Subjects > Live Animal
+ total_pages: [7119]
+ loops: [36]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Live Animal :: Live Animal
+)
+
+2. 201Sending get request to https://animaldiversity.ummz.umich.edu/quaardvark/search/1E379B89-5DF7-0001-62C8-9A96CCF04A50/?start=201 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/panda1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/panda2 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/panda20 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/panda21 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/Grzimek_mammals/Phalangeridae/Ailurops_ursinus : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/barbara_lundrigan/pcd3911_04 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/Afulgens100 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/Afulgens101 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/Afulgens102 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Subjects > Behaviors
+ total_pages: [1808]
+ loops: [10]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Behaviors :: Behaviors
+)
+
+2. 201Sending get request to https://animaldiversity.ummz.umich.edu/quaardvark/search/1E379B95-BFFC-0001-9DBF-374010D0F720/?start=201 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/contributed/moonjelly : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/roger_myers/DSCN0076a : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/roger_myers/DSCN0077a : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/roger_myers/DSCN0081a : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/contributed/jellies : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_behrens/9579709.ChitalBuck : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_behrens/Chitaldoeandfawn : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_behrens/SparringChitalBucks : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_behrens/Wherethedeerandmonkeys : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Subjects > Habitat
+ total_pages: [79]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Habitat :: Habitat
+)
+Sending get request to https://animaldiversity.org/collections/contributors/neil_losin/AmericanBlackDuck : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/greylaggoose1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/greylaggoose2 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/david_blank/greylaggoose3 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Subjects > Life Stages and Gender
+ total_pages: [6976]
+ loops: [35]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Life Stages and Gender :: Life Stages and Gender
+)
+
+2. 201Sending get request to https://animaldiversity.ummz.umich.edu/quaardvark/search/1E379C4D-186B-0001-6A78-151C47601950/?start=201 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/grzimek_birds/Emberizidae/Aimophila_aestivalis : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/steve_hinshaw/2011.09.23-ADW/DSC_3533-SHS1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_birds_3_4_03/Passeriformes/Emberizidae/Aimophila0995 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_birds_3_4_03/Passeriformes/Emberizidae/mixed_finches1003 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Subjects > Anatomy
+ total_pages: [4934]
+ loops: [25]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Anatomy :: Anatomy
+)
+
+2. 201Sending get request to https://animaldiversity.ummz.umich.edu/quaardvark/search/1E379C4B-6C59-0001-3C1A-181617A08B00/?start=201 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/john_white/john_white_amphibs/molesal1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/cal_photos/Ambystoma_texanum1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/cal_photos/Ambystoma_texanum2 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/cal_photos/Ambystoma_texanum3 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/Grzimek_herps/Ambystomatidae/Ambystoma_tigrinum : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/james_dowlinghealey/Ambystomatigrinum1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/james_dowlinghealey/BamericanusAtigrinum : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/james_harding/pcd3912_072 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Specimens > Specimen: Foot
+ total_pages: [36]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Foot :: Foot
+    [5] => Foot :: Dorsal View
+    [6] => Foot :: Lateral View
+    [7] => Foot :: Ventral View
+)
+Sending get request to https://animaldiversity.org/collections/contributors/ummz_birds/201107215937/gbheron : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/ummz_birds/201107215937/gbheronplantar : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/ummz_birds/canadagoosefoot1 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Specimens > Specimen: Forefoot
+ total_pages: [27]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Forefoot :: Forefoot
+    [5] => Forefoot :: Dorsal View
+    [6] => Forefoot :: Ventral View
+)
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Primates/Alouatta_palliata/ff2509 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Primates/Aotus_trivirgatus/ff2558 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Specimens > Specimen: Forelimb
+ total_pages: [19]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Forelimb :: Forelimb
+    [5] => Forelimb :: Humerus
+    [6] => Forelimb :: Radius
+    [7] => Forelimb :: Ulna
+)
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Primates/forelimbs/Ateles_geoffroyi2885 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/anatomical_images/feet_and_legs/paraxonic_feet2 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Specimens > Specimen: Hindfoot
+ total_pages: [53]
+ loops: [1]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Hindfoot :: Hindfoot
+    [5] => Hindfoot :: Dorsal View
+    [6] => Hindfoot :: Ventral View
+)
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AnischiiUSNM552416male-13 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AnischiiUSNM552416male-15 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AnischiiUSNM552416male-16 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AkodoncfaeronisLLW653-1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AkodonsubfuscusLLW741-2 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AkodonsubfuscusLLW741-3 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Specimens > Specimen: Lower Jaw
+ total_pages: [584]
+ loops: [3]
+
+1. 1
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Lower Jaw :: Lower Jaw
+    [5] => Lower Jaw :: Dorsal View
+    [6] => Lower Jaw :: Lateral View
+)
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AnischiiUSNM552416male-26 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AnischiiUSNM552416male-6 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/lucia_luna_wong/AnischiiUSNM552416male-7 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/skulls/abrocoma/a._sp./umnh283917.lj : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Chiroptera/Pteropodidae/Acerodon_jubatus/lower_dorsal6440 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Chiroptera/Pteropodidae/Acerodon_jubatus/lower_lateral6438 : only attempt :: [lib/Functions.php [148]]<br>
+
+2. 201Sending get request to https://animaldiversity.ummz.umich.edu/quaardvark/search/1E379D9E-3338-0001-994F-118EA2D7D2C0/?start=201 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/skulls/gracilinanus/g._agilis/agilis_lower : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Carnivora/Mustelidae/Gulo_gulo/lower_dorsal : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Carnivora/Mustelidae/Gulo_gulo/lower_lateral : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Chiroptera/Pteropodidae/Haplonycteris_fischeri/lower_dorsal6415 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Chiroptera/Pteropodidae/Haplonycteris_fischeri/lower_lateral6414 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Specimens > Specimen: Skull
+ total_pages: [762]
+ loops: [4]
+
+1. 1
+2. 201Sending get request to https://animaldiversity.ummz.umich.edu/quaardvark/search/1E379DA1-1DB4-0001-F442-184024E517D6/?start=201 : only attempt :: [lib/Functions.php [148]]<br>
+
+ Media Assets: Specimens > Specimen: Teeth
+ total_pages: [709]
+ loops: [4]
+
+1. 1
+2. 201Sending get request to https://animaldiversity.ummz.umich.edu/quaardvark/search/1E379DA0-1AC2-0001-D8FF-B6B561E0193B/?start=201 : only attempt :: [lib/Functions.php [148]]<br>
+
+Array
+(
+    [0] => Species
+    [1] => Class
+    [2] => Order
+    [3] => Family
+    [4] => Specimen: Teeth :: Teeth
+    [5] => Teeth :: Incisors
+    [6] => Teeth :: Lower Tooth Row
+    [7] => Teeth :: Molars
+    [8] => Teeth :: Molars :: Lower
+    [9] => Teeth :: Molars :: Upper
+    [10] => Teeth :: Unicuspids
+    [11] => Teeth :: Unicuspids :: Lateral View
+    [12] => Teeth :: Unicuspids :: Ventral View
+    [13] => Teeth :: Upper Tooth Row
+)
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Chiroptera/Vespertilionidae/Eptesicus_fuscus/ltr5409 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/phil_myers/ADW_mammals/specimens/Chiroptera/Vespertilionidae/Eptesicus_fuscus/utr5405 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/skulls/equus/e._caballus/164990.um : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/skulls/equus/e._caballus/164990.um2 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://animaldiversity.org/collections/contributors/skulls/erethizon/e._dorsatum/87345.utr : only attempt :: [lib/Functions.php [148]]<br>
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

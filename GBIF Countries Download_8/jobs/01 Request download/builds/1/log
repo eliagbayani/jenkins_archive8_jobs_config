@@ -1,0 +1,44 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF Countries Download/01 Request download
+[01 Request download] $ /bin/sh -xe /jenkins_tmp/jenkins11132632849728179318.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php gbif_download_request.php jenkins {"task":"send_download_request", "taxon":"GBIF_Netherlands"}
+Current PHP version: 8.2.28<br>Warning: Undefined array key "sql" in /var/www/html/eol_php8_code/lib/connectors/GBIFdownloadRequestAPI.php on line 580
+
+
+
+cmd:
+[curl --insecure --include --user eli_agbayani:ile173 --header "Content-Type: application/json" --data @/var/www/html/eol_php8_code/update_resources/connectors/files/GBIF_Netherlands/query.json -s https://api.gbif.org/v1/occurrence/download/request]
+
+Request output:
+[HTTP/2 201 
+vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+content-length: 23
+date: Tue, 10 Jun 2025 17:35:08 GMT
+cache-control: public, max-age=3601
+x-varnish: 764947696
+age: 0
+via: 1.1 varnish (Varnish/6.6)
+
+0034037-250525065834625]
+
+Download Key:[0034037-250525065834625]
+
+
+elapsed time = 0.0533485 minutes 
+elapsed time = 0.00088914166666667 hours 
+
+Done processing.
+Completed gbif_download_request.php :: [ []]<br>
++ sleep 1h
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

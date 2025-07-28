@@ -1,0 +1,552 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0081) BOLDS main resource (81) DwCA
+[(0081) BOLDS main resource (81) DwCA] $ /bin/sh -xe /jenkins_tmp/jenkins7833672154238002734.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php bolds.php jenkins
+Current PHP version: 8.2.28<br>
+parents_without_entries: 841
+
+ Total phylums: 40
+
+1. [Acanthocephala]
+
+
+ Saving remote file: http://host.docker.internal:81/cp/BOLDS_new/bold_Acanthocephala.txt.zip :: [lib/connectors/BOLDS_DumpsServiceAPI.php [101]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_87697.file.txt.zip :: [lib/connectors/BOLDS_DumpsServiceAPI.php [101]]<br>
+
+remote file: [http://host.docker.internal:81/cp/BOLDS_new/bold_Acanthocephala.txt.zip]
+
+unzipping this file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_87697.file.txt.zip]... 
+
+txt_file: [/var/www/html/eol_php8_code/tmp/bold_Acanthocephala.txt]
+
+total taxon IDs with img: 3
+
+txt_file: [/var/www/html/eol_php8_code/tmp/bold_Acanthocephala.txt]
+Array
+(
+    [images] => Array
+        (
+            [0] => Array
+                (
+                    [specimenid] => 16682385
+                    [sampleid] => BIOUG95575-D03
+                    [catalognum] => BIOUG95575-D03
+                    [fieldnum] => GMP#37477
+                    [image] => THAMD/BIOUG95575-D03+1670516210.jpg
+                    [original] => 1
+                    [meta] => Microplate
+                    [imagequality] => 9
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => Centre for Biodiversity Genomics
+                    [copyright_holder] => Centre for Biodiversity Genomics
+                    [copyright_year] => 2022
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => ccdbcol@uoguelph.ca
+                    [photographer] => CBG Robotic Imager
+                    [mam_uri] => bold.org/7828469
+                    [taxonrep] => Insecta
+                )
+
+            [1] => Array
+                (
+                    [specimenid] => 1554757
+                    [sampleid] => NJGS-76
+                    [catalognum] => 
+                    [fieldnum] => Klamath
+                    [image] => NJCGS/njgs-76+1279715268.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 5
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => CBG Photography Group
+                    [copyright_holder] => CBG Photography Group
+                    [copyright_year] => 2010
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => ccdbcol@uoguelph.ca
+                    [photographer] => Jaclyn McCormick
+                    [mam_uri] => bold.org/748757
+                    [taxonrep] => Branchiopoda
+                )
+
+            [2] => Array
+                (
+                    [specimenid] => 1902853
+                    [sampleid] => NJPEL-00003
+                    [catalognum] => 
+                    [fieldnum] => Erie
+                    [image] => NJCGS/NJPEL-00003+1300741854.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 5
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => CBG Photography Group
+                    [copyright_holder] => CBG Photography Group
+                    [copyright_year] => 2011
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => ccdbcol@uoguelph.ca
+                    [photographer] => Spencer Walker
+                    [mam_uri] => bold.org/958047
+                    [taxonrep] => Copepoda
+                )
+
+            [3] => Array
+                (
+                    [specimenid] => 2124007
+                    [sampleid] => PEB0055
+                    [catalognum] => PEB0055
+                    [fieldnum] => PEB0055
+                    [image] => DFO/P5305054+1306775286.JPG
+                    [original] => 1
+                    [meta] => Whole Specimen
+                    [imagequality] => 5
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => DFO
+                    [copyright_holder] => DFO
+                    [copyright_year] => 2011
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => DFO
+                    [copyright_contact] => Paige Borrett
+                    [photographer] => Paige Borrett
+                    [mam_uri] => bold.org/1123293
+                    [taxonrep] => Thecostraca
+                )
+
+            [4] => Array
+                (
+                    [specimenid] => 2691993
+                    [sampleid] => BC ZSM BavOst-68
+                    [catalognum] => 
+                    [fieldnum] => 12-12-5-25
+                    [image] => FBOST/BC_ZSM_BavOst-68+1342624220.JPG
+                    [original] => 1
+                    [meta] => Dorsal
+                    [imagequality] => 5
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => Zoologische Staatssammlung Muenchen
+                    [copyright_holder] => SNSB, Zoologische Staatssammlung Muenchen
+                    [copyright_year] => 2012
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => SNSB, Zoologische Staatssammlung Muenchen
+                    [copyright_contact] => coleoptera-zsm@zsm.mwn.de
+                    [photographer] => BFB handling team
+                    [mam_uri] => bold.org/3714324
+                    [taxonrep] => Ostracoda
+                )
+
+            [5] => Array
+                (
+                    [specimenid] => 14726561
+                    [sampleid] => BIOUG64414-H11
+                    [catalognum] => BIOUG64414-H11
+                    [fieldnum] => GMP#28995
+                    [image] => CROCB/BIOUG64414-H11+1650295534.jpg
+                    [original] => 1
+                    [meta] => Dorsal
+                    [imagequality] => 5
+                    [external] => 
+                    [aspectratio] => 1.334
+                    [copyright] => CBG Photography Group
+                    [copyright_holder] => CBG Photography Group
+                    [copyright_year] => 2022
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => ccdbcol@uoguelph.ca
+                    [photographer] => CBG Photography Group
+                    [mam_uri] => 
+                    [taxonrep] => Chilopoda
+                )
+
+            [6] => Array
+                (
+                    [specimenid] => 13306369
+                    [sampleid] => BIOUG63951-H10
+                    [catalognum] => BIOUG63951-H10
+                    [fieldnum] => GMP#28837
+                    [image] => CROAC/BIOUG63951-H10+1649706226.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 5
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => CBG Photography Group
+                    [copyright_holder] => CBG Photography Group
+                    [copyright_year] => 2022
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => ccdbcol@uoguelph.ca
+                    [photographer] => CBG Photography Group
+                    [mam_uri] => 
+                    [taxonrep] => Diplopoda
+                )
+
+            [7] => Array
+                (
+                    [specimenid] => 2274306
+                    [sampleid] => JD_JR230_21A_876.1
+                    [catalognum] => JD_JR230_21A_876.1
+                    [fieldnum] => 
+                    [image] => DSPYC/jr230_09_876_1_1+1321375902.JPG
+                    [original] => 1
+                    [meta] => Dorsal
+                    [imagequality] => 4
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => Chester Sands
+                    [copyright_holder] => Chester Sands
+                    [copyright_year] => 2011
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => British Antarctic Survey
+                    [copyright_contact] => cjsan@bas-ac-uk
+                    [photographer] => Jana Dömel
+                    [mam_uri] => bold.org/1358142
+                    [taxonrep] => Pycnogonida
+                )
+
+            [8] => Array
+                (
+                    [specimenid] => 928307
+                    [sampleid] => AINV-019
+                    [catalognum] => 
+                    [fieldnum] => AINV-019
+                    [image] => AQINP/IMG_1451+1335453478.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 4
+                    [external] => 
+                    [aspectratio] => 1.499
+                    [copyright] => CBG Photography Group
+                    [copyright_holder] => CBG Photography Group
+                    [copyright_year] => 2012
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => ccdbcol@uoguelph.ca
+                    [photographer] => CBG Photography Group
+                    [mam_uri] => bold.org/1449163
+                    [taxonrep] => Merostomata
+                )
+
+            [9] => Array
+                (
+                    [specimenid] => 6058075
+                    [sampleid] => BIOUG22935-F02
+                    [catalognum] => BIOUG22935-F02
+                    [fieldnum] => L#14BIOBUS-0743
+                    [image] => SSDWA/BIOUG22935-F02+1449072522.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 2
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => CBG Photography Group
+                    [copyright_holder] => CBG Photography Group
+                    [copyright_year] => 2015
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => collectionsBIO@gmail.com
+                    [photographer] => CBG Photography Group
+                    [mam_uri] => bold.org/2471778
+                    [taxonrep] => Diplura
+                )
+
+            [10] => Array
+                (
+                    [specimenid] => 5908041
+                    [sampleid] => GBOL13607
+                    [catalognum] => GBOL13607
+                    [fieldnum] => Probe 2
+                    [image] => BSOIL/GBOL13607+1431095222.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 1
+                    [external] => 
+                    [aspectratio] => 1.509
+                    [copyright] => 
+                    [copyright_holder] => SNSB, Zoologische Staatssammlung Muenchen
+                    [copyright_year] => 2015
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => SNSB, Zoologische Staatssammlung Muenchen
+                    [copyright_contact] => zsm@zsm.mwn.de
+                    [photographer] => 
+                    [mam_uri] => bold.org/2315507
+                    [taxonrep] => Protura
+                )
+
+            [11] => Array
+                (
+                    [specimenid] => 1919517
+                    [sampleid] => MT01279
+                    [catalognum] => MT01279
+                    [fieldnum] => MT01279
+                    [image] => BNSC/MT01279+1311360992.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 1
+                    [external] => 
+                    [aspectratio] => 1.333
+                    [copyright] => Michael Raupach
+                    [copyright_holder] => Michael Raupach
+                    [copyright_year] => 2011
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => DZMB
+                    [copyright_contact] => mraupach@senckenberg.de
+                    [photographer] => Michael Raupach
+                    [mam_uri] => bold.org/1118438
+                    [taxonrep] => Ichthyostraca
+                )
+
+            [12] => Array
+                (
+                    [specimenid] => 3797201
+                    [sampleid] => GBOL02722
+                    [catalognum] => GBOL02722
+                    [fieldnum] => JSP120716-003
+                    [image] => GBMYR/JSP120716-003_Scolopendrelidae_j11_Jetzendorf_DSC_0501_best_small+1396215104.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 1
+                    [external] => 
+                    [aspectratio] => 1.083
+                    [copyright] => Joerg Spelda
+                    [copyright_holder] => Joerg Spelda
+                    [copyright_year] => 2014
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => SNSB, Zoologische Staatssammlung Muenchen
+                    [copyright_contact] => spelda@zsm.mwn.de
+                    [photographer] => Joerg Spelda
+                    [mam_uri] => bold.org/1981348
+                    [taxonrep] => Symphyla
+                )
+
+            [13] => Array
+                (
+                    [specimenid] => 821905
+                    [sampleid] => HLC-25387
+                    [catalognum] => 
+                    [fieldnum] => HLC-25387
+                    [image] => LIMC/position_0006+1214316968.JPG
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 1
+                    [external] => 
+                    [aspectratio] => 1.499
+                    [copyright] => 
+                    [copyright_holder] => CBG Photography Group
+                    [copyright_year] => 2008
+                    [copyright_license] => CreativeCommons - Attribution
+                    [copyright_institution] => Centre for Biodiversity Genomics
+                    [copyright_contact] => ccdbcol@uoguelph.ca
+                    [photographer] => CBG Photography Group
+                    [mam_uri] => bold.org/266733
+                    [taxonrep] => Cephalocarida
+                )
+
+            [14] => Array
+                (
+                    [specimenid] => 6292744
+                    [sampleid] => GBOL14763
+                    [catalognum] => JSP141012-004
+                    [fieldnum] => JSP141012-004
+                    [image] => GBMYR/GBOL14763+1438291472.jpg
+                    [original] => 1
+                    [meta] => Dorsal
+                    [imagequality] => 1
+                    [external] => 
+                    [aspectratio] => 1.362
+                    [copyright] => Joerg Spelda
+                    [copyright_holder] => Joerg Spelda
+                    [copyright_year] => 2015
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => SNSB, Zoologische Staatssammlung Muenchen
+                    [copyright_contact] => spelda@zsm.mwn.de
+                    [photographer] => Joerg Spelda
+                    [mam_uri] => bold.org/2376091
+                    [taxonrep] => Pauropoda
+                )
+
+            [15] => Array
+                (
+                    [specimenid] => 6450716
+                    [sampleid] => BIORTP-014_D04
+                    [catalognum] => 
+                    [fieldnum] => 25092015_cwt-18
+                    [image] => CWTTH/BIORTP-014_D04+1444328668.JPG
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 4
+                    [external] => 
+                    [aspectratio] => 1.499
+                    [copyright] => Department of Agriculture, Thailand
+                    [copyright_holder] => Department of Agriculture, Thailand
+                    [copyright_year] => 2015
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial
+                    [copyright_institution] => Department of Agriculture, Thailand
+                    [copyright_contact] => charuwatt@gmail.com
+                    [photographer] => BIORTP Course
+                    [mam_uri] => bold.org/2417336
+                )
+
+            [16] => Array
+                (
+                    [specimenid] => 6450715
+                    [sampleid] => BIORTP-014_D03
+                    [catalognum] => 
+                    [fieldnum] => 25092015_cwt-18
+                    [image] => CWTTH/BIORTP-014_D03+1444328518.JPG
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 4
+                    [external] => 
+                    [aspectratio] => 1.499
+                    [copyright] => Department of Agriculture, Thailand
+                    [copyright_holder] => Department of Agriculture, Thailand
+                    [copyright_year] => 2015
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial
+                    [copyright_institution] => Department of Agriculture, Thailand
+                    [copyright_contact] => charuwatt@gmail.com
+                    [photographer] => BIORTP Course
+                    [mam_uri] => bold.org/2417335
+                )
+
+            [17] => Array
+                (
+                    [specimenid] => 9389882
+                    [sampleid] => BBID-1219236
+                    [catalognum] => 
+                    [fieldnum] => BBID-1219236
+                    [image] => UCECO/1219236_[1]+1539188538.jpg
+                    [original] => 1
+                    [meta] => Lateral
+                    [imagequality] => 4
+                    [external] => 
+                    [aspectratio] => 1.06
+                    [copyright] => 
+                    [copyright_holder] => 
+                    [copyright_year] => 2018
+                    [copyright_license] => CreativeCommons - Attribution Non-Commercial Share-Alike
+                    [copyright_institution] => University of Calgary
+                    [copyright_contact] => Danielle Clake
+                    [photographer] => Hailey Horachek
+                    [mam_uri] => bold.org/3118366
+                )
+
+        )
+
+    [stats] => Array
+        (
+            [publicmarkersequences] => Array
+                (
+                    [COI-5P] => 12241391
+                    [COII] => 2688
+                    [COXIII] => 1431
+                    [CYTB] => 4220
+                    [ND1] => 1218
+                    [ND2] => 1212
+                    [ND3] => 1216
+                    [ND4] => 1217
+                    [ND4L] => 1215
+                    [ND5-0] => 1218
+                    [ND6] => 1218
+                    [16S] => 8133
+                    [COI-3P] => 150216
+                    [18S-3P] => 19597
+                    [18S-5P] => 66141
+                    [28S-D3] => 269
+                    [12S] => 1368
+                    [ITS2] => 8894
+                    [18S] => 3275
+                    [28S] => 6456
+                    [ITS1] => 2763
+                    [Wnt1] => 2982
+                    [28S-D2] => 3464
+                    [ITS] => 911
+                    [CADH] => 120
+                    [EF1-alpha] => 3535
+                    [RPB2] => 94
+                    [COI-PSEUDO] => 1820
+                    [atp6] => 102
+                    [H3] => 1089
+                    [AATS] => 355
+                    [COI-5PNMT1] => 64
+                    [CAD] => 1704
+                    [28S-D2-D3] => 731
+                    [CK1] => 57
+                    [PER] => 42
+                    [RBM15] => 46
+                    [TULP] => 46
+                    [28S-D3-D5] => 142
+                    [COI-LIKE] => 963
+                    [28S-D1-D2] => 152
+                    [ACE2] => 4
+                    [CQ11] => 6
+                    [CAD-5P] => 97
+                    [D-loop] => 2
+                    [CAD4] => 486
+                    [PGD] => 443
+                    [CAD1] => 36
+                    [TPI] => 202
+                    [GAPDH] => 394
+                    [fbpA] => 125
+                    [IDH] => 166
+                    [MDH] => 421
+                    [DDC] => 22
+                    [ENO] => 104
+                    [ArgK] => 226
+                    [RpS2] => 154
+                    [RpS5] => 520
+                    [DDX23] => 17
+                    [WSP] => 15
+                    [COII-COI] => 9
+                    [EF1-alpha-5P] => 9
+                    [CsIV] => 65
+                    [HfIV] => 21
+                    [COI-NUMT] => 86
+                    [COI-5PNMT2] => 1
+                    [CYTB-NUMT] => 86
+                    [H3-NUMT] => 91
+                    [matK] => 4
+                    [trnH-psbA] => 4
+                    [LWRHO] => 188
+                    [RPL37] => 1
+                    [CHOLC] => 101
+                    [H4] => 65
+                    [28S-D7] => 6
+                    [28S-D9-D10] => 10
+                    [18S-V4] => 126
+                    [ATP1A] => 56
+                    [EPRS] => 67
+                    [ATP8] => 1
+                    [rbcL] => 3
+                )
+
+            [publicrecords] => 13590869
+            [publicspecies] => 319695
+            [publicsubspecies] => 9398
+            [publicbins] => 793702
+            [specimenrecords] => 23726231
+            [sequencedspecimens] => 20242157
+            [barcodespecimens] => 19267626
+            [species] => 381791
+            [barcodespecies] => 348436
+        )
+
+    [taxid] => 20
+    [taxon] => Arthropoda
+    [tax_rank] => phylum
+    [tax_division] => Animalia
+    [parentid] => 1
+    [taxonrep] => Arthropoda
+)
+Completed bolds.php :: [ []]<br>
+Finished: SUCCESS

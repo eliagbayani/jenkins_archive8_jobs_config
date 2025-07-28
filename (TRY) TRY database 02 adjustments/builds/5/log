@@ -1,0 +1,107 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(TRY) TRY database 02 adjustments
+[(TRY) TRY database 02 adjustments] $ /bin/sh -xe /jenkins_tmp/jenkins8484287427140128330.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php move_col_inMoF_2child_inMoF.php _ {"resource_id": "try_dbase_2024_meta_recoded", "resource": "move_MoF_col_2childMoF", "resource_name": "Try DB MoF update"}
+Current PHP version: 8.2.28<br>Array
+(
+    [resource_id] => try_dbase_2024_meta_recoded
+    [resource] => move_MoF_col_2childMoF
+    [resource_name] => Try DB MoF update
+)
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_23693/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/try_dbase_2024_meta_recoded.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_23693/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_23693/try_dbase_2024_meta_recoded.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_23693/try_dbase_2024_meta_recoded.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_23693//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://eol.org/schema/reference/reference]: reference...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/occurrence]: occurrence...
+
+process_measurementorfact...[build_info_list]
+
+100,000
+200,000
+300,000
+400,000
+500,000
+process_measurementorfact...[write_MoF]
+
+100,000
+200,000
+300,000
+400,000
+500,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_23693/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024_final/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [763113]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024_final/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [155092]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024_final/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [182]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024_final/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [97693]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [try_dbase_2024_final]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024_final//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/reference/reference
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://eol.org/schema/reference/reference
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ reference  -- OK
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+elapsed time = 3.0094448166667 minutes 
+elapsed time = 0.050157413611111 hours 
+
+Done processing.
+Completed move_col_inMoF_2child_inMoF.php :: [ []]<br>
+Finished: SUCCESS

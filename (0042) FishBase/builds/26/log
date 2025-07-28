@@ -1,0 +1,338 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0042) FishBase
+[(0042) FishBase] $ /bin/sh -xe /jenkins_tmp/jenkins13020650547263081849.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 42.php jenkins
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://editors.eol.org/other_files/contributor_mappings/FishBase_contributors.tsv :: [lib/connectors/FishBaseArchiveAPI.php [83]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_25149.file :: [lib/connectors/FishBaseArchiveAPI.php [83]]<br>
+Sending get request to https://editors.eol.org/other_files/contributor_mappings/FishBase_contributors.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+ contributor_mappings: 2422
+
+spreadsheet: [https://github.com/eliagbayani/EOL-connector-data-files/raw/master/FishBase/fishbase%20mappings.xlsx]
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/FishBase/fishbase%20mappings.xlsx :: [lib/connectors/GBIFCountryTypeRecordAPI.php [185]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_26879.file.xlsx :: [lib/connectors/GBIFCountryTypeRecordAPI.php [185]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_26879.file.xlsx]
+
+Updated /Volumes/AKiTiO4/eol_php_code_tmp/dir_72297//taxon_references.txt
+
+ taxa references -- DONE
+ taxa -- DONE
+ common names -- DONE
+ synonyms -- DONE
+Updated /Volumes/AKiTiO4/eol_php_code_tmp/dir_72297//taxon_dataobject_reference.txt
+
+ dataObject references -- DONE
+ agents -- DONE
+0 - default URIs from EOL registry.
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/master/Tropicos/countries_with_added_URIs.txt :: [lib/Functions.php [2485]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_35122.file :: [lib/Functions.php [2485]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_35122.file]
+
+79 - URIs were added from Tropicos. 
+
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/master/Turbellaria/unmapped_countries%202%202.txt :: [lib/Functions.php [2492]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_39640.file :: [lib/Functions.php [2492]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_39640.file]
+
+443 - URIs were added from Turbellarian (185). 
+
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/master/GISD/mapped_location_strings.txt :: [lib/Functions.php [2499]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_41306.file :: [lib/Functions.php [2499]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_41306.file]
+
+1457 - URIs were added from GISD (751). 
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/Invasive%20Species%20Compendium/mapped_locations.txt :: [lib/Functions.php [2506]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_23431.file :: [lib/Functions.php [2506]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_23431.file]
+
+1552 - URIs were added from CABI ISC (760). 
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/CatalogueOfLife/CoLMissingGeoTerms.txt :: [lib/Functions.php [2513]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_54434.file :: [lib/Functions.php [2513]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_54434.file]
+
+1836 - URIs were added from COLDataAPI.php. 
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/FishBase/mapped_locations.txt :: [lib/Functions.php [2520]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_30385.file :: [lib/Functions.php [2520]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_30385.file]
+
+2116 - URIs were added from FishBaseArchiveAPI.php. 
+
+'Cura ao' OLD: http://www.wikidata.org/entity/Q25279
+
+
+ Saving remote file: https://github.com/EOL/textmine_rules/raw/refs/heads/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/Functions.php [2529]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_61541.file :: [lib/Functions.php [2529]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_61541.file]
+
+remapped_terms: 257
+
+mappings: 2116
+
+mappings: 2116
+
+Remapping OK. 'Cura ao' NEW: http://www.geonames.org/7626836
+
+Bosnia and Herzegovina: http://www.geonames.org/3277605
+
+Antarctic: http://www.geonames.org/6632710
+
+mappings count 1: 2116
+
+allowed_terms_URIs from EOL terms file: [10529]
+
+mappings count 2: 2116
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_44798.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_44798.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [lib/connectors/FishBaseArchiveAPI.php [264]]<br>
+
+undefined ref_id: [111441] 
+undefined ref_id: [3469] 
+undefined ref_id: [69373] 
+undefined ref_id: [121654] 
+undefined ref_id: [121654] 
+undefined ref_id: [111845] 
+undefined ref_id: [63669] 
+undefined ref_id: [54356] 
+undefined ref_id: [11248] 
+undefined ref_id: [72148] 
+undefined ref_id: [54356] 
+undefined ref_id: [48629] 
+undefined ref_id: [97791] 
+undefined ref_id: [97791] 
+undefined ref_id: [1111124] 
+undefined ref_id: [85311] 
+undefined ref_id: [80920] 
+undefined ref_id: [70994] 
+undefined ref_id: [97791] 
+undefined ref_id: [911972] 
+undefined ref_id: [128713] 
+undefined ref_id: [11879] 
+undefined ref_id: [11879] 
+undefined ref_id: [128714] 
+undefined ref_id: [97791] 
+undefined ref_id: [27469] 
+undefined ref_id: [27469] 
+undefined ref_id: [27469] 
+undefined ref_id: [375058] 
+undefined ref_id: [40488] 
+undefined ref_id: [0] 
+undefined ref_id: [98577] 
+undefined ref_id: [59729] 
+undefined ref_id: [110043] 
+undefined ref_id: [59403] 
+undefined ref_id: [93825] 
+undefined ref_id: [59381] 
+undefined ref_id: [1111518] 
+undefined ref_id: [76936] 
+undefined ref_id: [94063] 
+undefined ref_id: [94063] 
+undefined ref_id: [86490] 
+undefined ref_id: [128714] 
+undefined ref_id: [101368] 
+undefined ref_id: [101368] 
+undefined ref_id: [101368] 
+ dataObjects and Trait data -- DONE<b>Uncaught TypeError</b>: count(): Argument #1 ($value) must be of type Countable|array, string given<br/>
+in /var/www/html/eol_php8_code/lib/Functions.php[2610]<br/>
+<pre>#0 /var/www/html/eol_php8_code/lib/Functions.php(2610): count()
+#1 /var/www/html/eol_php8_code/lib/connectors/FishBaseArchiveAPI.php(266): php_active_record\Functions::start_print_debug()
+#2 /var/www/html/eol_php8_code/lib/connectors/FishBaseArchiveAPI.php(123): php_active_record\FishBaseArchiveAPI->prepare_data()
+#3 /var/www/html/eol_php8_code/update_resources/connectors/42.php(65): php_active_record\FishBaseArchiveAPI->get_all_taxa()
+#4 {main}</pre>
+Completed 42.php :: [ []]<br>
++ php resource_utility.php jenkins {"resource_id": "42_meta_recoded", "task": "metadata_recoding"}
+Current PHP version: 8.2.28<br>Array
+(
+    [resource_id] => 42_meta_recoded
+    [task] => metadata_recoding
+)
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//42_meta_recoded_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [122]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_79117/ :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/42.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_79117/ :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_79117/42.tar.gz :: [lib/connectors/DwCA_Utility.php [122]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_79117/42.tar.gz] :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_79117//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/agent/agent]: agent...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/media/document]: document...
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_95321.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_95321.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [lib/connectors/DwCA_Utility.php [485]]<br>
+
+process_measurementorfact...[task_67_info_1]
+
+100,000
+200,000
+300,000
+process_occurrence...[write_task_67_1]
+
+100,000
+process_measurementorfact...[write_task_67_1]
+
+100,000
+200,000
+300,000Array
+(
+    [contents] => Array
+        (
+            [M lifeStage] => Array
+                (
+                    [http://www.ebi.ac.uk/efo/EFO_0001272] => 
+                    [] => 
+                )
+
+            [O lifeStage] => Array
+                (
+                    [] => 
+                )
+
+        )
+
+)
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_79117/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/42_meta_recoded/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [152]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/42_meta_recoded/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [335337]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/42_meta_recoded/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [104849]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/42_meta_recoded/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [153496]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/42_meta_recoded/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [34571]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [42_meta_recoded]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/42_meta_recoded//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ agent  -- OK
+
+ document  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 113.51 seconds 
+elapsed time = 1.89 minutes 
+elapsed time = 0.03 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentMeasurementID have entries in measurement_or_fact_specific.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/42_meta_recoded/measurement_or_fact_specific.tab)
+
+ count:[300,000] 
+Total undefined parents MoF [42_meta_recoded]: 0
+Completed resource_utility.php :: [ []]<br>
+Finished: SUCCESS

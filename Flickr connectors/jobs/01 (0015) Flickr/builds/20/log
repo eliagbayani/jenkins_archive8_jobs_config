@@ -1,0 +1,84 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/(0015) Flickr
+[(0015) Flickr] $ /bin/sh -xe /jenkins_tmp/jenkins9782584849232940869.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php make_hash_IDs_4Deltas.php _ {"task": "", "resource":"Deltas_4hashing", "resource_id":"15"}
+Current PHP version: 8.2.28<br>
+========== START hash identifiers ==========
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//15_delta_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_45191/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/15.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_45191/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_45191/15.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_45191/15.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_45191//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://eol.org/schema/agent/agent]: agent...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+process_table: [hash_identifiers] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_45191//media_resource.tab]...
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_45191/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/15_delta/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [2]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/15_delta/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [10]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/15_delta/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [3]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [15_delta]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/15_delta//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://eol.org/schema/media/document
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://eol.org/schema/media/document
+)
+
+ agent  -- OK
+
+ taxon  -- OK
+
+ document  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 10.07 seconds 
+elapsed time = 0.17 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+========== END hash identifiers ==========
+Completed make_hash_IDs_4Deltas.php :: [ []]<br>
+Finished: SUCCESS

@@ -1,0 +1,156 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/Andreas Kay Flickr
+[Andreas Kay Flickr] $ /bin/sh -xe /jenkins_tmp/jenkins18069252315550046848.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php andreas_kay_flickr.php jenkins
+Current PHP version: 8.2.28<br>Array
+(
+    [Agra sp.] => Agra
+    [Androlampis sp.] => Adrolampis
+    [Anthrax sp.] => Anthrax
+    [Anthurium sp.] => Anthurium
+    [Begonia sp.] => Begonia
+    [Bucranium sp.] => Bucranium
+    [Calceolaria sp.] => Calceolaria
+    [Cassia sp.] => Cassia
+    [Cinchona sp.] => Cinchona
+    [Crinum sp.] => Crinum
+    [Diestostomma sp.] => Diestostemma
+    [Dracula sp.] => Dracula
+    [Edessa sp.] => Edessa
+    [Eois sp.] => Eois
+    [Fuchsia sp.] => Fuchsia
+    [Graffenreida sp.] => Graffenrieda
+    [Joppa sp.] => Joppa
+    [Lantana sp.] => Lantana
+    [Lobelia sp.] => Lobelia
+    [Memphis sp.] => Memphis
+    [Miconia sp.] => Miconia
+    [Mimosa sp.] => Mimosa
+    [Mutisia sp.] => Mutisia
+    [Nasa sp.] => Nasa
+    [Oedioychus sp.] => Oedionychus
+    [Oxalis sp.] => Oxalis
+    [Pemba sp.] => Pemba
+    [Pero sp.] => Pero
+    [Physallis sp.] => Physalis
+    [Pitcairnia sp.] => Pitcairnia
+    [Plekocheillus sp.] => Plekocheilus
+    [Pseudoautomeris sp.] => Pseudautomeris
+    [Ripypterix sp.] => Ripipteryx
+    [Salvia sp.] => Salvia
+    [Senna sp.] => Senna
+    [Simambea sp.] => Sibambea
+    [Solanum sp.] => Solanum
+    [Tillandsia sp.] => Tillandsia
+    [Tradescantia sp.] => Tradescantia
+    [Vestistylus sp.] => Vestistilus
+)
+
+Mappings = [42]
+
+correct...
+
+ count: 174
+
+ From: 2011-01-01 To: 2011-01-31
+
+total_pages = [0] 0
+
+
+ From: 2011-02-01 To: 2011-02-31
+
+total_pages = [0] 0
+
+
+ From: 2011-03-01 To: 2011-03-31
+
+total_pages = [4] 1
+getting page 1: 8.202403
+
+ page 1 of 1 | total taxa =  4 | andreas_kay_flickr 
+
+ -- response photos count per page: 4
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 323
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 326
+
+
+ From: 2011-04-01 To: 2011-04-31
+
+total_pages = [24] 1
+getting page 1: 14.635553
+
+ page 1 of 1 | total taxa =  24 | andreas_kay_flickr 
+
+ -- response photos count per page: 24
+
+
+ From: 2011-05-01 To: 2011-05-31
+
+total_pages = [8] 1
+getting page 1: 14.639483
+
+ page 1 of 1 | total taxa =  8 | andreas_kay_flickr 
+
+ -- response photos count per page: 8
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 323
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 326
+
+
+ From: 2011-06-01 To: 2011-06-31
+
+total_pages = [25] 1
+getting page 1: 17.854521
+
+ page 1 of 1 | total taxa =  25 | andreas_kay_flickr 
+
+ -- response photos count per page: 25
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 323
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 326
+
+
+ From: 2011-07-01 To: 2011-07-31
+
+total_pages = [27] 1
+getting page 1: 21.071246
+
+ page 1 of 1 | total taxa =  27 | andreas_kay_flickr 
+
+ -- response photos count per page: 27
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 323
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/FlickrAPI.php on line 326
+
+
+ From: 2011-08-01 To: 2011-08-31
+
+total_pages = [139] 1
+getting page 1: 25.124183
+
+ page 1 of 1 | total taxa =  139 | andreas_kay_flickr 
+
+ -- response photos count per page: 139
+
+
+ From: 2011-09-01 To: 2011-09-31
+
+total_pages = [20] 1
+getting page 1: 28.658198
+
+ page 1 of 1 | total taxa =  20 | andreas_kay_flickr 
+
+ -- response photos count per page: 20
+
+
+ From: 2011-10-01 To: 2011-10-31
+
+total_pages = [20] 1
+getting page 1: 31.667154
+
+ page 1 of 1 | total taxa =  20 | andreas_kay_flickr 
+
+ -- response photos count per page: 20
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

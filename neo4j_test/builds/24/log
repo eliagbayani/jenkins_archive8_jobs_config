@@ -1,0 +1,36 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/neo4j_test
+[neo4j_test] $ /bin/sh -xe /jenkins_tmp/jenkins10289641011694740008.sh
++ cd /var/www/html/php_neo4j/new/
++ ls -lt
+total 40
+-rw-r--r--  1 jenkins jenkins  2564 Jul  7 16:28 index.php
+drwxr-xr-x 12 jenkins jenkins   384 Jul  7 15:29 vendor
+-rw-r--r--  1 jenkins jenkins    87 Jul  7 15:29 composer.json
+-rw-r--r--  1 jenkins jenkins 31203 Jul  7 15:28 composer.lock
++ php index.php
+PHP Fatal error:  Uncaught GuzzleHttp\Exception\ClientException: Client error: `POST http://neo4j:***@host.docker.internal:7474/db/data/transaction/commit` resulted in a `401 Unauthorized` response:
+{"errors":[{"code":"Neo.ClientError.Security.Unauthorized","message":"Invalid credential."}]}
+ in /var/www/html/php_neo4j/new/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:113
+Stack trace:
+#0 /var/www/html/php_neo4j/new/vendor/guzzlehttp/guzzle/src/Middleware.php(65): GuzzleHttp\Exception\RequestException::create()
+#1 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/Promise.php(204): GuzzleHttp\Middleware::GuzzleHttp\{closure}()
+#2 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/Promise.php(153): GuzzleHttp\Promise\Promise::callHandler()
+#3 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/TaskQueue.php(48): GuzzleHttp\Promise\Promise::GuzzleHttp\Promise\{closure}()
+#4 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/Promise.php(248): GuzzleHttp\Promise\TaskQueue->run()
+#5 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/Promise.php(224): GuzzleHttp\Promise\Promise->invokeWaitFn()
+#6 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/Promise.php(269): GuzzleHttp\Promise\Promise->waitIfPending()
+#7 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/Promise.php(226): GuzzleHttp\Promise\Promise->invokeWaitList()
+#8 /var/www/html/php_neo4j/new/vendor/guzzlehttp/promises/src/Promise.php(62): GuzzleHttp\Promise\Promise->waitIfPending()
+#9 /var/www/html/php_neo4j/new/vendor/guzzlehttp/guzzle/src/Client.php(129): GuzzleHttp\Promise\Promise->wait()
+#10 /var/www/html/php_neo4j/new/vendor/laudis/graphaware-neo4j-php-client-legacy/src/HttpDriver/Session.php(78): GuzzleHttp\Client->send()
+#11 /var/www/html/php_neo4j/new/vendor/laudis/graphaware-neo4j-php-client-legacy/src/HttpDriver/Pipeline.php(37): GraphAware\Neo4j\Client\HttpDriver\Session->flush()
+#12 /var/www/html/php_neo4j/new/vendor/laudis/graphaware-neo4j-php-client-legacy/src/HttpDriver/Session.php(47): GraphAware\Neo4j\Client\HttpDriver\Pipeline->run()
+#13 /var/www/html/php_neo4j/new/vendor/laudis/graphaware-neo4j-php-client-legacy/src/Connection/Connection.php(118): GraphAware\Neo4j\Client\HttpDriver\Session->run()
+#14 /var/www/html/php_neo4j/new/vendor/laudis/graphaware-neo4j-php-client-legacy/src/Client.php(64): GraphAware\Neo4j\Client\Connection\Connection->run()
+#15 /var/www/html/php_neo4j/new/index.php(31): GraphAware\Neo4j\Client\Client->run()
+#16 {main}
+  thrown in /var/www/html/php_neo4j/new/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php on line 113
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

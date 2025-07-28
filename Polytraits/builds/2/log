@@ -1,0 +1,3914 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Polytraits
+[Polytraits] $ /bin/sh -xe /jenkins_tmp/jenkins4059415809221069382.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php polytraits_new.php jenkins
+Current PHP version: 8.2.28<br>
+Total count test OK.
+Identifier test 1 OK.
+Identifier test 2 OK.
+Identifier test 3 OK.
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/contributor_map/Polytraits_contributors.txt :: [lib/connectors/PolytraitsNewAPI.php [57]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_30426.file :: [lib/connectors/PolytraitsNewAPI.php [57]]<br>
+Sending get request to https://github.com/eliagbayani/EOL-connector-data-files/raw/master/contributor_map/Polytraits_contributors.txt : only attempt :: [lib/Functions.php [148]]<br>
+
+ contributor_mappings: 16 - Test OK.
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [1220]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_75523/ :: [lib/connectors/DwCA_Utility.php [1220]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_75523/ :: [lib/connectors/DwCA_Utility.php [1220]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_75523/Polytraits.tar.gz :: [lib/connectors/DwCA_Utility.php [1220]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_75523/Polytraits.tar.gz] :: [lib/connectors/DwCA_Utility.php [1220]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_75523//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_75523/
+Number of old mTypes from old resource: 44
+
+Page: [1] 1 of 30
+
+Traits: 2 
+Page: [1] 2 of 30
+
+Traits: 8 
+Page: [1] 3 of 30
+
+Traits: 6 
+Page: [1] 4 of 30
+
+Traits: 27 
+Page: [1] 5 of 30
+
+Traits: 6 
+Page: [1] 6 of 30
+
+Traits: 6 
+Page: [1] 7 of 30
+
+Traits: 2 
+Page: [1] 8 of 30
+
+Traits: 6 
+Page: [1] 9 of 30
+
+Traits: 2 
+Page: [1] 10 of 30
+
+Traits: 3 
+Page: [1] 11 of 30
+
+Traits: 3 
+Page: [1] 12 of 30
+
+Page: [1] 13 of 30
+
+Traits: 17 
+Page: [1] 14 of 30
+
+Traits: 228 
+Page: [1] 15 of 30
+
+Traits: 34 
+Page: [1] 16 of 30
+
+Traits: 12 
+Page: [1] 17 of 30
+
+Traits: 38 
+Page: [1] 18 of 30
+
+Traits: 6 
+Page: [1] 19 of 30
+
+Traits: 4 
+Page: [1] 20 of 30
+
+Traits: 15 
+Page: [1] 21 of 30
+
+Traits: 56 
+Page: [1] 22 of 30
+
+Traits: 2 
+Page: [1] 23 of 30
+
+Page: [1] 24 of 30
+
+Traits: 2 
+Page: [1] 25 of 30
+
+Traits: 3 
+Page: [1] 26 of 30
+
+Page: [1] 27 of 30
+
+Page: [1] 28 of 30
+
+Page: [1] 29 of 30
+
+Page: [1] 30 of 30
+
+Page: [2] 1 of 30
+
+Page: [2] 2 of 30
+
+Page: [2] 3 of 30
+
+Page: [2] 4 of 30
+
+Page: [2] 5 of 30
+
+Page: [2] 6 of 30
+
+Page: [2] 7 of 30
+
+Traits: 16 
+Page: [2] 8 of 30
+
+Traits: 198 
+Page: [2] 9 of 30
+
+Traits: 13 
+Page: [2] 10 of 30
+
+Page: [2] 11 of 30
+
+Page: [2] 12 of 30
+
+Page: [2] 13 of 30
+
+Traits: 47 
+Page: [2] 14 of 30
+
+Page: [2] 15 of 30
+
+Page: [2] 16 of 30
+
+Page: [2] 17 of 30
+
+Traits: 15 
+Page: [2] 18 of 30
+
+Page: [2] 19 of 30
+
+Page: [2] 20 of 30
+
+Page: [2] 21 of 30
+
+Traits: 58 
+Page: [2] 22 of 30
+
+Traits: 13 
+Page: [2] 23 of 30
+
+Traits: 4 
+Page: [2] 24 of 30
+
+Traits: 38 
+Page: [2] 25 of 30
+
+Traits: 12 
+Page: [2] 26 of 30
+
+Traits: 97 
+Page: [2] 27 of 30
+
+Traits: 3 
+Page: [2] 28 of 30
+
+Traits: 45 
+Page: [2] 29 of 30
+
+Traits: 14 
+Page: [2] 30 of 30
+
+Traits: 16 
+Page: [3] 1 of 30
+
+Page: [3] 2 of 30
+
+Page: [3] 3 of 30
+
+Page: [3] 4 of 30
+
+Page: [3] 5 of 30
+
+Traits: 1 
+Page: [3] 6 of 30
+
+Page: [3] 7 of 30
+
+Traits: 3 
+Page: [3] 8 of 30
+
+Page: [3] 9 of 30
+
+Page: [3] 10 of 30
+
+Page: [3] 11 of 30
+
+Page: [3] 12 of 30
+
+Page: [3] 13 of 30
+
+Page: [3] 14 of 30
+
+Page: [3] 15 of 30
+
+Traits: 3 
+Page: [3] 16 of 30
+
+Traits: 12 
+Page: [3] 17 of 30
+
+Traits: 78 
+Page: [3] 18 of 30
+
+Traits: 2 
+Page: [3] 19 of 30
+
+Traits: 5 
+Page: [3] 20 of 30
+
+Page: [3] 21 of 30
+
+Page: [3] 22 of 30
+
+Page: [3] 23 of 30
+
+Traits: 30 
+Page: [3] 24 of 30
+
+Page: [3] 25 of 30
+
+Traits: 89 
+Page: [3] 26 of 30
+
+Traits: 37 
+Page: [3] 27 of 30
+
+Traits: 19 
+Page: [3] 28 of 30
+
+Traits: 8 
+Page: [3] 29 of 30
+
+Traits: 46 
+Page: [3] 30 of 30
+
+Traits: 24 
+Page: [4] 1 of 30
+
+Page: [4] 2 of 30
+
+Traits: 8 
+Page: [4] 3 of 30
+
+Traits: 1 
+Page: [4] 4 of 30
+
+Page: [4] 5 of 30
+
+Traits: 3 
+Page: [4] 6 of 30
+
+Traits: 8 
+Page: [4] 7 of 30
+
+Traits: 2 
+Page: [4] 8 of 30
+
+Traits: 9 
+Page: [4] 9 of 30
+
+Traits: 14 
+Page: [4] 10 of 30
+
+Page: [4] 11 of 30
+
+Page: [4] 12 of 30
+
+Traits: 43 
+Page: [4] 13 of 30
+
+Traits: 1 
+Page: [4] 14 of 30
+
+Traits: 1 
+Page: [4] 15 of 30
+
+Traits: 323 
+Page: [4] 16 of 30
+
+Page: [4] 17 of 30
+
+Traits: 1 
+Page: [4] 18 of 30
+
+Traits: 75 
+Page: [4] 19 of 30
+
+Traits: 4 
+Page: [4] 20 of 30
+
+Traits: 1 
+Page: [4] 21 of 30
+
+Page: [4] 22 of 30
+
+Page: [4] 23 of 30
+
+Page: [4] 24 of 30
+
+Page: [4] 25 of 30
+
+Page: [4] 26 of 30
+
+Page: [4] 27 of 30
+
+Traits: 11 
+Page: [4] 28 of 30
+
+Page: [4] 29 of 30
+
+Page: [4] 30 of 30
+
+Page: [5] 1 of 30
+
+Traits: 20 
+Page: [5] 2 of 30
+
+Traits: 17 
+Page: [5] 3 of 30
+
+Traits: 22 
+Page: [5] 4 of 30
+
+Traits: 66 
+Page: [5] 5 of 30
+
+Traits: 6 
+Page: [5] 6 of 30
+
+Traits: 1 
+Page: [5] 7 of 30
+
+Traits: 6 
+Page: [5] 8 of 30
+
+Traits: 2 
+Page: [5] 9 of 30
+
+Traits: 6 
+Page: [5] 10 of 30
+
+Traits: 11 
+Page: [5] 11 of 30
+
+Traits: 2 
+Page: [5] 12 of 30
+
+Traits: 1 
+Page: [5] 13 of 30
+
+Traits: 8 
+Page: [5] 14 of 30
+
+Traits: 1 
+Page: [5] 15 of 30
+
+Page: [5] 16 of 30
+
+Traits: 50 
+Page: [5] 17 of 30
+
+Traits: 33 
+Page: [5] 18 of 30
+
+Traits: 129 
+Page: [5] 19 of 30
+
+Page: [5] 20 of 30
+
+Page: [5] 21 of 30
+
+Traits: 8 
+Page: [5] 22 of 30
+
+Traits: 1 
+Page: [5] 23 of 30
+
+Page: [5] 24 of 30
+
+Traits: 21 
+Page: [5] 25 of 30
+
+Page: [5] 26 of 30
+
+Traits: 3 
+Page: [5] 27 of 30
+
+Traits: 4 
+Page: [5] 28 of 30
+
+Traits: 12 
+Page: [5] 29 of 30
+
+Traits: 13 
+Page: [5] 30 of 30
+
+Page: [6] 1 of 30
+
+Page: [6] 2 of 30
+
+Page: [6] 3 of 30
+
+Page: [6] 4 of 30
+
+Traits: 4 
+Page: [6] 5 of 30
+
+Traits: 64 
+Page: [6] 6 of 30
+
+Page: [6] 7 of 30
+
+Page: [6] 8 of 30
+
+Page: [6] 9 of 30
+
+Page: [6] 10 of 30
+
+Page: [6] 11 of 30
+
+Page: [6] 12 of 30
+
+Page: [6] 13 of 30
+
+Page: [6] 14 of 30
+
+Traits: 1 
+Page: [6] 15 of 30
+
+Traits: 3 
+Page: [6] 16 of 30
+
+Traits: 11 
+Page: [6] 17 of 30
+
+Traits: 11 
+Page: [6] 18 of 30
+
+Traits: 2 
+Page: [6] 19 of 30
+
+Traits: 8 
+Page: [6] 20 of 30
+
+Traits: 9 
+Page: [6] 21 of 30
+
+Page: [6] 22 of 30
+
+Traits: 2 
+Page: [6] 23 of 30
+
+Traits: 9 
+Page: [6] 24 of 30
+
+Traits: 9 
+Page: [6] 25 of 30
+
+Traits: 8 
+Page: [6] 26 of 30
+
+Traits: 11 
+Page: [6] 27 of 30
+
+Traits: 16 
+Page: [6] 28 of 30
+
+Traits: 5 
+Page: [6] 29 of 30
+
+Page: [6] 30 of 30
+
+Traits: 8 
+Page: [7] 1 of 30
+
+Page: [7] 2 of 30
+
+Page: [7] 3 of 30
+
+Page: [7] 4 of 30
+
+Page: [7] 5 of 30
+
+Page: [7] 6 of 30
+
+Traits: 10 
+Page: [7] 7 of 30
+
+Traits: 12 
+Page: [7] 8 of 30
+
+Traits: 4 
+Page: [7] 9 of 30
+
+Traits: 22 
+Page: [7] 10 of 30
+
+Traits: 10 
+Page: [7] 11 of 30
+
+Page: [7] 12 of 30
+
+Page: [7] 13 of 30
+
+Page: [7] 14 of 30
+
+Traits: 19 
+Page: [7] 15 of 30
+
+Page: [7] 16 of 30
+
+Traits: 1 
+Page: [7] 17 of 30
+
+Traits: 27 
+Page: [7] 18 of 30
+
+Page: [7] 19 of 30
+
+Page: [7] 20 of 30
+
+Traits: 32 
+Page: [7] 21 of 30
+
+Traits: 249 
+Page: [7] 22 of 30
+
+Traits: 9 
+Page: [7] 23 of 30
+
+Page: [7] 24 of 30
+
+Page: [7] 25 of 30
+
+Page: [7] 26 of 30
+
+Page: [7] 27 of 30
+
+Traits: 7 
+Page: [7] 28 of 30
+
+Traits: 4 
+Page: [7] 29 of 30
+
+Traits: 134 
+Page: [7] 30 of 30
+
+Page: [8] 1 of 30
+
+Page: [8] 2 of 30
+
+Page: [8] 3 of 30
+
+Page: [8] 4 of 30
+
+Traits: 5 
+Page: [8] 5 of 30
+
+Traits: 4 
+Page: [8] 6 of 30
+
+Page: [8] 7 of 30
+
+Traits: 5 
+Page: [8] 8 of 30
+
+Traits: 13 
+Page: [8] 9 of 30
+
+Traits: 73 
+Page: [8] 10 of 30
+
+Traits: 74 
+Page: [8] 11 of 30
+
+Page: [8] 12 of 30
+
+Page: [8] 13 of 30
+
+Traits: 20 
+Page: [8] 14 of 30
+
+Traits: 16 
+Page: [8] 15 of 30
+
+Traits: 15 
+Page: [8] 16 of 30
+
+Traits: 8 
+Page: [8] 17 of 30
+
+Traits: 14 
+Page: [8] 18 of 30
+
+Traits: 6 
+Page: [8] 19 of 30
+
+Traits: 10 
+Page: [8] 20 of 30
+
+Traits: 16 
+Page: [8] 21 of 30
+
+Traits: 12 
+Page: [8] 22 of 30
+
+Traits: 7 
+Page: [8] 23 of 30
+
+Traits: 17 
+Page: [8] 24 of 30
+
+Traits: 10 
+Page: [8] 25 of 30
+
+Traits: 9 
+Page: [8] 26 of 30
+
+Page: [8] 27 of 30
+
+Traits: 56 
+Page: [8] 28 of 30
+
+Traits: 15 
+Page: [8] 29 of 30
+
+Page: [8] 30 of 30
+
+Traits: 176 
+Page: [9] 1 of 30
+
+Traits: 4 
+Page: [9] 2 of 30
+
+Traits: 13 
+Page: [9] 3 of 30
+
+Traits: 3 
+Page: [9] 4 of 30
+
+Traits: 6 
+Page: [9] 5 of 30
+
+Traits: 13 
+Page: [9] 6 of 30
+
+Traits: 6 
+Page: [9] 7 of 30
+
+Page: [9] 8 of 30
+
+Traits: 30 
+Page: [9] 9 of 30
+
+Traits: 2 
+Page: [9] 10 of 30
+
+Traits: 3 
+Page: [9] 11 of 30
+
+Traits: 20 
+Page: [9] 12 of 30
+
+Traits: 105 
+Page: [9] 13 of 30
+
+Traits: 22 
+Page: [9] 14 of 30
+
+Page: [9] 15 of 30
+
+Page: [9] 16 of 30
+
+Page: [9] 17 of 30
+
+Page: [9] 18 of 30
+
+Page: [9] 19 of 30
+
+Page: [9] 20 of 30
+
+Traits: 23 
+Page: [9] 21 of 30
+
+Page: [9] 22 of 30
+
+Page: [9] 23 of 30
+
+Page: [9] 24 of 30
+
+Page: [9] 25 of 30
+
+Page: [9] 26 of 30
+
+Page: [9] 27 of 30
+
+Page: [9] 28 of 30
+
+Traits: 36 
+Page: [9] 29 of 30
+
+Traits: 12 
+Page: [9] 30 of 30
+
+Traits: 88 
+Page: [10] 1 of 30
+
+Traits: 6 
+Page: [10] 2 of 30
+
+Traits: 14 
+Page: [10] 3 of 30
+
+Traits: 124 
+Page: [10] 4 of 30
+
+Traits: 6 
+Page: [10] 5 of 30
+
+Traits: 1 
+Page: [10] 6 of 30
+
+Page: [10] 7 of 30
+
+Traits: 15 
+Page: [10] 8 of 30
+
+Traits: 19 
+Page: [10] 9 of 30
+
+Traits: 50 
+Page: [10] 10 of 30
+
+Page: [10] 11 of 30
+
+Traits: 3 
+Page: [10] 12 of 30
+
+Traits: 8 
+Page: [10] 13 of 30
+
+Traits: 12 
+Page: [10] 14 of 30
+
+Page: [10] 15 of 30
+
+Page: [10] 16 of 30
+
+Page: [10] 17 of 30
+
+Page: [10] 18 of 30
+
+Page: [10] 19 of 30
+
+Page: [10] 20 of 30
+
+Page: [10] 21 of 30
+
+Traits: 5 
+Page: [10] 22 of 30
+
+Traits: 1 
+Page: [10] 23 of 30
+
+Traits: 10 
+Page: [10] 24 of 30
+
+Traits: 20 
+Page: [10] 25 of 30
+
+Page: [10] 26 of 30
+
+Page: [10] 27 of 30
+
+Page: [10] 28 of 30
+
+Traits: 1 
+Page: [10] 29 of 30
+
+Traits: 3 
+Page: [10] 30 of 30
+
+Traits: 3 
+Page: [11] 1 of 30
+
+Traits: 7 
+Page: [11] 2 of 30
+
+Traits: 3 
+Page: [11] 3 of 30
+
+Traits: 7 
+Page: [11] 4 of 30
+
+Traits: 11 
+Page: [11] 5 of 30
+
+Traits: 12 
+Page: [11] 6 of 30
+
+Traits: 42 
+Page: [11] 7 of 30
+
+Traits: 11 
+Page: [11] 8 of 30
+
+Traits: 55 
+Page: [11] 9 of 30
+
+Traits: 12 
+Page: [11] 10 of 30
+
+Traits: 59 
+Page: [11] 11 of 30
+
+Page: [11] 12 of 30
+
+Traits: 12 
+Page: [11] 13 of 30
+
+Page: [11] 14 of 30
+
+Page: [11] 15 of 30
+
+Page: [11] 16 of 30
+
+Traits: 3 
+Page: [11] 17 of 30
+
+Traits: 5 
+Page: [11] 18 of 30
+
+Page: [11] 19 of 30
+
+Traits: 6 
+Page: [11] 20 of 30
+
+Traits: 5 
+Page: [11] 21 of 30
+
+Page: [11] 22 of 30
+
+Traits: 8 
+Page: [11] 23 of 30
+
+Traits: 10 
+Page: [11] 24 of 30
+
+Traits: 8 
+Page: [11] 25 of 30
+
+Traits: 3 
+Page: [11] 26 of 30
+
+Traits: 10 
+Page: [11] 27 of 30
+
+Traits: 8 
+Page: [11] 28 of 30
+
+Traits: 11 
+Page: [11] 29 of 30
+
+Traits: 11 
+Page: [11] 30 of 30
+
+Traits: 69 
+Page: [12] 1 of 30
+
+Traits: 13 
+Page: [12] 2 of 30
+
+Traits: 22 
+Page: [12] 3 of 30
+
+Traits: 1 
+Page: [12] 4 of 30
+
+Traits: 1 
+Page: [12] 5 of 30
+
+Traits: 11 
+Page: [12] 6 of 30
+
+Traits: 12 
+Page: [12] 7 of 30
+
+Traits: 10 
+Page: [12] 8 of 30
+
+Page: [12] 9 of 30
+
+Traits: 13 
+Page: [12] 10 of 30
+
+Page: [12] 11 of 30
+
+Traits: 38 
+Page: [12] 12 of 30
+
+Traits: 6 
+Page: [12] 13 of 30
+
+Traits: 69 
+Page: [12] 14 of 30
+
+Page: [12] 15 of 30
+
+Page: [12] 16 of 30
+
+Page: [12] 17 of 30
+
+Page: [12] 18 of 30
+
+Page: [12] 19 of 30
+
+Traits: 2 
+Page: [12] 20 of 30
+
+Traits: 2 
+Page: [12] 21 of 30
+
+Traits: 3 
+Page: [12] 22 of 30
+
+Traits: 27 
+Page: [12] 23 of 30
+
+Page: [12] 24 of 30
+
+Page: [12] 25 of 30
+
+Traits: 19 
+Page: [12] 26 of 30
+
+Page: [12] 27 of 30
+
+Page: [12] 28 of 30
+
+Page: [12] 29 of 30
+
+Page: [12] 30 of 30
+
+Traits: 5 
+Page: [13] 1 of 30
+
+Page: [13] 2 of 30
+
+Page: [13] 3 of 30
+
+Traits: 174 
+Page: [13] 4 of 30
+
+Traits: 106 
+Page: [13] 5 of 30
+
+Page: [13] 6 of 30
+
+Page: [13] 7 of 30
+
+Page: [13] 8 of 30
+
+Page: [13] 9 of 30
+
+Traits: 13 
+Page: [13] 10 of 30
+
+Traits: 10 
+Page: [13] 11 of 30
+
+Traits: 11 
+Page: [13] 12 of 30
+
+Traits: 2 
+Page: [13] 13 of 30
+
+Traits: 30 
+Page: [13] 14 of 30
+
+Traits: 4 
+Page: [13] 15 of 30
+
+Traits: 91 
+Page: [13] 16 of 30
+
+Page: [13] 17 of 30
+
+Traits: 44 
+Page: [13] 18 of 30
+
+Traits: 1 
+Page: [13] 19 of 30
+
+Traits: 16 
+Page: [13] 20 of 30
+
+Traits: 3 
+Page: [13] 21 of 30
+
+Traits: 8 
+Page: [13] 22 of 30
+
+Traits: 43 
+Page: [13] 23 of 30
+
+Traits: 3 
+Page: [13] 24 of 30
+
+Traits: 17 
+Page: [13] 25 of 30
+
+Traits: 14 
+Page: [13] 26 of 30
+
+Traits: 22 
+Page: [13] 27 of 30
+
+Traits: 25 
+Page: [13] 28 of 30
+
+Traits: 16 
+Page: [13] 29 of 30
+
+Page: [13] 30 of 30
+
+Traits: 21 
+Page: [14] 1 of 30
+
+Traits: 31 
+Page: [14] 2 of 30
+
+Traits: 12 
+Page: [14] 3 of 30
+
+Page: [14] 4 of 30
+
+Traits: 2 
+Page: [14] 5 of 30
+
+Traits: 27 
+Page: [14] 6 of 30
+
+Page: [14] 7 of 30
+
+Traits: 3 
+Page: [14] 8 of 30
+
+Page: [14] 9 of 30
+
+Traits: 6 
+Page: [14] 10 of 30
+
+Traits: 7 
+Page: [14] 11 of 30
+
+Traits: 3 
+Page: [14] 12 of 30
+
+Page: [14] 13 of 30
+
+Traits: 14 
+Page: [14] 14 of 30
+
+Traits: 66 
+Page: [14] 15 of 30
+
+Traits: 95 
+Page: [14] 16 of 30
+
+Traits: 56 
+Page: [14] 17 of 30
+
+Traits: 27 
+Page: [14] 18 of 30
+
+Traits: 3 
+Page: [14] 19 of 30
+
+Traits: 3 
+Page: [14] 20 of 30
+
+Traits: 4 
+Page: [14] 21 of 30
+
+Traits: 15 
+Page: [14] 22 of 30
+
+Traits: 232 
+Page: [14] 23 of 30
+
+Traits: 2 
+Page: [14] 24 of 30
+
+Page: [14] 25 of 30
+
+Page: [14] 26 of 30
+
+Page: [14] 27 of 30
+
+Page: [14] 28 of 30
+
+Traits: 1 
+Page: [14] 29 of 30
+
+Traits: 10 
+Page: [14] 30 of 30
+
+Traits: 20 
+Page: [15] 1 of 30
+
+Traits: 1 
+Page: [15] 2 of 30
+
+Traits: 11 
+Page: [15] 3 of 30
+
+Page: [15] 4 of 30
+
+Traits: 2 
+Page: [15] 5 of 30
+
+Traits: 10 
+Page: [15] 6 of 30
+
+Traits: 15 
+Page: [15] 7 of 30
+
+Traits: 11 
+Page: [15] 8 of 30
+
+Traits: 78 
+Page: [15] 9 of 30
+
+Page: [15] 10 of 30
+
+Traits: 17 
+Page: [15] 11 of 30
+
+Page: [15] 12 of 30
+
+Traits: 1 
+Page: [15] 13 of 30
+
+Traits: 12 
+Page: [15] 14 of 30
+
+Traits: 124 
+Page: [15] 15 of 30
+
+Traits: 29 
+Page: [15] 16 of 30
+
+Traits: 86 
+Page: [15] 17 of 30
+
+Traits: 10 
+Page: [15] 18 of 30
+
+Traits: 11 
+Page: [15] 19 of 30
+
+Page: [15] 20 of 30
+
+Page: [15] 21 of 30
+
+Page: [15] 22 of 30
+
+Page: [15] 23 of 30
+
+Page: [15] 24 of 30
+
+Traits: 53 
+Page: [15] 25 of 30
+
+Traits: 15 
+Page: [15] 26 of 30
+
+Traits: 19 
+Page: [15] 27 of 30
+
+Traits: 74 
+Page: [15] 28 of 30
+
+Traits: 2 
+Page: [15] 29 of 30
+
+Traits: 1 
+Page: [15] 30 of 30
+
+Traits: 6 
+Page: [16] 1 of 30
+
+Traits: 2 
+Page: [16] 2 of 30
+
+Traits: 27 
+Page: [16] 3 of 30
+
+Traits: 215 
+Page: [16] 4 of 30
+
+Traits: 19 
+Page: [16] 5 of 30
+
+Traits: 17 
+Page: [16] 6 of 30
+
+Traits: 25 
+Page: [16] 7 of 30
+
+Traits: 48 
+Page: [16] 8 of 30
+
+Page: [16] 9 of 30
+
+Traits: 1 
+Page: [16] 10 of 30
+
+Traits: 62 
+Page: [16] 11 of 30
+
+Traits: 16 
+Page: [16] 12 of 30
+
+Traits: 43 
+Page: [16] 13 of 30
+
+Traits: 6 
+Page: [16] 14 of 30
+
+Page: [16] 15 of 30
+
+Traits: 10 
+Page: [16] 16 of 30
+
+Traits: 7 
+Page: [16] 17 of 30
+
+Traits: 1 
+Page: [16] 18 of 30
+
+Traits: 46 
+Page: [16] 19 of 30
+
+Traits: 112 
+Page: [16] 20 of 30
+
+Page: [16] 21 of 30
+
+Traits: 24 
+Page: [16] 22 of 30
+
+Page: [16] 23 of 30
+
+Page: [16] 24 of 30
+
+Traits: 68 
+Page: [16] 25 of 30
+
+Traits: 27 
+Page: [16] 26 of 30
+
+Traits: 5 
+Page: [16] 27 of 30
+
+Page: [16] 28 of 30
+
+Page: [16] 29 of 30
+
+Page: [16] 30 of 30
+
+Page: [17] 1 of 30
+
+Traits: 82 
+Page: [17] 2 of 30
+
+Traits: 70 
+Page: [17] 3 of 30
+
+Traits: 31 
+Page: [17] 4 of 30
+
+Traits: 70 
+Page: [17] 5 of 30
+
+Traits: 14 
+Page: [17] 6 of 30
+
+Traits: 61 
+Page: [17] 7 of 30
+
+Traits: 8 
+Page: [17] 8 of 30
+
+Page: [17] 9 of 30
+
+Page: [17] 10 of 30
+
+Page: [17] 11 of 30
+
+Page: [17] 12 of 30
+
+Page: [17] 13 of 30
+
+Page: [17] 14 of 30
+
+Page: [17] 15 of 30
+
+Page: [17] 16 of 30
+
+Page: [17] 17 of 30
+
+Traits: 4 
+Page: [17] 18 of 30
+
+Page: [17] 19 of 30
+
+Traits: 3 
+Page: [17] 20 of 30
+
+Traits: 8 
+Page: [17] 21 of 30
+
+Traits: 10 
+Page: [17] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1103 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1103/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [17] 23 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Harmothoe/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/300 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/300/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 40 
+Page: [17] 24 of 30
+
+Page: [17] 25 of 30
+
+Page: [17] 26 of 30
+
+Page: [17] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Harmothoe+extenuata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/2003 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/2003/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 39 
+Page: [17] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Harmothoe+glabra/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1953 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1953/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 29 
+Page: [17] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Harmothoe+imbricata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1104 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1104/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 126 
+Page: [17] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Harmothoe+impar/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/517 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/517/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 89 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=18 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [18] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Harmothoe+longisetis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1105 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1105/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [18] 2 of 30
+
+Page: [18] 3 of 30
+
+Page: [18] 4 of 30
+
+Page: [18] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Harmothoe+spinifera/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/410 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/410/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 61 
+Page: [18] 6 of 30
+
+Page: [18] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hartmaniellidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/946 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/946/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [18] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hediste/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/301 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/301/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 25 
+Page: [18] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hediste+atoka/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1270 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1270/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [18] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hediste+diadroma/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1271 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1271/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [18] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hediste+diversicolor/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/124 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/124/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 401 
+Page: [18] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hediste+kermadeca/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1614 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1614/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [18] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hediste+limnicola/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1289 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1289/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [18] 14 of 30
+
+Page: [18] 15 of 30
+
+Page: [18] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hermodice+carunculata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1525 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hermodice/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1525/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [18] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hesiocaeca+methanicola/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1273 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hesiocaeca/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1273/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [18] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hesione/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1108 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1108/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [18] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hesione+pantherina/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1484 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1484/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [18] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/359 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/359/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 55 
+Page: [18] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hesiospina+similis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1111 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hesiospina/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1111/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [18] 22 of 30
+
+Page: [18] 23 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Heteromastus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/302 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/302/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [18] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Heteromastus+filiformis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/125 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/125/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 200 
+Page: [18] 25 of 30
+
+Page: [18] 26 of 30
+
+Page: [18] 27 of 30
+
+Page: [18] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hilbigneris+gracilis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1757 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hilbigneris/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1757/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [18] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Histriobdellidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/947 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/947/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [18] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hyalinoecia+tubicola/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1760 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hyalinoecia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1760/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=19 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [19] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hydroides/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/303 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/303/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 65 
+Page: [19] 2 of 30
+
+Page: [19] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hydroides+dianthus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/437 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/437/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 94 
+Page: [19] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hydroides+elegans/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/126 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/126/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 146 
+Page: [19] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hydroides+ezoensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1277 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1277/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 18 
+Page: [19] 6 of 30
+
+Page: [19] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hydroides+niger/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1112 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1112/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [19] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hydroides+norvegica/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/127 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/127/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 95 
+Page: [19] 9 of 30
+
+Page: [19] 10 of 30
+
+Page: [19] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hydroides+pseudouncinatus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1047 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1047/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 21 
+Page: [19] 12 of 30
+
+Page: [19] 13 of 30
+
+Page: [19] 14 of 30
+
+Page: [19] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hypereteone/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1314 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1314/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [19] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Hypereteone+heteropoda/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1315 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1315/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 18 
+Page: [19] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ikosipodus+carolensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1637 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ikosipodus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1637/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [19] 18 of 30
+
+Page: [19] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Janua/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/304 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/304/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 33 
+Page: [19] 20 of 30
+
+Page: [19] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Janua+pagenstecheri/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1278 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1278/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 33 
+Page: [19] 22 of 30
+
+Page: [19] 23 of 30
+
+Page: [19] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Jasmineira/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1113 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1113/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [19] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Jasmineira+caudata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1763 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1763/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [19] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Jasmineira+elegans/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1114 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1114/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [19] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Johnstonia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/995 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/995/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [19] 28 of 30
+
+Page: [19] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Josephella/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1410 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1410/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [19] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Josephella+marenzelleri/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1411 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1411/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 24 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=20 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [20] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Kefersteinia+cirrata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1765 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Kefersteinia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1765/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [20] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Labioleanira+yhleni/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1767 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Sigalionidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Labioleanira/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1767/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [20] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lacydonia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/443 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lacydoniidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/443/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [20] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lacydonia+miranda/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/444 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/444/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 8 
+Page: [20] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/442 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/442/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [20] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laeonereis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1471 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1471/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [20] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laeonereis+glauca/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1472 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1472/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 7 
+Page: [20] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laetmonice+filicornis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1949 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laetmonice/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1949/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 14 
+Page: [20] 9 of 30
+
+Page: [20] 10 of 30
+
+Page: [20] 11 of 30
+
+Page: [20] 12 of 30
+
+Page: [20] 13 of 30
+
+Page: [20] 14 of 30
+
+Page: [20] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lanice/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/438 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/438/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [20] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lanice+conchilega/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/439 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/439/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 66 
+Page: [20] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laonice/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/305 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/305/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 19 
+Page: [20] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laonice+cirrata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/128 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/128/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 59 
+Page: [20] 19 of 30
+
+Page: [20] 20 of 30
+
+Page: [20] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laubierpholoe+swedmarki/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1302 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pholoidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Laubierpholoe/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1302/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [20] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Leiocephalus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1001 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1001/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [20] 23 of 30
+
+Page: [20] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Leiochone/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/980 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/980/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [20] 25 of 30
+
+Page: [20] 26 of 30
+
+Page: [20] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Leiochone+leiopygos/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/981 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/981/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 22 
+Page: [20] 28 of 30
+
+Page: [20] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lepidonotus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1115 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1115/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [20] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lepidonotus+clava/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1116 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1116/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 25 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=21 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [21] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lepidonotus+tenuisetosus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1117 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1117/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [21] 2 of 30
+
+Page: [21] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Leucia+nivea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/2000 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Leucia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/2000/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [21] 4 of 30
+
+Page: [21] 5 of 30
+
+Page: [21] 6 of 30
+
+Page: [21] 7 of 30
+
+Page: [21] 8 of 30
+
+Page: [21] 9 of 30
+
+Page: [21] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Levinsenia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/459 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/459/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [21] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Levinsenia+gracilis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/460 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/460/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 25 
+Page: [21] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Linopherus+acarunculatus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1487 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Linopherus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1487/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [21] 13 of 30
+
+Page: [21] 14 of 30
+
+Page: [21] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lopadorhynchidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/950 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/950/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [21] 16 of 30
+
+Page: [21] 17 of 30
+
+Page: [21] 18 of 30
+
+Page: [21] 19 of 30
+
+Page: [21] 20 of 30
+
+Page: [21] 21 of 30
+
+Page: [21] 22 of 30
+
+Page: [21] 23 of 30
+
+Page: [21] 24 of 30
+
+Page: [21] 25 of 30
+
+Page: [21] 26 of 30
+
+Page: [21] 27 of 30
+
+Page: [21] 28 of 30
+
+Page: [21] 29 of 30
+
+Page: [21] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/360 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/360/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 43 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=22 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [22] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrinerides+amoureuxi/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1781 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrinerides/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1781/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [22] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineriopsis+paradoxa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1783 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineriopsis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1783/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [22] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/306 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/306/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 79 
+Page: [22] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+cingulata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1120 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1120/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [22] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+coccinea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1121 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1121/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [22] 6 of 30
+
+Page: [22] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+funchalensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1423 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1423/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [22] 8 of 30
+
+Page: [22] 9 of 30
+
+Page: [22] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+inflata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1354 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1354/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [22] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+januarii/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1623 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1623/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [22] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+latreilli/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/129 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/129/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 189 
+Page: [22] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+nonatoi/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1784 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1784/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [22] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+sphaerocephala/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1658 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1658/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [22] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lumbrineris+tetraura/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1624 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1624/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [22] 16 of 30
+
+Page: [22] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lygdamis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/462 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Sabellariidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/462/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [22] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lygdamis+muratus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/463 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/463/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [22] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lysidice/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1122 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1122/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [22] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lysidice+collaris/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1123 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1123/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 22 
+Page: [22] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lysidice+ninetta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1124 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1124/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 30 
+Page: [22] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Lysidice+oele/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1657 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1657/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [22] 23 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Macrochaeta+clavicornis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1786 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Macrochaeta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1786/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [22] 24 of 30
+
+Page: [22] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Magelona/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/307 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Magelonidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/307/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 58 
+Page: [22] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Magelona+alleni/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1251 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1251/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [22] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Magelona+filiformis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1250 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1250/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [22] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Magelona+minuta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1788 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1788/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 21 
+Page: [22] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Magelona+mirabilis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/130 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/130/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 73 
+Page: [22] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Magelona+sacculata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1967 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1967/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=23 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [23] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/361 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/361/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 44 
+Page: [23] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malacoceros/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/308 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/308/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [23] 3 of 30
+
+Page: [23] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malacoceros+fuliginosus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/131 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/131/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 111 
+Page: [23] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malacoceros+girardii/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/430 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/430/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [23] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Maldane+glebifex/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1793 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Maldane/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1793/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [23] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/362 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/362/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 61 
+Page: [23] 8 of 30
+
+Page: [23] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malmgreniella/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/490 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/490/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [23] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malmgreniella+castanea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1795 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1795/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [23] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malmgreniella+lilianae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1796 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1796/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [23] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malmgreniella+ljungmani/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1797 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1797/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 29 
+Page: [23] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Malmgreniella+lunulata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/491 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/491/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 98 
+Page: [23] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/445 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/445/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [23] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa+belli/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/446 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/446/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 27 
+Page: [23] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa+disjuncta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1593 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1593/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [23] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa+fallax/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1125 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1125/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [23] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa+kinbergi/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/464 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/464/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [23] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa+mullawa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1268 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1268/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [23] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa+sanguinea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1035 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1035/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 29 
+Page: [23] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Marphysa+teretiuscula/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1659 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1659/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [23] 22 of 30
+
+Page: [23] 23 of 30
+
+Page: [23] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mastobranchus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1126 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1126/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [23] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mastobranchus+trinchesii/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1127 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1127/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [23] 26 of 30
+
+Page: [23] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mediomastus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/493 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/493/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 37 
+Page: [23] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mediomastus+cirripes/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1483 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1483/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [23] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mediomastus+fragilis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1962 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1962/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 83 
+Page: [23] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Megalomma/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/309 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/309/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 19 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=24 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [24] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Megalomma+vesiculosum/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/132 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/132/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 37 
+Page: [24] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinantipoda/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1319 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1319/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [24] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinantipoda+quatredentata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1320 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1320/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [24] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinna/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/310 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/310/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 24 
+Page: [24] 5 of 30
+
+Page: [24] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinna+cristata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1321 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1321/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 36 
+Page: [24] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinna+elisabethae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1327 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1327/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 23 
+Page: [24] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinna+palmata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/133 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/133/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 155 
+Page: [24] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinnampharete/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1316 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1316/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [24] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinnampharete+septemdentata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1317 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1317/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [24] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinnexis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1330 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1330/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [24] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Melinnexis+arctica/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1331 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1331/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [24] 13 of 30
+
+Page: [24] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mesochaetopterus+sagittarius/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1799 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mesochaetopterus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1799/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [24] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mesonerilla+intermedia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1512 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Aciculata+unplaced/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nerillidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Mesonerilla/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1512/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [24] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Methanoaricia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1295 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Orbiniidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1295/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [24] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Methanoaricia+dendrobranchiata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1296 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1296/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [24] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Micromaldane/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1280 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1280/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [24] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Micromaldane+ornithochaeta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1416 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1416/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [24] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Micronereis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1128 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1128/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [24] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Micronereis+nanaimoensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1616 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1616/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [24] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Micronereis+variegata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1129 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1129/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 27 
+Page: [24] 23 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Microphthalmus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1475 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1475/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [24] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Microphthalmus+pseudoaberrans/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1476 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1476/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [24] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Microphthalmus+similis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1805 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1805/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [24] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Microrbinia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1246 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1246/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [24] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Microrbinia+linea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1247 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1247/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 14 
+Page: [24] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Microspio/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/433 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/433/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 7 
+Page: [24] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Microspio+mecznikowianus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/434 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/434/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 23 
+Page: [24] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=25 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [25] 1 of 30
+
+Page: [25] 2 of 30
+
+Page: [25] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Monticellina/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/404 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/404/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [25] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Monticellina+dorsobranchialis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/405 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/405/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [25] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Monticellina+heterochaeta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/166 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/166/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 32 
+Page: [25] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Monticellina+tesselata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1806 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1806/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [25] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myrianida/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/311 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/311/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 41 
+Page: [25] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myrianida+brachycephala/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1456 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1456/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [25] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myrianida+convoluta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1130 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1130/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [25] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myrianida+edwardsi/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1131 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1131/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [25] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myrianida+inermis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1054 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1054/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 34 
+Page: [25] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myrianida+prolifera/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1132 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1132/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 24 
+Page: [25] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myrianida+quindecimdentata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1133 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1133/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [25] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myriochele/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1807 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1807/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [25] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myriochele+heeri/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1808 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1808/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [25] 16 of 30
+
+Page: [25] 17 of 30
+
+Page: [25] 18 of 30
+
+Page: [25] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myzostoma/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1055 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myzostomidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1055/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [25] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Myzostoma+cirriferum/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1056 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1056/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [25] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/951 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/951/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [25] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nainereis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1134 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1134/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [25] 23 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Naineris/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/312 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/312/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [25] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Naineris+laevigata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/134 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/134/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 136 
+Page: [25] 25 of 30
+
+Page: [25] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nautiliniellidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/952 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/952/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [25] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/313 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/313/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 46 
+Page: [25] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+agulhana/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1136 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1136/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [25] 29 of 30
+
+Page: [25] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+articulata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1615 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1615/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=26 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [26] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+bongcoi/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1613 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1613/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [26] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+bruaca/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1626 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1626/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [26] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+caudata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/135 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/135/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 140 
+Page: [26] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+fucata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/982 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/982/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 24 
+Page: [26] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+irrorata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1281 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1281/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [26] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+japonica/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1282 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1282/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 14 
+Page: [26] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+kerguelensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1043 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1043/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [26] 8 of 30
+
+Page: [26] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neanthes+rubicunda/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/987 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/987/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 18 
+Page: [26] 10 of 30
+
+Page: [26] 11 of 30
+
+Page: [26] 12 of 30
+
+Page: [26] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nematonereis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/314 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/314/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [26] 14 of 30
+
+Page: [26] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nematonereis+unicornis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/137 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/137/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 65 
+Page: [26] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neodexiospira/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/315 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/315/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 30 
+Page: [26] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neodexiospira+alveolata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1285 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1285/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 19 
+Page: [26] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neodexiospira+brasiliensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1284 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1284/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 29 
+Page: [26] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Neodexiospira+pseudocorrugata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/177 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/177/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 40 
+Page: [26] 20 of 30
+
+Page: [26] 21 of 30
+
+Page: [26] 22 of 30
+
+Page: [26] 23 of 30
+
+Page: [26] 24 of 30
+
+Page: [26] 25 of 30
+
+Page: [26] 26 of 30
+
+Page: [26] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/363 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/363/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 59 
+Page: [26] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/316 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/316/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 49 
+Page: [26] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys+assimilis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1811 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1811/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [26] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys+caeca/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/418 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/418/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 76 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=27 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [27] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys+ciliata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1583 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1583/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [27] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys+cirrosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/419 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/419/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 45 
+Page: [27] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys+hombergii/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/138 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/138/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 227 
+Page: [27] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys+hystricis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1813 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1813/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [27] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nephtys+incisa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1565 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1565/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 7 
+Page: [27] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/364 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/364/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 76 
+Page: [27] 7 of 30
+
+Page: [27] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereimyra+punctata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1138 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereimyra/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1138/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [27] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereiphylla/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/317 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/317/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 23 
+Page: [27] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereiphylla+paretti/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/480 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/480/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 35 
+Page: [27] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereiphylla+pusilla/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/496 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/496/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 58 
+Page: [27] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereiphylla+rubiginosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/173 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/173/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 69 
+Page: [27] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/318 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/318/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 66 
+Page: [27] 14 of 30
+
+Page: [27] 15 of 30
+
+Page: [27] 16 of 30
+
+Page: [27] 17 of 30
+
+Page: [27] 18 of 30
+
+Page: [27] 19 of 30
+
+Page: [27] 20 of 30
+
+Page: [27] 21 of 30
+
+Page: [27] 22 of 30
+
+Page: [27] 23 of 30
+
+Page: [27] 24 of 30
+
+Page: [27] 25 of 30
+
+Page: [27] 26 of 30
+
+Page: [27] 27 of 30
+
+Page: [27] 28 of 30
+
+Page: [27] 29 of 30
+
+Page: [27] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=28 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [28] 1 of 30
+
+Page: [28] 2 of 30
+
+Page: [28] 3 of 30
+
+Page: [28] 4 of 30
+
+Page: [28] 5 of 30
+
+Page: [28] 6 of 30
+
+Page: [28] 7 of 30
+
+Page: [28] 8 of 30
+
+Page: [28] 9 of 30
+
+Page: [28] 10 of 30
+
+Page: [28] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+fucata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1580 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1580/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 9 
+Page: [28] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+funchalensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/986 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/986/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 19 
+Page: [28] 13 of 30
+
+Page: [28] 14 of 30
+
+Page: [28] 15 of 30
+
+Page: [28] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+grubei/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1291 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1291/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [28] 17 of 30
+
+Page: [28] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+jacksoni/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1474 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1474/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 8 
+Page: [28] 19 of 30
+
+Page: [28] 20 of 30
+
+Page: [28] 21 of 30
+
+Page: [28] 22 of 30
+
+Page: [28] 23 of 30
+
+Page: [28] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+pelagica/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1139 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1139/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 29 
+Page: [28] 25 of 30
+
+Page: [28] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+perivisceralis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1140 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1140/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [28] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+pulsatoria/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1215 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1215/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [28] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+rava/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1016 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1016/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 25 
+Page: [28] 29 of 30
+
+Page: [28] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=29 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [29] 1 of 30
+
+Page: [29] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+splendida/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1612 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1612/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [29] 3 of 30
+
+Page: [29] 4 of 30
+
+Page: [29] 5 of 30
+
+Page: [29] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+vexillosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1290 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1290/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [29] 7 of 30
+
+Page: [29] 8 of 30
+
+Page: [29] 9 of 30
+
+Page: [29] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nereis+zonata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1376 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1376/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [29] 11 of 30
+
+Page: [29] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nerilla+antennata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1293 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nerilla/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1293/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [29] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/953 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/953/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [29] 14 of 30
+
+Page: [29] 15 of 30
+
+Page: [29] 16 of 30
+
+Page: [29] 17 of 30
+
+Page: [29] 18 of 30
+
+Page: [29] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nicolea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1022 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1022/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [29] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nicolea+venustula/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1023 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1023/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 44 
+Page: [29] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nicolea+zostericola/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1243 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1243/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 9 
+Page: [29] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nicomache/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1814 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1814/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [29] 23 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ninoe/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/465 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/465/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 8 
+Page: [29] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ninoe+armoricana/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/466 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/466/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [29] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nothria+conchylega/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1817 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nothria/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1817/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [29] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Notomastus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/319 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/319/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 19 
+Page: [29] 27 of 30
+
+Page: [29] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Notomastus+aberans/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1141 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1141/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [29] 29 of 30
+
+Page: [29] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=30 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [30] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Notomastus+formianus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1560 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1560/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [30] 2 of 30
+
+Page: [30] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Notomastus+latericeus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/139 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/139/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 171 
+Page: [30] 4 of 30
+
+Page: [30] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nudisyllis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1142 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1142/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [30] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nudisyllis+divaricata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1143 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1143/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [30] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Nudisyllis+pulligera/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1468 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1468/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [30] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Odontosyllis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1144 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1144/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [30] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Odontosyllis+ctenostoma/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1145 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1145/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 24 
+Page: [30] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Odontosyllis+fulgurans/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1146 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1146/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [30] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Odontosyllis+gibba/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1147 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1147/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [30] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/365 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/365/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 26 
+Page: [30] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/955 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/955/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [30] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Onuphis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1821 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1821/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [30] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophelia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1352 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1352/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [30] 16 of 30
+
+Page: [30] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophelia+verrilli/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1353 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1353/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [30] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/366 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/366/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 57 
+Page: [30] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophelina/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/320 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/320/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [30] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/183 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/183/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 50 
+Page: [30] 21 of 30
+
+Page: [30] 22 of 30
+
+Page: [30] 23 of 30
+
+Page: [30] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophryotrocha/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1266 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1266/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 22 
+Page: [30] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophryotrocha+diadema/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/2011 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/2011/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [30] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophryotrocha+labronica/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1498 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1498/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [30] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophryotrocha+puerilis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1632 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1632/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [30] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Ophryotrocha+vivipara/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1635 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1635/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [30] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Opisthosyllis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1148 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1148/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [30] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Opisthosyllis+brunnea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1149 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1149/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=31 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [31] 1 of 30
+
+Page: [31] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Orbinia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/424 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/424/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [31] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Orbinia+latreillii/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/425 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/425/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 14 
+Page: [31] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/367 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/367/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 60 
+Page: [31] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oriopsis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1413 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1413/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [31] 6 of 30
+
+Page: [31] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oriopsis+eimeri/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1556 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1556/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [31] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oriopsis+eimeri+persinosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1535 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1535/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [31] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Owenia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/322 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/322/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [31] 10 of 30
+
+Page: [31] 11 of 30
+
+Page: [31] 12 of 30
+
+Page: [31] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/142 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/142/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 252 
+Page: [31] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/368 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/368/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 39 
+Page: [31] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oxydromus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/321 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/321/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 24 
+Page: [31] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oxydromus+flexuosus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/140 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/140/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 100 
+Page: [31] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oxydromus+obscurus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1294 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1294/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [31] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oxydromus+pallidus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/141 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/141/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 41 
+Page: [31] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Oxydromus+pugettensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1276 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1276/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [31] 20 of 30
+
+Page: [31] 21 of 30
+
+Page: [31] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paleanotus+chrysolepis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1151 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paleanotus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1151/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [31] 23 of 30
+
+Page: [31] 24 of 30
+
+Page: [31] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Palola/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1424 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1424/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/traits/1424/json/?verbose=1&assoc=1): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [142]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [142]]<br>
+
+Page: [31] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Palola+siciliensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Palola+siciliensis/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [31] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Palola+viridis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Palola+viridis/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [31] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paradialychone+filicaudata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Paradialychone+filicaudata/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [31] 29 of 30
+
+Page: [31] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paradoneis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/323 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/323/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=32 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [32] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paradoneis+armata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/143 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/143/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 72 
+Page: [32] 2 of 30
+
+Page: [32] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paradoneis+lyra/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/478 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/478/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 91 
+Page: [32] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paraehlersia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1152 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1152/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [32] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paraehlersia+ferrugina/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1153 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1153/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [32] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paralacydonia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/472 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paralacydoniidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/472/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [32] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paralacydonia+paradoxa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/473 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/473/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [32] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/471 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/471/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 8 
+Page: [32] 9 of 30
+
+Page: [32] 10 of 30
+
+Page: [32] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/369 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/369/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 41 
+Page: [32] 12 of 30
+
+Page: [32] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paraonis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/388 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/388/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [32] 14 of 30
+
+Page: [32] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paraonis+fulgens/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1343 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1343/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 50 
+Page: [32] 16 of 30
+
+Page: [32] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/400/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/400 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [32] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Parapionosyllis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1154 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1154/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [32] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Parapionosyllis+brevicirra/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1155 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1155/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [32] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Parapionosyllis+elegans/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1400 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1400/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [32] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Parapionosyllis+minuta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1401 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1401/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [32] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paraprionospio+pinnata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1611 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Paraprionospio/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1611/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [32] 23 of 30
+
+Page: [32] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Parergodrilidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/965 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/965/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [32] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pectinaria/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/324 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/324/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [32] 26 of 30
+
+Page: [32] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pectinaria+gouldii/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1663 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1663/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [32] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pectinaria+koreni/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/145 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/145/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 218 
+Page: [32] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/370 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/370/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 34 
+Page: [32] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Peresiella/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/325 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/325/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 25 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=33 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [33] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Peresiella+clymenoides/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/474 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/474/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 12 
+Page: [33] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Perinereis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/326 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/326/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 24 
+Page: [33] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Perinereis+brevicirris/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1299 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1299/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [33] 4 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Perinereis+cultrifera/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/146 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/146/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 197 
+Page: [33] 5 of 30
+
+Page: [33] 6 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Perinereis+macropus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/171 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/171/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 38 
+Page: [33] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Perinereis+marioni/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1519 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1519/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 7 
+Page: [33] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pettiboneia+australiensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/2012 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pettiboneia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/2012/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [33] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pherusa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/327 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/327/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 22 
+Page: [33] 10 of 30
+
+Page: [33] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pherusa+monilifera/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/164 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/164/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 15 
+Page: [33] 12 of 30
+
+Page: [33] 13 of 30
+
+Page: [33] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pherusa+plumosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/165 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/165/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 63 
+Page: [33] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pholoe/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1018 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1018/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [33] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pholoe+inornata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1019 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1019/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [33] 17 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pholoe+minuta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1300 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1300/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 11 
+Page: [33] 18 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/956 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/956/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [33] 19 of 30
+
+Page: [33] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllochaetopterus+socialis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1843 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllochaetopterus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1843/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [33] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllochaetopterus+verrilli/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/2010 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/2010/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [33] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/328 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/328/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 26 
+Page: [33] 23 of 30
+
+Page: [33] 24 of 30
+
+Page: [33] 25 of 30
+
+Page: [33] 26 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+groenlandica/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1669 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1669/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [33] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+laminosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1845 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1845/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [33] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+lineata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1846 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1846/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [33] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+longifrons/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1489 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1489/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 8 
+Page: [33] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+maculata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1668 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1668/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=34 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [34] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+madeirensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1381 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1381/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 8 
+Page: [34] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+mucosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/147 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/147/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 142 
+Page: [34] 3 of 30
+
+Page: [34] 4 of 30
+
+Page: [34] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phyllodoce+rosea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1046 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1046/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [34] 6 of 30
+
+Page: [34] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/371 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/371/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 60 
+Page: [34] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phylo/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/329 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/329/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [34] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Phylo+foetida/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/148 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/148/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 32 
+Page: [34] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/957 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/957/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [34] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pilargis+verrucosa/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1848 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pilargis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1848/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [34] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pileolaria/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1369 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1369/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 17 
+Page: [34] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pileolaria+heteropoma/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1421 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1421/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 19 
+Page: [34] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pileolaria+laevis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1422 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1422/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 19 
+Page: [34] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pileolaria+militaris/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1370 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1370/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 22 
+Page: [34] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pionosyllis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1466 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1466/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 5 
+Page: [34] 17 of 30
+
+Page: [34] 18 of 30
+
+Page: [34] 19 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pirakia/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1159 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1159/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 13 
+Page: [34] 20 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pirakia+punctifera/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1160 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1160/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 16 
+Page: [34] 21 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pisione+remota/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1305 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pisione/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1305/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 4 
+Page: [34] 22 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pisionidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/958 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/958/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 6 
+Page: [34] 23 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pista/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1161 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1161/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [34] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pista+cretacea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1508 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1508/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [34] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pista+cristata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1408 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1408/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 3 
+Page: [34] 26 of 30
+
+Page: [34] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Pista+lornensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1162 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1162/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 2 
+Page: [34] 28 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Plakosyllis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1163 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1163/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [34] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Plakosyllis+brevipes/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1164 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1164/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 10 
+Page: [34] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Platynereis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/330 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/330/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 29 Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=35 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [35] 1 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Platynereis+bicanaliculata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1648 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1648/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 1 
+Page: [35] 2 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Platynereis+coccinea/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/985 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/985/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 20 
+Page: [35] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Platynereis+dumerilii/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/149 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/149/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 339 
+Page: [35] 4 of 30
+
+Page: [35] 5 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Platynereis+massiliensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1288 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/1288/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 23 
+Page: [35] 6 of 30
+
+Page: [35] 7 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Podarkeopsis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/411 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/411/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+
+Traits: 7 
+Page: [35] 8 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Podarkeopsis+capensis/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/412 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/traits/412/json/?verbose=1&assoc=1 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/traits/412/json/?verbose=1&assoc=1): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [142]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [142]]<br>
+
+Page: [35] 9 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Poecilochaetidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Poecilochaetidae/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 10 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Poecilochaetus+serpens/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Poecilochaetus+serpens/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 11 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Poeobiidae/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Poeobiidae/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 12 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polycirrus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polycirrus/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 13 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polycirrus+caliendrum/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polycirrus+caliendrum/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 14 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polycirrus+haematodes/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polycirrus+haematodes/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 15 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polycirrus+plumosus/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polycirrus+plumosus/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 16 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polydora/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polydora/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 17 of 30
+
+Page: [35] 18 of 30
+
+Page: [35] 19 of 30
+
+Page: [35] 20 of 30
+
+Page: [35] 21 of 30
+
+Page: [35] 22 of 30
+
+Page: [35] 23 of 30
+
+Page: [35] 24 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polydora+ciliata/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polydora+ciliata/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 25 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polydora+cornuta/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polydora+cornuta/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 26 of 30
+
+Page: [35] 27 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polydora+flava/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polydora+flava/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 28 of 30
+
+Page: [35] 29 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polydora+hoplura/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://polytraits.lifewatchgreece.eu/taxon/Polydora+hoplura/json/?exact=1&verbose=1&assoc=0): Could not resolve host: polytraits.lifewatchgreece.eu :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 1 seconds :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+failed download file after 1 attempts :: [lib/connectors/PolytraitsNewAPI.php [359]]<br>
+Warning: Attempt to read property "taxonID" on null in /var/www/html/eol_php8_code/lib/connectors/PolytraitsNewAPI.php on line 131
+
+Page: [35] 30 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/traitspublic_taxa.php?pageID=36 : only attempt :: [lib/Functions.php [148]]<br>
+
+Page: [36] 1 of 30
+
+Page: [36] 2 of 30
+
+Page: [36] 3 of 30
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polydora+rickettsi/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxonpage/1617 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://polytraits.lifewatchgreece.eu/taxon/Polydora/json/?exact=1&verbose=1&assoc=0 : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

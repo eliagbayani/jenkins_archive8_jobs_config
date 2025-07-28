@@ -1,0 +1,77 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0368) Paleobiology Database
+[(0368) Paleobiology Database] $ /bin/sh -xe /jenkins_tmp/jenkins2978922023739591431.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php pbdb_fresh_harvest.php jenkins
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_90012.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_90012.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [update_resources/connectors/pbdb_fresh_harvest.php [228]]<br>
+
+remapped_terms: 257
+
+
+ Saving remote file: http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_29356.file.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+Sending get request to http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_29356.file.xlsx]
+
+
+ Saving remote file: http://host.docker.internal:81/cp/PaleoDB/TRAM-746/alltaxa.json :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_18777.file :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+ - 10000 
+ - 20000 
+ - 30000 
+ - 40000 
+ - 50000 
+ - 60000 
+ - 70000 
+ - 80000 
+ - 90000 
+ - 100000 
+ - 110000 
+ - 120000 
+ - 130000 
+ - 140000 
+ - 150000 
+ - 160000 
+ - 170000 
+ - 180000 
+ - 190000 
+ - 200000 
+ - 210000 
+ - 220000 
+ - 230000 
+ - 240000 
+ - 250000 
+ - 260000 
+ - 270000 
+ - 280000 
+ - 290000 
+ - 300000 
+ - 310000 
+ - 320000 
+ - 330000 
+ - 340000 
+ - 350000 
+ - 360000 
+ - 370000 Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/PaleoDBAPI_v2.php on line 745
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

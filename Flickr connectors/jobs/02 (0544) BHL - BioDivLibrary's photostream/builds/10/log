@@ -1,0 +1,671 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/(0544) BHL - BioDivLibrary's photostream
+[(0544) BHL - BioDivLibrary's photostream] $ /bin/sh -xe /jenkins_tmp/jenkins601259293743958312.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 544.php jenkins
+Current PHP version: 8.2.28<br>
+ count: 186
+ count: 372
+
+ From: 2010-01-01 To: 2010-01-31
+
+total_pages = [0] 0
+
+
+ From: 2010-02-01 To: 2010-02-31
+
+total_pages = [0] 0
+
+
+ From: 2010-03-01 To: 2010-03-31
+
+total_pages = [0] 0
+
+
+ From: 2010-04-01 To: 2010-04-31
+
+total_pages = [0] 0
+
+
+ From: 2010-05-01 To: 2010-05-31
+
+total_pages = [0] 0
+
+
+ From: 2010-06-01 To: 2010-06-31
+
+total_pages = [0] 0
+
+
+ From: 2010-07-01 To: 2010-07-31
+
+total_pages = [0] 0
+
+
+ From: 2010-08-01 To: 2010-08-31
+
+total_pages = [0] 0
+
+
+ From: 2010-09-01 To: 2010-09-31
+
+total_pages = [0] 0
+
+
+ From: 2010-10-01 To: 2010-10-31
+
+total_pages = [0] 0
+
+
+ From: 2010-11-01 To: 2010-11-31
+
+total_pages = [0] 0
+
+
+ From: 2010-12-01 To: 2010-12-31
+
+total_pages = [0] 0
+
+
+ From: 2011-01-01 To: 2011-01-31
+
+total_pages = [0] 0
+
+
+ From: 2011-02-01 To: 2011-02-31
+
+total_pages = [0] 0
+
+
+ From: 2011-03-01 To: 2011-03-31
+
+total_pages = [3] 1
+getting page 1: 0.875102
+
+ page 1 of 1 | total taxa =  3 | 544 
+
+ -- response photos count per page: 3
+
+
+ From: 2011-04-01 To: 2011-04-31
+
+total_pages = [19] 1
+getting page 1: 0.88312
+
+ page 1 of 1 | total taxa =  19 | 544 
+
+ -- response photos count per page: 19
+
+
+ From: 2011-05-01 To: 2011-05-31
+
+total_pages = [12] 1
+getting page 1: 0.886269
+
+ page 1 of 1 | total taxa =  12 | 544 
+
+ -- response photos count per page: 12
+
+
+ From: 2011-06-01 To: 2011-06-31
+
+total_pages = [23] 1
+getting page 1: 0.888999
+
+ page 1 of 1 | total taxa =  23 | 544 
+
+ -- response photos count per page: 23
+
+
+ From: 2011-07-01 To: 2011-07-31
+
+total_pages = [1781] 4
+getting page 1: 0.891767
+
+ page 1 of 4 | total taxa =  1781 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 0.894756
+
+ page 2 of 4 | total taxa =  1781 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 0.897477
+
+ page 3 of 4 | total taxa =  1781 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2011-08-01 To: 2011-08-31
+
+total_pages = [9112] 19
+getting page 1: 0.900569
+
+ page 1 of 19 | total taxa =  9112 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 0.902982
+
+ page 2 of 19 | total taxa =  9112 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 0.905259
+
+ page 3 of 19 | total taxa =  9112 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2011-09-01 To: 2011-09-31
+
+total_pages = [2732] 6
+getting page 1: 1.742909
+
+ page 1 of 6 | total taxa =  2732 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 7.768931
+
+ page 2 of 6 | total taxa =  2732 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 15.773645
+
+ page 3 of 6 | total taxa =  2732 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2011-10-01 To: 2011-10-31
+
+total_pages = [4003] 9
+getting page 1: 22.152006
+
+ page 1 of 9 | total taxa =  4003 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 29.731482
+
+ page 2 of 9 | total taxa =  4003 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 37.615453
+
+ page 3 of 9 | total taxa =  4003 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2011-11-01 To: 2011-11-31
+
+total_pages = [3418] 7
+getting page 1: 44.475351
+
+ page 1 of 7 | total taxa =  3418 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 48.878206
+
+ page 2 of 7 | total taxa =  3418 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 52.667953
+
+ page 3 of 7 | total taxa =  3418 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2011-12-01 To: 2011-12-31
+
+total_pages = [988] 2
+getting page 1: 57.170439
+
+ page 1 of 2 | total taxa =  988 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 63.117078
+
+ page 2 of 2 | total taxa =  988 | 544 
+
+ -- response photos count per page: 488
+
+
+ From: 2012-01-01 To: 2012-01-31
+
+total_pages = [501] 2
+getting page 1: 68.841611
+
+ page 1 of 2 | total taxa =  501 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 76.640718
+
+ page 2 of 2 | total taxa =  501 | 544 
+
+ -- response photos count per page: 1
+
+
+ From: 2012-02-01 To: 2012-02-31
+
+total_pages = [1222] 3
+getting page 1: 81.740218
+
+ page 1 of 3 | total taxa =  1222 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 86.013453
+
+ page 2 of 3 | total taxa =  1222 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 89.761084
+
+ page 3 of 3 | total taxa =  1222 | 544 
+
+ -- response photos count per page: 222
+
+
+ From: 2012-03-01 To: 2012-03-31
+
+total_pages = [1898] 4
+getting page 1: 93.814597
+
+ page 1 of 4 | total taxa =  1898 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 101.592373
+
+ page 2 of 4 | total taxa =  1898 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 108.830451
+
+ page 3 of 4 | total taxa =  1898 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-04-01 To: 2012-04-31
+
+total_pages = [3404] 7
+getting page 1: 118.544257
+
+ page 1 of 7 | total taxa =  3404 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 122.694809
+
+ page 2 of 7 | total taxa =  3404 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 131.348674
+
+ page 3 of 7 | total taxa =  3404 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-05-01 To: 2012-05-31
+
+total_pages = [2795] 6
+getting page 1: 136.782082
+
+ page 1 of 6 | total taxa =  2795 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 141.245982
+
+ page 2 of 6 | total taxa =  2795 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 144.72581
+
+ page 3 of 6 | total taxa =  2795 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-06-01 To: 2012-06-31
+
+total_pages = [3140] 7
+getting page 1: 149.735808
+
+ page 1 of 7 | total taxa =  3140 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 153.509991
+
+ page 2 of 7 | total taxa =  3140 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 157.732717
+
+ page 3 of 7 | total taxa =  3140 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-07-01 To: 2012-07-31
+
+total_pages = [2067] 5
+getting page 1: 162.053827
+
+ page 1 of 5 | total taxa =  2067 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 166.074984
+
+ page 2 of 5 | total taxa =  2067 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 171.735756
+
+ page 3 of 5 | total taxa =  2067 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-08-01 To: 2012-08-31
+
+total_pages = [4627] 10
+getting page 1: 196.538479
+
+ page 1 of 10 | total taxa =  4627 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 200.944723
+
+ page 2 of 10 | total taxa =  4627 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 206.191261
+
+ page 3 of 10 | total taxa =  4627 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-09-01 To: 2012-09-31
+
+total_pages = [2576] 6
+getting page 1: 210.298414
+
+ page 1 of 6 | total taxa =  2576 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 214.667967
+
+ page 2 of 6 | total taxa =  2576 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 218.599866
+
+ page 3 of 6 | total taxa =  2576 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-10-01 To: 2012-10-31
+
+total_pages = [2697] 6
+getting page 1: 224.802731
+
+ page 1 of 6 | total taxa =  2697 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 230.421223
+
+ page 2 of 6 | total taxa =  2697 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 235.371227
+
+ page 3 of 6 | total taxa =  2697 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-11-01 To: 2012-11-31
+
+total_pages = [4951] 10
+getting page 1: 243.760201
+
+ page 1 of 10 | total taxa =  4951 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 252.023431
+
+ page 2 of 10 | total taxa =  4951 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 256.32061
+
+ page 3 of 10 | total taxa =  4951 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2012-12-01 To: 2012-12-31
+
+total_pages = [3420] 7
+getting page 1: 261.924041
+
+ page 1 of 7 | total taxa =  3420 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 265.261892
+
+ page 2 of 7 | total taxa =  3420 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 274.983695
+
+ page 3 of 7 | total taxa =  3420 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2013-01-01 To: 2013-01-31
+
+total_pages = [5329] 11
+getting page 1: 279.839224
+
+ page 1 of 11 | total taxa =  5329 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 284.336407
+
+ page 2 of 11 | total taxa =  5329 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 289.321019
+
+ page 3 of 11 | total taxa =  5329 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2013-02-01 To: 2013-02-31
+
+total_pages = [3117] 7
+getting page 1: 293.376671
+
+ page 1 of 7 | total taxa =  3117 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 297.529282
+
+ page 2 of 7 | total taxa =  3117 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 301.753789
+
+ page 3 of 7 | total taxa =  3117 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2013-03-01 To: 2013-03-31
+
+total_pages = [5556] 12
+getting page 1: 310.467722
+
+ page 1 of 12 | total taxa =  5556 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 314.349974
+
+ page 2 of 12 | total taxa =  5556 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 317.975294
+
+ page 3 of 12 | total taxa =  5556 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2013-04-01 To: 2013-04-31
+
+total_pages = [1543] 4
+getting page 1: 325.56243
+
+ page 1 of 4 | total taxa =  1543 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 331.818788
+
+ page 2 of 4 | total taxa =  1543 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 336.36672
+
+ page 3 of 4 | total taxa =  1543 | 544 
+
+ -- response photos count per page: 500
+
+
+ From: 2013-05-01 To: 2013-05-31
+
+total_pages = [1023] 3
+getting page 1: 344.166407
+
+ page 1 of 3 | total taxa =  1023 | 544 
+
+ -- response photos count per page: 500
+getting page 2: 349.324423
+
+ page 2 of 3 | total taxa =  1023 | 544 
+
+ -- response photos count per page: 500
+getting page 3: 356.18612
+
+ page 3 of 3 | total taxa =  1023 | 544 
+
+ -- response photos count per page: 23
+
+Start: remove_bhl_images_already_existing_in_eol_group...
+
+
+ from text file: 7160
+
+ occurrence do_ids: 10
+
+ deleted <dataObject>s: 6
+
+ deleted unique do_ids: 6
+End: remove_bhl_images_already_existing_in_eol_group
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//544_working/]
+
+Reading file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_24006.file.xml]...
+
+Succesfully deleted [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_24006.file.xml]
+
+total rows: 4
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+----------Checking unique IDs [544]...----------
+
+goes here aaa
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://eol.org/schema/agent/agent
+)
+Array
+(
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://eol.org/schema/agent/agent
+)
+
+ document  -- OK
+
+ taxon  -- OK
+
+ agent  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//544_working/]
+
+doing this: convert_archive_normalized()
+
+1 of 3
+
+2 of 3
+
+ start taxa count: 4
+ end taxa count: 4
+3 of 3
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_24636/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+----------Checking unique IDs [544]...----------
+
+goes here aaa
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://eol.org/schema/agent/agent
+)
+Array
+(
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://eol.org/schema/agent/agent
+)
+
+ document  -- OK
+
+ taxon  -- OK
+
+ agent  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 368.31 seconds 
+elapsed time = 6.14 minutes 
+elapsed time = 0.1 hours 
+
+Done processing.
+
+File permission update: [1] OK
+Finished: SUCCESS

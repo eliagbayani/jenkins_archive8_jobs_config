@@ -1,0 +1,575 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/Smithsonian Wild Flickr (static)
+[Smithsonian Wild Flickr (static)] $ /bin/sh -xe /jenkins_tmp/jenkins2712294763104098509.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 650.php jenkins
+Current PHP version: 8.2.28<br>Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.auth.checkToken&auth_token=&api_sig=f86ecd217619b7719f9be8e7f6725cb2 : only attempt :: [lib/Functions.php [218]]<br>
+
+ count: 294
+ count: 573
+
+ From: 2001-01-01 To: 2001-01-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=978325200&max_taken_date=980917200&format=json&nojsoncallback=1&api_sig=dccfaeaf3aba9fecd0ab54a4f2052e64 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2001-02-01 To: 2001-02-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=981003600&max_taken_date=983595600&format=json&nojsoncallback=1&api_sig=9db22e0ad2603c75ae953d350a55a9f8 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2001-03-01 To: 2001-03-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=983422800&max_taken_date=986014800&format=json&nojsoncallback=1&api_sig=d25d8e452ffcf0a41f15ddb3f34a92e7 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2001-04-01 To: 2001-04-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=986101200&max_taken_date=988689600&format=json&nojsoncallback=1&api_sig=8de6ebde416f75f9ad252a05fa791099 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2001-05-01 To: 2001-05-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=988689600&max_taken_date=991281600&format=json&nojsoncallback=1&api_sig=629317889c2c266671580aac3005ce04 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2001-06-01 To: 2001-06-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=991368000&max_taken_date=993960000&format=json&nojsoncallback=1&api_sig=7368288fad926d6a82dff01c5cc0da60 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [44] 1
+getting page 1: 5.945773
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=991368000&max_taken_date=993960000&format=json&nojsoncallback=1&api_sig=befdd5f684b5ec6d2749db9663451a90 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  44 | 650 
+
+ -- response photos count per page: 44
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176658279&secret=8128945983&format=json&nojsoncallback=1&api_sig=1a440baabce3d2c980331e7531ec7b26 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176658279&format=json&nojsoncallback=1&api_sig=b1b325a6c3b2d5fab3fa78f0590593f5 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177261214&secret=679e804eaa&format=json&nojsoncallback=1&api_sig=9c4e5d303c61c1cf186fa37531a0b888 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177261214&format=json&nojsoncallback=1&api_sig=9657f3081bff1a2d4e8d33131e7b3605 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2001-07-01 To: 2001-07-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=993960000&max_taken_date=996552000&format=json&nojsoncallback=1&api_sig=bcf7438274570ba91dd39edeb3231def : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [20] 1
+getting page 1: 12.275415
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=993960000&max_taken_date=996552000&format=json&nojsoncallback=1&api_sig=06c7f9773403e2c5d0fd51cd50f8e854 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  20 | 650 
+
+ -- response photos count per page: 20
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176679583&secret=979b448eaa&format=json&nojsoncallback=1&api_sig=56c506d5ddeab129f7a06ac0aec30792 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176679583&format=json&nojsoncallback=1&api_sig=0486e8c81467144003f5b7f633b52d23 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2001-08-01 To: 2001-08-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=996638400&max_taken_date=999230400&format=json&nojsoncallback=1&api_sig=1efebce026e483d0a22caaed78a1928b : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [46] 1
+getting page 1: 16.544047
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=996638400&max_taken_date=999230400&format=json&nojsoncallback=1&api_sig=c5521441e1948a48e582f25d22b7ffec : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  46 | 650 
+
+ -- response photos count per page: 46
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176653745&secret=5639fdca37&format=json&nojsoncallback=1&api_sig=7f0b098020a2624fcbf7c72a04937392 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176653745&format=json&nojsoncallback=1&api_sig=200185774bb10a9daa79f2e53ba0d1b1 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2001-09-01 To: 2001-09-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=999316800&max_taken_date=1001908800&format=json&nojsoncallback=1&api_sig=5a338dcea34bbdff0b74a7c32d123737 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [40] 1
+getting page 1: 20.094306
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=999316800&max_taken_date=1001908800&format=json&nojsoncallback=1&api_sig=3d2cf007e769419ed970834f7c165ad8 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  40 | 650 
+
+ -- response photos count per page: 40
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176695899&secret=98bf3b61c3&format=json&nojsoncallback=1&api_sig=d58f10064b25568418a9cd699f768ae2 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176695899&format=json&nojsoncallback=1&api_sig=9415bf722fb831bcaf35b94326e76c75 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2001-10-01 To: 2001-10-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1001908800&max_taken_date=1004504400&format=json&nojsoncallback=1&api_sig=c837e9a0dc02ddd7025583726c19b639 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2001-11-01 To: 2001-11-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1004590800&max_taken_date=1007182800&format=json&nojsoncallback=1&api_sig=a2e8f6e0ffd53019a3119180e5614540 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2001-12-01 To: 2001-12-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1007182800&max_taken_date=1009774800&format=json&nojsoncallback=1&api_sig=5c4d1f37d088a560b4f792c40b69f0d5 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2002-01-01 To: 2002-01-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1009861200&max_taken_date=1012453200&format=json&nojsoncallback=1&api_sig=335151c9da6786c081e8398c3875b5e7 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2002-02-01 To: 2002-02-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1012539600&max_taken_date=1015131600&format=json&nojsoncallback=1&api_sig=1e032a33905897a736f7670d835a1618 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2002-03-01 To: 2002-03-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1014958800&max_taken_date=1017550800&format=json&nojsoncallback=1&api_sig=4726bfa6bf9b1c6eebe1c24ddf472dc8 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2002-04-01 To: 2002-04-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1017637200&max_taken_date=1020225600&format=json&nojsoncallback=1&api_sig=12587b38a061885fbfe9d32a12d5f4d8 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2002-05-01 To: 2002-05-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1020225600&max_taken_date=1022817600&format=json&nojsoncallback=1&api_sig=fde9f39ff285441c06941ed06727f225 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2002-06-01 To: 2002-06-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1022904000&max_taken_date=1025496000&format=json&nojsoncallback=1&api_sig=16388ff32f125b4670db67cd6322bc9e : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [59] 1
+getting page 1: 31.063088
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1022904000&max_taken_date=1025496000&format=json&nojsoncallback=1&api_sig=9f5842ca79d0c8930fce79fcd3874836 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  59 | 650 
+
+ -- response photos count per page: 59
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177280340&secret=783051c675&format=json&nojsoncallback=1&api_sig=9954a55292b0294e500dbccd968aca3c : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177280340&format=json&nojsoncallback=1&api_sig=4603e920d639ef8810347a85423da0d2 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2002-07-01 To: 2002-07-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1025496000&max_taken_date=1028088000&format=json&nojsoncallback=1&api_sig=cde1d70dba51d1f4de59a4d2cb4e899a : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [60] 1
+getting page 1: 34.723198
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1025496000&max_taken_date=1028088000&format=json&nojsoncallback=1&api_sig=0a37eabaf5c01c6a03962feddf387a79 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  60 | 650 
+
+ -- response photos count per page: 60
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177305014&secret=ac259e22d0&format=json&nojsoncallback=1&api_sig=b61f38d0f84b407dc8b6fb5654f5b0ab : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177305014&format=json&nojsoncallback=1&api_sig=dae5111d8ab82519ba282688347f30ae : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2002-08-01 To: 2002-08-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1028174400&max_taken_date=1030766400&format=json&nojsoncallback=1&api_sig=79a907fc02d99fd46a4f81dcaf3fa02b : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [50] 1
+getting page 1: 38.098164
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1028174400&max_taken_date=1030766400&format=json&nojsoncallback=1&api_sig=d9eedf36b3e7e2c80a4747f08398ed59 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  50 | 650 
+
+ -- response photos count per page: 50
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177279948&secret=bd62d22ab8&format=json&nojsoncallback=1&api_sig=f1e75602d207635c0be87f0404fce0aa : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177279948&format=json&nojsoncallback=1&api_sig=e754f3550fb137b7a588dd6cf70b6d38 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2002-09-01 To: 2002-09-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1030852800&max_taken_date=1033444800&format=json&nojsoncallback=1&api_sig=0a26bc89aff083376ca7d8cf2b413e9d : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [20] 1
+getting page 1: 41.475689
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1030852800&max_taken_date=1033444800&format=json&nojsoncallback=1&api_sig=18cc090aee1e8ce017f03c2f9ba44193 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  20 | 650 
+
+ -- response photos count per page: 20
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177296926&secret=ed0fc17721&format=json&nojsoncallback=1&api_sig=595dad57264eb12c1be41ed22c655b9b : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177296926&format=json&nojsoncallback=1&api_sig=58ccac8d6ba73e78c925565c938b5178 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2002-10-01 To: 2002-10-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1033444800&max_taken_date=1036040400&format=json&nojsoncallback=1&api_sig=3d8d735371f47723a7c253f3b780acaa : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [11] 1
+getting page 1: 44.676532
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1033444800&max_taken_date=1036040400&format=json&nojsoncallback=1&api_sig=9e1c660b159ae9e33dd7a4dc83d5f77a : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  11 | 650 
+
+ -- response photos count per page: 11
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177260896&secret=63128bb6e8&format=json&nojsoncallback=1&api_sig=cee7062eb1550688909687f47d3cfd25 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177260896&format=json&nojsoncallback=1&api_sig=30b957e29f6ccd168005f00430246fde : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2002-11-01 To: 2002-11-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1036126800&max_taken_date=1038718800&format=json&nojsoncallback=1&api_sig=9a7e3dffcd23204d0a025b94cac696d9 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [6] 1
+getting page 1: 48.418128
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1036126800&max_taken_date=1038718800&format=json&nojsoncallback=1&api_sig=16d1bf3fc7d16fe0c98b8d0f98ac8569 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  6 | 650 
+
+ -- response photos count per page: 6
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177261086&secret=0f9ecce332&format=json&nojsoncallback=1&api_sig=6ba10a564fc2c956d1146258f2fb0b58 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177261086&format=json&nojsoncallback=1&api_sig=fb896d61bc9e6b6b55dfd02bbd16b300 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2002-12-01 To: 2002-12-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1038718800&max_taken_date=1041310800&format=json&nojsoncallback=1&api_sig=06aab1f8b3d940cd03143af93b64d5cd : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-01-01 To: 2003-01-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1041397200&max_taken_date=1043989200&format=json&nojsoncallback=1&api_sig=266f922e95735ff6f35cdd9320e6e59b : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-02-01 To: 2003-02-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1044075600&max_taken_date=1046667600&format=json&nojsoncallback=1&api_sig=4a81929eec66757d6f05ae6836c70d1a : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-03-01 To: 2003-03-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1046494800&max_taken_date=1049086800&format=json&nojsoncallback=1&api_sig=211c2a0abfbaa151189e7073f6db6da4 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-04-01 To: 2003-04-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1049173200&max_taken_date=1051761600&format=json&nojsoncallback=1&api_sig=9ea643ab9e9b9b0e6014204e8f46fc3c : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-05-01 To: 2003-05-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1051761600&max_taken_date=1054353600&format=json&nojsoncallback=1&api_sig=d3a8c67444dfe478f547399079808fd2 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-06-01 To: 2003-06-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1054440000&max_taken_date=1057032000&format=json&nojsoncallback=1&api_sig=1573df309b6763878a50694b4c8521bf : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-07-01 To: 2003-07-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1057032000&max_taken_date=1059624000&format=json&nojsoncallback=1&api_sig=9b044b3a1f612a9bc3d5ceec4dc6f6b4 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-08-01 To: 2003-08-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1059710400&max_taken_date=1062302400&format=json&nojsoncallback=1&api_sig=e2943f10a24cf608eb40b1867e456cc1 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-09-01 To: 2003-09-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1062388800&max_taken_date=1064980800&format=json&nojsoncallback=1&api_sig=32eccaf40c281cf851a0dff6223f3a2c : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [0] 0
+
+
+ From: 2003-10-01 To: 2003-10-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1064980800&max_taken_date=1067576400&format=json&nojsoncallback=1&api_sig=b575b18c0bba9b760362bf4e2228e76b : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [18] 1
+getting page 1: 59.574053
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1064980800&max_taken_date=1067576400&format=json&nojsoncallback=1&api_sig=1ab9577002f24a3f66389a583e09c902 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  18 | 650 
+
+ -- response photos count per page: 18
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176428703&secret=5df082c609&format=json&nojsoncallback=1&api_sig=1f33a478ee4e1d24c98a13a41adc3d65 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176428703&format=json&nojsoncallback=1&api_sig=05d3ed53048aae7ab08f0158e13f34a8 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2003-11-01 To: 2003-11-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1067662800&max_taken_date=1070254800&format=json&nojsoncallback=1&api_sig=01c85d6d857bd1635cb88dd70721e37e : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [8] 1
+getting page 1: 62.802896
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1067662800&max_taken_date=1070254800&format=json&nojsoncallback=1&api_sig=2bedd7b0d8c5d5526d24516b3c75c426 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  8 | 650 
+
+ -- response photos count per page: 8
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176436691&secret=0930a6c427&format=json&nojsoncallback=1&api_sig=810767d66940664a913d3ebd626219c6 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176436691&format=json&nojsoncallback=1&api_sig=83e81b05a8e7c831960b727fef708c9d : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2003-12-01 To: 2003-12-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1070254800&max_taken_date=1072846800&format=json&nojsoncallback=1&api_sig=08ecd81bfee5085b6b8c617dc0a46997 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [1] 1
+getting page 1: 66.057166
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1070254800&max_taken_date=1072846800&format=json&nojsoncallback=1&api_sig=1ad819dc157c1e842a3590a2109bae17 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  1 | 650 
+
+ -- response photos count per page: 1
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176437057&secret=b124a2d250&format=json&nojsoncallback=1&api_sig=66b19a35ab8c09f90be398065079bc98 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176437057&format=json&nojsoncallback=1&api_sig=ebff07c5f772ec5bcb4c552a404c1501 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2004-01-01 To: 2004-01-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1072933200&max_taken_date=1075525200&format=json&nojsoncallback=1&api_sig=da7a10caa00f08684f799431531ebe9d : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [32] 1
+getting page 1: 69.316483
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1072933200&max_taken_date=1075525200&format=json&nojsoncallback=1&api_sig=7b8b65b681d4ba6dd93ae98e8240c6b4 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  32 | 650 
+
+ -- response photos count per page: 32
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176638181&secret=fde92f9dd2&format=json&nojsoncallback=1&api_sig=c50d93f2f254b09c885740a81b5ae81a : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176638181&format=json&nojsoncallback=1&api_sig=20c268960eea81704339198f6f25459a : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2004-02-01 To: 2004-02-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1075611600&max_taken_date=1078203600&format=json&nojsoncallback=1&api_sig=d56ba8504d68344f6b34a8c7b06475a2 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [38] 1
+getting page 1: 72.676007
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1075611600&max_taken_date=1078203600&format=json&nojsoncallback=1&api_sig=f7dabb731c2ab8538dc6a695de166ddb : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  38 | 650 
+
+ -- response photos count per page: 38
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176406835&secret=795ce5bc23&format=json&nojsoncallback=1&api_sig=d64a2d42d4785cdbf789f6e7afdc290d : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176406835&format=json&nojsoncallback=1&api_sig=88452400b412c2182687089beefb0c4f : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2004-03-01 To: 2004-03-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1078117200&max_taken_date=1080709200&format=json&nojsoncallback=1&api_sig=955d54c355093b112c728b8f2cfe4e3e : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [81] 1
+getting page 1: 75.7922
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1078117200&max_taken_date=1080709200&format=json&nojsoncallback=1&api_sig=9d9d881b49e0bd1396800839d35766c6 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  81 | 650 
+
+ -- response photos count per page: 81
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5177025608&secret=f180daea73&format=json&nojsoncallback=1&api_sig=d9165a8c40f337ea640eaf9c3e277afe : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5177025608&format=json&nojsoncallback=1&api_sig=b18f6f0c8941f23a5d2684aa8221d243 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2004-04-01 To: 2004-04-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1080795600&max_taken_date=1083384000&format=json&nojsoncallback=1&api_sig=c4d4c11d636c96ca6dc7ed88e3c35a6a : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [71] 1
+getting page 1: 79.135719
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1080795600&max_taken_date=1083384000&format=json&nojsoncallback=1&api_sig=e504c53a95e6cf980c79078555402c3b : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  71 | 650 
+
+ -- response photos count per page: 71
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176435405&secret=b99f6e4156&format=json&nojsoncallback=1&api_sig=81510991b58df7893098e085fafea318 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176435405&format=json&nojsoncallback=1&api_sig=0d0ccafbf2b99a33835c572f14e11abe : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ From: 2004-05-01 To: 2004-05-31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=1&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1083384000&max_taken_date=1085976000&format=json&nojsoncallback=1&api_sig=66c1870bff93fb4e18f6d6cde18d7b74 : only attempt :: [lib/Functions.php [148]]<br>
+
+total_pages = [31] 1
+getting page 1: 82.63133
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.search&machine_tags=&extras=last_update%2Cmedia%2Curl_o%2Clicense&per_page=500&page=1&user_id=51045845%40N08&privacy_filter=1&sort=date-taken-asc&min_taken_date=1083384000&max_taken_date=1085976000&format=json&nojsoncallback=1&api_sig=bccc19e9793d856e5fa1fc4c3fd72845 : only attempt :: [lib/Functions.php [148]]<br>
+
+ page 1 of 1 | total taxa =  31 | 650 
+
+ -- response photos count per page: 31
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getInfo&photo_id=5176414087&secret=3de0830300&format=json&nojsoncallback=1&api_sig=f70d27375907cd0c8d3c0d6ed9465f8a : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://api.flickr.com/services/rest/?api_key=1142baaccbaf8c6cc46f8f4ce26a7135&method=flickr.photos.getSizes&photo_id=5176414087&format=json&nojsoncallback=1&api_sig=911546c17024e78fb4241f2e98df6a9f : only attempt :: [lib/Functions.php [148]]<br>
+
+Start: At this point:
+
+There is: /var/www/html/eol_php8_code/applications/content_server/resources_3/650_temp.xml
+
+End: At this point:
+
+Startx [file_rename]...
+/var/www/html/eol_php8_code/update_resources/connectors/650.php:80 :: [update_resources/connectors/650.php [80]]<br>
+/var/www/html/eol_php8_code/lib/Functions.php:326 :: [update_resources/connectors/650.php [80]]<br>
+Source file does not exist: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650.xml] :: [update_resources/connectors/650.php [80]]<br>
+
+Startx [manual adjustment on some names]...
+Please wait, downloading resource document... :: [update_resources/connectors/650.php [90]]<br>
+
+
+ Saving remote file: /var/www/html/eol_php8_code/applications/content_server/resources_3/650.xml :: [lib/ResourceDataObjectElementsSetting.php [16]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_30219.file :: [lib/ResourceDataObjectElementsSetting.php [16]]<br>
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/650.xml : only attempt :: [lib/Functions.php [148]]<br>
+set_data_object_rating_on_xml_document 19-- please wait... :: [ []]<br>
+set_data_object_rating_on_xml_document -- done. :: [ []]<br>
+
+Startx set_data_object_rating_on_xml_document...
+
+Startx gzip_resource_xml...
+
+Startx call_xml_2_dwca...
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//650_working/]
+
+
+ Saving remote file: /var/www/html/eol_php8_code/applications/content_server/resources_3//650.xml :: [lib/ResourceDataObjectElementsSetting.php [326]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_58001.file.xml :: [lib/ResourceDataObjectElementsSetting.php [326]]<br>
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3//650.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Reading file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_58001.file.xml]...
+
+Succesfully deleted [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_58001.file.xml]
+
+total rows: 19
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [12]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [12]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [650]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/650//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//650_working/]
+
+doing this: convert_archive_normalized()
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [645]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_34761/ :: [lib/connectors/DwCA_Utility.php [645]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650.tar.gz] :: [lib/connectors/DwCA_Utility.php [645]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_34761//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+1 of 3
+
+2 of 3
+
+ start taxa count: 12
+ end taxa count: 12
+3 of 3
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_34761/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [12]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/650/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [12]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [650]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/650//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [1] => http://eol.org/schema/agent/agent
+    [2] => http://eol.org/schema/media/document
+    [3] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 90.59 seconds 
+elapsed time = 1.51 minutes 
+elapsed time = 0.03 hours 
+
+Done processing.
+
+File permission update: [1] OK
+Completed 650.php :: [ []]<br>
+Finished: SUCCESS

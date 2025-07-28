@@ -1,0 +1,584 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/06 fill up undefined parents UTILITY
+[06 fill up undefined parents UTILITY] $ /bin/sh -xe /jenkins_tmp/jenkins466169009476190892.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php fill_up_undefined_parents_real_GBIFChecklists.php _ {"resource_id": "SC_andorra", "source_dwca": "SC_andorra", "resource": "fillup_missing_parents_GBIFChecklists"}
+Current PHP version: 8.2.28<br>
+--------------------START: fillup missing parent entries--------------------
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_andorra_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_09877/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/SC_andorra.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_09877/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_09877/SC_andorra.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_09877/SC_andorra.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_09877//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_09877//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_09877//taxon.tab] [SC_andorra]
+Undefined v2: 19
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_09877//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_09877//occurrence_specific.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_09877//measurement_or_fact_specific.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_09877/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_andorra]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 10.09 seconds 
+elapsed time = 0.17 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_andorra].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab)
+
+Undefined parents now [1]: 17
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_andorra_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_82443/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/SC_andorra.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_82443/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_82443/SC_andorra.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_82443/SC_andorra.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_82443//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_82443//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_82443//taxon.tab] [SC_andorra]
+Undefined v2: 17
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_82443//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_82443//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_82443//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_82443/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [55]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_andorra]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 12.15 seconds 
+elapsed time = 0.2 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_andorra].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab)
+
+Undefined parents now [2]: 15
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_andorra_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_10181/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/SC_andorra.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_10181/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_10181/SC_andorra.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_10181/SC_andorra.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_10181//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_10181//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_10181//taxon.tab] [SC_andorra]
+Undefined v2: 15
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_10181//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_10181//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_10181//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_10181/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [70]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_andorra]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 14.19 seconds 
+elapsed time = 0.24 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_andorra].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab)
+
+Undefined parents now [3]: 9
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_andorra_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_31079/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/SC_andorra.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_31079/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_31079/SC_andorra.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_31079/SC_andorra.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_31079//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_31079//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_31079//taxon.tab] [SC_andorra]
+Undefined v2: 9
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_31079//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_31079//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_31079//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_31079/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [79]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_andorra]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 16.21 seconds 
+elapsed time = 0.27 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_andorra].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab)
+
+Undefined parents now [4]: 5
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_andorra_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_45553/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/SC_andorra.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_45553/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_45553/SC_andorra.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_45553/SC_andorra.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_45553//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_45553//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_45553//taxon.tab] [SC_andorra]
+Undefined v2: 5
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_45553//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_45553//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_45553//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_45553/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [84]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_andorra]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 18.22 seconds 
+elapsed time = 0.3 minutes 
+elapsed time = 0.01 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_andorra].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab)
+
+Undefined parents now [5]: 2
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_andorra_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_97867/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/SC_andorra.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_97867/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_97867/SC_andorra.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_97867/SC_andorra.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_97867//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_97867//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_97867//taxon.tab] [SC_andorra]
+Undefined v2: 2
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_97867//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_97867//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_97867//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_97867/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [86]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_andorra]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 20.22 seconds 
+elapsed time = 0.34 minutes 
+elapsed time = 0.01 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_andorra].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab)
+
+Undefined parents now [6]: 0
+
+--------------------END: fillup missing parent entries--------------------
+Completed fill_up_undefined_parents_real_GBIFChecklists.php :: [ []]<br>
+Finished: SUCCESS

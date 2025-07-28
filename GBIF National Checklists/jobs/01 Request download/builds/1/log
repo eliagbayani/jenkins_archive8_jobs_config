@@ -1,0 +1,75 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/01 Request download
+[01 Request download] $ /bin/sh -xe /jenkins_tmp/jenkins11574771583060994707.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php gbif_download_request_for_CtryChecklists.php jenkins {"task":"send_download_request", "taxon":"Country_checklists"}
+Current PHP version: 8.2.28<br>
+CACHE EXISTS.
+Array
+(
+    [0] => ebd01d3e-5e9a-4e80-8ae2-1dfe9a032bf7
+    [1] => 6276fa08-f762-11e1-a439-00145eb45e9a
+    [2] => c8fb4ced-0374-46f7-8c03-5eb5a6b70640
+    [3] => 12464931-e8ea-4437-b6df-c280e063b107
+    [4] => b7ef1d60-b0a0-11dd-aa14-b8a03c50a862
+    [5] => 10fe7809-00b8-45ed-b743-963520ea7680
+    [6] => 5bc157a5-d52f-4be1-918b-c2950c5e742c
+    [7] => 00cbf1a4-5437-4902-84c8-17643eac3c8c
+    [8] => 0360c673-20fc-420a-845a-05d20f185dcf
+    [9] => 2ddded16-5565-45ee-8aa1-1b8118fa361f
+)
+
+SELECT specieskey, COUNT(specieskey), countrycode
+            FROM occurrence
+            WHERE
+            specieskey IS NOT NULL
+            AND countrycode IS NOT NULL
+            -- AND countrycode = 'CA'
+            AND occurrencestatus = 'PRESENT'
+            AND (
+                basisofrecord = 'HUMAN_OBSERVATION'
+                OR basisofrecord = 'MACHINE_OBSERVATION'
+                OR basisofrecord = 'OCCURRENCE'
+                OR basisofrecord = 'LIVING_SPECIMEN'
+                OR basisofrecord = 'MATERIAL_SAMPLE'
+            )
+            AND NOT ARRAY_CONTAINS(issue, 'ZERO_COORDINATE')
+            AND NOT ARRAY_CONTAINS(issue, 'COORDINATE_OUT_OF_RANGE')
+            AND NOT ARRAY_CONTAINS(issue, 'COUNTRY_COORDINATE_MISMATCH') AND datasetkey NOT IN ('ebd01d3e-5e9a-4e80-8ae2-1dfe9a032bf7',  '6276fa08-f762-11e1-a439-00145eb45e9a',  'c8fb4ced-0374-46f7-8c03-5eb5a6b70640',  '12464931-e8ea-4437-b6df-c280e063b107',  'b7ef1d60-b0a0-11dd-aa14-b8a03c50a862',  '10fe7809-00b8-45ed-b743-963520ea7680',  '5bc157a5-d52f-4be1-918b-c2950c5e742c',  '00cbf1a4-5437-4902-84c8-17643eac3c8c',  '0360c673-20fc-420a-845a-05d20f185dcf',  '2ddded16-5565-45ee-8aa1-1b8118fa361f') 
+            GROUP BY specieskey, countrycode
+
+cmd:
+[curl --insecure --include --user eli_agbayani:ile173 --header "Content-Type: application/json" --data @/var/www/html/eol_php8_code/update_resources/connectors/files/Country_checklists/query.json -s https://api.gbif.org/v1/occurrence/download/request]
+
+Request output:
+[HTTP/2 201 
+vary: Origin, Access-Control-Request-Method, Access-Control-Request-Headers
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+pragma: no-cache
+expires: 0
+x-frame-options: DENY
+content-type: application/json
+content-length: 23
+date: Thu, 12 Jun 2025 13:10:52 GMT
+cache-control: public, max-age=3601
+x-varnish: 891192048
+age: 0
+via: 1.1 varnish (Varnish/6.6)
+
+0038548-250525065834625]
+
+Download Key:[0038548-250525065834625]
+
+
+elapsed time = 0.052549816666667 minutes 
+elapsed time = 0.00087583027777778 hours 
+
+Done processing.
+Completed gbif_download_request_for_CtryChecklists.php :: [ []]<br>
++ sleep 1h
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

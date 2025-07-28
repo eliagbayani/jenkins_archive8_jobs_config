@@ -1,0 +1,27 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0648) FeaturedCreatures
+[(0648) FeaturedCreatures] $ /bin/sh -xe /jenkins_tmp/jenkins11673689343061168545.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 648.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//648_working/]
+Sending get request to http://entnemdept.ufl.edu/creatures/main/search_scientific.htm : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ total texts: 0
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+Warning: filesize(): stat failed for /var/www/html/eol_php8_code/applications/content_server/resources_3/648_working/taxon.tab in /var/www/html/eol_php8_code/lib/Functions.php on line 409
+Warning: chmod(): No such file or directory in /var/www/html/eol_php8_code/lib/Functions.php on line 438
+
+File permission update: failed!
+
+
+ elapsed time = 28.916881 seconds
+ elapsed time = 0.48194801666667 minutes
+ elapsed time = 0.0080324669444444 hours
+ Done processing.Completed 648.php :: [ []]<br>
+Finished: SUCCESS

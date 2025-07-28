@@ -1,0 +1,188 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 6 Clade Specific Filters for Habitat
+[Step 6 Clade Specific Filters for Habitat] $ /bin/sh -xe /jenkins_tmp/jenkins1344162288681102912.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php clade_filters_4_habitats.php jenkins {"resource_id":"TreatmentBank_adjustment_01"}
+Current PHP version: 8.2.28<br>
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_60604/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/TreatmentBank_adjustment_01.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_60604/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_60604/TreatmentBank_adjustment_01.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_60604/TreatmentBank_adjustment_01.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_60604//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 171
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 172 (inclusive)
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1567
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1568 (inclusive)
+
+Descendants of coastal_land (http://purl.obolibrary.org/obo/ENVO_00000303): 89
+
+Descendants of coastal_land (http://purl.obolibrary.org/obo/ENVO_00000303): 90 (inclusive)
+
+Descendants of freshwater (http://purl.obolibrary.org/obo/ENVO_00000873): 156
+
+Descendants of freshwater (http://purl.obolibrary.org/obo/ENVO_00000873): 157 (inclusive)
+
+
+Running classify_taxa...
+
+Running classify_occurrence...
+
+Running classify_MoF...
+ to_delete_occurID: 1
+
+
+Running write_occurrence...
+
+Running write_MoF...
+
+Running write_taxa...
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_60604/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_02/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [102]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_02/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [102]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_02/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [15]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [TreatmentBank_adjustment_02]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_02//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/occurrence
+    [1] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/occurrence
+    [1] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 2.05 seconds 
+elapsed time = 0.03 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_02/taxon.tab)
+
+Total undefined parents:0
+Completed clade_filters_4_habitats.php :: [ []]<br>
++ php georgia_cntry_vs_state.php jenkins {"resource_id": "TreatmentBank_adjustment_02"}
+Current PHP version: 8.2.28<br>Array
+(
+    [resource_id] => TreatmentBank_adjustment_02
+)
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_50441/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3//TreatmentBank_adjustment_02.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_50441//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+ResourceUtility...process_generic_table (round 1) http://rs.tdwg.org/dwc/terms/MeasurementOrFact ...
+
+ResourceUtility...process_generic_table (round 2) http://rs.tdwg.org/dwc/terms/MeasurementOrFact ...
+
+ResourceUtility...process_generic_table (round 3) http://rs.tdwg.org/dwc/terms/MeasurementOrFact ...
+
+ResourceUtility...carry_over_extension (occurrence)...
+
+ResourceUtility...carry_over_extension (taxon)...
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_50441/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_03/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [102]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_03/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [102]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_03/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [15]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [TreatmentBank_adjustment_03]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_03//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ measurementorfact  -- OK
+
+ occurrence  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+elapsed time = 0.01178265 minutes 
+elapsed time = 0.0001963775 hours 
+
+Done processing.
+Completed georgia_cntry_vs_state.php :: [ []]<br>
++ cd /var/www/html/eol_php_code/applications/content_server/resources
+/jenkins_tmp/jenkins1344162288681102912.sh: 12: cd: can't cd to /var/www/html/eol_php_code/applications/content_server/resources
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

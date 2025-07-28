@@ -1,0 +1,115 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Brazilian Flora
+[Brazilian Flora] $ /bin/sh -xe /jenkins_tmp/jenkins13811067524864412173.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php brazilian_flora.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//BF_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [104]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_34566/ :: [lib/connectors/DwCA_Utility.php [104]]<br>
+Sending get request to http://host.docker.internal:81/other_files/GBIF_DwCA/lista_especies_flora_brasil.zip : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_34566/ :: [lib/connectors/DwCA_Utility.php [104]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_34566/lista_especies_flora_brasil.zip :: [lib/connectors/DwCA_Utility.php [104]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_34566/lista_especies_flora_brasil] :: [lib/connectors/DwCA_Utility.php [104]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_34566//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+process_Vernacularname...
+
+process_Reference...
+
+process_Taxon...
+
+100,000
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_63369.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_63369.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [lib/connectors/DwCA_Utility.php [361]]<br>
+
+process_Distribution...
+Sending get request to https://editors.eol.org/other_files/ontology/measurement_extension.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+100,000
+process_SpeciesProfile...
+
+100,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_34566/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/BF/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [413020]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/BF/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [404891]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/BF/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [55234]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/BF/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [122658]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/BF/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [9124]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [BF]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/BF//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+    [4] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ reference  -- OK
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 8.46 minutes 
+elapsed time = 0.14 hours 
+
+Done processing.
+
+File permission update: [1] OK
+Completed brazilian_flora.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

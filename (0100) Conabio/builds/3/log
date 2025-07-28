@@ -1,0 +1,95 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0100) Conabio
+[(0100) Conabio] $ /bin/sh -xe /jenkins_tmp/jenkins7220438026618995374.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 100.php jenkins
+Current PHP version: 8.2.28<br>
+Species URLs: [2032]
+
+
+ Start compiling all XML... :: [ []]<br>
+
+ All XML compiled
+ -end-of-process- 
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//100_working/]
+
+
+ Saving remote file: /var/www/html/eol_php8_code/applications/content_server/resources_3//100.xml :: [lib/ResourceDataObjectElementsSetting.php [324]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_92787.file.xml :: [lib/ResourceDataObjectElementsSetting.php [324]]<br>
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3//100.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Reading file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_92787.file.xml]...
+
+Succesfully deleted [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_92787.file.xml]
+
+total rows: 5
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/100/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [8]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/100/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [41]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/100/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [43]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/100/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [8]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/100/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [100]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/100//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://eol.org/schema/agent/agent
+    [3] => http://eol.org/schema/media/document
+    [4] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://eol.org/schema/agent/agent
+    [3] => http://eol.org/schema/media/document
+    [4] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ reference  -- OK
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+elapsed time = 7.53655175 minutes 
+elapsed time = 0.12560919583333 hours 
+Completed 100.php :: [ []]<br>
+Finished: SUCCESS

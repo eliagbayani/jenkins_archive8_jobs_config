@@ -1,0 +1,744 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 3 generate_single_dwca
+[Step 3 generate_single_dwca] $ /bin/sh -xe /jenkins_tmp/jenkins12212895162986382011.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php treatment_bank.php _ {"task": "generate_single_dwca"}
+Current PHP version: 8.2.28<br>Array
+(
+    [0] => treatment_bank.php
+    [1] => _
+    [2] => {"task": "generate_single_dwca"}
+)
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//TreatmentBank_working/]
+
+1 of 15 -> 70D396F5AA4D54B8958FE3914506D02C.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_83533/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_83533//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[7061392BA3935D6BBE9661735CA81ECC.taxon][no val]
+
+[7061392BA3935D6BBE9661735CA81ECC.taxon][no val]
+
+[7061392BA3935D6BBE9661735CA81ECC.taxon][no val]
+
+[7061392BA3935D6BBE9661735CA81ECC.taxon][no val]
+
+[3DA25A3A6C0C5547B9558062447BC49C.taxon][no val]
+
+[3DA25A3A6C0C5547B9558062447BC49C.taxon][no val]
+
+[3DA25A3A6C0C5547B9558062447BC49C.taxon][no val]
+
+[3DA25A3A6C0C5547B9558062447BC49C.taxon][no val]
+
+[3DA25A3A6C0C5547B9558062447BC49C.taxon][no val]
+
+[62EE7731821A5CDCA1EABE8D8F357D85.taxon][no val]
+
+[62EE7731821A5CDCA1EABE8D8F357D85.taxon][no val]
+
+[2FA310679C2750C8A8A6E8F23049F5C6.taxon][no val]
+
+[2FA310679C2750C8A8A6E8F23049F5C6.taxon][no val]
+
+[2FA310679C2750C8A8A6E8F23049F5C6.taxon][no val]
+
+[2FA310679C2750C8A8A6E8F23049F5C6.taxon][no val]
+
+[2FA310679C2750C8A8A6E8F23049F5C6.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_83533/
+2 of 15 -> 6EBB3A02568357EDA7B654F927915F3D.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_65511/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_65511//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[7B12C7BF7D72516ABAB48A98DA795000.taxon][no val]
+
+[7B12C7BF7D72516ABAB48A98DA795000.taxon][no val]
+
+[7B12C7BF7D72516ABAB48A98DA795000.taxon][no val]
+
+[66372D0BD3C55F8C94919BE9969A3CD8.taxon][no val]
+
+[66372D0BD3C55F8C94919BE9969A3CD8.taxon][no val]
+
+[66372D0BD3C55F8C94919BE9969A3CD8.taxon][no val]
+
+[66372D0BD3C55F8C94919BE9969A3CD8.taxon][no val]
+
+[13198FCAE3155574A77B62F0A86E0BDE.taxon][no val]
+
+[13198FCAE3155574A77B62F0A86E0BDE.taxon][no val]
+
+[13198FCAE3155574A77B62F0A86E0BDE.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_65511/
+3 of 15 -> B01F03B6618A54F2A8AA5164A68D16F3.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/B0/B01F03B6618A54F2A8AA5164A68D16F3.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_79173/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/B0/B01F03B6618A54F2A8AA5164A68D16F3] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_79173//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[FDD096FC5C3855298AA102AABA6B03E3.taxon][no val]
+
+[FDD096FC5C3855298AA102AABA6B03E3.taxon][no val]
+
+[FDD096FC5C3855298AA102AABA6B03E3.taxon][no val]
+
+[FDD096FC5C3855298AA102AABA6B03E3.taxon][no val]
+
+[FDD096FC5C3855298AA102AABA6B03E3.taxon][no val]
+
+[FDD096FC5C3855298AA102AABA6B03E3.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_79173/
+4 of 15 -> 59C46FD8A4775D8495F2779CCAD30451.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/59/59C46FD8A4775D8495F2779CCAD30451.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_06631/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/59/59C46FD8A4775D8495F2779CCAD30451] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_06631//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[708FDC5CCF975A5A87C7713C1027F409.taxon][no val]
+
+[708FDC5CCF975A5A87C7713C1027F409.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_06631/
+5 of 15 -> 3169FFAD185E2254FF94FFF9DF06FF80.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_14735/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_14735//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[CD5087D5185B2251FF03FF26DBACFD99.taxon][no val]
+
+[CD5087D518582252FF03FF6EDBBFFAAA.taxon][no val]
+
+[CD5087D518582252FF03FF6EDBBFFAAA.taxon][no val]
+
+[CD5087D518582252FF03FF6EDBBFFAAA.taxon][no val]
+
+[CD5087D518582252FF03FF6EDBBFFAAA.taxon][no val]
+
+[CD5087D518582253FF03FA83DD4CFEC1.taxon][no val]
+
+[CD5087D518582253FF03FA83DD4CFEC1.taxon][no val]
+
+[CD5087D518582253FF03FA83DD4CFEC1.taxon][no val]
+
+[CD5087D518582253FF03FA83DD4CFEC1.taxon][no val]
+
+[CD5087D518592253FF03FB63DA56F846.taxon][no val]
+
+[CD5087D518592253FF03FB63DA56F846.taxon][no val]
+
+[CD5087D518592253FF03FB63DA56F846.taxon][no val]
+
+[CD5087D518592253FF03FB63DA56F846.taxon][no val]
+
+[CD5087D51856225CFF03FD92DEEDF914.taxon][no val]
+
+[CD5087D51856225CFF03FD92DEEDF914.taxon][no val]
+
+[CD5087D51856225CFF03FD92DEEDF914.taxon][no val]
+
+[CD5087D51856225CFF03FD92DEEDF914.taxon][no val]
+
+[CD5087D51856225DFF03F91FDCB2FC24.taxon][no val]
+
+[CD5087D51856225DFF03F91FDCB2FC24.taxon][no val]
+
+[CD5087D51856225DFF03F91FDCB2FC24.taxon][no val]
+
+[CD5087D51856225DFF03F91FDCB2FC24.taxon][no val]
+
+[CD5087D51857225EFF03FC0FDDEAF86F.taxon][no val]
+
+[CD5087D51857225EFF03FC0FDDEAF86F.taxon][no val]
+
+[CD5087D51857225EFF03FC0FDDEAF86F.taxon][no val]
+
+[CD5087D51857225EFF03FC0FDDEAF86F.taxon][no val]
+
+[CD5087D5184E2245FF03FA99DA97FE2C.taxon][no val]
+
+[CD5087D5184E2245FF03FA99DA97FE2C.taxon][no val]
+
+[CD5087D5184E2245FF03FA99DA97FE2C.taxon][no val]
+
+[CD5087D5184E2245FF03FA99DA97FE2C.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_14735/
+6 of 15 -> FFD67A79BA25FF9CA640AB34FFD9FFE4.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_45448/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_45448//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[03EF0201BA26FF9AA471A8F3FBD8F9ED.taxon][no val]
+
+[03EF0201BA26FF9AA471A8F3FBD8F9ED.taxon][no val]
+
+[03EF0201BA26FF9AA471A8F3FBD8F9ED.taxon][no val]
+
+[03EF0201BA26FF9AA471A8F3FBD8F9ED.taxon][no val]
+
+[03EF0201BA26FF9AA471A8F3FBD8F9ED.taxon][no val]
+
+[03EF0201BA23FF96A431AD04FE58F994.taxon][no val]
+
+[03EF0201BA23FF96A431AD04FE58F994.taxon][no val]
+
+[03EF0201BA23FF96A431AD04FE58F994.taxon][no val]
+
+[03EF0201BA23FF96A431AD04FE58F994.taxon][no val]
+
+[03EF0201BA23FF96A431AD04FE58F994.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_45448/
+7 of 15 -> FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_87454/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFFCF850FFBEFFCEDC67FFA90F1DFFF9] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_87454//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[03C58028FFBDFFDEDCF0FE8E0E94FC30.taxon][no val]
+
+[03C58028FFBDFFDEDCF0FE8E0E94FC30.taxon][no val]
+
+[03C58028FFBDFFDEDCF0FE8E0E94FC30.taxon][no val]
+
+[03C58028FFBDFFDEDCF0FE8E0E94FC30.taxon][no val]
+
+[03C58028FFBDFFDEDCF0FE8E0E94FC30.taxon][no val]
+
+[03C58028FFBDFFDEDCF0FE8E0E94FC30.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_87454/
+8 of 15 -> FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_89953/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_89953//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[03AB87BF83192D18FF78FA81FEECFE66.taxon][no val]
+
+[03AB87BF83192D18FF78FA81FEECFE66.taxon][no val]
+
+[03AB87BF83192D18FF78FA81FEECFE66.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_89953/
+9 of 15 -> 9E2341778028C154FFC16D02DE01FFC4.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/9E/9E2341778028C154FFC16D02DE01FFC4.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_17962/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/9E/9E2341778028C154FFC16D02DE01FFC4] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_17962//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[621A390F802BC15DFE716C0ADF59FD63.taxon][no val]
+
+[621A390F802BC15DFE716C0ADF59FD63.taxon][no val]
+
+[621A390F802BC15DFE716C0ADF59FD63.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_17962/
+10 of 15 -> FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_64294/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_64294//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[03B7900AFF8E0215FF44F9C4FB5AF8A7.taxon][no val]
+
+[03B7900AFF8E0215FF44F9C4FB5AF8A7.taxon][no val]
+
+[03B7900AFF8E0215FF44F9C4FB5AF8A7.taxon][no val]
+
+[03B7900AFF8E0215FF44F9C4FB5AF8A7.taxon][no val]
+
+[03B7900AFF8E0215FF44F9C4FB5AF8A7.taxon][no val]
+
+[03B7900AFF8B021CFF44FA26FA94FCA8.taxon][no val]
+
+[03B7900AFF8B021CFF44FA26FA94FCA8.taxon][no val]
+
+[03B7900AFF8B021CFF44FA26FA94FCA8.taxon][no val]
+
+[03B7900AFF8B021CFF44FA26FA94FCA8.taxon][no val]
+
+[03B7900AFF8B021CFF44FA26FA94FCA8.taxon][no val]
+
+[03B7900AFF85021BFF44FA4BFEF4FD94.taxon][no val]
+
+[03B7900AFF85021BFF44FA4BFEF4FD94.taxon][no val]
+
+[03B7900AFF85021BFF44FA4BFEF4FD94.taxon][no val]
+
+[03B7900AFF85021BFF44FA4BFEF4FD94.taxon][no val]
+
+[03B7900AFF85021BFF44FA4BFEF4FD94.taxon][no val]
+
+[03B7900AFF820219FF44FD71FAE5FE58.taxon][no val]
+
+[03B7900AFF820219FF44FD71FAE5FE58.taxon][no val]
+
+[03B7900AFF820219FF44FD71FAE5FE58.taxon][no val]
+
+[03B7900AFF820219FF44FD71FAE5FE58.taxon][no val]
+
+[03B7900AFF820219FF44FD71FAE5FE58.taxon][no val]
+
+[03B7900AFF800207FF44FC1BFB26FD5C.taxon][no val]
+
+[03B7900AFF800207FF44FC1BFB26FD5C.taxon][no val]
+
+[03B7900AFF800207FF44FC1BFB26FD5C.taxon][no val]
+
+[03B7900AFF800207FF44FC1BFB26FD5C.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_64294/
+11 of 15 -> AE07A3588A7231210A07A461AE533548.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/AE/AE07A3588A7231210A07A461AE533548.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_18261/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/AE/AE07A3588A7231210A07A461AE533548] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_18261//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[523EDB208A7331240A90A2F8AF4634C1.taxon][no val]
+
+[523EDB208A7331240A90A2F8AF4634C1.taxon][no val]
+
+[523EDB208A7331240A90A2F8AF4634C1.taxon][no val]
+
+[523EDB208A7331240A90A2F8AF4634C1.taxon][no val]
+
+[523EDB208A7331240A90A2F8AF4634C1.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_18261/
+12 of 15 -> FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_18626/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_18626//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[03E46477FF8A6B09FF04F8FA7CCFFC8E.taxon][no val]
+
+[03E46477FF8A6B09FF04F8FA7CCFFC8E.taxon][no val]
+
+[03E46477FF8A6B09FF04F8FA7CCFFC8E.taxon][no val]
+
+[03E46477FF8A6B09FF04F8FA7CCFFC8E.taxon][no val]
+
+[03E46477FF8A6B09FF04F8FA7CCFFC8E.taxon][no val]
+
+[03E46477FF8F6B05FF04FCFE7BC4FD32.taxon][no val]
+
+[03E46477FF8F6B05FF04FCFE7BC4FD32.taxon][no val]
+
+[03E46477FF8F6B05FF04FCFE7BC4FD32.taxon][no val]
+
+[03E46477FF8F6B05FF04FCFE7BC4FD32.taxon][no val]
+
+[03E46477FF8F6B05FF04FCFE7BC4FD32.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_18626/
+13 of 15 -> FF92FFFD5144FF94E038FFD3FF8FFFB6.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFFD5144FF94E038FFD3FF8FFFB6.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_19383/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFFD5144FF94E038FFD3FF8FFFB6] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_19383//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[03AB87855146FF91E0AFFB55FCD3F86B.taxon][no val]
+
+[03AB87855146FF91E0AFFB55FCD3F86B.taxon][no val]
+
+[03AB87855146FF91E0AFFB55FCD3F86B.taxon][no val]
+
+[03AB87855146FF91E0AFFB55FCD3F86B.taxon][no val]
+
+[03AB87855146FF91E0AFFB55FCD3F86B.taxon][no val]
+
+[03AB87855146FF91E0AFFB55FCD3F86B.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_19383/
+14 of 15 -> FF9F9557AB69211A1D421337FFC1FD60.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_90156/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_90156//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[03A6ED2FAB6C21101DD5144CFC80FBF3.taxon][no val]
+
+[03A6ED2FAB6C21101DD5144CFC80FBF3.taxon][no val]
+
+[03A6ED2FAB6C21101DD5144CFC80FBF3.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_90156/
+15 of 15 -> FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+Converting archive to EOL DwCA [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip]...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_02412/ :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+archive path: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7] :: [lib/connectors/DwCA_Aggregator.php [133]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_02412//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.gbif.org/terms/1.0/description
+    [3] => http://rs.gbif.org/terms/1.0/distribution
+    [4] => http://eol.org/schema/media/document
+    [5] => http://rs.gbif.org/terms/1.0/multimedia
+    [6] => http://eol.org/schema/reference/reference
+    [7] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+
+processing...: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...: [http://rs.gbif.org/terms/1.0/description]: document...
+
+[0397879FFC022935FF649885FD84F94F.taxon][no val]
+
+[0397879FFC012930FF649FF5FD84FD73.taxon][no val]
+
+[0397879FFC072933FF649E61FE7FFD17.taxon][no val]
+
+[0397879FFC3B290DFF649E0DFBB5FA9F.taxon][no val]
+
+[0397879FFC05290DFF649FF5FEFAFD5F.taxon][no val]
+
+[0397879FFC3E2909FF649ED5FF56F843.taxon][no val]
+
+[0397879FFC3E2909FF649ED5FF56F843.taxon][no val]
+
+[0397879FFC3E2909FF649ED5FF56F843.taxon][no val]
+
+[0397879FFC3E2909FF649ED5FF56F843.taxon][no val]
+
+[0397879FFC3E2909FF649ED5FF56F843.taxon][no val]
+
+[0397879FFC322906FF649DB5FCF4FE13.taxon][no val]
+
+[0397879FFC322906FF649DB5FCF4FE13.taxon][no val]
+
+[0397879FFC322906FF649DB5FCF4FE13.taxon][no val]
+
+[0397879FFC322906FF649DB5FCF4FE13.taxon][no val]
+
+[0397879FFC302907FF649CC9FB2EF897.taxon][no val]
+
+[0397879FFC302907FF649CC9FB2EF897.taxon][no val]
+
+[0397879FFC302907FF649CC9FB2EF897.taxon][no val]
+
+[0397879FFC302907FF649CC9FB2EF897.taxon][no val]
+
+[0397879FFC302907FF649CC9FB2EF897.taxon][no val]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_02412/Array
+(
+    [TreatmentBank] => Array
+        (
+            [taxonRank] => Array
+                (
+                    [species] => 59
+                    [genus] => 23
+                    [family] => 2
+                    [subfamily] => 1
+                )
+
+            [taxonomicStatus] => Array
+                (
+                    [] => 40
+                )
+
+            [text type] => Array
+                (
+                    [description] => 68
+                    [diagnosis] => 25
+                    [distribution] => 23
+                    [materials_examined] => 34
+                    [conservation] => 1
+                    [biology_ecology] => 1
+                )
+
+        )
+
+    [invalid taxon] => Array
+        (
+            [a synonym] => 19
+            [invalid rank] => 26
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [152]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [40]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [TreatmentBank]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/media/document
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/media/document
+)
+
+ taxon  -- OK
+
+ document  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 5.48 seconds 
+elapsed time = 0.09 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+Completed treatment_bank.php :: [ []]<br>
+Finished: SUCCESS

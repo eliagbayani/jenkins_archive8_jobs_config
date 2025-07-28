@@ -1,0 +1,130 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0770) American Insects - Body Length
+[(0770) American Insects - Body Length] $ /bin/sh -xe /jenkins_tmp/jenkins9282129469267937551.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php resource_utility.php jenkins {"resource_id": "770_meta_recoded", "task": "metadata_recoding"}
+Current PHP version: 8.2.28<br>Array
+(
+    [resource_id] => 770_meta_recoded
+    [task] => metadata_recoding
+)
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [122]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_63229/ :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/770_2020_Sep15.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_63229/ :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_63229/770_2020_Sep15.tar.gz :: [lib/connectors/DwCA_Utility.php [122]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_63229/770_2020_Sep15.tar.gz] :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_63229//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://eol.org/schema/reference/reference]: reference...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_04643.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_04643.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [lib/connectors/DwCA_Utility.php [490]]<br>
+
+process_measurementorfact...[task_67_info_1]
+
+process_occurrence...[write_task_67_1]
+
+process_measurementorfact...[write_task_67_1]
+Array
+(
+    [contents] => Array
+        (
+            [M lifeStage] => Array
+                (
+                    [http://www.ebi.ac.uk/efo/EFO_0001272] => 
+                )
+
+            [O lifeStage] => Array
+                (
+                    [] => 
+                )
+
+        )
+
+)
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_63229/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/770_meta_recoded/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [979]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/770_meta_recoded/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [978]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/770_meta_recoded/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/770_meta_recoded/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [921]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [770_meta_recoded]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/770_meta_recoded//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/reference/reference
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://eol.org/schema/reference/reference
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ reference  -- OK
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 7.61 seconds 
+elapsed time = 0.13 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentMeasurementID have entries in measurement_or_fact_specific.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/770_meta_recoded/measurement_or_fact_specific.tab)
+
+Total undefined parents MoF [770_meta_recoded]: 0
+Completed resource_utility.php :: [ []]<br>
+Finished: SUCCESS

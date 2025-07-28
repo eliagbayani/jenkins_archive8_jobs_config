@@ -1,0 +1,80 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0330) Moorea Biocode
+[(0330) Moorea Biocode] $ /bin/sh -xe /jenkins_tmp/jenkins14337436110083670585.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 330.php jenkins
+Current PHP version: 8.2.28<br>Please wait, downloading resource document... :: [ []]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_09300/ :: [ []]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_09300/ :: [ []]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_09300/eol_biocode.xml.gz :: [ []]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_09300/eol_biocode.xml] :: [ []]<br>
+Array
+(
+    [archive_path] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_09300/
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_09300/
+)
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_09300/eol_biocode.xml : only attempt :: [update_resources/connectors/330.php [37]]<br>
+
+
+ Saving remote file: /var/www/html/eol_php8_code/applications/content_server/resources_3//330_pre.xml :: [lib/ResourceDataObjectElementsSetting.php [324]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_18703.file.xml :: [lib/ResourceDataObjectElementsSetting.php [324]]<br>
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3//330_pre.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Reading file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_18703.file.xml]...
+
+Succesfully deleted [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_18703.file.xml]
+
+total rows: 5
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/330_pre/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [4]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/330_pre/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [29]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/330_pre/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [5]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [330_pre]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/330_pre//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+stop muna...2
+Completed 330.php :: [ []]<br>
+Finished: SUCCESS

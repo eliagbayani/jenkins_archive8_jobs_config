@@ -1,0 +1,488 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF Waterbody Checklists/05 generate_waterbody_checklists
+[05 generate_waterbody_checklists] $ /bin/sh -xe /jenkins_tmp/jenkins13020262155754716662.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php fill_up_undefined_parents_real_GBIFChecklists.php _ {"resource_id": "waterbody_compiled", "source_dwca": "waterbody_compiled", "resource": "fillup_missing_parents_GBIFChecklists"}
+Current PHP version: 8.2.28<br>
+--------------------START: fillup missing parent entries--------------------
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//waterbody_compiled_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_06496/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/waterbody_compiled.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_06496/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_06496/waterbody_compiled.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_06496/waterbody_compiled.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_06496//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_06496//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_06496//taxon.tab] [waterbody_compiled]
+Undefined v2: 7
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_06496//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_06496//occurrence_specific.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_06496//measurement_or_fact_specific.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_06496/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [7]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [waterbody_compiled]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 2 seconds 
+elapsed time = 0.03 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [waterbody_compiled].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab)
+
+Undefined parents now [1]: 7
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//waterbody_compiled_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_93651/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/waterbody_compiled.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_93651/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_93651/waterbody_compiled.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_93651/waterbody_compiled.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_93651//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_93651//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_93651//taxon.tab] [waterbody_compiled]
+Undefined v2: 7
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_93651//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_93651//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_93651//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_93651/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [7]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [21]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [waterbody_compiled]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 4 seconds 
+elapsed time = 0.07 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [waterbody_compiled].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab)
+
+Undefined parents now [2]: 2
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//waterbody_compiled_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_73395/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/waterbody_compiled.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_73395/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_73395/waterbody_compiled.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_73395/waterbody_compiled.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_73395//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_73395//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_73395//taxon.tab] [waterbody_compiled]
+Undefined v2: 2
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_73395//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_73395//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_73395//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_73395/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [7]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [23]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [waterbody_compiled]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 5.98 seconds 
+elapsed time = 0.1 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [waterbody_compiled].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab)
+
+Undefined parents now [3]: 1
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//waterbody_compiled_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_90867/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/waterbody_compiled.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_90867/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_90867/waterbody_compiled.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_90867/waterbody_compiled.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_90867//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_90867//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_90867//taxon.tab] [waterbody_compiled]
+Undefined v2: 1
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_90867//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_90867//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_90867//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_90867/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [7]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [24]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [waterbody_compiled]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 7.98 seconds 
+elapsed time = 0.13 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [waterbody_compiled].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab)
+
+Undefined parents now [4]: 1
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//waterbody_compiled_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [120]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_49862/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/waterbody_compiled.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_49862/ :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_49862/waterbody_compiled.tar.gz :: [lib/connectors/DwCA_Utility.php [120]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_49862/waterbody_compiled.tar.gz] :: [lib/connectors/DwCA_Utility.php [120]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_49862//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/Volumes/AKiTiO4/eol_php_code_tmp/dir_49862//taxon.tab)
+
+[/Volumes/AKiTiO4/eol_php_code_tmp/dir_49862//taxon.tab] [waterbody_compiled]
+Undefined v2: 1
+
+process_table: [create_archive] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_49862//taxon.tab]...
+
+carry_over...[occurrence][/Volumes/AKiTiO4/eol_php_code_tmp/dir_49862//occurrence.tab]
+
+carry_over...[measurementorfact][/Volumes/AKiTiO4/eol_php_code_tmp/dir_49862//measurement_or_fact.tab]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_49862/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [7]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [25]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [waterbody_compiled]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 9.97 seconds 
+elapsed time = 0.17 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [waterbody_compiled].
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab)
+
+Undefined parents now [5]: 0
+
+--------------------END: fillup missing parent entries--------------------
+Completed fill_up_undefined_parents_real_GBIFChecklists.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

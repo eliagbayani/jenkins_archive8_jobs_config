@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#cd /extra/other_files/GBIF_occurrence/ #for eol-archive
+#cd /var/www/html/other_files/GBIF_occurrence/ #folder not found | for Mac Studio PHP 8.2
+cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/ #for Mac Studio PHP 8.2
+
+[ ! -d &quot;Country_checklists&quot; ] &amp;&amp; mkdir Country_checklists #creates folder [Country_checklists] if it does not exist yet.
+cd Country_checklists
+ls -lt Country_checklists_DwCA.zip #list file
+[ -e Country_checklists_DwCA.zip ] &amp;&amp; rm Country_checklists_DwCA.zip #removes existing Country_checklists_DwCA.zip if exists.
+bash /var/www/html/eol_php8_code/update_resources/connectors/files/Country_checklists/run_Country_checklists.sh #downloads a new Country_checklists_DwCA.zip
+ls -lt Country_checklists_DwCA.zip #list file
+
+###build other: 04 divide_into_country_files</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

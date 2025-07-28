@@ -1,0 +1,144 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/neo4j/02_match_taxa_2DH
+[02_match_taxa_2DH] $ /bin/sh -xe /jenkins_tmp/jenkins4254521581668126063.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php match_taxa_2DH.php _ {"resource_id": "TreatmentBank_final"}
+Current PHP version: 8.2.29<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//TreatmentBank_final_neo4j_2_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_75813/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/TreatmentBank_final_neo4j_1.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_75813/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_75813/TreatmentBank_final_neo4j_1.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_75813/TreatmentBank_final_neo4j_1.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_75813//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+path_to_taxa_file: [/Volumes/AKiTiO4/d_w_h/EOL Dynamic Hierarchy Active Version/dh226_Eli/taxon.tsv]
+
+Purpose: taxa_info_4name_matching...
+
+500,000 
+1,000,000 
+1,500,000 
+2,000,000 
+2,500,000 
+3,000,000 
+3,500,000 
+4,000,000 
+aaa1:4148704
+xxx1:4302722
+yyy1:1784715
+zzz1:670350
+
+aaa2:4148704
+xxx2:4302722
+yyy2:1784715
+zzz2:670350
+
+process_table: [generate_synonyms_info] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_75813//taxon.tab]...
+
+100,000 - 
+200,000 - 
+300,000 - 
+process_table: [match_canonical] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_75813//taxon.tab]...
+
+100,000 - 
+200,000 - 
+300,000 - 
+--STATS--
+Has canonical match: [277,493]
+With eolID assignments: [262,390]
+
+canonical match: genus - subgenus: [0]
+OK DwCA:                           [0]
+OK DH:                             [0]
+canonical match: subgenus - genus: [0]
+OK DwCA:                           [0]
+OK DH:                             [0]
+
+canonical match: species - any subspecific ranks: [10]
+OK DwCA: [0]
+OK DH:   [0]
+canonical match: any subspecific ranks - species: [1]
+OK DwCA: [0]
+OK DH:   [0]
+Array
+(
+    [] => 393493
+)
+total acceptedNameUsageID: [0]
+
+matched ancestry: [264,621]
+matched higherClassification: [0]
+matched just 1 record: [47]
+matched same rank and status accepted: [4]
+matched same rank: [0]
+matched group rank: [0]
+accepted only: [0]
+matched 1st rek: [0]
+matched blank eolID: [12,821]
+Total 3 matches: [277,493] -> should be equal to: [Has canonical match] [0]
+
+[# of rek in reks][total count]
+[19][1]
+[40][1]
+[16][1]
+[10][1]
+[11][1]
+[28][2]
+[14][2]
+[17][2]
+[20][3]
+[48][3]
+[9][3]
+[6][6]
+[7][7]
+[5][10]
+[4][27]
+[3][87]
+[2][578]
+[1][12086]
+Sum: [12821] -> should be equal to: [matched blank eolID] [0]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_75813/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_final_neo4j_2/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [393491]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [TreatmentBank_final_neo4j_2]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_final_neo4j_2//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 96.02 seconds 
+elapsed time = 1.6 minutes 
+elapsed time = 0.03 hours 
+
+Done processing.
+
+File permission update: [1] OK
+Completed match_taxa_2DH.php :: [ []]<br>
+Finished: SUCCESS

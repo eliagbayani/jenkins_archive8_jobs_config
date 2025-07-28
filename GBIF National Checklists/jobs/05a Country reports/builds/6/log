@@ -1,0 +1,65 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/05a Country reports
+[05a Country reports] $ /bin/sh -xe /jenkins_tmp/jenkins10114885038863195462.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php national_checklists_2024.php jenkins {"task":"show_countries_metadata"}
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/refs/heads/master/ISO_3166-1/country_codes_2letter.tsv :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_20852.file :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Trinidad And Tobago: OK
+Germany: OK
+Philippines: OK
+Australia: OK
+United States: OK
+
+CACHE EXISTS.
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/*.tsv]
+
+Country: [AD] [Andorra] [andorra]
+Array
+(
+    [lower_case] => andorra
+    [orig] => Andorra
+    [abbrev] => AD
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3167  100  3167    0     0   2540      0  0:00:01  0:00:01 --:--:--  2539100  3167  100  3167    0     0   2540      0  0:00:01  0:00:01 --:--:--  2539
+
+needle: [+title:"Andorra" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836386] [National Checklists: Andorra Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+Warning: Undefined variable $f in /var/www/html/eol_php8_code/lib/connectors/NationalChecklistsAPI.php on line 278
+<b>Uncaught TypeError</b>: fclose(): Argument #1 ($stream) must be of type resource, null given<br/>
+in /var/www/html/eol_php8_code/lib/connectors/NationalChecklistsAPI.php[278]<br/>
+<pre>#0 /var/www/html/eol_php8_code/lib/connectors/NationalChecklistsAPI.php(278): fclose()
+#1 /var/www/html/eol_php8_code/update_resources/connectors/national_checklists_2024.php(37): php_active_record\NationalChecklistsAPI->show_countries_metadata()
+#2 {main}</pre>
+Completed national_checklists_2024.php :: [ []]<br>
++ php waterbody_checklists_2024.php _ {"task":"generate_report", "report_name":"countries"}
+Current PHP version: 8.2.28<br>
+File does not exist [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries.tsv]
+Completed waterbody_checklists_2024.php :: [ []]<br>
+Finished: SUCCESS

@@ -1,0 +1,40 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>https://opendata.eol.org/dataset/american_insects&#xd;
+http://eol.org/content_partners/693/resources/770</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+###php 770.php jenkins --- now obsolete since source is now offline. Will use legacy: 770_2020_Sep15.tar.gz
+#generates 770.tar.gz
+
+# only step is this: will use legacy: 770_2020_Sep15.tar.gz and will generate 770_meta_recoded.tar.gz
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;770_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+#generates 770_meta_recoded.tar.gz
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

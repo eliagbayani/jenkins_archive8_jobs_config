@@ -1,0 +1,7 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/FreshData_Monitors_V2/dwc_validator_job_1
+[dwc_validator_job_1] $ /bin/sh -xe /jenkins_tmp/jenkins13001422765010444133.sh
++ cd /var/www/html/eol_php8_code/applications/dwc_validator_jenkins
++ exec /var/www/html/FreshData/sh_files/1748869246_dwc_validator.sh 2>&1
+Current PHP version: 8.2.28<br><br>You uploaded: <b>usda_plant_images.tar.gz</b><br><b>Valid Archive</b><br>----------------------------[stats]----------------------------<br><b>http://rs.tdwg.org/dwc/terms/taxon</b><br>--- Total = 35<br><b>http://rs.gbif.org/terms/1.0/vernacularname</b><br>Total by language<br>------ en = 20<br>--- Total = 20<br><b>http://eol.org/schema/agent/agent</b><br>--- Total = 6<br><b>http://eol.org/schema/media/document</b><br>Total by type<br>------ http://purl.org/dc/dcmitype/StillImage = 4<br>Total by license<br>------ http://creativecommons.org/publicdomain/zero/1.0/ = 4<br>Total by format<br>------ image/jpeg = 4<br>--- Total = 4<br>--------------------------------------------------------------- <a href='main.php'>Back to main</a><br>Finished: SUCCESS

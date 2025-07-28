@@ -1,0 +1,50 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/neo4j/01_add_canonical
+[01_add_canonical] $ /bin/sh -xe /jenkins_tmp/jenkins13254774225008663420.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php run_gnparser_dwca.php _ {"resource_id": "wikipedia_en_traits"}
+Current PHP version: 8.2.29<br>
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/wikipedia_en_traits.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/wikipedia_en_traits.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+
+gzip: stdin: not in gzip format
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/wikipedia_en_traits.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+
+1. /Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/meta.xml
+
+2. /Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/wikipedia_en_traits.tar.gz/meta.xml
+
+3. /Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/dwca/meta.xml
+
+4. /Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/EOL_dynamic_hierarchy/meta.xml
+
+5. /Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/wikipedia_en_traits/meta.xml
+Can't find check_file_or_folder_name [meta.xml]. :: [lib/connectors/DwCA_Utility.php [127]]<br>
+
+temp. dir removed: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_06667/]
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 130
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 131
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 132
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 133
+Warning: foreach() argument must be of type array|object, null given in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 142
+Warning: Undefined property: php_active_record\DwCA_Utility::$archive_path in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 551
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_RunGNParser.php on line 37
+Warning: Attempt to read property "tables" on null in /var/www/html/eol_php8_code/lib/connectors/DwCA_RunGNParser.php on line 37
+<b>Uncaught TypeError</b>: array_keys(): Argument #1 ($array) must be of type array, null given<br/>
+in /var/www/html/eol_php8_code/lib/connectors/DwCA_RunGNParser.php[38]<br/>
+<pre>#0 /var/www/html/eol_php8_code/lib/connectors/DwCA_RunGNParser.php(38): array_keys()
+#1 /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php(552): php_active_record\DwCA_RunGNParser->start()
+#2 /var/www/html/eol_php8_code/update_resources/connectors/run_gnparser_dwca.php(79): php_active_record\DwCA_Utility->convert_archive()
+#3 /var/www/html/eol_php8_code/update_resources/connectors/run_gnparser_dwca.php(67): php_active_record\process_resource_url()
+#4 {main}</pre>
+Completed run_gnparser_dwca.php :: [ []]<br>
+Finished: SUCCESS

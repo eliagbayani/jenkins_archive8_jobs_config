@@ -1,0 +1,96 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF Waterbody Checklists/05 generate_waterbody_checklists
+[05 generate_waterbody_checklists] $ /bin/sh -xe /jenkins_tmp/jenkins7744623913073269155.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php waterbody_checklists_2024.php _ {"task":"generate_waterbody_compiled"}
+Current PHP version: 8.2.28<br>Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Adriatic Sea: OK
+Aegean Sea: OK
+CACHE EXISTS.
+
+Hard-coded value still good.
+
+download_extract_gbif_zip_file...
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/WaterBody_checklists/0048661-250525065834625.csv]
+
+csv_path: [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/WaterBody_checklists/0048661-250525065834625.csv]
+
+Task: [process_waterbody_file] [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/WaterBody_checklists/waterbodies/waterbody_compiled.tsv]
+-100--100--100--100--100--100--100--100--100--100--100-
+ 10000 
+ 20000 
+ 30000 
+ 40000 
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [14]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [7]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [7]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [waterbody_compiled]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/waterbody_compiled//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [waterbody_compiled].
+Array
+(
+)
+
+
+
+ elapsed time = 0.0093431333333333 minutes
+ elapsed time = 0.00015571888888889 hours
+ Done processing.
+Completed waterbody_checklists_2024.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

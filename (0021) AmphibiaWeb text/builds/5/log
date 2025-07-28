@@ -1,0 +1,95 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0021) AmphibiaWeb text
+[(0021) AmphibiaWeb text] $ /bin/sh -xe /jenkins_tmp/jenkins17938508582479774560.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php environments_2_eol.php _ {"task": "generate_eol_tags_pensoft", "resource":"AmphibiaWeb text", "resource_id":"21", "subjects":"Distribution"}
+Current PHP version: 8.2.28<br>Warning: mkdir(): No such file or directory in /var/www/html/eol_php8_code/lib/connectors/Pensoft2EOLAPI.php on line 83
+Warning: mkdir(): No such file or directory in /var/www/html/eol_php8_code/lib/connectors/Pensoft2EOLAPI.php on line 97
+Warning: mkdir(): No such file or directory in /var/www/html/eol_php8_code/lib/connectors/Pensoft2EOLAPI.php on line 98
+Warning: mkdir(): No such file or directory in /var/www/html/eol_php8_code/lib/connectors/Pensoft2EOLAPI.php on line 99
+
+ allowed_subjects: Array
+(
+    [0] => http://rs.tdwg.org/ontology/voc/SPMInfoItems#Distribution
+)
+
+ Wikipedia_excluded_ranks: [25] dump count
+
+ soil_composition: [32] dump count
+Array
+(
+    [task] => generate_eol_tags_pensoft
+    [resource] => AmphibiaWeb text
+    [resource_id] => 21_ENV
+    [subjects] => Distribution
+)
+
+Test passed OK
+Array
+(
+    [task] => generate_eol_tags_pensoft
+    [resource] => AmphibiaWeb text
+    [resource_id] => 21_ENV
+    [subjects] => Distribution
+)
+
+resource_name is: [AmphibiaWeb text]
+Array
+(
+    [AmphibiaWeb text] => https://editors.eol.org/eol_php_code/applications/content_server/resources/21.tar.gz
+)
+Warning: fopen(/var/www/html/Pensoft_annotator/21/eol_tags/eol_tags_noParentTerms.tsv): Failed to open stream: No such file or directory in /var/www/html/eol_php8_code/lib/Functions.php on line 300
+Warning: mkdir(): No such file or directory in /var/www/html/eol_php8_code/lib/connectors/Pensoft2EOLAPI.php on line 409
+Array
+(
+    [archive_path] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_22933/
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_22933/
+)
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://eol.org/schema/agent/agent
+    [3] => http://eol.org/schema/media/document
+    [4] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+process_table_taxa() /Volumes/AKiTiO4/eol_php_code_tmp/dir_22933//taxon.tab...
+
+yyy1,000
+yyy2,000
+exclude_taxonIDs: 0
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/Pensoft2EOLAPI.php [1687]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_01422.file :: [lib/connectors/Pensoft2EOLAPI.php [1687]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_01422.file]
+
+remapped_terms: 257
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/mRemarks_assignments.tsv :: [lib/connectors/Pensoft2EOLAPI.php [1723]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_40597.file :: [lib/connectors/Pensoft2EOLAPI.php [1723]]<br>
+
+ mRemarks_assignments: [119] dump count
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/del_MoF_with_these_labels.tsv :: [lib/connectors/Pensoft2EOLAPI.php [1714]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_40754.file :: [lib/connectors/Pensoft2EOLAPI.php [1714]]<br>
+
+ del_MoF_with_these_labels: [66] dump count
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/terms_to_remove.txt : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/geo_synonyms.txt : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://editors.eol.org/eol_php_code/update_resources/connectors/get_descendants_of_term.php?term=http://purl.obolibrary.org/obo/ENVO_00000002 : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

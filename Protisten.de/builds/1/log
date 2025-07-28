@@ -1,0 +1,280 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/protisten
+[protisten] $ /bin/sh -xe /jenkins_tmp/jenkins17686942158140223359.sh
++ cd /var/www/html/eol_php8_code
++ php update_resources/connectors/protisten_v2.php _ {"expire_seconds": "86400"}
+<hr>root 2: /var/www/html/eol_php8_code/<hr><hr>cache_path: /Volumes/Crucial_2TB/cache_LiteratureEditor/<hr>Array
+(
+    [0] => update_resources/connectors/protisten_v2.php
+    [1] => _
+    [2] => {"expire_seconds": "86400"}
+)
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//protisten_v2_working/]
+Array
+(
+    [cache] => 1
+    [resource_id] => protisten_v2
+    [download_wait_time] => 1000000
+    [timeout] => 1200
+    [expire_seconds] => 86400
+)
+
+Preparing dynamic hierarchy...
+Array
+(
+    [archive_path] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_31008/
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_31008/
+    [tables] => Array
+        (
+            [taxa] => taxon.tab
+        )
+
+)
+User Notice: FileIterator: Invalid file path or not readable: /Volumes/AKiTiO4/eol_php_code_tmp/dir_31008/taxon.tab in /var/www/html/eol_php8_code/lib/FileIterator.php on line 27
+FileIterator: Invalid file path or not readable: /Volumes/AKiTiO4/eol_php_code_tmp/dir_31008/taxon.tab :: [lib/connectors/Protisten_deAPI_V2.php [46]]<br>
+
+Dynamic hierarchy ready OK.
+
+CACHE EXISTS.
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/refs/heads/master/protisten_de/protisten_2024_07_10/taxon.tab :: [lib/connectors/Protisten_deAPI_V2.php [66]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_71497.file :: [lib/connectors/Protisten_deAPI_V2.php [66]]<br>
+Array
+(
+    [0] => https://www.protisten.de/home-new/bac-proteo/
+    [1] => https://www.protisten.de/home-new/bac-cya-chlorobi/
+    [2] => https://www.protisten.de/home-new/bacillariophyta/
+    [3] => https://www.protisten.de/home-new/algae-golden-brownish-colored/
+    [4] => https://www.protisten.de/home-new/algae-green-colored/
+    [5] => https://www.protisten.de/home-new/algae-green-colored-2-desmids/
+    [6] => https://www.protisten.de/home-new/algae-reddish-colored/
+    [7] => https://www.protisten.de/home-new/naked-amoeboids/
+    [8] => https://www.protisten.de/home-new/testatamoeboids-infra/
+    [9] => https://www.protisten.de/home-new/heliozoic-amoeboids/
+    [10] => https://www.protisten.de/home-new/ciliophora/
+    [11] => https://www.protisten.de/home-new/ciliophora/
+    [12] => https://www.protisten.de/home-new/bacillariophyta/
+    [13] => https://www.protisten.de/home-new/bacillariophyta/
+    [14] => https://www.protisten.de/home-new/colored-flagellates/
+    [15] => https://www.protisten.de/home-new/colorless-flagellates/
+    [16] => https://www.protisten.de/home-new/metazoa/
+    [17] => https://www.protisten.de/home-new/metazoa/
+)
+
+process [https://www.protisten.de/home-new/bac-proteo/]
+Array
+(
+    [0] => Array
+        (
+            [title] => Achromatium oxaliferum
+            [data-href] => https://www.protisten.de/home-new/bac-proteo/achromatium-oxaliferum/
+            [target] => _blank
+            [src] => https://www.protisten.de/wp-content/uploads/2024/07/Asset_achromatium-oxaliferum-jwbw_144.jpg
+            [data-lazy-src] => https://www.protisten.de/wp-content/uploads/2024/07/Asset_achromatium-oxaliferum-jwbw_144.jpg
+        )
+
+    [1] => Array
+        (
+            [title] => Macromonas fusiformis
+            [data-href] => https://www.protisten.de/home-new/bac-proteo/macromonas-fusiformis/
+            [target] => _blank
+            [src] => https://www.protisten.de/wp-content/uploads/2024/07/Asset_Macromonas-fusiformis-063-200-P5060950-DOS_144.jpg
+            [data-lazy-src] => https://www.protisten.de/wp-content/uploads/2024/07/Asset_Macromonas-fusiformis-063-200-P5060950-DOS_144.jpg
+        )
+
+    [2] => Array
+        (
+            [title] => Zoogloea ramigera
+            [data-href] => https://www.protisten.de/home-new/bac-proteo/zoogloea-ramigera/
+            [target] => _blank
+            [src] => https://www.protisten.de/wp-content/uploads/2024/07/Asset_Zoogloea-ramigera-025-100-P9272508-515-025-BOD_144.jpg
+            [data-lazy-src] => https://www.protisten.de/wp-content/uploads/2024/07/Asset_Zoogloea-ramigera-025-100-P9272508-515-025-BOD_144.jpg
+        )
+
+)
+Array
+(
+    [0] => "https://www.protisten.de/wp-content/uploads/2024/01/Header2-bkg-500pxheight-1536x219.jpg"
+    [1] => "https://www.protisten.de/wp-content/uploads/2024/01/Header2-bkg-500pxheight-scaled.jpg"
+)
+ zzz
+
+genus_dash_species: [achromatium-oxaliferum]
+genus_dash_species2: [Achromatium-oxaliferum]
+genus_dash_species3: [Achromatiumoxaliferum]
+No synonyms...
+
+genus_dash_synonym: []
+genus_dash: []
+genus_name: [Achromatium]
+---elix---
+Array
+(
+    [0] => "https://www.protisten.de/wp-content/uploads/2024/01/Header2-bkg-500pxheight-1536x219.jpg"
+    [1] => "https://www.protisten.de/wp-content/uploads/2024/01/Header2-bkg-500pxheight-scaled.jpg"
+    [2] => https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-jwbw-1.jpg
+    [3] => https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-jwbw-1.jpg
+    [4] => https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-jwbw-1.jpg
+    [5] => https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-tandem-w.jpg
+    [6] => https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-tandem-w.jpg
+    [7] => https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-tandem-w.jpg
+    [8] => https://www.protisten.de/wp-content/uploads/2025/02/Assets_Closterium-kuetzingii-025-125-M-20240610-1_6108873-902-1-Cell-wall-PIL-1.jpg
+)
+ ret - 111
+images: https://www.protisten.de/wp-content/uploads/2024/07/Asset_achromatium-oxaliferum-jwbw_144.jpg
+(2)text:[https://www.protisten.de/wp-content/uploads/2024/07/Asset_achromatium-oxaliferum-jwbw_144.jpg] [<p>Sampling date 04/2006. Scale bar indicates 10 µm.</p><p><i>Achromatium oxaliferum</i> is a large colorless sulpher bacterium containing large refractile structures of calcite spherulites.</p><p>Place name: Pond Demühlen, rain storage reservoir in Kiel-Russee (Schleswig-Holstein, Germany).<br />Latitude: 54.304095     Longitude: 10.086073</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>]
+
+images: https://www.protisten.de/wp-content/uploads/2024/01/Achromatium-EOL-ddd-e1722004472569.jpg
+(4)text:[https://www.protisten.de/wp-content/uploads/2024/01/Achromatium-EOL-ddd-e1722004472569.jpg] [<p>Sampling date 04/2006. Scale bar indicates 10 µm.</p><p><i>Achromatium oxaliferum</i> is a large colorless sulpher bacterium containing large refractile structures of calcite spherulites.</p><p>Place name: Pond Demühlen, rain storage reservoir in Kiel-Russee (Schleswig-Holstein, Germany).<br />Latitude: 54.304095     Longitude: 10.086073</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>]
+
+images: https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-jwbw-1.jpg
+(6)text:[https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-jwbw-1.jpg] [<p>Sampling date 04/2006. Scale bar indicates 10 µm.</p><p><i>Achromatium oxaliferum</i> is a large colorless sulpher bacterium containing large refractile structures of calcite spherulites.</p><p>Place name: Pond Demühlen, rain storage reservoir in Kiel-Russee (Schleswig-Holstein, Germany).<br />Latitude: 54.304095     Longitude: 10.086073</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>]
+
+images: https://www.protisten.de/wp-content/uploads/2024/07/Asset_achromatium-oxaliferum-jwbw_144.jpg
+images: https://www.protisten.de/wp-content/uploads/2024/01/Achromatium-EOL-ddd-e1722004472569.jpg
+images: https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-jwbw-1.jpg
+images: https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-tandem-w.jpg
+(14)text:[https://www.protisten.de/wp-content/uploads/2024/01/achromatium-oxaliferum-tandem-w.jpg] [<p>Sampling date 09/2009. Scale bar indicates 50 µm.</p><p>Multi-layer image shows cell in conjugation sharing genetic information.</p><p>Place name: Pond situated in the vicinity of Lake Constance (Germany).<br />Latitude: 47.734945     Longitude: 9.091097</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>]
+
+-=-=-=-=-=
+Array
+(
+    [0] => "59772381" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Sampling date 04/2006. Scale bar indicates 10 µm.</p><p><i>Achromatium oxaliferum</i> is a large colorless sulpher bacterium containing large refractile structures of calcite spherulites.</p><p>Place name: Pond Demühlen, rain storage reservoir in Kiel-Russee (Schleswig-Holstein, Germany).<br />Latitude: 54.304095     Longitude: 10.086073</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>								
+    [1] => "c657c5e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Sampling date 09/2009. Scale bar indicates 50 µm.</p><p>Multi-layer image shows cell in conjugation sharing genetic information.</p><p>Place name: Pond situated in the vicinity of Lake Constance (Germany).<br />Latitude: 47.734945     Longitude: 9.091097</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>								
+)
+Array
+(
+    [59772381] => 
+    [c657c5e] => 
+)
+
+left: [background-image:url]
+right: [element.elementor-element-59772381]
+
+left: [element.elementor-element-59772381]
+right: [element.elementor-element-c657c5e]
+
+left: [background-image:url]
+right: [element.elementor-element-c657c5e]
+Array
+(
+    [59772381] => 
+    [c657c5e] => 
+)
+Array
+(
+    [59772381] => <p>Sampling date 04/2006. Scale bar indicates 10 µm.</p><p><i>Achromatium oxaliferum</i> is a large colorless sulpher bacterium containing large refractile structures of calcite spherulites.</p><p>Place name: Pond Demühlen, rain storage reservoir in Kiel-Russee (Schleswig-Holstein, Germany).<br />Latitude: 54.304095     Longitude: 10.086073</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>
+    [c657c5e] => <p>Sampling date 09/2009. Scale bar indicates 50 µm.</p><p>Multi-layer image shows cell in conjugation sharing genetic information.</p><p>Place name: Pond situated in the vicinity of Lake Constance (Germany).<br />Latitude: 47.734945     Longitude: 9.091097</p><p>Microscope Zeiss Universal, camera Olympus C7070.</p>
+)
+
+legacy taxa count: 1295
+Array
+(
+    [taxonID] => 57f7bac204917eb1be5eeb57014e4409
+    [parentNameUsageID] => thiotrichales-thiotrichaceae
+    [higherClassification] => Bacteria|Proteobacteria|Gammaproteobacteria|Thiotrichales|Thiotrichaceae
+)
+Achromatium oxaliferum - found in legacy
+
+This page_id [898974] is not found in DH.
+
+sciname: [Achromatium oxaliferum] | genus_name: [Achromatium]
+sciname: [Achromatium oxaliferum] | genus_name: [Achromatium]Array
+(
+    [url main groups] => Array
+        (
+            [0] => https://www.protisten.de/home-new/bac-proteo/
+        )
+
+    [mimetype] => Array
+        (
+            [image/jpeg] => 
+        )
+
+    [image no text] => Array
+        (
+            [https://www.protisten.de/wp-content/uploads/2024/01/Header2-bkg-500pxheight-1536x219.jpg] => https://www.protisten.de/home-new/bac-proteo/achromatium-oxaliferum/
+            [https://www.protisten.de/wp-content/uploads/2024/01/Header2-bkg-500pxheight-scaled.jpg] => https://www.protisten.de/home-new/bac-proteo/achromatium-oxaliferum/
+            [https://www.protisten.de/wp-content/uploads/2025/02/Assets_Closterium-kuetzingii-025-125-M-20240610-1_6108873-902-1-Cell-wall-PIL-1.jpg] => https://www.protisten.de/home-new/bac-proteo/achromatium-oxaliferum/
+        )
+
+)
+
+[image no text]: 3
+
+--No broken images!--
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/protisten_v2/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/protisten_v2/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [5]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/protisten_v2/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [protisten_v2]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/protisten_v2//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://eol.org/schema/media/document
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://eol.org/schema/media/document
+)
+
+ agent  -- OK
+
+ taxon  -- OK
+
+ document  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 0.59 seconds 
+elapsed time = 0.01 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/protisten_v2/taxon.tab)
+
+OK: All parents in taxon.tab have entries.
+
+
+ elapsed time = 0.602122 seconds
+ elapsed time = 0.010035366666667 minutes
+ elapsed time = 0.00016725611111111 hours
+ Done processing
+Completed update_resources/connectors/protisten_v2.php :: [ []]<br>
+Finished: SUCCESS

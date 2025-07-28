@@ -1,0 +1,182 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/05 generate_country_checklists
+[05 generate_country_checklists] $ /bin/sh -xe /jenkins_tmp/jenkins9404230424437668225.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php national_checklists_2024.php jenkins {"task":"major_deletion"}
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/refs/heads/master/ISO_3166-1/country_codes_2letter.tsv :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_21872.file :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Trinidad And Tobago: OK
+Germany: OK
+Philippines: OK
+Australia: OK
+United States: OK
+
+CACHE EXISTS.
+
+download_extract_gbif_zip_file...
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+csv_path: [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/*.tsv]
+
+Country: [AD] [Andorra] [andorra]
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3167  100  3167    0     0   2674      0  0:00:01  0:00:01 --:--:--  2677
+
+needle: [+title:"Andorra" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836386] [National Checklists: Andorra Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      1      0  0:00:02  0:00:01  0:00:01     1100     2  100     2    0     0      1      0  0:00:02  0:00:01  0:00:01     1
+Array
+(
+)
+
+
+
+ elapsed time = 0.064617733333333 minutes
+ elapsed time = 0.0010769622222222 hours
+ Done processing.
+Completed national_checklists_2024.php :: [ []]<br>
++ php national_checklists_2024.php jenkins {"task":"generate_country_checklists"}
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/refs/heads/master/ISO_3166-1/country_codes_2letter.tsv :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_30360.file :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Trinidad And Tobago: OK
+Germany: OK
+Philippines: OK
+Australia: OK
+United States: OK
+
+CACHE EXISTS.
+
+download_extract_gbif_zip_file...
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+csv_path: [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/*.tsv]
+
+Country: [AD] [Andorra] [andorra]
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3167  100  3167    0     0   4322      0 --:--:-- --:--:-- --:--:--  4320
+
+needle: [+title:"Andorra" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836386] [National Checklists: Andorra Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+Array
+(
+)
+Warning: Undefined property: php_active_record\NationalChecklistsAPI::$accross_the_board_taxa in /var/www/html/eol_php8_code/lib/connectors/NationalChecklistsAPI.php on line 226
+Warning: foreach() argument must be of type array|object, null given in /var/www/html/eol_php8_code/lib/connectors/NationalChecklistsAPI.php on line 226
+
+
+
+ elapsed time = 0.0490721 minutes
+ elapsed time = 0.00081786833333333 hours
+ Done processing.
+Completed national_checklists_2024.php :: [ []]<br>
++ php national_checklists_2024.php jenkins {"task":"show_countries_metadata"}
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/refs/heads/master/ISO_3166-1/country_codes_2letter.tsv :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_42281.file :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Trinidad And Tobago: OK
+Germany: OK
+Philippines: OK
+Australia: OK
+United States: OK
+
+CACHE EXISTS.
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/*.tsv]
+
+Country: [AD] [Andorra] [andorra]
+Array
+(
+    [lower_case] => andorra
+    [orig] => Andorra
+    [abbrev] => AD
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3167  100  3167    0     0   2647      0  0:00:01  0:00:01 --:--:--  2647100  3167  100  3167    0     0   2646      0  0:00:01  0:00:01 --:--:--  2647
+
+needle: [+title:"Andorra" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836386] [National Checklists: Andorra Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      1      0  0:00:02  0:00:01  0:00:01     1
+Array
+(
+)
+
+
+
+ elapsed time = 0.039434416666667 minutes
+ elapsed time = 0.00065724027777778 hours
+ Done processing.
+Completed national_checklists_2024.php :: [ []]<br>
+Finished: SUCCESS

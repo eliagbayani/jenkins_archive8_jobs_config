@@ -1,0 +1,93 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0267) CalPhotos
+[(0267) CalPhotos] $ /bin/sh -xe /jenkins_tmp/jenkins4812771520772022099.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 267.php jenkins
+Current PHP version: 8.2.28<br>Please wait, downloading resource document... :: [ []]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_37055/ :: [ []]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_37055/ :: [ []]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_37055/eol.xml.gz :: [ []]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_37055/eol.xml] :: [ []]<br>
+Array
+(
+    [archive_path] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_37055/
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_37055/
+)
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_37055/eol.xml : only attempt :: [update_resources/connectors/267.php [34]]<br>
+
+
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//267_working/]
+
+
+ Saving remote file: /var/www/html/eol_php8_code/applications/content_server/resources_3//267.xml :: [lib/ResourceDataObjectElementsSetting.php [324]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_78848.file.xml :: [lib/ResourceDataObjectElementsSetting.php [324]]<br>
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3//267.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Reading file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_78848.file.xml]...
+
+ 5000 
+ 10000 
+ 15000 
+ 20000 
+ 25000 
+Succesfully deleted [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_78848.file.xml]
+
+total rows: 29335
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/267/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [429]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/267/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [227349]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/267/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [28295]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [267]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/267//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+elapsed time = 59.147034 seconds             
+elapsed time = 0.9857839 minutes  
+elapsed time = 0.016429731666667 hours 
+
+
+ Done processing.Completed 267.php :: [ []]<br>
+Finished: SUCCESS

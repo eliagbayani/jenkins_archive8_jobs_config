@@ -1,0 +1,66 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF Waterbody Checklists/04 divide_into_waterbody_files
+[04 divide_into_waterbody_files] $ /bin/sh -xe /jenkins_tmp/jenkins13005125360319661535.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php waterbody_checklists_2024.php _ {"task":"divide_into_waterbody_files"}
+Current PHP version: 8.2.28<br>Sending get request to https://raw.githubusercontent.com/EOL/eol_terms/main/resources/terms.yml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Adriatic Sea: OK
+Aegean Sea: OK
+CACHE EXISTS.
+
+Hard-coded value still good.
+
+download_extract_gbif_zip_file...
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/WaterBody_checklists/0048661-250525065834625.csv]
+
+csv_path: [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/WaterBody_checklists/0048661-250525065834625.csv]
+
+Folder removed: /Volumes/Crucial_4TB/other_files/GBIF_occurrence/WaterBody_checklists/waterbodies
+Task: [divide_into_waterbody_files] [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/WaterBody_checklists/0048661-250525065834625.csv]
+
+ 100000 
+ 200000 
+ 300000 
+ 400000 
+ 500000 
+[2440447][Adriatic Sea]:9 9
+
+[2440718][Adriatic Sea]:4 4
+
+[2509716][Adriatic Sea]:15 15
+
+[2333135][Indian Ocean]:5 5
+
+[2391929][Indian Ocean]:11 11
+
+[2391811][Indian Ocean]:2 2
+
+[2392074][Indian Ocean]:2 2
+Array
+(
+    [Lincoln Sea] => 
+    [Gulf of Riga] => 
+    [Sea of Okhostk] => 
+)
+ - AnneT waterbodies not found in GBIF: [3]
+Total AnneT waterbodies: [97]
+Total TSV generated should be: [94]
+
+--end divide_into_waterbody_files--
+Completed waterbody_checklists_2024.php :: [ []]<br>
+Finished: SUCCESS

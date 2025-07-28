@@ -1,0 +1,204 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/Bee Inventory and Monitoring Lab
+[Bee Inventory and Monitoring Lab] $ /bin/sh -xe /jenkins_tmp/jenkins4153147108761331609.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php bee_inventory_monitoring.php jenkins
+Current PHP version: 8.2.28<br>
+ count: 198
+ count: 229
+
+ From: 2009-01-01 To: 2009-01-31
+
+total_pages = [0] 0
+
+
+ From: 2009-02-01 To: 2009-02-31
+
+total_pages = [0] 0
+
+
+ From: 2009-03-01 To: 2009-03-31
+
+total_pages = [0] 0
+
+
+ From: 2009-04-01 To: 2009-04-31
+
+total_pages = [0] 0
+
+
+ From: 2009-05-01 To: 2009-05-31
+
+total_pages = [0] 0
+
+
+ From: 2009-06-01 To: 2009-06-31
+
+total_pages = [0] 0
+
+
+ From: 2009-07-01 To: 2009-07-31
+
+total_pages = [0] 0
+
+
+ From: 2009-08-01 To: 2009-08-31
+
+total_pages = [0] 0
+
+
+ From: 2009-09-01 To: 2009-09-31
+
+total_pages = [0] 0
+
+
+ From: 2009-10-01 To: 2009-10-31
+
+total_pages = [0] 0
+
+
+ From: 2009-11-01 To: 2009-11-31
+
+total_pages = [0] 0
+
+
+ From: 2009-12-01 To: 2009-12-31
+
+total_pages = [0] 0
+
+
+ From: 2010-01-01 To: 2010-01-31
+
+total_pages = [0] 0
+
+
+ From: 2010-02-01 To: 2010-02-31
+
+total_pages = [0] 0
+
+
+ From: 2010-03-01 To: 2010-03-31
+
+total_pages = [0] 0
+
+
+ From: 2010-04-01 To: 2010-04-31
+
+total_pages = [0] 0
+
+
+ From: 2010-05-01 To: 2010-05-31
+
+total_pages = [0] 0
+
+
+ From: 2010-06-01 To: 2010-06-31
+
+total_pages = [0] 0
+
+
+ From: 2010-07-01 To: 2010-07-31
+
+total_pages = [0] 0
+
+
+ From: 2010-08-01 To: 2010-08-31
+
+total_pages = [0] 0
+
+
+ From: 2010-09-01 To: 2010-09-31
+
+total_pages = [0] 0
+
+
+ From: 2010-10-01 To: 2010-10-31
+
+total_pages = [0] 0
+
+
+ From: 2010-11-01 To: 2010-11-31
+
+total_pages = [0] 0
+
+
+ From: 2010-12-01 To: 2010-12-31
+
+total_pages = [0] 0
+
+
+ From: 2011-01-01 To: 2011-01-31
+
+total_pages = [0] 0
+
+
+ From: 2011-02-01 To: 2011-02-31
+
+total_pages = [0] 0
+
+
+ From: 2011-03-01 To: 2011-03-31
+
+total_pages = [0] 0
+
+
+ From: 2011-04-01 To: 2011-04-31
+
+total_pages = [0] 0
+
+
+ From: 2011-05-01 To: 2011-05-31
+
+total_pages = [0] 0
+
+
+ From: 2011-06-01 To: 2011-06-31
+
+total_pages = [0] 0
+
+
+ From: 2011-07-01 To: 2011-07-31
+
+total_pages = [0] 0
+
+Reading file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_78434.file.xml]...
+
+Succesfully deleted [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_78434.file.xml]
+
+total rows: 0
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+Warning: filesize(): stat failed for /var/www/html/eol_php8_code/applications/content_server/resources_3/usgs_bee_inventory_working/taxon.tab in /var/www/html/eol_php8_code/lib/Functions.php on line 409
+Warning: chmod(): No such file or directory in /var/www/html/eol_php8_code/lib/Functions.php on line 438
+
+File permission update: failed!
+
+doing this: convert_archive_normalized()
+tar (child): /var/www/html/eol_php8_code/applications/content_server/resources_3/usgs_bee_inventory.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+
+1. /Volumes/AKiTiO4/eol_php_code_tmp/dir_01936/meta.xml
+
+2. /var/www/html/eol_php8_code/applications/content_server/resources_3/usgs_bee_inventory.tar.gz/meta.xml
+
+3. /Volumes/AKiTiO4/eol_php_code_tmp/dir_01936/dwca/meta.xml
+
+4. /Volumes/AKiTiO4/eol_php_code_tmp/dir_01936/EOL_dynamic_hierarchy/meta.xml
+
+5. /Volumes/AKiTiO4/eol_php_code_tmp/dir_01936/usgs_bee_inventory/meta.xml
+
+temp. dir removed: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_01936/]
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 646
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 647
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 648
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 649
+<b>Uncaught Error</b>: Call to a member function process_row_type() on null<br/>
+in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php[651]<br/>
+<pre>#0 /var/www/html/eol_php8_code/update_resources/connectors/bee_inventory_monitoring.php(129): php_active_record\DwCA_Utility->convert_archive_normalized()
+#1 {main}</pre>
+Finished: SUCCESS

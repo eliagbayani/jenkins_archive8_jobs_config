@@ -1,0 +1,41 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php_code/update_resources/connectors
+### counter was used early on, during caching but no more.
+exit 0 #graceful exit
+php national_checklists_2024.php jenkins &apos;{&quot;task&quot;:&quot;generate_country_checklists&quot;, &quot;counter&quot;:&quot;1&quot;}&apos;
+php national_checklists_2024.php jenkins &apos;{&quot;task&quot;:&quot;generate_country_checklists&quot;, &quot;counter&quot;:&quot;2&quot;}&apos;
+php national_checklists_2024.php jenkins &apos;{&quot;task&quot;:&quot;generate_country_checklists&quot;, &quot;counter&quot;:&quot;3&quot;}&apos;
+php national_checklists_2024.php jenkins &apos;{&quot;task&quot;:&quot;generate_country_checklists&quot;, &quot;counter&quot;:&quot;4&quot;}&apos;
+php national_checklists_2024.php jenkins &apos;{&quot;task&quot;:&quot;generate_country_checklists&quot;, &quot;counter&quot;:&quot;5&quot;}&apos;
+php national_checklists_2024.php jenkins &apos;{&quot;task&quot;:&quot;generate_country_checklists&quot;, &quot;counter&quot;:&quot;6&quot;}&apos;
+### end</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

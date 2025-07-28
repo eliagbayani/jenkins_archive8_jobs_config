@@ -1,0 +1,63 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#temporarily commented Oct 24, 2018, AntWeb API is down.
+#exit -1
+
+#cd /var/www/html/eol_php_code/update_resources/connectors
+#php 24.php jenkins OBSOLETE, REPLACED BY: 24_new.php
+
+#for Trait data
+#cd /var/www/html/eol_php_code/update_resources/connectors
+#php dwca_utility.php jenkins 24 OBSOLETE AS WELL, REPLACED BY:24_new.php
+
+#echo &quot;\n=================================\n&quot;
+#Connector needs to be updated.
+#echo &quot;\n=================================\n&quot;
+
+# Last successful harvest: 
+# 24 Fri 2024-11-15 06:40:23 AM	{&quot;agent.tab&quot;:173, &quot;measurement_or_fact_specific.tab&quot;:86893, &quot;media_resource.tab&quot;:140143, &quot;occurrence_specific.tab&quot;:57123, &quot;taxon.tab&quot;:16470, &quot;time_elapsed&quot;:{&quot;sec&quot;:18803.02, &quot;min&quot;:313.38, &quot;hr&quot;:5.22}}
+# exit 1
+
+echo &quot;API is down: https://www.antweb.org/documentation/api/apiV3_1.jsp#taxa&quot;
+exit 0 #graceful exit
+
+### NEW CONNECTOR: OK
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php 24_new.php _
+# generates 24.tar.gz
+
+
+# From Jen: it looks like we can discard this filter from both AntWeb and AmphibiaWeb. DATA-1870
+###php rem_marine_terr_desc.php jenkins &apos;{&quot;resource_id&quot;:&quot;24&quot;}&apos;
+# generates 24_cleaned_MoF_habitat.tar.gz
+# it worked OK, but no longer being used
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

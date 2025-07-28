@@ -1,0 +1,52 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0168) BioImages the virtual fieldguide UK Malcolm_Storey
+[(0168) BioImages the virtual fieldguide UK Malcolm_Storey] $ /bin/sh -xe /jenkins_tmp/jenkins1189027862941470467.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php ckan_api_access.php _ 5b1ebec7-efd0-47b5-860e-5c841d88d366
+Current PHP version: 8.2.28<br>E_DEPRECATED: Optional parameter $file_type declared before required parameter $forced_date is implicitly treated as a required parameter in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 11
+Array
+(
+    [0] => ckan_api_access.php
+    [1] => _
+    [2] => 5b1ebec7-efd0-47b5-860e-5c841d88d366
+)
+E_DEPRECATED: Creation of dynamic property php_active_record\CKAN_API_AccessAPI::$file_label is deprecated in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 13
+E_DEPRECATED: Creation of dynamic property php_active_record\CKAN_API_AccessAPI::$date_format is deprecated in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 21
+E_DEPRECATED: Creation of dynamic property php_active_record\CKAN_API_AccessAPI::$date_str is deprecated in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 22
+
+05/21/2025 11:14:43
+May 21, 2025 11:14 AM
+2025-05-21 11:14:43
+E_DEPRECATED: Creation of dynamic property php_active_record\CKAN_API_AccessAPI::$api_resource_show is deprecated in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 28
+E_DEPRECATED: Creation of dynamic property php_active_record\CKAN_API_AccessAPI::$download_options is deprecated in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 30
+E_DEPRECATED: Creation of dynamic property php_active_record\CKAN_API_AccessAPI::$api_package_list is deprecated in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 34
+E_DEPRECATED: Creation of dynamic property php_active_record\CKAN_API_AccessAPI::$api_package_show is deprecated in /var/www/html/eol_php8_code/lib/connectors/CKAN_API_AccessAPI.php on line 35
+Sending get request to https://opendata.eol.org/api/3/action/resource_show?id=5b1ebec7-efd0-47b5-860e-5c841d88d366 : only attempt :: [lib/Functions.php [148]]<br>
+
+Old description: [A large collection of photographs of wildlife from Great Britain, and covering a wide range of groups of organisms. http://www.bioimages.org.uk/
+
+
+
+####--- __EOL DwCA resource last updated: Apr 01, 2025 04:08 PM__ ---####]
+
+New description: [A large collection of photographs of wildlife from Great Britain, and covering a wide range of groups of organisms. http://www.bioimages.org.uk/
+
+
+
+####--- __EOL DwCA resource last updated: May 21, 2025 11:14 AM__ ---####]
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  1341  100  1005  100   336    530    177  0:00:01  0:00:01 --:--:--   708
+
+OpenData resource UPDATE OK.
+
+----end----
+elapsed time = 4.4 seconds 
+elapsed time = 0.07 minutes 
+
+Done processing.
+Completed ckan_api_access.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

@@ -1,0 +1,74 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/MAD NatDB
+[MAD NatDB] $ /bin/sh -xe /jenkins_tmp/jenkins16149253272194684886.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php dwca_MoF_reassign_values.php jenkins {"resource_id":"natdb_meta_recoded", "resource":"MoF_reassign_values"}
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//natdb_temp_1_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_61387/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/natdb_meta_recoded.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_61387/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_61387/natdb_meta_recoded.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_61387/natdb_meta_recoded.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_61387//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/reference/reference]: reference...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/occurrence]: occurrence...
+
+DWCA_Measurements_ReassignValuesAPI...
+
+process_extension [MoF][write_MADtraits]...DWCA_Measurements_ReassignValuesAPI...
+
+100,000
+200,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_61387/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/natdb_temp_1/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [211530]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/natdb_temp_1/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [96894]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/natdb_temp_1/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [11]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/natdb_temp_1/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [2778]
+ :: [lib/Functions.php [417]]<br>
+
+----end----
+elapsed time = 45.65 seconds 
+elapsed time = 0.76 minutes 
+elapsed time = 0.01 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentMeasurementID have entries in measurement_or_fact_specific.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/natdb_temp_1/measurement_or_fact_specific.tab)
+
+Total undefined parents MoF:0
+Completed dwca_MoF_reassign_values.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

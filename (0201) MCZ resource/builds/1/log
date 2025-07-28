@@ -1,0 +1,122 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0201) MCZ resource
+[(0201) MCZ resource] $ /bin/sh -xe /jenkins_tmp/jenkins4531724878181924234.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 201.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//201_working/]
+
+spreadsheet: [https://github.com/eliagbayani/EOL-connector-data-files/raw/master/NMNH/type_specimen_resource/nmnh-mappings.xlsx]
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/NMNH/type_specimen_resource/nmnh-mappings.xlsx :: [lib/connectors/GBIFCountryTypeRecordAPI.php [185]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_58491.file.xlsx :: [lib/connectors/GBIFCountryTypeRecordAPI.php [185]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_58491.file.xlsx]
+Please wait, downloading resource document... :: [update_resources/connectors/201.php [57]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_34899/ :: [update_resources/connectors/201.php [57]]<br>
+Sending get request to http://digir.mcz.harvard.edu/ipt/archive.do?r=mcz_for_eol : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_34899/ :: [update_resources/connectors/201.php [57]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_34899/archive.do?r=mcz_for_eol :: [update_resources/connectors/201.php [57]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_34899/archive.do?r=mcz_for_eol] :: [update_resources/connectors/201.php [57]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_34899//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/MCZ/First40k.txt :: [lib/connectors/MCZHarvardArchiveAPI.php [90]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_64200.file :: [lib/connectors/MCZHarvardArchiveAPI.php [90]]<br>
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_34899/Array
+(
+    [licenses] => Array
+        (
+            [Available under Creative Commons Attribution Share Alike Non Commerical (CC-BY-NC-SA 4.0) license] => 
+            [Available under Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) license] => 
+            [Available under Creative Commons Attribution (CC BY) license] => 
+            [Available under Creative Commons Attribution-NonCommercial (CC BY-NC) license] => 
+            [Available under Creative Commons Zero (CC0) license] => 
+        )
+
+    [undefined] => Array
+        (
+            [typeStatus] => Array
+                (
+                    [[TYPE STATUS NEEDS RESEARCH]] => 
+                    [OTHER USEFUL CITATION] => 
+                    [IDEOTYPE] => 
+                )
+
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/201/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [250912]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/201/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [500757]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/201/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [60760]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/201/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [52362]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [201]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/201//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ document  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 330.07 seconds 
+elapsed time = 5.5 minutes 
+elapsed time = 0.09 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [201].
+Completed 201.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

@@ -1,0 +1,182 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0026) WoRMS
+[(0026) WoRMS] $ /bin/sh -xe /jenkins_tmp/jenkins14864987826837724223.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php rem_marine_terr_desc.php jenkins {"resource_id":"26_delta"}
+Current PHP version: 8.2.28<br>
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_10521/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/26_delta.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_10521/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_10521/26_delta.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_10521/26_delta.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_10521//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/reference/reference]: reference...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/media/document]: document...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/agent/agent]: agent...
+
+processing...DwCA_Utility...x: [http://rs.gbif.org/terms/1.0/vernacularname]: vernacular...
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 171
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 172
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1567
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1568
+
+
+Running build_occurID_taxonID_info...
+300,000
+
+Running build_measurement_occurrence_info...
+300,000
+600,000
+900,000
+1,200,000
+
+Running log_habitat_use...
+300,000
+600,000
+900,000
+1,200,000
+taxonIDs with both marine and terrestrial habitats: 2445
+
+
+Running log_habitat_use_step2...
+300,000
+600,000
+900,000
+1,200,000
+
+Running write_occurrence_type2...
+300,000
+
+Running write_MoF...Array
+(
+    [0] => measurementID
+    [1] => occurrenceID
+    [2] => measurementOfTaxon
+    [3] => parentMeasurementID
+    [4] => measurementType
+    [5] => measurementValue
+    [6] => measurementUnit
+    [7] => statisticalMethod
+    [8] => measurementDeterminedDate
+    [9] => measurementDeterminedBy
+    [10] => measurementMethod
+    [11] => measurementRemarks
+    [12] => source
+    [13] => contributor
+    [14] => referenceID
+)
+
+300,000
+600,000
+900,000
+1,200,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_10521/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [2280]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1344579]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [113480]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [477129]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [852290]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [430899]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [80698]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [26_delta_new]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://eol.org/schema/media/document
+    [3] => http://eol.org/schema/agent/agent
+    [4] => http://rs.gbif.org/terms/1.0/vernacularname
+    [5] => http://rs.tdwg.org/dwc/terms/occurrence
+    [6] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://eol.org/schema/media/document
+    [3] => http://eol.org/schema/agent/agent
+    [5] => http://rs.tdwg.org/dwc/terms/occurrence
+    [6] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ reference  -- OK
+
+ document  -- OK
+
+ agent  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 10.93 minutes 
+elapsed time = 0.18 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/26_delta_new/taxon.tab)
+
+ count:[300,000] 
+Total undefined parents:0
+Completed rem_marine_terr_desc.php :: [ []]<br>
++ exit 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,17 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF Countries Download/02 Check if ready to start
+[02 Check if ready to start] $ /bin/sh -xe /jenkins_tmp/jenkins6364861267397844448.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php gbif_download_request.php jenkins {"task":"check_if_all_downloads_are_ready_YN", "taxon":"GBIF_Netherlands"}
+Current PHP version: 8.2.28<br>
+Download key for [GBIF_Netherlands]: [0034037-250525065834625]
+
+Request output:
+[{"key":"0034037-250525065834625","doi":"10.15468/dl.xzg9bv","license":"http://creativecommons.org/licenses/by-nc/4.0/legalcode","request":{"predicate":{"type":"and","predicates":[{"type":"isNotNull","parameter":"TYPE_STATUS"},{"type":"equals","key":"PUBLISHING_COUNTRY","value":"NL","matchCase":false}]},"sendNotification":true,"format":"DWCA","type":"OCCURRENCE","verbatimExtensions":[]},"created":"2025-06-10T17:35:08.425+00:00","modified":"2025-06-10T17:52:30.507+00:00","eraseAfter":"2025-12-10T17:35:08.372+00:00","status":"SUCCEEDED","downloadLink":"https://api.gbif.org/v1/occurrence/download/request/0034037-250525065834625.zip","size":61332612,"totalRecords":200702,"numberDatasets":40}]
+
+Can proceed to download [GBIF_Netherlands].
+
+All downloads are now ready. OK to proceed.
+Completed gbif_download_request.php :: [ []]<br>
+Finished: SUCCESS

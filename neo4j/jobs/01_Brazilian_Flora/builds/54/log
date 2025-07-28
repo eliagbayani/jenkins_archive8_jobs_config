@@ -1,0 +1,173 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/neo4j/01_Brazilian_Flora
+[01_Brazilian_Flora] $ /bin/sh -xe /jenkins_tmp/jenkins16662292282355529494.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php match_taxa_2DH.php _ {"resource_id": "Brazilian_Flora-with-higherClassification"}
+Current PHP version: 8.2.29<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//Brazilian_Flora-with-higherClassification_neo4j_2_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_50302/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/Brazilian_Flora-with-higherClassification_neo4j_1.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_50302/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_50302/Brazilian_Flora-with-higherClassification_neo4j_1.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_50302/Brazilian_Flora-with-higherClassification_neo4j_1.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_50302//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.gbif.org/terms/1.0/vernacularname]: vernacular...
+
+processing...DwCA_Utility...x: [http://eol.org/schema/reference/reference]: reference...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/occurrence]: occurrence...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/measurementorfact]: measurementorfact...
+
+path_to_taxa_file: [/Volumes/AKiTiO4/d_w_h/EOL Dynamic Hierarchy Active Version/dh226_Eli/taxon.tsv]
+
+Purpose: taxa_info_4name_matching...
+
+500,000 
+1,000,000 
+1,500,000 
+2,000,000 
+2,500,000 
+3,000,000 
+3,500,000 
+4,000,000 
+aaa1:4148704
+xxx1:4302722
+yyy1:1784715
+zzz1:670350
+
+aaa2:4148704
+xxx2:4302722
+yyy2:1784715
+zzz2:670350
+
+process_table: [generate_synonyms_info] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_50302//taxon.tab]...
+
+100,000 - 
+process_table: [match_canonical] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_50302//taxon.tab]...
+
+100,000 - http://rs.tdwg.org/dwc/terms/taxon
+--STATS--
+Has canonical match: [102,145]
+With eolID assignments: [53,359]
+
+canonical match: genus - subgenus: [0]
+OK DwCA:                           [0]
+OK DH:                             [0]
+canonical match: subgenus - genus: [0]
+OK DwCA:                           [0]
+OK DH:                             [0]
+
+canonical match: species - any subspecific ranks: [10]
+OK DwCA: [0]
+OK DH:   [0]
+canonical match: any subspecific ranks - species: [44]
+OK DwCA: [0]
+OK DH:   [1]
+
+taxonomicStatus breakdown: Array
+(
+    [accepted] => 58155
+    [synonym] => 63258
+    [] => 1245
+)
+total acceptedNameUsageID: [60,664]
+
+1. matched ancestry: [51,959]
+2. matched higherClassification: [0]
+3. matched just 1 record: [1,318]
+4. matched same rank and status accepted: [107]
+5. matched same rank: [0]
+6. matched group rank: [0]
+7. accepted only: [0]
+8. matched 1st rek: [0]
+9. matched blank eolID: [48,761]
+Total 9 matches: [102,145] -> should be equal to: [Has canonical match] [0]
+
+[# of rek in reks][total count]
+[7][1]
+[6][2]
+[5][18]
+[4][44]
+[3][205]
+[2][1764]
+[1][46727]
+Sum: [48761] -> should be equal to: [matched blank eolID] [0]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_50302/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification_neo4j_2/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [413020]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification_neo4j_2/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [404891]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification_neo4j_2/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [55234]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification_neo4j_2/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [122645]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification_neo4j_2/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [9124]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [Brazilian_Flora-with-higherClassification_neo4j_2]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/Brazilian_Flora-with-higherClassification_neo4j_2//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [4] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [4] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ reference  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 182.23 seconds 
+elapsed time = 3.04 minutes 
+elapsed time = 0.05 hours 
+
+Done processing.
+
+File permission update: [1] OK
+Completed match_taxa_2DH.php :: [ []]<br>
+Finished: SUCCESS

@@ -1,0 +1,220 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0368) Paleobiology Database
+[(0368) Paleobiology Database] $ /bin/sh -xe /jenkins_tmp/jenkins4391035828869919672.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php pbdb_fresh_harvest.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_working/]
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_14160.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_14160.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [update_resources/connectors/pbdb_fresh_harvest.php [228]]<br>
+
+remapped_terms: 257
+
+
+ Saving remote file: http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_30840.file.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+Sending get request to http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_30840.file.xlsx]
+
+
+ Saving remote file: http://host.docker.internal:81/cp/PaleoDB/TRAM-746/alltaxa.json :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_46418.file :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+ - 10000 
+ - 20000 
+ - 30000 
+ - 40000 
+ - 50000 
+ - 60000 
+ - 70000 
+ - 80000 
+ - 90000 
+ - 100000 
+ - 110000 
+ - 120000 
+ - 130000 
+ - 140000 
+ - 150000 
+ - 160000 
+ - 170000 
+ - 180000 
+ - 190000 
+ - 200000 
+ - 210000 
+ - 220000 
+ - 230000 
+ - 240000 
+ - 250000 
+ - 260000 
+ - 270000 
+ - 280000 
+ - 290000 
+ - 300000 
+ - 310000 
+ - 320000 
+ - 330000 
+ - 340000 
+ - 350000 
+ - 360000 
+ - 370000 Array
+(
+    [taxonomicStatus] => Array
+        (
+            [obsolete variant] => 
+            [accepted] => 
+            [subjective synonym] => 
+            [misspelling] => 
+            [replaced] => 
+            [nomen dubium] => 
+            [corrected] => 
+            [objective synonym] => 
+            [invalid subgroup] => 
+            [nomen vanum] => 
+            [reassigned] => 
+            [nomen nudum] => 
+            [recombined] => 
+            [nomen oblitum] => 
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+Warning: filesize(): stat failed for /var/www/html/eol_php8_code/applications/content_server/resources_3/368_working/taxon.tab in /var/www/html/eol_php8_code/lib/Functions.php on line 409
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+File does not exist: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/taxon.tab]
+Process failed!
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/DWCADiagnoseAPI.php on line 342
+
+All parents have entries OK (1st try)
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_89958.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_89958.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [update_resources/connectors/pbdb_fresh_harvest.php [228]]<br>
+
+remapped_terms: 257
+
+
+ Saving remote file: http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_15312.file.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+Sending get request to http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_15312.file.xlsx]
+
+
+ Saving remote file: http://host.docker.internal:81/cp/PaleoDB/TRAM-746/alltaxa.json :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_04516.file :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+ - 10000 
+ - 20000 
+ - 30000 
+ - 40000 
+ - 50000 
+ - 60000 
+ - 70000 
+ - 80000 
+ - 90000 
+ - 100000 
+ - 110000 
+ - 120000 
+ - 130000 
+ - 140000 
+ - 150000 
+ - 160000 
+ - 170000 
+ - 180000 
+ - 190000 
+ - 200000 
+ - 210000 
+ - 220000 
+ - 230000 
+ - 240000 
+ - 250000 
+ - 260000 
+ - 270000 
+ - 280000 
+ - 290000 
+ - 300000 
+ - 310000 
+ - 320000 
+ - 330000 
+ - 340000 
+ - 350000 
+ - 360000 
+ - 370000 Array
+(
+    [taxonomicStatus] => Array
+        (
+            [obsolete variant] => 
+            [accepted] => 
+            [subjective synonym] => 
+            [misspelling] => 
+            [replaced] => 
+            [nomen dubium] => 
+            [corrected] => 
+            [objective synonym] => 
+            [invalid subgroup] => 
+            [nomen vanum] => 
+            [reassigned] => 
+            [nomen nudum] => 
+            [recombined] => 
+            [nomen oblitum] => 
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+Warning: filesize(): stat failed for /var/www/html/eol_php8_code/applications/content_server/resources_3/368_working/taxon.tab in /var/www/html/eol_php8_code/lib/Functions.php on line 409
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+File does not exist: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/taxon.tab]
+Process failed!
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/DWCADiagnoseAPI.php on line 342
+
+All parents have entries OK (2nd try)
+
+
+elapsed time = 0.3041153333333333 minutes 
+elapsed time = 0.005068588888888889 hours 
+
+Done processing.
+Completed pbdb_fresh_harvest.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

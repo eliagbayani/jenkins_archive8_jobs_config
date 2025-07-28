@@ -1,0 +1,468 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/05 generate_country_checklists
+[05 generate_country_checklists] $ /bin/sh -xe /jenkins_tmp/jenkins18131226320100323706.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php national_checklists_2024.php jenkins {"task":"major_deletion"}
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/refs/heads/master/ISO_3166-1/country_codes_2letter.tsv :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_82347.file :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Trinidad And Tobago: OK
+Germany: OK
+Philippines: OK
+Australia: OK
+United States: OK
+
+CACHE EXISTS.
+
+download_extract_gbif_zip_file...
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+csv_path: [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/*.tsv]
+
+Country: [AD] [Andorra] [andorra]
+
+[this is 1]
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 10  3167   10   317    0     0    291      0  0:00:10  0:00:01  0:00:09   291100  3167  100  3167    0     0   2909      0  0:00:01  0:00:01 --:--:--  2908
+
+needle: [+title:"Andorra" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836386] [National Checklists: Andorra Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_andorra]
+
+File deleted OK [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra.tar.gz]
+
+Country: [AE] [United Arab Emirates] [unitedarabemirates]
+
+[this is 2]
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3227  100  3227    0     0   4395      0 --:--:-- --:--:-- --:--:--  4390
+
+needle: [+title:"United Arab Emirates" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836387] [National Checklists: United Arab Emirates Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_unitedarabemirates]
+
+File deleted OK [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates.tar.gz]
+Array
+(
+)
+
+
+
+ elapsed time = 0.099429183333333 minutes
+ elapsed time = 0.0016571530555556 hours
+ Done processing.
+Completed national_checklists_2024.php :: [ []]<br>
++ php national_checklists_2024.php jenkins {"task":"generate_country_checklists"}
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/refs/heads/master/ISO_3166-1/country_codes_2letter.tsv :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_07623.file :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Trinidad And Tobago: OK
+Germany: OK
+Philippines: OK
+Australia: OK
+United States: OK
+
+CACHE EXISTS.
+
+download_extract_gbif_zip_file...
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+csv_path: [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/0038548-250525065834625.csv]
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/*.tsv]
+
+Country: [AD] [Andorra] [andorra]
+
+[this is 1]
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3167  100  3167    0     0   2635      0  0:00:01  0:00:01 --:--:--  2634100  3167  100  3167    0     0   2635      0  0:00:01  0:00:01 --:--:--  2634
+
+needle: [+title:"Andorra" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836386] [National Checklists: Andorra Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_andorra]
+
+date of SC_andorra.tar.gz: 1969-12-31
+
+-------new...
+today: 2025-06-12
+minus 1 month: 2025-04-12
+
+1969-12-31 < 2025-04-12 
+
+Has not been generated in 2 months (SC_andorra). Will proceed.
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_andorra_working/]
+
+Task: [process_country_file] [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/AD.tsv]
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [38]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [19]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_andorra]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_andorra//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_andorra].
+
+Country: [AE] [United Arab Emirates] [unitedarabemirates]
+
+[this is 2]
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3227  100  3227    0     0   4392      0 --:--:-- --:--:-- --:--:--  4390100  3227  100  3227    0     0   4392      0 --:--:-- --:--:-- --:--:--  4390
+
+needle: [+title:"United Arab Emirates" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836387] [National Checklists: United Arab Emirates Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_unitedarabemirates]
+
+date of SC_unitedarabemirates.tar.gz: 1969-12-31
+
+-------new...
+today: 2025-06-12
+minus 1 month: 2025-04-12
+
+1969-12-31 < 2025-04-12 
+
+Has not been generated in 2 months (SC_unitedarabemirates). Will proceed.
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//SC_unitedarabemirates_working/]
+
+Task: [process_country_file] [/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/AE.tsv]
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [40]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [20]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [20]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [SC_unitedarabemirates]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/SC_unitedarabemirates//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Designed not to proceed to Zenodo at this time [SC_unitedarabemirates].
+Array
+(
+    [ranks] => Array
+        (
+            [species] => 40
+        )
+
+    [statuses] => Array
+        (
+            [accepted] => 39
+            [doubtful] => 1
+        )
+
+)
+
+
+
+ elapsed time = 0.1095198 minutes
+ elapsed time = 0.00182533 hours
+ Done processing.
+Completed national_checklists_2024.php :: [ []]<br>
++ php national_checklists_2024.php jenkins {"task":"show_countries_metadata"}
+Current PHP version: 8.2.28<br>
+
+ Saving remote file: https://raw.githubusercontent.com/eliagbayani/EOL-connector-data-files/refs/heads/master/ISO_3166-1/country_codes_2letter.tsv :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_99292.file :: [lib/connectors/NationalChecklistsAPI.php [119]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+Trinidad And Tobago: OK
+Germany: OK
+Philippines: OK
+Australia: OK
+United States: OK
+
+CACHE EXISTS.
+
+[/Volumes/Crucial_4TB/other_files/GBIF_occurrence/Country_checklists/countries/*.tsv]
+
+Country: [AD] [Andorra] [andorra]
+Array
+(
+    [lower_case] => andorra
+    [orig] => Andorra
+    [abbrev] => AD
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3167  100  3167    0     0   3084      0  0:00:01  0:00:01 --:--:--  3086100  3167  100  3167    0     0   3084      0  0:00:01  0:00:01 --:--:--  3086
+
+needle: [+title:"Andorra" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836386] [National Checklists: Andorra Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_andorra]
+
+Country: [AE] [United Arab Emirates] [unitedarabemirates]
+Array
+(
+    [lower_case] => unitedarabemirates
+    [orig] => United Arab Emirates
+    [abbrev] => AE
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3227  100  3227    0     0   4519      0 --:--:-- --:--:-- --:--:--  4519
+
+needle: [+title:"United Arab Emirates" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836387] [National Checklists: United Arab Emirates Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_unitedarabemirates]
+
+Country: [AF] [Afghanistan] [afghanistan]
+Array
+(
+    [lower_case] => afghanistan
+    [orig] => Afghanistan
+    [abbrev] => AF
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3184  100  3184    0     0   4437      0 --:--:-- --:--:-- --:--:--  4434
+
+needle: [+title:"Afghanistan" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836390] [National Checklists: Afghanistan Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_afganistan]
+
+Country: [AG] [Antigua and Barbuda] [antiguaandbarbuda]
+Array
+(
+    [lower_case] => antiguaandbarbuda
+    [orig] => Antigua and Barbuda
+    [abbrev] => AG
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3212  100  3212    0     0   4548      0 --:--:-- --:--:-- --:--:--  4543
+
+needle: [+title:"Antigua and Barbuda" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836397] [National Checklists: Antigua and Barbuda Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_antiguabarbuda]
+
+Country: [AI] [Anguilla] [anguilla]
+Array
+(
+    [lower_case] => anguilla
+    [orig] => Anguilla
+    [abbrev] => AI
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3152  100  3152    0     0   2860      0  0:00:01  0:00:01 --:--:--  2862100  3152  100  3152    0     0   2860      0  0:00:01  0:00:01 --:--:--  2862
+
+needle: [+title:"Anguilla" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836398] [National Checklists: Anguilla Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [c_AI]
+
+Country: [AL] [Albania] [albania]
+Array
+(
+    [lower_case] => albania
+    [orig] => Albania
+    [abbrev] => AL
+)
+
+allVersions: []
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  3167  100  3167    0     0   4293      0 --:--:-- --:--:-- --:--:--  4297
+
+needle: [+title:"Albania" -title:2019 -title:2017 +title:National +title:Checklists]
+
+- [1] 1. [14836399] [National Checklists: Albania Species List] [2025-02-08]...  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     2  100     2    0     0      2      0  0:00:01 --:--:--  0:00:01     2
+
+dwca_filename: [SC_albania]
+Array
+(
+)
+
+
+
+ elapsed time = 0.15613183333333 minutes
+ elapsed time = 0.0026021972222222 hours
+ Done processing.
+Completed national_checklists_2024.php :: [ []]<br>
+Finished: SUCCESS

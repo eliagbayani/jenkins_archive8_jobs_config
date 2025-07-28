@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#cd /extra/other_files/GBIF_occurrence/
+cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/ #for Mac Studio PHP 8.2
+[ ! -d &quot;WaterBody_checklists&quot; ] &amp;&amp; mkdir WaterBody_checklists
+cd WaterBody_checklists
+[ -e WaterBody_checklists_DwCA.zip ] &amp;&amp; ls -lt WaterBody_checklists_DwCA.zip
+[ -e WaterBody_checklists_DwCA.zip ] &amp;&amp; rm WaterBody_checklists_DwCA.zip
+bash /var/www/html/eol_php8_code/update_resources/connectors/files/WaterBody_checklists/run_WaterBody_checklists.sh
+[ -e WaterBody_checklists_DwCA.zip ] &amp;&amp; ls -lt WaterBody_checklists_DwCA.zip
+
+#orig post build: 04 divide_into_waterbody_files
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

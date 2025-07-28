@@ -1,0 +1,581 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/Andreas Kay Flickr
+[Andreas Kay Flickr] $ /bin/sh -xe /jenkins_tmp/jenkins967221574423774072.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php andreas_kay_flickr.php jenkins
+Current PHP version: 8.2.28<br>Array
+(
+    [Agra sp.] => Agra
+    [Androlampis sp.] => Adrolampis
+    [Anthrax sp.] => Anthrax
+    [Anthurium sp.] => Anthurium
+    [Begonia sp.] => Begonia
+    [Bucranium sp.] => Bucranium
+    [Calceolaria sp.] => Calceolaria
+    [Cassia sp.] => Cassia
+    [Cinchona sp.] => Cinchona
+    [Crinum sp.] => Crinum
+    [Diestostomma sp.] => Diestostemma
+    [Dracula sp.] => Dracula
+    [Edessa sp.] => Edessa
+    [Eois sp.] => Eois
+    [Fuchsia sp.] => Fuchsia
+    [Graffenreida sp.] => Graffenrieda
+    [Joppa sp.] => Joppa
+    [Lantana sp.] => Lantana
+    [Lobelia sp.] => Lobelia
+    [Memphis sp.] => Memphis
+    [Miconia sp.] => Miconia
+    [Mimosa sp.] => Mimosa
+    [Mutisia sp.] => Mutisia
+    [Nasa sp.] => Nasa
+    [Oedioychus sp.] => Oedionychus
+    [Oxalis sp.] => Oxalis
+    [Pemba sp.] => Pemba
+    [Pero sp.] => Pero
+    [Physallis sp.] => Physalis
+    [Pitcairnia sp.] => Pitcairnia
+    [Plekocheillus sp.] => Plekocheilus
+    [Pseudoautomeris sp.] => Pseudautomeris
+    [Ripypterix sp.] => Ripipteryx
+    [Salvia sp.] => Salvia
+    [Senna sp.] => Senna
+    [Simambea sp.] => Sibambea
+    [Solanum sp.] => Solanum
+    [Tillandsia sp.] => Tillandsia
+    [Tradescantia sp.] => Tradescantia
+    [Vestistylus sp.] => Vestistilus
+)
+
+Mappings = [42]
+
+correct...
+
+ count: 174
+
+ From: 2011-01-01 To: 2011-01-31
+
+total_pages = [0] 0
+
+
+ From: 2011-02-01 To: 2011-02-31
+
+total_pages = [0] 0
+
+
+ From: 2011-03-01 To: 2011-03-31
+
+total_pages = [4] 1
+getting page 1: 0.027413
+
+ page 1 of 1 | total taxa =  4 | andreas_kay_flickr 
+
+ -- response photos count per page: 4
+
+
+ From: 2011-04-01 To: 2011-04-31
+
+total_pages = [24] 1
+getting page 1: 3.250909
+
+ page 1 of 1 | total taxa =  24 | andreas_kay_flickr 
+
+ -- response photos count per page: 24
+
+
+ From: 2011-05-01 To: 2011-05-31
+
+total_pages = [8] 1
+getting page 1: 3.256466
+
+ page 1 of 1 | total taxa =  8 | andreas_kay_flickr 
+
+ -- response photos count per page: 8
+
+
+ From: 2011-06-01 To: 2011-06-31
+
+total_pages = [25] 1
+getting page 1: 4.868508
+
+ page 1 of 1 | total taxa =  25 | andreas_kay_flickr 
+
+ -- response photos count per page: 25
+
+
+ From: 2011-07-01 To: 2011-07-31
+
+total_pages = [27] 1
+getting page 1: 6.467325
+
+ page 1 of 1 | total taxa =  27 | andreas_kay_flickr 
+
+ -- response photos count per page: 27
+
+
+ From: 2011-08-01 To: 2011-08-31
+
+total_pages = [139] 1
+getting page 1: 8.106373
+
+ page 1 of 1 | total taxa =  139 | andreas_kay_flickr 
+
+ -- response photos count per page: 139
+
+
+ From: 2011-09-01 To: 2011-09-31
+
+total_pages = [20] 1
+getting page 1: 8.113782
+
+ page 1 of 1 | total taxa =  20 | andreas_kay_flickr 
+
+ -- response photos count per page: 20
+
+
+ From: 2011-10-01 To: 2011-10-31
+
+total_pages = [20] 1
+getting page 1: 8.117476
+
+ page 1 of 1 | total taxa =  20 | andreas_kay_flickr 
+
+ -- response photos count per page: 20
+
+
+ From: 2011-11-01 To: 2011-11-31
+
+total_pages = [39] 1
+getting page 1: 12.069906
+
+ page 1 of 1 | total taxa =  39 | andreas_kay_flickr 
+
+ -- response photos count per page: 39
+
+
+ From: 2011-12-01 To: 2011-12-31
+
+total_pages = [84] 1
+getting page 1: 16.743304
+
+ page 1 of 1 | total taxa =  84 | andreas_kay_flickr 
+
+ -- response photos count per page: 84
+
+
+ From: 2012-01-01 To: 2012-01-31
+
+total_pages = [30] 1
+getting page 1: 22.300058
+
+ page 1 of 1 | total taxa =  30 | andreas_kay_flickr 
+
+ -- response photos count per page: 30
+
+
+ From: 2012-02-01 To: 2012-02-31
+
+total_pages = [229] 1
+getting page 1: 25.408014
+
+ page 1 of 1 | total taxa =  229 | andreas_kay_flickr 
+
+ -- response photos count per page: 229
+
+
+ From: 2012-03-01 To: 2012-03-31
+
+total_pages = [346] 1
+getting page 1: 31.492539
+
+ page 1 of 1 | total taxa =  346 | andreas_kay_flickr 
+
+ -- response photos count per page: 346
+
+
+ From: 2012-04-01 To: 2012-04-31
+
+total_pages = [290] 1
+getting page 1: 35.662473
+
+ page 1 of 1 | total taxa =  290 | andreas_kay_flickr 
+
+ -- response photos count per page: 290
+
+
+ From: 2012-05-01 To: 2012-05-31
+
+total_pages = [339] 1
+getting page 1: 39.832503
+
+ page 1 of 1 | total taxa =  339 | andreas_kay_flickr 
+
+ -- response photos count per page: 339
+
+
+ From: 2012-06-01 To: 2012-06-31
+
+total_pages = [367] 1
+getting page 1: 45.066116
+
+ page 1 of 1 | total taxa =  367 | andreas_kay_flickr 
+
+ -- response photos count per page: 367
+
+
+ From: 2012-07-01 To: 2012-07-31
+
+total_pages = [578] 2
+getting page 1: 51.963322
+
+ page 1 of 2 | total taxa =  578 | andreas_kay_flickr 
+
+ -- response photos count per page: 500
+getting page 2: 58.396214
+
+ page 2 of 2 | total taxa =  578 | andreas_kay_flickr 
+
+ -- response photos count per page: 78
+
+
+ From: 2012-08-01 To: 2012-08-31
+
+total_pages = [403] 1
+getting page 1: 61.601792
+
+ page 1 of 1 | total taxa =  403 | andreas_kay_flickr 
+
+ -- response photos count per page: 403
+
+
+ From: 2012-09-01 To: 2012-09-31
+
+total_pages = [215] 1
+getting page 1: 66.228954
+
+ page 1 of 1 | total taxa =  215 | andreas_kay_flickr 
+
+ -- response photos count per page: 215
+
+
+ From: 2012-10-01 To: 2012-10-31
+
+total_pages = [346] 1
+getting page 1: 70.034099
+
+ page 1 of 1 | total taxa =  346 | andreas_kay_flickr 
+
+ -- response photos count per page: 346
+
+
+ From: 2012-11-01 To: 2012-11-31
+
+total_pages = [283] 1
+getting page 1: 73.897433
+
+ page 1 of 1 | total taxa =  283 | andreas_kay_flickr 
+
+ -- response photos count per page: 283
+
+
+ From: 2012-12-01 To: 2012-12-31
+
+total_pages = [404] 1
+getting page 1: 77.821559
+
+ page 1 of 1 | total taxa =  404 | andreas_kay_flickr 
+
+ -- response photos count per page: 404
+
+
+ From: 2013-01-01 To: 2013-01-31
+
+total_pages = [469] 1
+getting page 1: 84.262426
+
+ page 1 of 1 | total taxa =  469 | andreas_kay_flickr 
+
+ -- response photos count per page: 469
+
+
+ From: 2013-02-01 To: 2013-02-31
+
+total_pages = [628] 2
+getting page 1: 91.237388
+
+ page 1 of 2 | total taxa =  628 | andreas_kay_flickr 
+
+ -- response photos count per page: 500
+getting page 2: 94.721752
+
+ page 2 of 2 | total taxa =  628 | andreas_kay_flickr 
+
+ -- response photos count per page: 128
+
+
+ From: 2013-03-01 To: 2013-03-31
+
+total_pages = [106] 1
+getting page 1: 98.867185
+
+ page 1 of 1 | total taxa =  106 | andreas_kay_flickr 
+
+ -- response photos count per page: 106
+
+
+ From: 2013-04-01 To: 2013-04-31
+
+total_pages = [223] 1
+getting page 1: 101.967281
+
+ page 1 of 1 | total taxa =  223 | andreas_kay_flickr 
+
+ -- response photos count per page: 223
+
+
+ From: 2013-05-01 To: 2013-05-31
+
+total_pages = [331] 1
+getting page 1: 105.518841
+
+ page 1 of 1 | total taxa =  331 | andreas_kay_flickr 
+
+ -- response photos count per page: 331
+
+
+ From: 2013-06-01 To: 2013-06-31
+
+total_pages = [336] 1
+getting page 1: 111.971116
+
+ page 1 of 1 | total taxa =  336 | andreas_kay_flickr 
+
+ -- response photos count per page: 336
+
+
+ From: 2013-07-01 To: 2013-07-31
+
+total_pages = [565] 2
+getting page 1: 115.978488
+
+ page 1 of 2 | total taxa =  565 | andreas_kay_flickr 
+
+ -- response photos count per page: 500
+getting page 2: 119.431358
+
+ page 2 of 2 | total taxa =  565 | andreas_kay_flickr 
+
+ -- response photos count per page: 65
+
+
+ From: 2013-08-01 To: 2013-08-31
+
+total_pages = [647] 2
+getting page 1: 122.50574
+
+ page 1 of 2 | total taxa =  647 | andreas_kay_flickr 
+
+ -- response photos count per page: 500
+getting page 2: 129.188574
+
+ page 2 of 2 | total taxa =  647 | andreas_kay_flickr 
+
+ -- response photos count per page: 147
+
+
+ From: 2013-09-01 To: 2013-09-31
+
+total_pages = [238] 1
+getting page 1: 132.855638
+
+ page 1 of 1 | total taxa =  238 | andreas_kay_flickr 
+
+ -- response photos count per page: 238
+
+
+ From: 2013-10-01 To: 2013-10-31
+
+total_pages = [162] 1
+getting page 1: 139.766441
+
+ page 1 of 1 | total taxa =  162 | andreas_kay_flickr 
+
+ -- response photos count per page: 162
+
+
+ From: 2013-11-01 To: 2013-11-31
+
+total_pages = [280] 1
+getting page 1: 143.614905
+
+ page 1 of 1 | total taxa =  280 | andreas_kay_flickr 
+
+ -- response photos count per page: 280
+
+
+ From: 2013-12-01 To: 2013-12-31
+
+total_pages = [790] 2
+getting page 1: 149.843255
+
+ page 1 of 2 | total taxa =  790 | andreas_kay_flickr 
+
+ -- response photos count per page: 500
+getting page 2: 153.401249
+
+ page 2 of 2 | total taxa =  790 | andreas_kay_flickr 
+
+ -- response photos count per page: 290
+
+
+ From: 2014-01-01 To: 2014-01-31
+
+total_pages = [185] 1
+getting page 1: 157.99164
+
+ page 1 of 1 | total taxa =  185 | andreas_kay_flickr 
+
+ -- response photos count per page: 185
+
+
+ From: 2014-02-01 To: 2014-02-31
+
+total_pages = [287] 1
+getting page 1: 164.051001
+
+ page 1 of 1 | total taxa =  287 | andreas_kay_flickr 
+
+ -- response photos count per page: 287
+
+
+ From: 2014-03-01 To: 2014-03-31
+
+total_pages = [54] 1
+getting page 1: 170.794641
+
+ page 1 of 1 | total taxa =  54 | andreas_kay_flickr 
+
+ -- response photos count per page: 54
+
+
+ From: 2014-04-01 To: 2014-04-31
+
+total_pages = [470] 1
+getting page 1: 173.854863
+
+ page 1 of 1 | total taxa =  470 | andreas_kay_flickr 
+
+ -- response photos count per page: 470
+
+
+ From: 2014-05-01 To: 2014-05-31
+
+total_pages = [107] 1
+getting page 1: 180.840926
+
+ page 1 of 1 | total taxa =  107 | andreas_kay_flickr 
+
+ -- response photos count per page: 107
+Array
+(
+    [media with machine tags] => 45
+    [lack machine tags] => 21
+    [lack machine tags but with binomials that we matched to taxon names] => 0
+    [lack machine tags but with pseudo binomials that we matched to taxon names] => 0
+    [lack machine tags but with non-binomials that we matched to taxon names] => 0
+    [media with tags but nothing we can match] => 0
+    [photo_id no sciname] => Array
+        (
+        )
+
+)
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//andreas_kay_flickr_working/]
+
+Reading file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_01618.file.xml]...
+
+Succesfully deleted [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_01618.file.xml]
+
+total rows: 24
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+----------Checking unique IDs [andreas_kay_flickr]...----------
+
+goes here aaa
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//andreas_kay_flickr_working/]
+
+doing this: convert_archive_normalized()
+
+1 of 3
+
+2 of 3
+
+ start taxa count: 15
+ end taxa count: 15
+3 of 3
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_31848/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+----------Checking unique IDs [andreas_kay_flickr]...----------
+
+goes here aaa
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 192.81 seconds 
+elapsed time = 3.21 minutes 
+elapsed time = 0.05 hours 
+
+Done processing.
+
+File permission update: [1] OK
+Finished: SUCCESS

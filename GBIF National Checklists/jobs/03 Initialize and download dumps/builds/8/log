@@ -1,0 +1,15 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/GBIF National Checklists/03 Initialize and download dumps
+[03 Initialize and download dumps] $ /bin/sh -xe /jenkins_tmp/jenkins13738095848921503446.sh
++ cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/
++ [ ! -d Country_checklists ]
++ cd Country_checklists
++ [ -e Country_checklists_DwCA.zip ]
++ rm Country_checklists_DwCA.zip
++ bash /var/www/html/eol_php8_code/update_resources/connectors/files/Country_checklists/run_Country_checklists.sh
++ ls -lt
+total 58428
+-rw-r--r-- 1 jenkins jenkins 59183833 Jun 12 14:52 Country_checklists_DwCA.zip
+drwxr-xr-x 2 jenkins jenkins       64 Jun 12 14:51 test folder
+Finished: SUCCESS

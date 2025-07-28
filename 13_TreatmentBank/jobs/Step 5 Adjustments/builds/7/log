@@ -1,0 +1,92 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 5 Adjustments
+[Step 5 Adjustments] $ /bin/sh -xe /jenkins_tmp/jenkins11524558160496825157.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php treatmentbank_adjust.php jenkins
+Current PHP version: 8.2.28<br>
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_84723/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/TreatmentBank_ENV.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_84723/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_84723/TreatmentBank_ENV.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_84723/TreatmentBank_ENV.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_84723//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_73857.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_73857.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [lib/connectors/DwCA_Utility.php [536]]<br>
+
+process_taxon...[info]
+
+process_taxon...[write_taxa]
+
+process_occurrence...[write_occurrence]
+
+process_measurementorfact...[write_MoF]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_84723/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_01/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [103]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_01/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [103]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_01/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [40]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [TreatmentBank_adjustment_01]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_adjustment_01//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 2.12 seconds 
+elapsed time = 0.04 minutes 
+
+Done processing.
+
+File permission update: [1] OK
+Completed treatmentbank_adjust.php :: [ []]<br>
+Triggering a new build of [8mha:////4NTRT2rklUMbos/0YI1Q0QKc2NxbPWATuwiCEXXaZfypAAAA0R+LCAAAAAAAAP9djU0KwjAQhceKHsCluHHh1vgDbrQbBamgItS9pO1YY2MS0qnoNbyGbjyEx/EOBl3ZgZn3MTzee7yhlltoH4ok16oba5Vrid2VTlAGV4NWCpWtNSH8puIBXCy0Sv4/68i/P/2beXngLaAuUaV0WEK1sJKgsTzyM2eSq5SFZIVKxy6uWYqb/bTcaxxMCDbsqCPWH+62FjmdUNGUq+z7DAlNZ9AbuZ1JnqDT0GAs9iJ2OBeS0OaO9tq6G/BIECf2ATGwNs0FAQAA[0m13_TreatmentBank » Step 6 Clade Specific Filters for Habitat
+Finished: SUCCESS

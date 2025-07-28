@@ -1,0 +1,107 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0168) BioImages - Malcolm Storey
+[(0168) BioImages - Malcolm Storey] $ /bin/sh -xe /jenkins_tmp/jenkins5021599648865533085.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php resource_utility.php jenkins {"resource_id": "168_meta_recoded", "task": "metadata_recoding"}
+Current PHP version: 8.2.28<br>Array
+(
+    [resource_id] => 168_meta_recoded
+    [task] => metadata_recoding
+)
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//168_meta_recoded_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [122]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_65774/ :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Sending get request to https://editors.eol.org/eol_php_code/applications/content_server/resources/168.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_65774/ :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_65774/168.tar.gz :: [lib/connectors/DwCA_Utility.php [122]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_65774/168.tar.gz] :: [lib/connectors/DwCA_Utility.php [122]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_65774//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://eol.org/schema/agent/agent]: agent...
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_44943.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_44943.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [lib/connectors/DwCA_Utility.php [490]]<br>
+
+process_document...[move_CCP_to_Agents]
+
+100,000
+process_measurementorfact...[carry_over]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_65774/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/168_meta_recoded/agent.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [3]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/168_meta_recoded/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [148234]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/168_meta_recoded/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [23253]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [168_meta_recoded]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/168_meta_recoded//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://eol.org/schema/agent/agent
+    [1] => http://eol.org/schema/media/document
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ agent  -- OK
+
+ document  -- OK
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 51.21 seconds 
+elapsed time = 0.85 minutes 
+elapsed time = 0.01 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentMeasurementID have entries in measurement_or_fact_specific.tab 
+
+File does not exist: [/var/www/html/eol_php8_code/applications/content_server/resources_3/168_meta_recoded/measurement_or_fact_specific.tab]
+Process failed!
+
+Total undefined parents MoF [168_meta_recoded]: 0
+Completed resource_utility.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

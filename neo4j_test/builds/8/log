@@ -1,0 +1,20 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/neo4j_test
+[neo4j_test] $ /bin/sh -xe /jenkins_tmp/jenkins9660829417376961041.sh
++ cd /var/www/html/php_neo4j/
++ ls -lt
+total 3216
+drwxrwxrwx  9 jenkins jenkins     288 Jun 30 20:11 another
+drwxrwxrwx  7 jenkins jenkins     224 Jun 30 19:04 laudis
+drwxrwxrwx 11 jenkins jenkins     352 Jun 30 19:03 vendor
+drwxrwxrwx  7 jenkins jenkins     224 Jun 30 13:19 neo4j_with_php
+-rwxrwxrwx  1 jenkins jenkins     548 Jun 30 10:25 test_laudis.php
+-rwxrwxrwx  1 jenkins jenkins     168 Jun 30 10:18 composer.json
+-rwxrwxrwx  1 jenkins jenkins   26086 Jun 30 10:17 composer.lock
+-rwxrwxrwx  1 jenkins jenkins 3125568 Jun 30 10:02 composer.phar
+-rwxrwxrwx  1 jenkins jenkins   58444 Jun 30 10:02 composer-setup.php
+-rwxrwxrwx  1 jenkins jenkins      63 Jun 30 09:39 composer.json.bak
+-rwxrwxrwx  1 jenkins jenkins   58444 Jun 30 08:49 installer
++ php neo4j_with_php
+Finished: SUCCESS

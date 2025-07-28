@@ -1,0 +1,64 @@
+Started by upstream project "[8mha:////4N6CRp8fwQ8hiQIvkcihs2YNyUBfWt8UDaDsO5tW1BMMAAAAth+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyFEgY9/az8JH1D4/iQotTEktzUvBKnxLxssGBwSWqBqpGBCRCXpFaU5GbmpeoDANQZeivjAAAA[0m13_TreatmentBank/Step 4 textmine" build number [8mha:////4PnQMvdTFJm9ManoeQ75dEgoPjY62eSDUz/eFflrGsApAAAAth+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBn39rPwkfUPj+JCi1MSS3NS8EqfEvGywYHBJaoGqkYEJEJekVpTkZual6psAAFVrRK7kAAAA[0m4
+originally caused by:
+ Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 5 Adjustments
+[Step 5 Adjustments] $ /bin/sh -xe /jenkins_tmp/jenkins988626288321375825.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php treatmentbank_adjust.php jenkins
+Current PHP version: 8.2.28<br>
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_02256/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to https://editors.eol.org/eol_php_code/applications/content_server/resources/TreatmentBank_ENV.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_02256/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_02256/TreatmentBank_ENV.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_02256/TreatmentBank_ENV.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_02256//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_78938.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_78938.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [lib/connectors/DwCA_Utility.php [536]]<br>
+
+process_taxon...[info]
+
+100,000
+200,000
+300,000
+400,000
+500,000
+process_taxon...[write_taxa]
+
+100,000
+200,000
+300,000
+400,000
+500,000
+process_occurrence...[write_occurrence]
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+process_measurementorfact...[write_MoF]
+
+100,000
+200,000Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

@@ -1,0 +1,212 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 4 textmine
+[Step 4 textmine] $ /bin/sh -xe /jenkins_tmp/jenkins10913806140280304970.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php environments_2_eol.php jenkins {"task": "generate_eol_tags_pensoft", "resource":"all_BHL", "resource_id":"TreatmentBank", "subjects":"Uses"}
+Current PHP version: 8.2.28<br>
+ allowed_subjects: Array
+(
+    [0] => http://rs.tdwg.org/ontology/voc/SPMInfoItems#Uses
+)
+
+ Wikipedia_excluded_ranks: [25] dump count
+
+ soil_composition: [32] dump count
+Array
+(
+    [task] => generate_eol_tags_pensoft
+    [resource] => all_BHL
+    [resource_id] => TreatmentBank_ENV
+    [subjects] => Uses
+)
+
+Test passed OK
+Array
+(
+    [task] => generate_eol_tags_pensoft
+    [resource] => all_BHL
+    [resource_id] => TreatmentBank_ENV
+    [subjects] => Uses
+)
+
+resource_name is: [all_BHL]
+
+DwCA URL: http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/TreatmentBank.tar.gz
+TreatmentBank_ENV
+
+CURL ping retcode: [200]
+Array
+(
+    [all_BHL] => http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/TreatmentBank.tar.gz
+)
+
+File truncated: [/var/www/html/Pensoft_annotator/TreatmentBank/eol_tags/eol_tags_noParentTerms.tsv]
+Array
+(
+    [archive_path] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_11689/
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_11689/
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/media/document
+)
+
+process_table_taxa() /Volumes/AKiTiO4/eol_php_code_tmp/dir_11689//taxon.tab...
+
+exclude_taxonIDs: 0
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/Pensoft2EOLAPI.php [1687]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_69898.file :: [lib/connectors/Pensoft2EOLAPI.php [1687]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_69898.file]
+
+remapped_terms: 257
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/mRemarks_assignments.tsv :: [lib/connectors/Pensoft2EOLAPI.php [1723]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_15555.file :: [lib/connectors/Pensoft2EOLAPI.php [1723]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/mRemarks_assignments.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+ mRemarks_assignments: [119] dump count
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/del_MoF_with_these_labels.tsv :: [lib/connectors/Pensoft2EOLAPI.php [1714]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_32863.file :: [lib/connectors/Pensoft2EOLAPI.php [1714]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/del_MoF_with_these_labels.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+ del_MoF_with_these_labels: [66] dump count
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/terms_to_remove.txt : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/geo_synonyms.txt : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://editors.eol.org/eol_php_code/update_resources/connectors/get_descendants_of_term.php?term=http://purl.obolibrary.org/obo/ENVO_00000002 : only attempt :: [lib/Functions.php [148]]<br>
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/WoRMS_only_delete_URIs.tsv :: [lib/connectors/Pensoft2EOLAPI.php [1771]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_00841.file :: [lib/connectors/Pensoft2EOLAPI.php [1771]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/WoRMS_only_delete_URIs.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+ WoRMS_only_delete_URIs: [1] dump count
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/blacklist_labels.txt : only attempt :: [lib/Functions.php [148]]<br>
+
+ remapped_terms: 257
+ mRemarks: 119
+ delete_MoF_with_these_labels: 66
+ delete_MoF_with_these_uris: 518
+---------------
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/life_history.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+ new_patterns: 19
+Sending get request to https://raw.githubusercontent.com/EOL/eol_terms/main/resources/terms.yml : only attempt :: [lib/Functions.php [148]]<br>
+
+allowed_terms_URIs from EOL terms file: [10529]
+
+process /Volumes/AKiTiO4/eol_php_code_tmp/dir_11689//media_resource.tab...
+
+Run Pensoft annotator...
+
+Cleaning noParentTerms...
+
+Copied OK (eol_tags_noParentTerms.tsv)
+
+ eol_tags_noParentTerms.tsv.old (0 /var/www/html/Pensoft_annotator/TreatmentBank/eol_tags/eol_tags_noParentTerms.tsv.old
+)
+
+ eol_tags_noParentTerms.tsv (0 /var/www/html/Pensoft_annotator/TreatmentBank/eol_tags/eol_tags_noParentTerms.tsv
+)
+Warning: Undefined variable $ids in /var/www/html/eol_php8_code/lib/connectors/Pensoft2EOLAPI.php on line 1387
+
+save_media_metadata_for_these_objects()...[/Volumes/AKiTiO4/eol_php_code_tmp/dir_11689//media_resource.tab]
+json temp path: /var/www/html/Pensoft_annotator/TreatmentBank/temp_json/
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//TreatmentBank_ENV_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [118]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_32539/ :: [lib/connectors/DwCA_Utility.php [118]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_32539/ :: [lib/connectors/DwCA_Utility.php [118]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_32539/TreatmentBank.tar.gz :: [lib/connectors/DwCA_Utility.php [118]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_32539/TreatmentBank.tar.gz] :: [lib/connectors/DwCA_Utility.php [118]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_32539//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+Goes here really: [TreatmentBank_ENV]
+
+Environments2EOLfinal resource_id: [TreatmentBank_ENV]
+
+resource_id is [TreatmentBank_ENV]
+
+ resource_id is [TreatmentBank_ENV]
+
+process_table [create extension][document] xyz
+
+Processing...Environments2EOLfinal...TreatmentBank_ENV
+
+eol_tags_path: [/var/www/html/Pensoft_annotator/TreatmentBank/eol_tags/eol_tags_noParentTerms.tsv]
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_32539/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_ENV/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [4]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [TreatmentBank_ENV]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_ENV//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+)
+
+ taxon  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 46.77 seconds 
+elapsed time = 0.78 minutes 
+elapsed time = 0.01 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentMeasurementID have entries in measurement_or_fact_specific.tab 
+
+File does not exist: [/var/www/html/eol_php8_code/applications/content_server/resources_3/TreatmentBank_ENV/measurement_or_fact_specific.tab]
+Process failed!
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/DWCADiagnoseAPI.php on line 342
+
+Total undefined parents MoF [TreatmentBank_ENV]: 0
+
+How many times Pensoft Annotator is run: [17]
+Array
+(
+    [C] => 17
+    [R] => 17
+)
+Completed environments_2_eol.php :: [ []]<br>
+Triggering a new build of [8mha:////4Neg+7HEWTWWdrXVagdeQId/DvvdIz/k9KjsSZXVF7wyAAAAtR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzVEgZD/az8JH1D4/iQotTEktzUvBKnxLxssGBwSWqBqpGBKRA7pmSVFoNli/UBPyVeH+YAAAA=[0m13_TreatmentBank » Step 5 Adjustments
+Finished: SUCCESS

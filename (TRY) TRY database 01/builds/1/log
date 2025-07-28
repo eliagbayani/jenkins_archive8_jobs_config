@@ -1,0 +1,163 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(TRY) TRY database
+[(TRY) TRY database] $ /bin/sh -xe /jenkins_tmp/jenkins15765503835960987712.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php try.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//try_dbase_working/]
+Please wait, downloading resource document... :: [lib/connectors/TryDatabaseAPI.php [57]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_55100/ :: [lib/connectors/TryDatabaseAPI.php [57]]<br>
+Sending get request to https://github.com/eliagbayani/EOL-connector-data-files/raw/master/TRY/tryv.aug15.zip : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_55100/ :: [lib/connectors/TryDatabaseAPI.php [57]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_55100/tryv.aug15.zip :: [lib/connectors/TryDatabaseAPI.php [57]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_55100/tryv.aug15] :: [lib/connectors/TryDatabaseAPI.php [57]]<br>
+Array
+(
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_55100/
+    [tables] => Array
+        (
+            [process_reference] => TRY reference map.csv
+            [measurements] => TRY_measurements.csv
+            [references] => TRY_references.csv
+            [taxa] => TRY_taxa.csv
+            [occurrence] => TRY-occurrences.csv
+        )
+
+)
+
+Converting TRY dbase CSV archive to EOL DwCA...
+
+ 20000 (process_reference)
+ 40000 (process_reference)
+ 60000 (process_reference)
+ 80000 (process_reference)
+ 100000 (process_reference)
+ 120000 (process_reference)
+ 140000 (process_reference)
+ 160000 (process_reference)
+ 180000 (process_reference)
+ 200000 (process_reference)
+ 220000 (process_reference)
+ 240000 (process_reference)
+ 260000 (process_reference)
+ 280000 (process_reference)
+ 300000 (process_reference)
+ 320000 (process_reference)
+ 340000 (process_reference)
+ 360000 (process_reference)
+ 380000 (process_reference)
+ 400000 (process_reference)
+ 420000 (process_reference)
+ 440000 (process_reference)
+ 460000 (process_reference)
+ 480000 (process_reference)
+ 500000 (process_reference)
+ 520000 (process_reference)
+ 540000 (process_reference)Sending get request to https://editors.eol.org/other_files/ontology/measurement_extension.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+ 20000 (measurements)
+ 40000 (measurements)
+ 60000 (measurements)
+ 80000 (measurements)
+ 100000 (measurements)
+ 120000 (measurements)
+ 140000 (measurements)
+ 160000 (measurements)
+ 180000 (measurements)
+ 200000 (measurements)
+ 220000 (measurements)
+ 240000 (measurements)
+ 260000 (measurements)
+ 280000 (measurements)
+ 300000 (measurements)
+ 320000 (measurements)
+ 340000 (measurements)
+ 360000 (measurements)
+ 380000 (measurements)
+ 400000 (measurements)
+ 420000 (measurements)
+ 440000 (measurements)
+ 460000 (measurements)
+ 480000 (measurements)
+ 500000 (measurements)
+ 520000 (measurements)
+ 540000 (measurements)
+ 20000 (taxa)
+ 40000 (taxa)
+ 60000 (taxa)
+ 80000 (taxa)
+ 100000 (taxa)
+ 20000 (occurrence)
+ 40000 (occurrence)
+ 60000 (occurrence)
+ 80000 (occurrence)
+ 100000 (occurrence)
+ 120000 (occurrence)
+ 140000 (occurrence)
+ 160000 (occurrence)
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_55100/
+Check debug file: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_debug_2025-06-04.txt]
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [548631]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [164442]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [182]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [103373]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [try_dbase]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [1] => http://eol.org/schema/reference/reference
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+)
+
+ measurementorfact  -- OK
+
+ reference  -- OK
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+elapsed time = 5.1566568166667 minutes 
+elapsed time = 0.085944280277778 hours 
+
+Done processing.
+Completed try.php :: [ []]<br>
+Finished: SUCCESS

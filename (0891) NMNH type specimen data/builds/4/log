@@ -1,0 +1,54 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0891) NMNH type specimen data
+[(0891) NMNH type specimen data] $ /bin/sh -xe /jenkins_tmp/jenkins976910515786843873.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 891.php
+Current PHP version: 8.2.28<br>Array
+(
+    [dwca_file] => http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/dwca-nmnh_extant_dwc-a-v1.10.zip
+    [uri_file] => http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/nmnh-mappings.xlsx
+    [row_type] => http://rs.tdwg.org/dwc/terms/occurrence
+    [location] => occurrence.txt
+    [dataset] => NMNH
+    [type] => structured data
+    [resource_id] => 891
+)
+
+
+ Saving remote file: http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/nmnh-mappings.xlsx :: [lib/connectors/NMNHTypeRecordAPI_v2.php [175]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_05277.file.xlsx :: [lib/connectors/NMNHTypeRecordAPI_v2.php [175]]<br>
+Sending get request to http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/nmnh-mappings.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_05277.file.xlsx]
+Array
+(
+    [url] => http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/dwca-nmnh_extant_dwc-a-v1.10.zip
+    [force_extension] => zip
+)
+
+Downloading...cmd: [wget -q                 --progress=bar:force:noscroll -O "/Volumes/AKiTiO4/eol_php_code_tmp/dir_06254/dwca-nmnh_extant_dwc-a-v1.10.zip" http://host.docker.internal:81/cp_new/NMNH/type_specimen_resource/dwca-nmnh_extant_dwc-a-v1.10.zip]
+Array
+(
+    [downloaded_file] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_06254/dwca-nmnh_extant_dwc-a-v1.10.zip
+    [temp_dir] => /Volumes/AKiTiO4/eol_php_code_tmp/dir_06254/
+)
+
+dwca_file: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_06254/dwca-nmnh_extant_dwc-a-v1.10.zip]
+
+destination_path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_06254/]
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_06254//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+Extraction OK.
+
+Start: process_row_type()
+Sending get request to https://editors.eol.org/other_files/ontology/measurement_extension.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+structured data - 100000 
+structured data - 200000 
+structured data - 300000 Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

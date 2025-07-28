@@ -1,0 +1,1103 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0368) Paleobiology Database
+[(0368) Paleobiology Database] $ /bin/sh -xe /jenkins_tmp/jenkins17594593570933679621.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php pbdb_fresh_harvest.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_working/]
+
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_80634.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_80634.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [update_resources/connectors/pbdb_fresh_harvest.php [228]]<br>
+
+remapped_terms: 257
+
+
+ Saving remote file: http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_97552.file.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+Sending get request to http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_97552.file.xlsx]
+
+
+ Saving remote file: http://host.docker.internal:81/cp/PaleoDB/TRAM-746/alltaxa.json :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_61208.file :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+Sending get request to http://host.docker.internal:81/cp/PaleoDB/TRAM-746/alltaxa.json : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://editors.eol.org/other_files/ontology/measurement_extension.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+ - 10000 
+ - 20000 
+ - 30000 
+ - 40000 
+ - 50000 
+ - 60000 
+ - 70000 
+ - 80000 
+ - 90000 
+ - 100000 
+ - 110000 
+ - 120000 
+ - 130000 
+ - 140000 
+ - 150000 
+ - 160000 
+ - 170000 
+ - 180000 
+ - 190000 
+ - 200000 
+ - 210000 
+ - 220000 
+ - 230000 
+ - 240000 
+ - 250000 
+ - 260000 
+ - 270000 
+ - 280000 
+ - 290000 
+ - 300000 
+ - 310000 
+ - 320000 
+ - 330000 
+ - 340000 
+ - 350000 
+ - 360000 
+ - 370000 Array
+(
+    [taxonomicStatus] => Array
+        (
+            [obsolete variant] => 
+            [accepted] => 
+            [subjective synonym] => 
+            [misspelling] => 
+            [replaced] => 
+            [nomen dubium] => 
+            [corrected] => 
+            [objective synonym] => 
+            [invalid subgroup] => 
+            [nomen vanum] => 
+            [reassigned] => 
+            [nomen nudum] => 
+            [recombined] => 
+            [nomen oblitum] => 
+        )
+
+    [synonym statuses] => Array
+        (
+            [obsolete variant] => 
+            [subjective synonym] => 
+            [misspelling] => 
+            [replaced] => 
+            [nomen dubium] => 
+            [corrected] => 
+            [objective synonym] => 
+            [nomen vanum] => 
+            [reassigned] => 
+            [nomen nudum] => 
+            [recombined] => 
+            [nomen oblitum] => 
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [2091743]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [508847]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [369245]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [6155]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [368]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/368//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [3] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/368/taxon.tab)
+
+ count:[300,000] 
+parents without entries: 562
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_working/]
+Please wait, downloading resource document... :: [update_resources/connectors/pbdb_fresh_harvest.php [248]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_25791/ :: [update_resources/connectors/pbdb_fresh_harvest.php [248]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368.tar.gz] :: [update_resources/connectors/pbdb_fresh_harvest.php [248]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_25791//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+count parent_ids to process = 562
+
+count parentID_taxonID info list = 73636
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_25791/
+
+ Saving remote file: https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv :: [lib/connectors/TraitGeneric.php [200]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_31907.file :: [lib/connectors/TraitGeneric.php [200]]<br>
+Sending get request to https://raw.githubusercontent.com/EOL/textmine_rules/main/Terms_remapped/DATA_1841_terms_remapped.tsv : only attempt :: [lib/Functions.php [148]]<br>
+
+filename: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_31907.file]
+
+(TraitGeneric.php) remapped_terms lib: 257
+ :: [update_resources/connectors/pbdb_fresh_harvest.php [228]]<br>
+
+remapped_terms: 257
+
+
+ Saving remote file: http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_54950.file.xlsx :: [lib/connectors/PaleoDBAPI_v2.php [87]]<br>
+Sending get request to http://host.docker.internal:81/cp_new/PaleoDB/pbdb_mappings.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+local spreadsheet path: [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_54950.file.xlsx]
+
+
+ Saving remote file: http://host.docker.internal:81/cp/PaleoDB/TRAM-746/alltaxa.json :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_94716.file :: [lib/connectors/PaleoDBAPI_v2.php [77]]<br>
+
+ - 10000 
+ - 20000 
+ - 30000 
+ - 40000 
+ - 50000 
+ - 60000 
+ - 70000 
+ - 80000 
+ - 90000 
+ - 100000 
+ - 110000 
+ - 120000 
+ - 130000 
+ - 140000 
+ - 150000 
+ - 160000 
+ - 170000 
+ - 180000 
+ - 190000 
+ - 200000 
+ - 210000 
+ - 220000 
+ - 230000 
+ - 240000 
+ - 250000 
+ - 260000 
+ - 270000 
+ - 280000 
+ - 290000 
+ - 300000 
+ - 310000 
+ - 320000 
+ - 330000 
+ - 340000 
+ - 350000 
+ - 360000 
+ - 370000 Array
+(
+    [taxonomicStatus] => Array
+        (
+            [obsolete variant] => 
+            [accepted] => 
+            [subjective synonym] => 
+            [misspelling] => 
+            [replaced] => 
+            [nomen dubium] => 
+            [corrected] => 
+            [objective synonym] => 
+            [invalid subgroup] => 
+            [nomen vanum] => 
+            [reassigned] => 
+            [nomen nudum] => 
+            [recombined] => 
+            [nomen oblitum] => 
+        )
+
+    [synonym statuses] => Array
+        (
+            [obsolete variant] => 
+            [subjective synonym] => 
+            [misspelling] => 
+            [replaced] => 
+            [nomen dubium] => 
+            [corrected] => 
+            [objective synonym] => 
+            [nomen vanum] => 
+            [reassigned] => 
+            [nomen nudum] => 
+            [recombined] => 
+            [nomen oblitum] => 
+        )
+
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/measurement_or_fact.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [2080583]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [505997]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [367148]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [6143]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [368]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/368//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [3] => http://rs.gbif.org/terms/1.0/vernacularname
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/368/taxon.tab)
+
+ count:[300,000] 
+All parents have entries OK (2nd try)
+
+
+elapsed time = 65.25764968333334 minutes 
+elapsed time = 1.087627494722222 hours 
+
+Done processing.
+Completed pbdb_fresh_harvest.php :: [ []]<br>
++ php remove_Aves_children_from_368.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_removed_aves_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [106]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_30673/ :: [lib/connectors/DwCA_Utility.php [106]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/368.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_30673/ :: [lib/connectors/DwCA_Utility.php [106]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_30673/368.tar.gz :: [lib/connectors/DwCA_Utility.php [106]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_30673/368.tar.gz] :: [lib/connectors/DwCA_Utility.php [106]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_30673//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Please wait, downloading resource document... :: [lib/connectors/RemoveAvesChildrenAPI.php [19]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_27141/ :: [lib/connectors/RemoveAvesChildrenAPI.php [19]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368.tar.gz] :: [lib/connectors/RemoveAvesChildrenAPI.php [19]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_27141//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+count parent_ids to process = 4
+
+count parentID_taxonID info list = 72863
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_27141/
+Children of Aves, Polychaeta and Echinoidea: 7518
+Please wait, downloading resource document... :: [lib/connectors/RemoveAvesChildrenAPI.php [19]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_97607/ :: [lib/connectors/RemoveAvesChildrenAPI.php [19]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368.tar.gz] :: [lib/connectors/RemoveAvesChildrenAPI.php [19]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_97607//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+count parent_ids to process = 1
+
+count parentID_taxonID info list = 72863
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_97607/
+Children of Ostracoda: 3964
+
+process occurrence...Ostracoda
+
+100,000
+200,000
+300,000
+400,000
+500,000
+process MoF...Ostracoda
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+1,900,000
+2,000,000
+process taxon...
+
+100,000
+200,000
+300,000
+process vernacular...
+
+process occurrence...
+
+100,000
+200,000
+300,000
+400,000
+500,000
+process MoF...
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+1,900,000
+2,000,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_30673/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_removed_aves/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1989401]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_removed_aves/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [486998]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_removed_aves/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [359630]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_removed_aves/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [4415]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [368_removed_aves]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/368_removed_aves//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://rs.gbif.org/terms/1.0/vernacularname
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+elapsed time = 8.8853279 minutes 
+elapsed time = 0.14808879833333 hours 
+
+Done processing.
+Completed remove_Aves_children_from_368.php :: [ []]<br>
++ php synonyms_handling.php jenkins 368_final
+Current PHP version: 8.2.28<br>Array
+(
+    [jenkins_or_cron] => jenkins
+    [resource_id] => 368_final
+)
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_final_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [106]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_11840/ :: [lib/connectors/DwCA_Utility.php [106]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/368_removed_aves.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_11840/ :: [lib/connectors/DwCA_Utility.php [106]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_11840/368_removed_aves.tar.gz :: [lib/connectors/DwCA_Utility.php [106]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_11840/368_removed_aves.tar.gz] :: [lib/connectors/DwCA_Utility.php [106]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_11840//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.gbif.org/terms/1.0/vernacularname]: vernacular...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/occurrence]: occurrence...
+
+process_taxon.../Volumes/AKiTiO4/eol_php_code_tmp/dir_11840//taxon.tab...build up taxonID_info
+
+100,000
+200,000
+300,000
+process_taxon.../Volumes/AKiTiO4/eol_php_code_tmp/dir_11840//taxon.tab...
+Warning: Undefined array key 36626 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 39241 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 39484 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 53286 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 55209 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 55352 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 63723 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 90638 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+
+100,000Warning: Undefined array key 98827 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 99061 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 137276 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 168401 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 168935 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 168936 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 168939 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 168943 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+Warning: Undefined array key 171013 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+
+200,000Warning: Undefined array key 253850 in /var/www/html/eol_php8_code/lib/connectors/SynonymsHandlingAPI.php on line 153
+
+300,000
+process MoF...
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+1,900,000Array
+(
+    [taxonomicStatus] => Array
+        (
+            [obsolete variant] => 
+            [accepted] => 
+            [subjective synonym] => 
+            [misspelling] => 
+            [replaced] => 
+            [nomen dubium] => 
+            [corrected] => 
+            [objective synonym] => 
+            [nomen vanum] => 
+            [reassigned] => 
+            [nomen nudum] => 
+            [recombined] => 
+            [nomen oblitum] => 
+        )
+
+)
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_11840/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_final/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1989401]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_final/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [486998]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_final/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [350084]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_final/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [4415]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [368_final]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/368_final//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ occurrence  -- OK
+
+ taxon  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+Checking if all parentNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/368_final/taxon.tab)
+
+ count:[300,000] 
+OK: All parents in taxon.tab have entries.
+
+Checking if all acceptedNameUsageID have entries in taxon.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/368_final/taxon.tab)
+
+ count:[300,000] 
+OK: All acceptedNameUsageID have entries.
+
+
+elapsed time = 8.45559505 minutes 
+elapsed time = 0.14092658416667 hours 
+
+Done processing.
+Completed synonyms_handling.php :: [ []]<br>
++ php 368_merge_two_MoF_into_one.php
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_merged_MoF_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_77547/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/368_final.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_77547/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_77547/368_final.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_77547/368_final.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_77547//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.gbif.org/terms/1.0/vernacularname]: vernacular...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/occurrence]: occurrence...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+Array
+(
+    [mtype] => http://www.wikidata.org/entity/Q1053008
+    [mvalues] => Array
+        (
+            [0] => https://www.wikidata.org/entity/Q59099
+            [1] => http://www.wikidata.org/entity/Q81875
+        )
+
+    [merged_value] => https://www.wikidata.org/entity/Q164509
+)
+
+process_measurementorfact...search cases in MoF
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+1,900,000
+total cases: [257]
+total measurementIDs: [514]
+
+process_measurementorfact...gen mIDs info list
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+1,900,000
+measurementIDs: 514
+
+process_measurementorfact...write MoF
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+1,900,000
+total cases: [257]
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_77547/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_merged_MoF/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1989144]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_merged_MoF/occurrence.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [486998]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_merged_MoF/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [350084]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_merged_MoF/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [4415]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [368_merged_MoF]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/368_merged_MoF//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [1] => http://rs.tdwg.org/dwc/terms/occurrence
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ occurrence  -- OK
+
+ taxon  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 8.93 minutes 
+elapsed time = 0.15 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentMeasurementID have entries in measurement_or_fact_specific.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/368_merged_MoF/measurement_or_fact_specific.tab)
+
+ count:[300,000] 
+ count:[600,000] 
+ count:[900,000] 
+ count:[1,200,000] 
+ count:[1,500,000] 
+ count:[1,800,000] 
+Total undefined parents MoF:0
+Completed 368_merge_two_MoF_into_one.php :: [ []]<br>
++ php pbdb_more_adjustments.php
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_cleaned_MoF_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_50204/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/368_merged_MoF.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_50204/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_50204/368_merged_MoF.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_50204/368_merged_MoF.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_50204//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.gbif.org/terms/1.0/vernacularname]: vernacular...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+
+ Saving remote file: https://github.com/eliagbayani/EOL-connector-data-files/raw/master/PaleoDB/PBDB_inferred_records_to_remove.tsv :: [lib/connectors/Remove_MoF_recordsAPI.php [24]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_25925.file :: [lib/connectors/Remove_MoF_recordsAPI.php [24]]<br>
+
+process_measurementorfact...write MoF
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+1,900,000
+process_occurrence...
+
+100,000
+200,000
+300,000
+400,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_50204/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_cleaned_MoF/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1853788]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_cleaned_MoF/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [438755]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_cleaned_MoF/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [350084]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_cleaned_MoF/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [4415]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [368_cleaned_MoF]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/368_cleaned_MoF//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+)
+Array
+(
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+)
+
+ taxon  -- OK
+
+ measurementorfact  -- OK
+
+ occurrence  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 8.68 minutes 
+elapsed time = 0.14 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+Checking if all parentMeasurementID have entries in measurement_or_fact_specific.tab 
+
+Processing file (/var/www/html/eol_php8_code/applications/content_server/resources_3/368_cleaned_MoF/measurement_or_fact_specific.tab)
+
+ count:[300,000] 
+ count:[600,000] 
+ count:[900,000] 
+ count:[1,200,000] 
+ count:[1,500,000] 
+ count:[1,800,000] 
+Total undefined parents MoF:0
+Completed pbdb_more_adjustments.php :: [ []]<br>
++ php make_hash_IDs_4Deltas.php jenkins {"task": "", "resource":"Deltas_4hashing", "resource_id":"368_cleaned_MoF"}
+Current PHP version: 8.2.28<br>
+========== START hash identifiers ==========
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//368_delta_working/]
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_35816/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/368_cleaned_MoF.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_35816/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_35816/368_cleaned_MoF.tar.gz :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_35816/368_cleaned_MoF.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_35816//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://rs.gbif.org/terms/1.0/vernacularname]: vernacular...
+
+processing...DwCA_Utility...x: [http://rs.tdwg.org/dwc/terms/taxon]: taxon...
+
+process_table: [hash_identifiers] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_35816//occurrence_specific.tab]...
+
+100,000
+200,000
+300,000
+400,000
+process_table: [pre_hash_identifiers] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_35816//measurement_or_fact_specific.tab]...
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+process_table: [hash_identifiers] [/Volumes/AKiTiO4/eol_php_code_tmp/dir_35816//measurement_or_fact_specific.tab]...
+
+100,000
+200,000
+300,000
+400,000
+500,000
+600,000
+700,000
+800,000
+900,000
+1,000,000
+1,100,000
+1,200,000
+1,300,000
+1,400,000
+1,500,000
+1,600,000
+1,700,000
+1,800,000
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_35816/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_delta/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1853788]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_delta/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [438755]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_delta/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [350084]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/368_delta/vernacular_name.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [4415]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [368_delta]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/368_delta//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.gbif.org/terms/1.0/vernacularname
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+Array
+(
+    [1] => http://rs.tdwg.org/dwc/terms/taxon
+    [2] => http://rs.tdwg.org/dwc/terms/occurrence
+    [3] => http://rs.tdwg.org/dwc/terms/measurementorfact
+)
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+ measurementorfact  -- OK
+
+----------end Checking unique IDs----------
+
+----end----
+elapsed time = 28.42 minutes 
+elapsed time = 0.47 hours 
+
+Done processing.
+
+File permission update: [1] OK
+
+========== END hash identifiers ==========
+Completed make_hash_IDs_4Deltas.php :: [ []]<br>
+Finished: SUCCESS

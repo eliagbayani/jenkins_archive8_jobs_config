@@ -1,0 +1,35 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(0081) BOLDS main resource (81) DwCA
+[(0081) BOLDS main resource (81) DwCA] $ /bin/sh -xe /jenkins_tmp/jenkins7567255740864483064.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php bolds.php jenkins
+Current PHP version: 8.2.28<br>
+parents_without_entries: 841
+
+ Total phylums: 40
+
+1. [Acanthocephala]
+
+
+ Saving remote file: http://host.docker.internal:81/cp/BOLDS_new/bold_Acanthocephala.txt.zip :: [lib/connectors/BOLDS_DumpsServiceAPI.php [98]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_70785.file.txt.zip :: [lib/connectors/BOLDS_DumpsServiceAPI.php [98]]<br>
+
+remote file: [http://host.docker.internal:81/cp/BOLDS_new/bold_Acanthocephala.txt.zip]
+
+unzipping this file [/Volumes/AKiTiO4/eol_php_code_tmp/tmp_70785.file.txt.zip]... 
+
+txt_file: [/var/www/html/eol_php8_code/tmp/bold_Acanthocephala.txt]
+
+total taxon IDs with img: 3
+
+txt_file: [/var/www/html/eol_php8_code/tmp/bold_Acanthocephala.txt]
+Sending get request to https://v4.boldsystems.org/index.php/API_Tax/TaxonData?dataTypes=images,stats,basic&includeTree=true&taxId=531776 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://v4.boldsystems.org/index.php/API_Tax/TaxonData?dataTypes=images,stats,basic&includeTree=true&taxId=651699 : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to https://v4.boldsystems.org/index.php/API_Tax/TaxonData?dataTypes=images,stats,basic&includeTree=true&taxId=709220 : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

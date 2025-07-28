@@ -1,0 +1,161 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/(TRY) TRY database 02 adjustments
+[(TRY) TRY database 02 adjustments] $ /bin/sh -xe /jenkins_tmp/jenkins4858122690742898499.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php remove_MoF_for_taxonID.php _ {"resource_id": "TRY_temp2", "resource": "remove_MoF_for_taxonID", "resource_name": "Try Database temp2"}
+Current PHP version: 8.2.28<br>Array
+(
+    [resource_id] => TRY_temp2
+    [resource] => remove_MoF_for_taxonID
+    [resource_name] => Try Database temp2
+)
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_97445/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources_3/TRY_temp2.zip : only attempt :: [lib/Functions.php [148]]<br>
+temp_dir: /Volumes/AKiTiO4/eol_php_code_tmp/dir_97445/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Extracting... /Volumes/AKiTiO4/eol_php_code_tmp/dir_97445/TRY_temp2.zip :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_97445/TRY_temp2] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_97445//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+processing...DwCA_Utility...x: [http://eol.org/schema/reference/reference]: reference...
+
+ResourceUtility...process_generic_table (get taxonIDs 2 delete for TRY dbase) http://rs.tdwg.org/dwc/terms/Taxon ...
+
+100,000
+taxonIDs to delete: [5680]
+
+ResourceUtility...process_generic_table (get occur recs for this taxonID) http://rs.tdwg.org/dwc/terms/Occurrence ...
+
+100,000Sending get request to https://raw.githubusercontent.com/EOL/eol_terms/main/resources/terms.yml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [EOL terms type] => Array
+        (
+            [value] => 10529
+            [metadata] => 108
+            [measurement] => 588
+            [association] => 52
+            [] => 29
+        )
+
+)
+
+ResourceUtility...process_generic_table (write MoF not of this taxonID) http://rs.tdwg.org/dwc/terms/MeasurementOrFact ...
+
+100,000
+200,000
+300,000
+400,000
+500,000
+ResourceUtility...process_generic_table (gen taxon.tab without the not-wanted taxonIDs) http://rs.tdwg.org/dwc/terms/Taxon ...
+
+100,000
+ResourceUtility...process_generic_table (write occurrences) http://rs.tdwg.org/dwc/terms/Occurrence ...
+
+100,000Array
+(
+    [taxonomicStatus] => Array
+        (
+            [accepted] => 
+            [invalid name] => 
+            [] => 
+            [multiple synonyms] => 
+            [unrecognized] => 
+            [unresolved] => 
+        )
+
+    [Try DBase] => Array
+        (
+            [lifeStage] => Array
+                (
+                    [] => 466335
+                    [http://purl.obolibrary.org/obo/PATO_0001701] => 24289
+                    [http://purl.obolibrary.org/obo/PO_0009010] => 24115
+                )
+
+            [bodyPart] => Array
+                (
+                    [] => 349036
+                    [http://purl.obolibrary.org/obo/PO_0025034] => 100034
+                    [http://purl.obolibrary.org/obo/PO_0020049] => 8587
+                    [http://purl.obolibrary.org/obo/UBERON_0000468] => 24289
+                    [http://purl.obolibrary.org/obo/PO_0009010] => 24115
+                    [http://eol.org/schema/terms/stem] => 8678
+                )
+
+            [meanlog10] => 82102
+            [SampleSize] => 82671
+            [SDlog10] => 37294
+        )
+
+)
+
+ temporary directory removed: /Volumes/AKiTiO4/eol_php_code_tmp/dir_97445/
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024/measurement_or_fact_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [514739]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024/occurrence_specific.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [155092]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024/reference.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [182]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [97693]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [try_dbase_2024]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/try_dbase_2024//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://eol.org/schema/reference/reference
+    [1] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+)
+Array
+(
+    [0] => http://eol.org/schema/reference/reference
+    [1] => http://rs.tdwg.org/dwc/terms/measurementorfact
+    [2] => http://rs.tdwg.org/dwc/terms/taxon
+    [3] => http://rs.tdwg.org/dwc/terms/occurrence
+)
+
+ reference  -- OK
+
+ measurementorfact  -- OK
+
+ taxon  -- OK
+
+ occurrence  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+elapsed time = 2.5218226666667 minutes 
+elapsed time = 0.042030377777778 hours 
+
+Done processing.
+Completed remove_MoF_for_taxonID.php :: [ []]<br>
++ exit 0
+Finished: SUCCESS

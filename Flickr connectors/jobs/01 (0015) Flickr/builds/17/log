@@ -1,0 +1,90 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Flickr connectors/(0015) Flickr
+[(0015) Flickr] $ /bin/sh -xe /jenkins_tmp/jenkins7292792651734783457.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php 15.php _
+Current PHP version: 8.2.28<br>Warning: The use statement with non-compound name 'AllowDynamicProperties' has no effect in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaDataObject.php on line 2
+
+-----------------------------------
+STEP 1: query Flickr and write results to file
+-----------------------------------
+
+total_pages = [421055] 843
+getting page 1: 0.789268
+
+ page 1 of 843 | total taxa =  421055 | 15 
+
+ -- response photos count per page: 500
+taxon: 200 (51901931679): 0.8546
+taxon: 400 (51483073876): 0.891882
+getting page 2: 0.910148
+
+ page 2 of 843 | total taxa =  421411 | 15 
+
+ -- response photos count per page: 500
+taxon: 600 (51426745573): 0.929351
+getting page 3: 0.937559
+
+ page 3 of 843 | total taxa =  421411 | 15 
+
+ -- response photos count per page: 500
+taxon: 800 (51398518100): 0.967283
+taxon: 1000 (51038318048): 1.002893
+getting page 4: 1.029802
+
+ page 4 of 843 | total taxa =  421431 | 15 
+
+ -- response photos count per page: 500
+taxon: 1200 (51113882508): 1.045296
+taxon: 1400 (51267303895): 1.091699
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$genus is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 29
+E_DEPRECATED: Creation of dynamic property SchemaTaxon::$rank is deprecated in /var/www/html/eol_php8_code/vendor/eol_content_schema/SchemaTaxon.php on line 33
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

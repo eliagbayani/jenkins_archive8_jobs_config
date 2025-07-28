@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+# php 368.php jenkins #OBSOLETE, use below instead. 
+
+# Six (6) connectors to run, one after the other - OK
+# 1 of 6
+php pbdb_fresh_harvest.php jenkins 
+# - this generates 368.tar.gz
+
+# 2 of 6: This will adjust newly generated 368.tar.gz. 
+# It&apos;ll remove all Aves descendants as requested.
+php remove_Aves_children_from_368.php jenkins 
+# - this generates 368_removed_aves.tar.gz
+
+# 3 of 6: This will remove bad synonyms
+php synonyms_handling.php jenkins 368_final 
+# - this generates 368_final.tar.gz
+
+# 4 of 6: This will merge 2 occurrences into 1
+php 368_merge_two_MoF_into_one.php 
+# - this generates 368_merged_MoF.tar.gz
+
+# 5 of 6: This will remove some MoF and put a lifeStage in occurrence
+php pbdb_more_adjustments.php 
+# - this generates 368_cleaned_MoF.tar.gz
+
+# 6 of 6: delta hashing
+php make_hash_IDs_4Deltas.php jenkins &apos;{&quot;task&quot;: &quot;&quot;, &quot;resource&quot;:&quot;Deltas_4hashing&quot;, &quot;resource_id&quot;:&quot;368_cleaned_MoF&quot;}&apos;
+# - this generates 368_delta.tar.gz
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

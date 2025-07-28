@@ -1,0 +1,99 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 6 Clade Specific Filters for Habitat
+[Step 6 Clade Specific Filters for Habitat] $ /bin/sh -xe /jenkins_tmp/jenkins17136717846794921286.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php clade_filters_4_habitats.php jenkins {"resource_id":"TreatmentBank_adjustment_01"}
+Current PHP version: 8.2.28<br>
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_92244/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources/TreatmentBank_adjustment_01.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://host.docker.internal:81/eol_php8_code//applications/content_server/resources/TreatmentBank_adjustment_01.tar.gz): The requested URL returned error: 403 :: [lib/Functions.php [148]]<br>
+attempt 1 failed, will try again after 0.3 seconds :: [lib/connectors/INBioAPI.php [59]]<br>
+Sending get request to http://host.docker.internal:81/eol_php8_code//applications/content_server/resources/TreatmentBank_adjustment_01.tar.gz : only attempt :: [lib/Functions.php [148]]<br>
+Curl error (http://host.docker.internal:81/eol_php8_code//applications/content_server/resources/TreatmentBank_adjustment_01.tar.gz): The requested URL returned error: 403 :: [lib/Functions.php [148]]<br>
+attempt 2 failed, will try again after 0.3 seconds :: [lib/connectors/INBioAPI.php [59]]<br>
+failed download file after 2 attempts :: [lib/connectors/INBioAPI.php [59]]<br>
+Connector terminated. Remote/local file is not ready. :: [lib/connectors/DwCA_Utility.php [127]]<br>
+
+temp. dir removed: [/Volumes/AKiTiO4/eol_php_code_tmp/dir_92244/]
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 130
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 131
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 132
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 133
+Warning: foreach() argument must be of type array|object, null given in /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php on line 142
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 171
+
+Descendants of marine (http://purl.obolibrary.org/obo/ENVO_00000447): 172 (inclusive)
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1567
+
+Descendants of terrestrial (http://purl.obolibrary.org/obo/ENVO_00000446): 1568 (inclusive)
+
+Descendants of coastal_land (http://purl.obolibrary.org/obo/ENVO_00000303): 89
+
+Descendants of coastal_land (http://purl.obolibrary.org/obo/ENVO_00000303): 90 (inclusive)
+
+Descendants of freshwater (http://purl.obolibrary.org/obo/ENVO_00000873): 156
+
+Descendants of freshwater (http://purl.obolibrary.org/obo/ENVO_00000873): 157 (inclusive)
+Warning: Trying to access array offset on value of type bool in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 68
+Warning: Attempt to read property "tables" on null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 68
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 69
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 69
+
+
+Running classify_taxa...Warning: Attempt to read property "file_uri" on null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 104
+User Notice: FileIterator: Invalid file path or not readable:  in /var/www/html/eol_php8_code/lib/FileIterator.php on line 27
+FileIterator: Invalid file path or not readable:  :: [lib/connectors/CladeSpecificFilters4Habitats_API.php [69]]<br>
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 76
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 76
+
+
+Running classify_occurrence...Warning: Attempt to read property "file_uri" on null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 104
+User Notice: FileIterator: Invalid file path or not readable:  in /var/www/html/eol_php8_code/lib/FileIterator.php on line 27
+FileIterator: Invalid file path or not readable:  :: [lib/connectors/CladeSpecificFilters4Habitats_API.php [76]]<br>
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 83
+Warning: Trying to access array offset on value of type null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 83
+
+
+Running classify_MoF...Warning: Attempt to read property "file_uri" on null in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 104
+User Notice: FileIterator: Invalid file path or not readable:  in /var/www/html/eol_php8_code/lib/FileIterator.php on line 27
+FileIterator: Invalid file path or not readable:  :: [lib/connectors/CladeSpecificFilters4Habitats_API.php [83]]<br>
+Warning: Undefined property: php_active_record\CladeSpecificFilters4Habitats_API::$to_delete_occurID in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php on line 85
+<b>Uncaught TypeError</b>: count(): Argument #1 ($value) must be of type Countable|array, null given<br/>
+in /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php[85]<br/>
+<pre>#0 /var/www/html/eol_php8_code/lib/connectors/CladeSpecificFilters4Habitats_API.php(85): count()
+#1 /var/www/html/eol_php8_code/lib/connectors/DwCA_Utility.php(432): php_active_record\CladeSpecificFilters4Habitats_API->start()
+#2 /var/www/html/eol_php8_code/update_resources/connectors/clade_filters_4_habitats.php(47): php_active_record\DwCA_Utility->convert_archive()
+#3 /var/www/html/eol_php8_code/update_resources/connectors/clade_filters_4_habitats.php(32): php_active_record\process_resource_url()
+#4 {main}</pre>
+Completed clade_filters_4_habitats.php :: [ []]<br>
++ php georgia_cntry_vs_state.php jenkins {"resource_id": "TreatmentBank_adjustment_02"}
+Current PHP version: 8.2.28<br>Array
+(
+    [resource_id] => TreatmentBank_adjustment_02
+)
+
+Converting archive to EOL DwCA...
+
+Local running...
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [127]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_37296/ :: [lib/connectors/DwCA_Utility.php [127]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3//TreatmentBank_adjustment_02.tar.gz] :: [lib/connectors/DwCA_Utility.php [127]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_37296//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+ResourceUtility...process_generic_table (round 1) http://rs.tdwg.org/dwc/terms/MeasurementOrFact ...
+
+100,000
+200,000
+300,000
+400,000
+500,000Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

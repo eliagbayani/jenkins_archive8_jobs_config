@@ -1,0 +1,1429 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/Step 2 build_up_dwca_list
+[Step 2 build_up_dwca_list] $ /bin/sh -xe /jenkins_tmp/jenkins10356439316555916679.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php treatment_bank.php _ {"task": "build_up_dwca_list"}
+Current PHP version: 8.2.28<br>Array
+(
+    [0] => treatment_bank.php
+    [1] => _
+    [2] => {"task": "build_up_dwca_list"}
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/70D396F5AA4D54B8958FE3914506D02C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip -- [18170] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/70D396F5AA4D54B8958FE3914506D02C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/70D396F5AA4D54B8958FE3914506D02C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/70D396F5AA4D54B8958FE3914506D02C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/70D396F5AA4D54B8958FE3914506D02C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/6EBB3A02568357EDA7B654F927915F3D.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip -- [15386] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/6EBB3A02568357EDA7B654F927915F3D.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/6EBB3A02568357EDA7B654F927915F3D.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/B01F03B6618A54F2A8AA5164A68D16F3.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/B0/B01F03B6618A54F2A8AA5164A68D16F3.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/B0/B01F03B6618A54F2A8AA5164A68D16F3.zip -- [18488] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/59C46FD8A4775D8495F2779CCAD30451.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/59/59C46FD8A4775D8495F2779CCAD30451.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/59/59C46FD8A4775D8495F2779CCAD30451.zip -- [11773] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip -- [33957] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip -- [22291] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip -- [29076] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip -- [17956] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/9E2341778028C154FFC16D02DE01FFC4.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/9E/9E2341778028C154FFC16D02DE01FFC4.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/9E/9E2341778028C154FFC16D02DE01FFC4.zip -- [20986] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip -- [29476] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/AE07A3588A7231210A07A461AE533548.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/AE/AE07A3588A7231210A07A461AE533548.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/AE/AE07A3588A7231210A07A461AE533548.zip -- [16327] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip -- [25809] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF92FFFD5144FF94E038FFD3FF8FFFB6.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFFD5144FF94E038FFD3FF8FFFB6.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFFD5144FF94E038FFD3FF8FFFB6.zip -- [21263] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF9F9557AB69211A1D421337FFC1FD60.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip -- [20701] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF9F9557AB69211A1D421337FFC1FD60.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF9F9557AB69211A1D421337FFC1FD60.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip -- [56303] :: [lib/connectors/TreatmentBankAPI.php [217]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC072933FF649E61FE7FFD17.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC05290DFF649FF5FEFAFD5F.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC342903FF6498A0FA9CF906.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC022934FF649FF5FA8DFA27.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC002937FF649BB5FDF8FD17.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC012930FF649FF5FD84FD73.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC062931FF649AA9FE3AFCBB.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D7EEFF4CF34A.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D67EFEC3F44E.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D462FDDBF1D8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D4F3FD4FF249.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D740FBBFF2FA.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D6ACFE60F429.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D11EFEF6F584.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D087FB44F619.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D331FC52F68A.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D3BEFD0DF7AC.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D4F2FC9CF1AA.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D49EFC49F2DA.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF80FFA0FF16D6B2FC53F4FE.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF97FFB7FF16D22CFF4CF7A8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF99FFB9FF16D037FAADF67B.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF99FFB9FF16D333FAE5F6A3.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9DFFBCFF16D214FC5EF08A.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D247FDEDF7AC.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9CFFBCFF16D797FBA7F39C.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF81FFA1FF16D0C8FE73F6BB.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF99FFB9FF16D1A7FB6BF513.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D17AFECDF4FE.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF81FFA1FF16D120FABBF497.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF97FFB7FF16D3DCFB2DF71C.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D40CFD9AF296.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF80FFA0FF16D446FCFEF246.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D1CAFE05F56E.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF80FFA0FF16D7EEFCF6F34A.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF81FFA0FF16D2C0FD9BF142.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF81FFA1FF16D194FDB9F5C0.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D3A6FDDAF712.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF98FFB8FF16D3AAFD5CF70E.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF98FFB8FF16D35AFE8DF69E.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D05AFD2CF5BA.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF99FFB9FF16D267FD2DF7EF.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9DFFBDFF16D3A0FDC4F734.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D315FB7FF6A6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D084FC8AF635.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D18BFD6FF5E8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D6C8FDAEF4BE.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D236FBF0F782.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF81FFA1FF16D38CFDF9F7C8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D08EFF4CF6E2.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF80FFA0FF16D742FEF4F2DA.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D7B3FE2AF3C0.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9BFFBBFF16D5F6FF4CF13C.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF98FFB8FF16D23AFB80F7BE.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF9EFFBEFF16D5F6FD15F1D6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/116187FFFF80FFA0FF16D67EFF4CF396.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/ED/ED58FF87FF91FFB1FFD1D561FFA5F05F.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03B49735FFB3DB3AE658684CCF21FD8B.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8DEF4DFFB5DB35E7766F5DCA25FF9B.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8DEF4DFFB5DB35E7766F5DCA25FF9B.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03B49735FFB0DB30E4E96B69CE38F870.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF8DEF4DFFB5DB35E7766F5DCA25FF9B.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8DEF4DFFB5DB35E7766F5DCA25FF9B.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/039B87EEFFBBC76FFF4A1E13FC4A946B.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFA2FF96FFB8C77FFFDD181BFFA5977E.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFA2FF96FFB8C77FFFDD181BFFA5977E.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03BE23201D7CFFCFFF776740FCF9FEE8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF875B581D7DFFC9FFE06105FFBDFF8D.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF875B581D7DFFC9FFE06105FFBDFF8D.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03BE23201D7CFFC8FF7762F3FDCFFA7E.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FF875B581D7DFFC9FFE06105FFBDFF8D.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF875B581D7DFFC9FFE06105FFBDFF8D.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/F76F87FDFFE9B2052188FF78FDF8FA60.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/0B56FF85FFE8B206211FFFEFFFB6FFC9.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/0B/0B56FF85FFE8B206211FFFEFFFB6FFC9.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D14FFF3FF37FBDBFEB685F8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D10FFF6FF37FDA4FD1380AB.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D1AFFFEFF37FC30FB9C864C.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D13FFF6FF37FE54FD4D86A4.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D1CFFFCFF37FB75FCDC84D0.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D1EFFF9FF37F8BEFF6680B6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D15FFF5FF37FD18FCD18634.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D14FFF2FF37FEA8FC3784B6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D17FFF2FF37FD6CFBEA87A8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D18FFF1FF37F9D4FC37856C.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/FF5487B59D18FFFEFF37FE8CFD1E82B4.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/03/036DFFCD9D1EFFF8FFA0FFE2FFB48751.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03CE87CB1C02BE1CFF5CFEFDFCB4FF7F.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFF7FFB31C0CBE08FFCBFFB6FFF7FF86.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFF7FFB31C0CBE08FFCBFFB6FFF7FF86.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03CE87CB1C00BE06FF5CF8F9FF32FF7F.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFF7FFB31C0CBE08FFCBFFB6FFF7FF86.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFF7FFB31C0CBE08FFCBFFB6FFF7FF86.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/522087A946208C79BB95FF7E0431D3B2.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/AE19FFD146238C7EBB02FFE90764D657.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/AE/AE19FFD146238C7EBB02FFE90764D657.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFFF901EFF4C6A0685D01057.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/6B1B3A79FFF29010FFC46C1C862D1317.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6B/6B1B3A79FFF29010FFC46C1C862D1317.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFF69014FF4C6B1C8386149B.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFF69014FF4C6BA083861B19.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/6B1B3A79FFF29010FFC46C1C862D1317.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6B/6B1B3A79FFF29010FFC46C1C862D1317.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFFA9018FF4C6E6887F01776.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/6B1B3A79FFF29010FFC46C1C862D1317.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6B/6B1B3A79FFF29010FFC46C1C862D1317.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFF69014FF4C6928838616CB.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFFA9018FF4C6CBC83291152.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/6B1B3A79FFF29010FFC46C1C862D1317.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6B/6B1B3A79FFF29010FFC46C1C862D1317.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFF69014FF4C6E5283861613.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/97224201FFF69014FF4C6A10838615C6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/C020743D947FFFB2FF7DA5EA61E507F6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/3C190C45947EFFB7FFF5A11E6054062E.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/3C/3C190C45947EFFB7FFF5A11E6054062E.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/345F87BEFB34FFC6D9C83AF4AF02FBBB.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/C866FFC6FB0CFFFED95F380FAA27FFE1.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/C8/C866FFC6FB0CFFFED95F380FAA27FFE1.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/8A6F2C53FFF9A671FDA9FD176065FCC8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/7656542BFFE1A66CFFC8FF88626EFF96.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/76/7656542BFFE1A66CFFC8FF88626EFF96.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/8A6F2C53FFFCA64DFD8FFC2B66BFFBBB.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/7656542BFFE1A66CFFC8FF88626EFF96.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/76/7656542BFFE1A66CFFC8FF88626EFF96.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/8A6F2C53FFCEA65BFD99FD3860D3FCD6.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/7656542BFFE1A66CFFC8FF88626EFF96.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/76/7656542BFFE1A66CFFC8FF88626EFF96.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/8A6F2C53FFC0A649FD98FBF96146FBE4.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/7656542BFFE1A66CFFC8FF88626EFF96.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/76/7656542BFFE1A66CFFC8FF88626EFF96.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/8A6F2C53FFCBA643FDACFE806133FDFD.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/7656542BFFE1A66CFFC8FF88626EFF96.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/76/7656542BFFE1A66CFFC8FF88626EFF96.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/039787CA581B4B1EFF14B95FFA7B5E85.xml : only attempt :: [lib/Functions.php [148]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/039787CA58194B1FFF14B9C3FA735833.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFAEFFB258184B1DFF83BF28FFE75972.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFB258184B1DFF83BF28FFE75972.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/883DE04CE170FF92FF03FF4CFE0FFC88.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/74049834E177FF9BFF94FFDBFF95FFD5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/74/74049834E177FF9BFF94FFDBFF95FFD5.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/883DE04CE17EFF90FF03FC75FE8EF895.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/74049834E177FF9BFF94FFDBFF95FFD5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/74/74049834E177FF9BFF94FFDBFF95FFD5.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/883DE04CE174FF9EFF03FE24FE4BF879.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/74049834E177FF9BFF94FFDBFF95FFD5.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/74/74049834E177FF9BFF94FFDBFF95FFD5.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/CD7AE91EFFB5FFCCFF35FBA7FE28F845.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/31439166FFB4FFCEFFA2FFFDFFC6FFB3.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/31439166FFB4FFCEFFA2FFFDFFC6FFB3.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/CD7AE91EFFB5FFCFFF35FC78FCB7FBB8.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/31439166FFB4FFCEFFA2FFFDFFC6FFB3.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/31439166FFB4FFCEFFA2FFFDFFC6FFB3.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03E46477FF8F6B05FF04FCFE7BC4FD32.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03E46477FF8A6B0CFF04F9FB7CF5F888.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/880B4E1A7370F80C32B672653759FD67.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/743236627372F80732217773354AFFAA.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/74/743236627372F80732217773354AFFAA.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7145F90F0A0EFF9360AFB007FEEEE4B7.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8D7C81770A09FF9B6027B64BFF8DE46B.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/8D/8D7C81770A09FF9B6027B64BFF8DE46B.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/03C187843D2F5553FF1BFA1EFD23F8C3.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFF8FFFC3D2C555BFF8CFFB9FFFDFFBF.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFF8FFFC3D2C555BFF8CFFB9FFFDFFBF.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E5732FFC17DD4FDEB384675C7.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E574FFFB47DD4FA973A6077BB.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E5703FFF77DD4FD903B33770B.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E5705FFEC7DD4F9EC3DD77217.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E576BFF947DD4FB73399C75C7.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E5765FF937DD4FAE33B6A7217.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E5753FFA67DD4FCE63CF97243.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E5701FFF57DD4F8FB3CEC7127.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/7A20879E5743FFB67DD4FF163CF9707E.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/8619FFE65709FFFC7D43FF8139657512.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/86/8619FFE65709FFFC7D43FF8139657512.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86BFF9DFF7928D1FC3F3251.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E852FFA4FF792D8CFAE836D5.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86FFF99FF792DA8FB2036B1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E800FFF6FF792E3DFDBC3769.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E803FFF5FF792941FB613251.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87CFF8AFF792ABCFEA033C5.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87CFF8AFF792D1DFDEF3665.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E80BFFFDFF792A0CFE883379.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87DFF8BFF79299CFB693209.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87DFF8BFF792C88FADD35D1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87FFF89FF792A4BFBC233CF.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E879FF8FFF792898FE793275.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E877FF81FF792A44FB2C3331.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E870FF86FF792FEFFC873212.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E872FF84FF792E90FD8E37D9.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E84EFFBBFF792B6CFBCC36B1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E84FFFB9FF792924FB14322D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E848FFBEFF792EE5FD5B3025.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E849FFBEFF792B65FC4635F5.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E84AFFBCFF792931FE8132CC.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87BFF8DFF792DC4FE793745.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E869FF9FFF7929D4FC363379.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86DFF9BFF792D38FC1B3665.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E870FF81FF792A83FE7935D1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E879FF8FFF792EACFD1F3025.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87EFF88FF7929B8FC37330D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87DFF8BFF79287CFCC83129.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E878FF8EFF792E58FDE93721.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87EFF88FF792E58FBB63105.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E803FFF5FF792A44FAE83331.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E803FFF4FF792B64FDEB353D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E84DFFBBFF792F7FFCEB30C2.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E853FFA5FF792FCCFDCC30DD.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E862FF94FF792924FE79322D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E867FF90FF792B6BFAE83485.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86DFF9BFF792EADFE8137B5.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E856FFA0FF792D70FD713641.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87AFF8FFF792ABCFE7935F5.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87BFF8CFF792A4BFE79353D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E874FF82FF792941FE6432C1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E808FFFEFF792F5DFB9A306D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E809FFFFFF792C88FC8635F5.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E804FFF2FF7928B4FE1A31E1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E873FF85FF79287CFB693171.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86CFF85FF792A28FC453665.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86FFF99FF792A28FAE83331.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86BFF9DFF792A44FB2033E9.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E85BFFACFF792B87FB8E3641.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E85BFFADFF792A67FD5A3316.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E84CFFBAFF792F95FE8130DD.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E84FFFB9FF792A61FDBC330D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E80AFFFCFF792D1CFAE83641.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E848FFBEFF792DA8FC8636B1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E800FFF1FF792B48FB203561.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87CFF8AFF792FCCFC363095.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87AFF8CFF792EC8FE793171.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E87AFF8CFF792925FACF3209.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E84CFFBAFF792D54FCAF368D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E870FF86FF792C88FC87368D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E871FF87FF792E74FB2C30DD.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E86CFF9AFF792F78FB01306D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E865FF93FF792A44FDE933E9.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E875FF82FF792AF4FB9336F9.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E866FF90FF792D38FC6E361D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E867FF91FF792804FAE83171.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E867FF91FF792DC4FE79368D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E852FFA4FF792C88FD593519.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E867FF91FF792F00FACD3791.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E851FFA7FF792DC4FAE83791.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E861FF97FF7929F7FDD43386.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E850FFA0FF7929F6FCC8353D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E856FFA3FF7929B8FD1F3485.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E875FF83FF792924FD7232C1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E863FF94FF792A44FCC83641.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E855FFA3FF792D38FE793745.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E854FFA2FF792DE0FD1F306D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E85DFFABFF792EACFE88306D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E85DFFABFF792D38FBA136F9.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E854FFA2FF7929DBFB553386.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E85BFFADFF792C88FC36361D.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E859FFAEFF792940FB2035D1.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E85FFFA9FF792F00FDEB3049.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E800FFF6FF792A29FAAC3355.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E802FFF7FF792B64FCAF3589.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E801FFF7FF792E3CFB1B37FD.xml : only attempt :: [lib/Functions.php [148]]<br>
+Array
+(
+    [source] => tb.plazi.org/GgServer/dwca/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+    [destination] => /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFB5FFF0E843FFB5FFEE2C1FFFA1347C.zip
+)
+Sending get request to http://tb.plazi.org/GgServer/xml/038C8788E85EFFA8FF792F01FDBC3049.xml : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

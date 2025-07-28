@@ -1,0 +1,672 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/13_TreatmentBank/range_1
+[range_1] $ /bin/sh -xe /jenkins_tmp/jenkins15106185650888939063.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php treatment_bank.php jenkins {"range_from": "1", "range_to":"100000"}
+Current PHP version: 8.2.28<br>Array
+(
+    [0] => treatment_bank.php
+    [1] => jenkins
+    [2] => {"range_from": "1", "range_to":"100000"}
+)
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/xml.rss.xml] - 430175982
+ :: [lib/connectors/TreatmentBankAPI.php [103]]<br>
+SimpleXMLElement Object
+(
+    [title] => Festucula Simon 1901
+    [description] => Festucula Simon 1901 (pages 285-285) in Azarkina, Galina N. & Foord, Stefan H. 2023, Further notes on the Afrotropical genus Festucula Simon, 1901 (Araneae, Salticidae), ZooKeys 1185, pages 285-308
+    [link] => http://tb.plazi.org/GgServer/xml/8C7614557F4D5F4290E3C23DD8154AF9
+    [pubDate] => 2023-12-02T08:40:09-02:00
+    [guid] => 8C7614557F4D5F4290E3C23DD8154AF9.xml
+)
+http://tb.plazi.org/GgServer/xml/8C7614557F4D5F4290E3C23DD8154AF9.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip] - 18170
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Festucula lawrencei Lessert 1933
+    [description] => Festucula lawrencei Lessert 1933 (pages 285-285) in Azarkina, Galina N. & Foord, Stefan H. 2023, Further notes on the Afrotropical genus Festucula Simon, 1901 (Araneae, Salticidae), ZooKeys 1185, pages 285-308
+    [link] => http://tb.plazi.org/GgServer/xml/3DA25A3A6C0C5547B9558062447BC49C
+    [pubDate] => 2023-12-02T08:40:09-02:00
+    [guid] => 3DA25A3A6C0C5547B9558062447BC49C.xml
+)
+http://tb.plazi.org/GgServer/xml/3DA25A3A6C0C5547B9558062447BC49C.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip] - 18170
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Festucula botswana Azarkina & Foord 2023, sp. nov.
+    [description] => Festucula botswana Azarkina & Foord 2023, sp. nov. (pages 285-285) in Azarkina, Galina N. & Foord, Stefan H. 2023, Further notes on the Afrotropical genus Festucula Simon, 1901 (Araneae, Salticidae), ZooKeys 1185, pages 285-308
+    [link] => http://tb.plazi.org/GgServer/xml/7061392BA3935D6BBE9661735CA81ECC
+    [pubDate] => 2023-12-02T08:40:09-02:00
+    [guid] => 7061392BA3935D6BBE9661735CA81ECC.xml
+)
+http://tb.plazi.org/GgServer/xml/7061392BA3935D6BBE9661735CA81ECC.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip] - 18170
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Festucula monticola Berland & Millot 1941
+    [description] => Festucula monticola Berland & Millot 1941 (pages 285-285) in Azarkina, Galina N. & Foord, Stefan H. 2023, Further notes on the Afrotropical genus Festucula Simon, 1901 (Araneae, Salticidae), ZooKeys 1185, pages 285-308
+    [link] => http://tb.plazi.org/GgServer/xml/2FA310679C2750C8A8A6E8F23049F5C6
+    [pubDate] => 2023-12-02T08:40:09-02:00
+    [guid] => 2FA310679C2750C8A8A6E8F23049F5C6.xml
+)
+http://tb.plazi.org/GgServer/xml/2FA310679C2750C8A8A6E8F23049F5C6.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip] - 18170
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Festucula leroyae Azarkina & Foord 2014
+    [description] => Festucula leroyae Azarkina & Foord 2014 (pages 285-285) in Azarkina, Galina N. & Foord, Stefan H. 2023, Further notes on the Afrotropical genus Festucula Simon, 1901 (Araneae, Salticidae), ZooKeys 1185, pages 285-308
+    [link] => http://tb.plazi.org/GgServer/xml/62EE7731821A5CDCA1EABE8D8F357D85
+    [pubDate] => 2023-12-02T08:40:09-02:00
+    [guid] => 62EE7731821A5CDCA1EABE8D8F357D85.xml
+)
+http://tb.plazi.org/GgServer/xml/62EE7731821A5CDCA1EABE8D8F357D85.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/70/70D396F5AA4D54B8958FE3914506D02C.zip] - 18170
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Floronia huishuiensis Zhou & Xu 2023, sp. nov.
+    [description] => Floronia huishuiensis Zhou & Xu 2023, sp. nov. (pages 309-309) in Zhou, Guchun, Du, Weifeng, Xu, Chengxiang & Irfan, Muhammad 2023, A new species of Floronia Simon, 1887 from Baiyan Cave in Guizhou Province, China (Araneae, Linyphiidae), ZooKeys 1185, pages 309-319
+    [link] => http://tb.plazi.org/GgServer/xml/66372D0BD3C55F8C94919BE9969A3CD8
+    [pubDate] => 2023-12-02T08:40:05-02:00
+    [guid] => 66372D0BD3C55F8C94919BE9969A3CD8.xml
+)
+http://tb.plazi.org/GgServer/xml/66372D0BD3C55F8C94919BE9969A3CD8.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/6EBB3A02568357EDA7B654F927915F3D.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Floronia bucculenta
+    [description] => Floronia bucculenta (pages 309-309) in Zhou, Guchun, Du, Weifeng, Xu, Chengxiang & Irfan, Muhammad 2023, A new species of Floronia Simon, 1887 from Baiyan Cave in Guizhou Province, China (Araneae, Linyphiidae), ZooKeys 1185, pages 309-319
+    [link] => http://tb.plazi.org/GgServer/xml/7B12C7BF7D72516ABAB48A98DA795000
+    [pubDate] => 2023-12-02T08:40:05-02:00
+    [guid] => 7B12C7BF7D72516ABAB48A98DA795000.xml
+)
+http://tb.plazi.org/GgServer/xml/7B12C7BF7D72516ABAB48A98DA795000.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip] - 15386
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Floronia zhejiangensis Zhu, Chen & Sha 1987
+    [description] => Floronia zhejiangensis Zhu, Chen & Sha 1987 (pages 309-309) in Zhou, Guchun, Du, Weifeng, Xu, Chengxiang & Irfan, Muhammad 2023, A new species of Floronia Simon, 1887 from Baiyan Cave in Guizhou Province, China (Araneae, Linyphiidae), ZooKeys 1185, pages 309-319
+    [link] => http://tb.plazi.org/GgServer/xml/13198FCAE3155574A77B62F0A86E0BDE
+    [pubDate] => 2023-12-02T08:40:05-02:00
+    [guid] => 13198FCAE3155574A77B62F0A86E0BDE.xml
+)
+http://tb.plazi.org/GgServer/xml/13198FCAE3155574A77B62F0A86E0BDE.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/6E/6EBB3A02568357EDA7B654F927915F3D.zip] - 15386
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Rhynchospora mesoatlantica A. Eberly & Naczi 2023, sp. nov.
+    [description] => Rhynchospora mesoatlantica A. Eberly & Naczi 2023, sp. nov. (pages 65-65) in Treher Eberly, Amanda & Naczi, Robert F. C. 2023, Rhynchospora mesoatlantica (Cyperaceae), an imperiled new species of beaksedge from eastern U. S. A., PhytoKeys 236, pages 65-81
+    [link] => http://tb.plazi.org/GgServer/xml/FDD096FC5C3855298AA102AABA6B03E3
+    [pubDate] => 2023-12-02T08:40:01-02:00
+    [guid] => FDD096FC5C3855298AA102AABA6B03E3.xml
+)
+http://tb.plazi.org/GgServer/xml/FDD096FC5C3855298AA102AABA6B03E3.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/B01F03B6618A54F2A8AA5164A68D16F3.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/B0/B01F03B6618A54F2A8AA5164A68D16F3.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/B0/B01F03B6618A54F2A8AA5164A68D16F3.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Olenecamptus bilobus
+    [description] => Olenecamptus bilobus (pages 114432-114432) in Ruzzier, Enrico, de Queros, Carlos R., Mas, Hugo & Di Giulio, Andrea 2023, Simultaneous detections of Olenecamptus bilobus (Fabricius, 1801) (Cerambycidae, Dorcaschematini) in Europe, Biodiversity Data Journal 11, pages 114432-114432
+    [link] => http://tb.plazi.org/GgServer/xml/708FDC5CCF975A5A87C7713C1027F409
+    [pubDate] => 2023-12-02T08:39:16-02:00
+    [guid] => 708FDC5CCF975A5A87C7713C1027F409.xml
+)
+http://tb.plazi.org/GgServer/xml/708FDC5CCF975A5A87C7713C1027F409.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/59C46FD8A4775D8495F2779CCAD30451.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/59/59C46FD8A4775D8495F2779CCAD30451.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/59/59C46FD8A4775D8495F2779CCAD30451.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Nasuconia Sakakibara Lateral 2006
+    [description] => Nasuconia Sakakibara Lateral 2006 (pages 322-325) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D5185F2250FF03FC2ADB8DFD99
+    [pubDate] => 2023-12-01T16:48:10-02:00
+    [guid] => CD5087D5185F2250FF03FC2ADB8DFD99.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D5185F2250FF03FC2ADB8DFD99.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/3169FFAD185E2254FF94FFF9DF06FF80.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Gelastogonia lineosa
+    [description] => Gelastogonia lineosa (pages 326-326) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D5185B2251FF03FF26DBACFD99
+    [pubDate] => 2023-12-01T16:48:10-02:00
+    [guid] => CD5087D5185B2251FF03FF26DBACFD99.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D5185B2251FF03FF26DBACFD99.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Stratiomys Geoffroy 1762
+    [description] => Stratiomys Geoffroy 1762 (pages 4-4) in Yatoo, Suhaib Firdous, Maqbool, Amir & Wachkoo, Aijaz Ahmad 2023, A review of the genus Stratiomys Geoffroy (Diptera: Stratiomyidae) from India with description of a new species, European Journal of Taxonomy 910, pages 1-13
+    [link] => http://tb.plazi.org/GgServer/xml/03EF0201BA26FF9FA413A976FB67FC7B
+    [pubDate] => 2023-12-01T09:27:51-02:00
+    [guid] => 03EF0201BA26FF9FA413A976FB67FC7B.xml
+)
+http://tb.plazi.org/GgServer/xml/03EF0201BA26FF9FA413A976FB67FC7B.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Stratiomys approximata Brunetti 1923
+    [description] => Stratiomys approximata Brunetti 1923 (pages 4-7) in Yatoo, Suhaib Firdous, Maqbool, Amir & Wachkoo, Aijaz Ahmad 2023, A review of the genus Stratiomys Geoffroy (Diptera: Stratiomyidae) from India with description of a new species, European Journal of Taxonomy 910, pages 1-13
+    [link] => http://tb.plazi.org/GgServer/xml/03EF0201BA26FF9AA471A8F3FBD8F9ED
+    [pubDate] => 2023-12-01T09:27:51-02:00
+    [guid] => 03EF0201BA26FF9AA471A8F3FBD8F9ED.xml
+)
+http://tb.plazi.org/GgServer/xml/03EF0201BA26FF9AA471A8F3FBD8F9ED.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFD67A79BA25FF9CA640AB34FFD9FFE4.zip] - 22291
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Dibamus tropcentr Kliukin & Nguyen & Le & Bragin & Tran & Gorin & Poyarkov 2023, sp. nov.
+    [description] => Dibamus tropcentr Kliukin & Nguyen & Le & Bragin & Tran & Gorin & Poyarkov 2023, sp. nov. (pages 304-317) in Kliukin, Nikita S., Nguyen, Tan Van, Le, Son Xuan, Bragin, Andrey M., Tran, Tin Trong Vo, Gorin, Vladislav A. & Poyarkov, Nikola 2023, A new species of the genus Dibamus Duméril & Bibron, 1839 (Squamata: Dibamidae) from the driest and hottest place of Vietnam, Zootaxa 5380 (4), pages 301-320
+    [link] => http://tb.plazi.org/GgServer/xml/03C58028FFBDFFDEDCF0FE8E0E94FC30
+    [pubDate] => 2023-12-01T08:37:42-02:00
+    [guid] => 03C58028FFBDFFDEDCF0FE8E0E94FC30.xml
+)
+http://tb.plazi.org/GgServer/xml/03C58028FFBDFFDEDCF0FE8E0E94FC30.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFFCF850FFBEFFCEDC67FFA90F1DFFF9.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Hybusa Erichson 1844
+    [description] => Hybusa Erichson 1844 (pages 363-363) in Queiroz, Larissa Lima De, Rafael, José Albertino, Pádua, Diego Galvão De, Araujo, Rodrigo De Oliveira & Heleodoro, Raphael Aquin 2023, Redescription of Hybusa occidentalis (Westwood) (Orthoptera: Proscopiidae: Hybusinae): new images, description of male genitalia, pictorial key of Hybusa species and morphological comparison o, Zootaxa 5380 (4), pages 361-379
+    [link] => http://tb.plazi.org/GgServer/xml/03AB87BF831F2D13FF78FC24FC7EFF1E
+    [pubDate] => 2023-12-01T08:34:29-02:00
+    [guid] => 03AB87BF831F2D13FF78FC24FC7EFF1E.xml
+)
+http://tb.plazi.org/GgServer/xml/03AB87BF831F2D13FF78FC24FC7EFF1E.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Hybusa occidentalis
+    [description] => Hybusa occidentalis (pages 365-369) in Queiroz, Larissa Lima De, Rafael, José Albertino, Pádua, Diego Galvão De, Araujo, Rodrigo De Oliveira & Heleodoro, Raphael Aquin 2023, Redescription of Hybusa occidentalis (Westwood) (Orthoptera: Proscopiidae: Hybusinae): new images, description of male genitalia, pictorial key of Hybusa species and morphological comparison o, Zootaxa 5380 (4), pages 361-379
+    [link] => http://tb.plazi.org/GgServer/xml/03AB87BF83192D18FF78FA81FEECFE66
+    [pubDate] => 2023-12-01T08:34:29-02:00
+    [guid] => 03AB87BF83192D18FF78FA81FEECFE66.xml
+)
+http://tb.plazi.org/GgServer/xml/03AB87BF83192D18FF78FA81FEECFE66.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFC7831D2D10FFEFFFAEFF9FFFCB.zip] - 17956
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Serratichneumon maculatus Sheng & Riedel 2023, gen. et sp. nov.
+    [description] => Serratichneumon maculatus Sheng & Riedel 2023, gen. et sp. nov. (pages 17-23) in Sheng, Mao-Ling, Riedel, Matthias & Wang, Zhong 2023, A new genus and species of Ichneumonini Latreille (Hymenoptera, Ichneumonidae, Ichneumoninae) from Oriental Region, European Journal of Taxonomy 910, pages 14-24
+    [link] => http://tb.plazi.org/GgServer/xml/621A390F802BC15DFE716C0ADF59FD63
+    [pubDate] => 2023-12-01T08:33:53-02:00
+    [guid] => 621A390F802BC15DFE716C0ADF59FD63.xml
+)
+http://tb.plazi.org/GgServer/xml/621A390F802BC15DFE716C0ADF59FD63.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/9E2341778028C154FFC16D02DE01FFC4.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/9E/9E2341778028C154FFC16D02DE01FFC4.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/9E/9E2341778028C154FFC16D02DE01FFC4.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Stempellinella bazovae Orel 2023, sp. nov.
+    [description] => Stempellinella bazovae Orel 2023, sp. nov. (pages 342-344) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF8E0215FF44F9C4FB5AF8A7
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF8E0215FF44F9C4FB5AF8A7.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF8E0215FF44F9C4FB5AF8A7.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Stempellinella coronata Inoue, Kawai et Imabayashi 2004
+    [description] => Stempellinella coronata Inoue, Kawai et Imabayashi 2004 (pages 351-354) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF85021BFF44FA4BFEF4FD94
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF85021BFF44FA4BFEF4FD94.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF85021BFF44FA4BFEF4FD94.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip] - 29476
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Stempellinella tamaseptima
+    [description] => Stempellinella tamaseptima (pages 356-358) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF800207FF44FC1BFB26FD5C
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF800207FF44FC1BFB26FD5C.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF800207FF44FC1BFB26FD5C.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03B7900AFF800207FF44FC1BFB26FD5C.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip] - 29476
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Chironomidae Newman 1834
+    [description] => Chironomidae Newman 1834 (pages 342-342) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF8E0217FF44FE19FD5FFDC9
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF8E0217FF44FE19FD5FFDC9.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF8E0217FF44FE19FD5FFDC9.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03B7900AFF8E0217FF44FE19FD5FFDC9.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip] - 29476
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Stempellinella chirka Orel 2023, sp. nov.
+    [description] => Stempellinella chirka Orel 2023, sp. nov. (pages 345-351) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF8B021CFF44FA26FA94FCA8
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF8B021CFF44FA26FA94FCA8.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF8B021CFF44FA26FA94FCA8.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03B7900AFF8B021CFF44FA26FA94FCA8.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip] - 29476
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Stempellinella Brundin 1947
+    [description] => Stempellinella Brundin 1947 (pages 359-359) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF9D0204FF44FED3FA5EFE03
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF9D0204FF44FED3FA5EFE03.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF9D0204FF44FED3FA5EFE03.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03B7900AFF9D0204FF44FED3FA5EFE03.xml : only attempt :: [lib/Functions.php [148]]<br>
+SimpleXMLElement Object
+(
+    [title] => Stempellinella edwardsi Spies et Saether 2004
+    [description] => Stempellinella edwardsi Spies et Saether 2004 (pages 354-356) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF820219FF44FD71FAE5FE58
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF820219FF44FD71FAE5FE58.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF820219FF44FD71FAE5FE58.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03B7900AFF820219FF44FD71FAE5FE58.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip] - 29476
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Stempellinella Brundin 1947
+    [description] => Stempellinella Brundin 1947 (pages 342-342) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF8E0217FF44FD39FDCBFA9B
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF8E0217FF44FD39FDCBFA9B.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF8E0217FF44FD39FDCBFA9B.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03B7900AFF8E0217FF44FD39FDCBFA9B.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF8EE872FF8F0216FFD3FFC3FFC2FFF5.zip] - 29476
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Stempellinella Brundin 1947
+    [description] => Stempellinella Brundin 1947 (pages 358-359) in Orel, Oksana V. 2023, Stempellinella Brundin, 1947 (Diptera: Chironomidae) from Eastern Siberia and the Russian Far East, with the description of new species, Zootaxa 5380 (4), pages 341-360
+    [link] => http://tb.plazi.org/GgServer/xml/03B7900AFF9E0204FF44F9A9FA5EFF3F
+    [pubDate] => 2023-12-01T08:30:10-02:00
+    [guid] => 03B7900AFF9E0204FF44F9A9FA5EFF3F.xml
+)
+http://tb.plazi.org/GgServer/xml/03B7900AFF9E0204FF44F9A9FA5EFF3F.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03B7900AFF9E0204FF44F9A9FA5EFF3F.xml : only attempt :: [lib/Functions.php [148]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia Sakakibara Lateral 2006
+    [description] => Nasuconia Sakakibara Lateral 2006 (pages 338-339) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D5184F2246FF03F8E1DA9AFD02
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D5184F2246FF03F8E1DA9AFD02.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D5184F2246FF03F8E1DA9AFD02.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D5184F2246FF03F8E1DA9AFD02.xml : only attempt :: [lib/Functions.php [148]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia curculionoida Sakakibara 2006
+    [description] => Nasuconia curculionoida Sakakibara 2006 (pages 329-329) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D51856225CFF03FD92DEEDF914
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D51856225CFF03FD92DEEDF914.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D51856225CFF03FD92DEEDF914.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D51856225CFF03FD92DEEDF914.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia ellenfutterae Gonzalez-Mozo & Ware 2023, sp. nov.
+    [description] => Nasuconia ellenfutterae Gonzalez-Mozo & Ware 2023, sp. nov. (pages 330-331) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D51857225EFF03FC0FDDEAF86F
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D51857225EFF03FC0FDDEAF86F.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D51857225EFF03FC0FDDEAF86F.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D51857225EFF03FC0FDDEAF86F.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia yasuni Gonzalez-Mozo & Ware 2023, sp. nov.
+    [description] => Nasuconia yasuni Gonzalez-Mozo & Ware 2023, sp. nov. (pages 337-338) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D5184E2245FF03FA99DA97FE2C
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D5184E2245FF03FA99DA97FE2C.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D5184E2245FF03FA99DA97FE2C.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D5184E2245FF03FA99DA97FE2C.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia catarina Sakakibara 2006
+    [description] => Nasuconia catarina Sakakibara 2006 (pages 327-328) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D518582253FF03FA83DD4CFEC1
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D518582253FF03FA83DD4CFEC1.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D518582253FF03FA83DD4CFEC1.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D518582253FF03FA83DD4CFEC1.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia guianensis Gonzalez-Mozo & Ware 2023, sp. nov.
+    [description] => Nasuconia guianensis Gonzalez-Mozo & Ware 2023, sp. nov. (pages 329-330) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D51856225DFF03F91FDCB2FC24
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D51856225DFF03F91FDCB2FC24.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D51856225DFF03F91FDCB2FC24.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D51856225DFF03F91FDCB2FC24.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia nanica Sakakibara 2006
+    [description] => Nasuconia nanica Sakakibara 2006 (pages 328-328) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D518592253FF03FB63DA56F846
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D518592253FF03FB63DA56F846.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D518592253FF03FB63DA56F846.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D518592253FF03FB63DA56F846.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Nasuconia lineosa
+    [description] => Nasuconia lineosa (pages 327-327) in Gonzalez-Mozo, Laura C. & Ware, Jessica L. 2023, Review of Nasuconia Sakakibara, 2006 (Hemiptera: Membracidae) with description of three new species, Zootaxa 5380 (4), pages 321-340
+    [link] => http://tb.plazi.org/GgServer/xml/CD5087D518582252FF03FF6EDBBFFAAA
+    [pubDate] => 2023-12-01T08:29:35-02:00
+    [guid] => CD5087D518582252FF03FF6EDBBFFAAA.xml
+)
+http://tb.plazi.org/GgServer/xml/CD5087D518582252FF03FF6EDBBFFAAA.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/CD5087D518582252FF03FF6EDBBFFAAA.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/31/3169FFAD185E2254FF94FFF9DF06FF80.zip] - 33957
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Malakichthys formosus Ng & Liu & Joung 2023, sp. nov.
+    [description] => Malakichthys formosus Ng & Liu & Joung 2023, sp. nov. (pages 381-384) in Ng, Shing-Lai, Liu, Kwang-Ming & Joung, Shoou-Jeng 2023, Malakichthys formosus, a new species of small seabass (Acropomatiformes: Malakichthyidae) from southwestern Taiwan, Zootaxa 5380 (4), pages 380-386
+    [link] => http://tb.plazi.org/GgServer/xml/523EDB208A7331240A90A2F8AF4634C1
+    [pubDate] => 2023-12-01T08:29:24-02:00
+    [guid] => 523EDB208A7331240A90A2F8AF4634C1.xml
+)
+http://tb.plazi.org/GgServer/xml/523EDB208A7331240A90A2F8AF4634C1.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/523EDB208A7331240A90A2F8AF4634C1.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/AE07A3588A7231210A07A461AE533548.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/AE/AE07A3588A7231210A07A461AE533548.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/AE/AE07A3588A7231210A07A461AE533548.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Leptoconops (Leptoconops) brasiliensis
+    [description] => Leptoconops (Leptoconops) brasiliensis (pages 174-177) in Santarém, Maria Clara Alves, Cremer, Marta Jussara, Vieira, Jenyffer Vierheller, Lemos, Giulia Gaglianone, Pecor, David B. & Fel 2023, Redescription of Leptoconops (Leptoconops) brasiliensis (Lutz) and Leptoconops (Megaconops) floridensis Wirth (Diptera: Ceratopogonidae) with its first Brazilian record, Zootaxa 5380 (2), pages 173-183
+    [link] => http://tb.plazi.org/GgServer/xml/03E46477FF8A6B09FF04F8FA7CCFFC8E
+    [pubDate] => 2023-11-29T08:44:53-02:00
+    [guid] => 03E46477FF8A6B09FF04F8FA7CCFFC8E.xml
+)
+http://tb.plazi.org/GgServer/xml/03E46477FF8A6B09FF04F8FA7CCFFC8E.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03E46477FF8A6B09FF04F8FA7CCFFC8E.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFDD1C0FFF8B6B0DFF93FFA17867FF9B.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Ochyrocera Simon 1891
+    [description] => Ochyrocera Simon 1891 (pages 553-554) in Valdez-Mondragón, Alejandro & Chamé-Vázquez, David 2023, A new species of the spider genus Ochyrocera Simon (Araneae, Ochyroceratidae) from Mexico, with biogeographical comments and an updated identification key for Mexican species, Zootaxa 5374 (4), pages 552-562
+    [link] => http://tb.plazi.org/GgServer/xml/03AB87855145FF96E0AFF939FA19FB83
+    [pubDate] => 2023-11-30T19:52:00-02:00
+    [guid] => 03AB87855145FF96E0AFF939FA19FB83.xml
+)
+http://tb.plazi.org/GgServer/xml/03AB87855145FF96E0AFF939FA19FB83.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03AB87855145FF96E0AFF939FA19FB83.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FF92FFFD5144FF94E038FFD3FF8FFFB6.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFFD5144FF94E038FFD3FF8FFFB6.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF92FFFD5144FF94E038FFD3FF8FFFB6.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Ochyrocera Simon
+    [description] => Ochyrocera Simon (pages 559-559) in Valdez-Mondragón, Alejandro & Chamé-Vázquez, David 2023, A new species of the spider genus Ochyrocera Simon (Araneae, Ochyroceratidae) from Mexico, with biogeographical comments and an updated identification key for Mexican species, Zootaxa 5374 (4), pages 552-562
+    [link] => http://tb.plazi.org/GgServer/xml/03AB87855143FF93E0AFFB92FA13F97E
+    [pubDate] => 2023-11-20T09:02:10-02:00
+    [guid] => 03AB87855143FF93E0AFFB92FA13F97E.xml
+)
+http://tb.plazi.org/GgServer/xml/03AB87855143FF93E0AFFB92FA13F97E.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03AB87855143FF93E0AFFB92FA13F97E.xml : only attempt :: [lib/Functions.php [148]]<br>
+SimpleXMLElement Object
+(
+    [title] => Ulmaridae Haeckel, 1880 emend. Larson 1986
+    [description] => Ulmaridae Haeckel, 1880 emend. Larson 1986 (pages 538-538) in Lindsay, Dhugal John, Grossmann, Mary Matilda, Montenegro, Javier & Morandini, André Carrara 2023, A new subfamily of ulmarid scyphomedusae, the Santjordiinae, with a description of Santjordia pagesi gen. et sp. nov. (Cnidaria: Scyphozoa: Discomedusae: Semaeostomeae: Ulmaridae) from the Sum, Zootaxa 5374 (4), pages 533-551
+    [link] => http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD51184FA9EFE3D
+    [pubDate] => 2023-11-20T09:11:11-02:00
+    [guid] => 03A6ED2FAB6C211F1DD51184FA9EFE3D.xml
+)
+http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD51184FA9EFE3D.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD51184FA9EFE3D.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FF9F9557AB69211A1D421337FFC1FD60.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Santjordiinae Lindsay & Grossmann & Montenegro & Morandini 2023
+    [description] => Santjordiinae Lindsay & Grossmann & Montenegro & Morandini 2023 (pages 538-538) in Lindsay, Dhugal John, Grossmann, Mary Matilda, Montenegro, Javier & Morandini, André Carrara 2023, A new subfamily of ulmarid scyphomedusae, the Santjordiinae, with a description of Santjordia pagesi gen. et sp. nov. (Cnidaria: Scyphozoa: Discomedusae: Semaeostomeae: Ulmaridae) from the Sum, Zootaxa 5374 (4), pages 533-551
+    [link] => http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD51098FCC5F93A
+    [pubDate] => 2023-11-20T09:11:11-02:00
+    [guid] => 03A6ED2FAB6C211F1DD51098FCC5F93A.xml
+)
+http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD51098FCC5F93A.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD51098FCC5F93A.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip] - 20701
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Santjordia Lindsay & Grossmann & Montenegro & Morandini 2023
+    [description] => Santjordia Lindsay & Grossmann & Montenegro & Morandini 2023 (pages 538-538) in Lindsay, Dhugal John, Grossmann, Mary Matilda, Montenegro, Javier & Morandini, André Carrara 2023, A new subfamily of ulmarid scyphomedusae, the Santjordiinae, with a description of Santjordia pagesi gen. et sp. nov. (Cnidaria: Scyphozoa: Discomedusae: Semaeostomeae: Ulmaridae) from the Sum, Zootaxa 5374 (4), pages 533-551
+    [link] => http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD5179CFEDAFA49
+    [pubDate] => 2023-11-30T19:41:35-02:00
+    [guid] => 03A6ED2FAB6C211F1DD5179CFEDAFA49.xml
+)
+http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD5179CFEDAFA49.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/03A6ED2FAB6C211F1DD5179CFEDAFA49.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FF9F9557AB69211A1D421337FFC1FD60.zip] - 20701
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Neodeightonia palmicola J. K. Liu, Phook. & K. D. Hyde
+    [description] => Neodeightonia palmicola J. K. Liu, Phook. & K. D. Hyde (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC3B290DFF649E0DFBB5FA9F
+    [pubDate] => 2023-11-29T08:47:17-02:00
+    [guid] => 0397879FFC3B290DFF649E0DFBB5FA9F.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC3B290DFF649E0DFBB5FA9F.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC3B290DFF649E0DFBB5FA9F.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+Downloading...[wget tb.plazi.org/GgServer/dwca/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip -O /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip 2>&1]
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+
+/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip downloaded successfully :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+ OK SimpleXMLElement Object
+(
+    [title] => Sardiniella Linaldeddu, A. Alves & A. J. L. Phillips, Mycosphere
+    [description] => Sardiniella Linaldeddu, A. Alves & A. J. L. Phillips, Mycosphere (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC362902FF649822FCA8FAFB
+    [pubDate] => 2023-11-29T08:47:17-02:00
+    [guid] => 0397879FFC362902FF649822FCA8FAFB.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC362902FF649822FCA8FAFB.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC362902FF649822FCA8FAFB.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip] - 56303
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Neofusicoccum parvum Crous, Slippers & A. J. L. Phillips, Studies
+    [description] => Neofusicoccum parvum Crous, Slippers & A. J. L. Phillips, Studies (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC302907FF649CC9FB2EF897
+    [pubDate] => 2023-11-30T19:05:50-02:00
+    [guid] => 0397879FFC302907FF649CC9FB2EF897.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC302907FF649CC9FB2EF897.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC302907FF649CC9FB2EF897.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip] - 56303
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Diplodia mutila Fr.
+    [description] => Diplodia mutila Fr. (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC022935FF649885FD84F94F
+    [pubDate] => 2023-11-29T08:47:17-02:00
+    [guid] => 0397879FFC022935FF649885FD84F94F.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC022935FF649885FD84F94F.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC022935FF649885FD84F94F.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip] - 56303
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Neofusicoccum luteum Crous, Slippers & A. J. L. Phillips, Studies
+    [description] => Neofusicoccum luteum Crous, Slippers & A. J. L. Phillips, Studies (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC322906FF649DB5FCF4FE13
+    [pubDate] => 2023-11-30T19:05:50-02:00
+    [guid] => 0397879FFC322906FF649DB5FCF4FE13.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC322906FF649DB5FCF4FE13.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC322906FF649DB5FCF4FE13.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip] - 56303
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Neofusicoccum cryptoaustrale Pavlic, Maleme, Slippers & M. J. Wingf.
+    [description] => Neofusicoccum cryptoaustrale Pavlic, Maleme, Slippers & M. J. Wingf. (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC3E2909FF649ED5FF56F843
+    [pubDate] => 2023-11-30T19:05:50-02:00
+    [guid] => 0397879FFC3E2909FF649ED5FF56F843.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC3E2909FF649ED5FF56F843.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC3E2909FF649ED5FF56F843.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip] - 56303
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Neofusicoccum Crous, Slippers & A. J. L. Phillips, Studies
+    [description] => Neofusicoccum Crous, Slippers & A. J. L. Phillips, Studies (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC392908FF649CB1FD5EFC77
+    [pubDate] => 2023-11-30T19:05:50-02:00
+    [guid] => 0397879FFC392908FF649CB1FD5EFC77.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC392908FF649CB1FD5EFC77.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC392908FF649CB1FD5EFC77.xml : only attempt :: [lib/Functions.php [148]]<br>
+
+File already exists: [/Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/DwCA/FF/FFAEFFE7FC1A292CFFEC9D2BFF87FFA7.zip] - 56303
+ :: [lib/connectors/TreatmentBankAPI.php [120]]<br>
+SimpleXMLElement Object
+(
+    [title] => Neodeightonia C. Booth 1970
+    [description] => Neodeightonia C. Booth 1970 (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC38290EFF649B78FA2CF7BF
+    [pubDate] => 2023-11-29T08:47:17-02:00
+    [guid] => 0397879FFC38290EFF649B78FA2CF7BF.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC38290EFF649B78FA2CF7BF.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC38290EFF649B78FA2CF7BF.xml : only attempt :: [lib/Functions.php [148]]<br>
+SimpleXMLElement Object
+(
+    [title] => Neodeightonia chamaeropicola D. S. Pereira & A. J. L. Phillips 2023, sp. nov.
+    [description] => Neodeightonia chamaeropicola D. S. Pereira & A. J. L. Phillips 2023, sp. nov. (pages 1921-1935) in Pereira, Diana S. & Phillips, Alan J. L. 2023, Botryosphaeriaceae on palms-a new species of Neodeightonia, N. chamaeropicola, and new records from diseased foliage of ornamental palms in Portugal, Phytotaxa 627 (1), pages 1921-1935
+    [link] => http://tb.plazi.org/GgServer/xml/0397879FFC072933FF649E61FE7FFD17
+    [pubDate] => 2023-11-29T08:47:17-02:00
+    [guid] => 0397879FFC072933FF649E61FE7FFD17.xml
+)
+http://tb.plazi.org/GgServer/xml/0397879FFC072933FF649E61FE7FFD17.xml :: [lib/connectors/TreatmentBankAPI.php [104]]<br>
+Sending get request to http://tb.plazi.org/GgServer/xml/0397879FFC072933FF649E61FE7FFD17.xml : only attempt :: [lib/Functions.php [148]]<br>
+Terminated
+Build was aborted
+Aborted by [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Finished: ABORTED

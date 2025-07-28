@@ -1,0 +1,196 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/JAMSTEC
+[JAMSTEC] $ /bin/sh -xe /jenkins_tmp/jenkins11144609339279589905.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php jamstec.php jenkins
+Current PHP version: 8.2.28<br>
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//jamstec_working/]
+
+unzip -o /Volumes/AKiTiO4/other_files/JAMSTEC/Downloads/Family.zip -d /Volumes/AKiTiO4/other_files/JAMSTEC/
+
+Extracted OK
+ :: [update_resources/connectors/jamstec.php [24]]<br>
+
+Converting sheet [build_Name_taxonID_list][Species]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Species/EOLmetadata_Species_20190624.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_36818.file.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+Sending get request to https://editors.eol.org/other_files/JAMSTEC/Species/EOLmetadata_Species_20190624.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_36818.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [44]]<br>
+
+Converting sheet [build_Name_taxonID_list][Genus]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Genus/EOLmetadata_Genus_20190624.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_49422.file.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+Sending get request to https://editors.eol.org/other_files/JAMSTEC/Genus/EOLmetadata_Genus_20190624.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_49422.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [44]]<br>
+
+Converting sheet [build_Name_taxonID_list][Family]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Family/EOLmetadata_Family_20190624.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_93067.file.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+Sending get request to https://editors.eol.org/other_files/JAMSTEC/Family/EOLmetadata_Family_20190624.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_93067.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [44]]<br>
+
+Converting sheet [build_Name_taxonID_list][Subfamily]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Subfamily/EOLmetadata_Subfamily_20190624.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_58127.file.xlsx :: [lib/connectors/JamstecAPI.php [53]]<br>
+Sending get request to https://editors.eol.org/other_files/JAMSTEC/Subfamily/EOLmetadata_Subfamily_20190624.xlsx : only attempt :: [lib/Functions.php [148]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_58127.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [44]]<br>
+
+Converting sheet [main][Species]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Species/EOLmetadata_Species_20190624.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_40202.file.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_40202.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [45]]<br>
+
+Image already exists
+
+Image already exists
+
+Converting sheet [main][Genus]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Genus/EOLmetadata_Genus_20190624.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_06142.file.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_06142.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [45]]<br>
+
+Image already exists
+
+Image already exists
+
+Converting sheet [main][Family]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Family/EOLmetadata_Family_20190624.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_20170.file.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_20170.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [45]]<br>
+
+Image already exists
+
+Converting sheet [main][Subfamily]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Subfamily/EOLmetadata_Subfamily_20190624.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_11387.file.xlsx :: [lib/connectors/JamstecAPI.php [63]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_11387.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [45]]<br>
+
+Converting sheet [create_rest_of_hierarchy][Species]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Species/EOLmetadata_Species_20190624.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_84013.file.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_84013.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [46]]<br>
+
+Converting sheet [create_rest_of_hierarchy][Genus]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Genus/EOLmetadata_Genus_20190624.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_04001.file.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_04001.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [46]]<br>
+
+Converting sheet [create_rest_of_hierarchy][Family]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Family/EOLmetadata_Family_20190624.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_70203.file.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_70203.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [46]]<br>
+
+Converting sheet [create_rest_of_hierarchy][Subfamily]
+
+ Saving remote file: https://editors.eol.org/other_files/JAMSTEC/Subfamily/EOLmetadata_Subfamily_20190624.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+
+ Temporary file: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_55534.file.xlsx :: [lib/connectors/JamstecAPI.php [121]]<br>
+
+ reading: /Volumes/AKiTiO4/eol_php_code_tmp/tmp_55534.file.xlsx
+ :: [lib/connectors/JamstecAPI.php [46]]<br>
+Array
+(
+)
+
+---------------
+Start finalize_dwca_resource()...
+---------------
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/jamstec/media_resource.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [498]
+ :: [lib/Functions.php [417]]<br>
+
+ counting: [/var/www/html/eol_php8_code/applications/content_server/resources_3/jamstec/taxon.tab] :: [lib/Functions.php [417]]<br>
+
+ total: [1220]
+ :: [lib/Functions.php [417]]<br>
+
+----------Checking unique IDs [jamstec]...----------
+
+goes here aaa
+Sending get request to file:///var/www/html/eol_php8_code/applications/content_server/resources_3/jamstec//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/media/document
+)
+Array
+(
+    [0] => http://rs.tdwg.org/dwc/terms/taxon
+    [1] => http://eol.org/schema/media/document
+)
+
+ taxon  -- OK
+
+ document  -- OK
+
+----------end Checking unique IDs----------
+
+File permission update: [1] OK
+
+
+
+ elapsed time = 34.645838 seconds
+ elapsed time = 0.5774306333333334 minutes
+ elapsed time = 0.009623843888888891 hours
+ Done processing.
+Completed jamstec.php :: [ []]<br>
+Finished: SUCCESS
