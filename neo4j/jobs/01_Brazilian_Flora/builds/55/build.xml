@@ -12,17 +12,17 @@
       </causeBag>
     </hudson.model.CauseAction>
     <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.30-468.v5973151f8cfc">
-      <queuingDurationMillis>3</queuingDurationMillis>
+      <queuingDurationMillis>25</queuingDurationMillis>
       <blockedDurationMillis>0</blockedDurationMillis>
-      <buildableDurationMillis>0</buildableDurationMillis>
-      <waitingDurationMillis>0</waitingDurationMillis>
+      <buildableDurationMillis>10</buildableDurationMillis>
+      <waitingDurationMillis>3</waitingDurationMillis>
     </jenkins.metrics.impl.TimeInQueueAction>
   </actions>
-  <queueId>721</queueId>
-  <timestamp>1753561200260</timestamp>
-  <startTime>1753561200263</startTime>
+  <queueId>738</queueId>
+  <timestamp>1753698173023</timestamp>
+  <startTime>1753698173028</startTime>
   <result>SUCCESS</result>
-  <duration>880</duration>
+  <duration>8450</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>

@@ -1,0 +1,32 @@
+Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/neo4j/01_Brazilian_Flora
+[01_Brazilian_Flora] $ /bin/sh -xe /jenkins_tmp/jenkins16810060118428422877.sh
++ cd /var/www/html/eol_php8_code/update_resources/connectors
++ php dwca_utility.php _ protisten_v2 Y
+Current PHP version: 8.2.29<br>Array
+(
+    [jenkins_or_cron] => _
+    [resource_id] => protisten_v2
+    [generate_higherClassification_YN] => Y
+)
+
+[protisten_v2-with-higherClassification] [/var/www/html/eol_php8_code/applications/content_server/resources_3/protisten_v2.tar.gz] [Y]
+
+Creating this directory: [/var/www/html/eol_php8_code/applications/content_server/resources_3//protisten_v2-with-higherClassification_working/]
+
+doing this: convert_archive_by_adding_higherClassification()
+Please wait, downloading resource document... :: [lib/connectors/DwCA_Utility.php [634]]<br>
+/Volumes/AKiTiO4/eol_php_code_tmp/dir_71875/ :: [lib/connectors/DwCA_Utility.php [634]]<br>
+archive path: [/var/www/html/eol_php8_code/applications/content_server/resources_3/protisten_v2.tar.gz] :: [lib/connectors/DwCA_Utility.php [634]]<br>
+Sending get request to file:///Volumes/AKiTiO4/eol_php_code_tmp/dir_71875//meta.xml : only attempt :: [lib/Functions.php [218]]<br>
+
+carry_over...[taxon][/Volumes/AKiTiO4/eol_php_code_tmp/dir_71875//taxon.tab]
+
+1 of 3
+
+2 of 3
+
+ new: [Life|Cellular|Bacteria|Proteobacteria|Gammaproteobacteria|Thiotrichales|Thiotrichaceae]
+Completed dwca_utility.php :: [ []]<br>
+Finished: SUCCESS

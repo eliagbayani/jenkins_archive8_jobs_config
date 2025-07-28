@@ -6,7 +6,7 @@
       <parameters>
         <hudson.model.StringParameterValue>
           <name>myShell</name>
-          <value>exec /var/www/html/FreshData/sh_files/1753523486_getHC.sh 2&gt;&amp;1</value>
+          <value>exec /var/www/html/FreshData/sh_files/1753698580_getHC.sh 2&gt;&amp;1</value>
         </hudson.model.StringParameterValue>
       </parameters>
       <parameterDefinitionNames>
@@ -24,17 +24,17 @@
       </causeBag>
     </hudson.model.CauseAction>
     <jenkins.metrics.impl.TimeInQueueAction plugin="metrics@4.2.30-468.v5973151f8cfc">
-      <queuingDurationMillis>7321</queuingDurationMillis>
+      <queuingDurationMillis>5092</queuingDurationMillis>
       <blockedDurationMillis>0</blockedDurationMillis>
       <buildableDurationMillis>5</buildableDurationMillis>
-      <waitingDurationMillis>7314</waitingDurationMillis>
+      <waitingDurationMillis>5084</waitingDurationMillis>
     </jenkins.metrics.impl.TimeInQueueAction>
   </actions>
-  <queueId>699</queueId>
-  <timestamp>1753523494067</timestamp>
-  <startTime>1753523494074</startTime>
+  <queueId>741</queueId>
+  <timestamp>1753698586402</timestamp>
+  <startTime>1753698586406</startTime>
   <result>SUCCESS</result>
-  <duration>94</duration>
+  <duration>6419</duration>
   <charset>UTF-8</charset>
   <keepLog>false</keepLog>
   <builtOn></builtOn>
