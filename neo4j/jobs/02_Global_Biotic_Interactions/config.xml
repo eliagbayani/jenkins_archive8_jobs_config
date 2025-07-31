@@ -7,7 +7,7 @@
     <jenkins.model.BuildDiscarderProperty>
       <strategy class="hudson.tasks.LogRotator">
         <daysToKeep>-1</daysToKeep>
-        <numToKeep>10</numToKeep>
+        <numToKeep>5</numToKeep>
         <artifactDaysToKeep>-1</artifactDaysToKeep>
         <artifactNumToKeep>-1</artifactNumToKeep>
         <removeLastBuild>false</removeLastBuild>
@@ -25,17 +25,16 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-#ls -lt /var/www/html/eol_php8_code/applications/genHigherClass/sample/taxon_protisten.tab
-
-
 ### This will add higherClassification in taxon.tab. And rebuild the DwCA.
 php dwca_utility.php _ globi_assoc Y
 
 ### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-higherClassification&quot;}&apos;
 
 ### Start matching taxa
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;</command>
+###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-higherClassification&quot;}&apos;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

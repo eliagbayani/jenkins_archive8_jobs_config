@@ -29,15 +29,13 @@
 #php gen_higherClass.php
 
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-#php dwca_utility.php _ Brazilian_Flora Y
+php dwca_utility.php _ protisten_v2 Y
 
 ### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;}&apos;
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-higherClassification&quot;}&apos;
+#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;protisten_v2-with-higherClassification&quot;}&apos;
 
 ### Start matching taxa
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;}&apos;
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-higherClassification&quot;}&apos;</command>
+#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;protisten_v2-with-higherClassification&quot;}&apos;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
