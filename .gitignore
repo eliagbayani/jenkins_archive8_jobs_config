@@ -7,3 +7,4 @@ modules/
 *.log
 
 neo4j/jobs/02_Global_Biotic_Interactions/nextBuildNumber
+neo4j/jobs/02_Global_Biotic_Interactions/builds/permalinks
