@@ -26,15 +26,15 @@
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### This will add higherClassification in taxon.tab. And rebuild the DwCA.
-php dwca_utility.php _ globi_assoc Y
+#php dwca_utility.php _ globi_assoc Y
 
 ### This use gnparser one name at a time. Not entire file.
 ###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-higherClassification&quot;}&apos;
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-higherClassification&quot;}&apos;
 
 ### Start matching taxa
 ###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-higherClassification&quot;}&apos;</command>
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-higherClassification&quot;}&apos;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
