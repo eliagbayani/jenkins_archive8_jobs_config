@@ -30,11 +30,9 @@
 #php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 ### This use gnparser one name at a time. Not entire file.
-###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;
 #php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos;
 
 ### Start matching taxa
-###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;}&apos;
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
