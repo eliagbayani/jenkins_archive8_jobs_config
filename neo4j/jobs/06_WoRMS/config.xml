@@ -29,16 +29,14 @@
 #php gen_higherClass.php
 
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-#php dwca_utility.php _ WoRMS Y
-### CANNOT compute higherClassification
+### No parentID but has ancestry, though limited still.
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 ### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;}&apos;
-### php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-higherClassification&quot;}&apos;
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos;
 
 ### Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;}&apos;
-### php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-higherClassification&quot;}&apos;</command>
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

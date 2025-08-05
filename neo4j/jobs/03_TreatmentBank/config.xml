@@ -28,16 +28,15 @@
 ### A utility. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
 #php gen_higherClass.php
 
+### *Has parentID but no value. Has ancestry values.
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-#php dwca_utility.php _ TreatmentBank_final Y
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 ### This use gnparser one name at a time. Not entire file.
-### php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;}&apos;
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-higherClassification&quot;}&apos;
+#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos;
 
 ### Start matching taxa
-### php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;}&apos;
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-higherClassification&quot;}&apos;</command>
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
