@@ -25,8 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-php buildup_predicates.php _ &apos;{&quot;resource_id&quot;: &quot;eli173&quot;}&apos;
-
+php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_2_OK&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
