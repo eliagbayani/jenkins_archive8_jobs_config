@@ -40,8 +40,8 @@
 #php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; # gen neo4j_3
 
 ### Generate CSV files for Neo4j: OK
-#php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_2_OK&quot;}&apos; #old
-php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_3_OK&quot;}&apos; #latest</command>
+php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_2_OK&quot;}&apos; #old
+#php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_3_OK&quot;}&apos; #latest</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
