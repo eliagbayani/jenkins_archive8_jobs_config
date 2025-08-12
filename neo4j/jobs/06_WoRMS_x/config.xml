@@ -40,20 +40,20 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### No parentID but has ancestry, though limited still.
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 ### This use gnparser one name at a time. Not entire file.
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
+#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
 
 ### Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_2
+#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_2
 
 ### Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; # gen neo4j_3
+#php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; # gen neo4j_3
 
 ### Generate CSV files for Neo4j: OK
-php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_3&quot;}&apos; #latest
+#php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_3&quot;}&apos; #latest
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
