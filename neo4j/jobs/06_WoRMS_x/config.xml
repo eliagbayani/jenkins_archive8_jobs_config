@@ -29,14 +29,14 @@
 #php gen_higherClass.php
 
 ### This will remove MoF and Occurrence records where occurrence!taxonID does not exist in taxon.tab
-php remove_MoF_for_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;resource&quot;: &quot;remove_MoF_for_taxonID&quot;, &quot;resource_name&quot;: &quot;&quot;}&apos; #OK
+#php remove_MoF_for_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;resource&quot;: &quot;remove_MoF_for_taxonID&quot;, &quot;resource_name&quot;: &quot;&quot;}&apos; #OK
 ### will generate WoRMS_cleaned.tar.gz
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp WoRMS_cleaned.tar.gz WoRMS.tar.gz
-ls -lt WoRMS_cleaned.tar.gz
-ls -lt WoRMS.tar.gz
-rm -f WoRMS_cleaned.tar.gz
-cd /var/www/html/eol_php8_code/update_resources/connectors
+#cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+#cp WoRMS_cleaned.tar.gz WoRMS.tar.gz
+#ls -lt WoRMS_cleaned.tar.gz
+#ls -lt WoRMS.tar.gz
+#rm -f WoRMS_cleaned.tar.gz
+#cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### No parentID but has ancestry, though limited still.
@@ -53,7 +53,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; # gen neo4j_3
 
 ### Generate CSV files for Neo4j: OK
-#php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_3&quot;}&apos; #latest
+php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_3&quot;}&apos; #latest
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
