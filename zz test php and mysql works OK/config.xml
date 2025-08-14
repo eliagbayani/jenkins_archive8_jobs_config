@@ -27,7 +27,7 @@
 cd /var/www/html
 php test.php
 echo &quot;\n&quot; # &gt; /dev/null
-gnparser &quot;Gadus morhua&quot; -f pretty
+gnparser &quot;Gadus morhua Linnaeus, 1758&quot; -f pretty
 echo &quot;\n&quot; # &gt; /dev/null
 which curl
 which file
