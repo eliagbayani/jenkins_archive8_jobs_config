@@ -33,14 +33,15 @@
 #php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### Start matching taxa:
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_2
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_2
 
 ### Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 #php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; # gen neo4j_3
 
 ### Generate CSV files for Neo4j: OK
-php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_3_OK&quot;}&apos; #latest</command>
+#php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_3_OK&quot;}&apos; #latest
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
