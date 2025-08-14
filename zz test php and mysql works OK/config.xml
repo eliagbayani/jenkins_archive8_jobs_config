@@ -33,7 +33,8 @@ which curl
 which file
 which gnparser
 which tar
-which zip</command>
+which zip
+which wget</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
