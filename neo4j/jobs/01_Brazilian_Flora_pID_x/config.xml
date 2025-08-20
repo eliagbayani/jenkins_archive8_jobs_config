@@ -29,7 +29,7 @@
 #php gen_higherClass.php
 
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
 ### generates FILENAME-with-hC.tar.gz
 
 ### This use gnparser one name at a time. Not entire file.
