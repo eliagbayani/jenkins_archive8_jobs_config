@@ -1,0 +1,55 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>6</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_adjustment_01&quot;}&apos; #OK
+###-&gt; generates TreatmentBank_adjustment_02.tar.gz
+
+php georgia_cntry_vs_state.php jenkins &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_adjustment_02&quot;}&apos; #OK
+### generates TreatmentBank_adjustment_03.tar.gz
+
+php dwca_MoF_reassign_values.php _ &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_adjustment_03&quot;, &quot;resource&quot;:&quot;MoF_reassign_values&quot;}&apos; #OK
+### generates TreatmentBank_adjustment_04.tar.gz
+
+### === LAST STEP: copy TreatmentBank_adjustment_04.tar.gz to TreatmentBank_final.tar.gz OK
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp TreatmentBank_adjustment_04.tar.gz TreatmentBank_final.tar.gz
+ls -lt TreatmentBank_adjustment_04.tar.gz
+ls -lt TreatmentBank_final.tar.gz
+### then delete TreatmentBank_adjustment_04.tar.gz
+rm -f TreatmentBank_adjustment_04.tar.gz
+
+#exit 0 # graceful exit, no error
+### below updates CKAN date updated entry
+### commented for now since server editors.eol.org is down
+#cd /var/www/html/eol_php8_code/update_resources/connectors
+#php ckan_api_access.php jenkins &quot;8eaf28c4-67eb-4eb0-931e-7ac8f89a87cf&quot;
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
