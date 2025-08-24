@@ -23,7 +23,9 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>### eli is here...
+### cha is here...
+cd /var/www/html/eol_php8_code/update_resources/connectors
 ###php 21.php jenkins #XML from partner explodes atm. Fixed version is used here.
 #run once only, since source is static XML.
 #connector also now was migrated to PHP 8.2
