@@ -1,0 +1,57 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec># once a day on the 1st and 15th of every month except December
+H 3 * 1-12 *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>exit 0 #graceful exit #working but not yet time #ACTUALLY BEING RUN IN eol-archive
+## working OK
+cd /extra/other_files/WoRMS/
+ls -lt
+rm -f WoRMS2EoL.zip
+
+#wget -nv http://www.marinespecies.org/export/eol/WoRMS2EoL.zip
+wget -c --no-check-certificate --no-verbose http://www.marinespecies.org/export/eol/WoRMS2EoL.zip
+
+#wget -c -nv http://www.marinespecies.org/export/eol/WoRMS2EoL.zip
+## -nv means non-verbose but errors gets printed out.
+## -c means continue. In cases where there is incomplete download.
+
+ls -lt
+chmod 755 WoRMS2EoL.zip
+ls -lt
+
+# both worked OK
+#cd /html/other_files/WoRMS/
+#cd /extra/other_files/WoRMS/
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

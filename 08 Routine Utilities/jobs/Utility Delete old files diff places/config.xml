@@ -1,0 +1,72 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>exit 0 #graceful exit #working but not yet time #BECAME UTILITY-LIKE. BUT WHAT IS LEFT WAS LEFT FOR A REASON. 
+
+cd /extra/other_files/
+du -h --max-depth=1 | sort -hr     #works OK; lists folders and its sizes descending.
+
+## working OK
+#####cd /extra/eol_php_cache2/
+#find CITES/   -mtime +1460 -name &apos;*.json&apos; -type f  -ls
+#####find CITES/   -mtime +1460 -name &apos;*.json&apos; -type f  -delete
+
+#ruby -v
+#ruby --version
+#cd /var/www/html/eol_php_code/update_resources/connectors/helpers/anystyle/
+#sudo su -
+#yum install rh-ruby25
+#scl enable rh-ruby25 bash
+
+
+#ruby -v
+#ruby --version
+#su -
+#yum install rh-ruby25
+
+#scl enable rh-ruby25 bash
+#scl enable rh-ruby25 bash
+
+#/usr/bin/scl enable rh-ruby25 /usr/bin/bash
+#ruby run.rb &quot;Eli A. The Quick Brown Fox. 1957.&quot;
+#gem install anystyle-cli
+
+#/opt/rh/rh-ruby25/root/usr/local/bin/anystyle
+#anystyle
+#which anystyle
+#cd ~
+#ls -lt
+
+#which scl
+#which bash
+#which anystyle
+
+# anystyle --help</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

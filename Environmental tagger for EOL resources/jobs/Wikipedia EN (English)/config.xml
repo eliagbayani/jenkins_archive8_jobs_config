@@ -1,0 +1,90 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>6</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec># quarterly Feb May Aug Nov
+#H H 12 2,5,8,11 *
+# 7 days after Wikimedia Dump (5+7=12)</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php_code/update_resources/connectors
+
+# === STEP 1
+php environments_2_eol.php _ &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;Raw English Wikipedia - initial step&quot;, &quot;resource_id&quot;:&quot;617&quot;, &quot;subjects&quot;:&quot;Description&quot;}&apos;
+#source is 80.tar.gz --- via API call using resource name &quot;Raw English Wikipedia - initial step&quot;
+#generates 617_ENV.tar.gz
+
+# === just a utility
+#these 3 is just for stats = generates 3 reports
+#php filter_term_group_by_taxa.php jenkins &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1357&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+#php filter_term_group_by_taxa.php jenkins &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1390&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+#php filter_term_group_by_taxa.php jenkins &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q10908&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+
+# === STEP 2:
+php filter_term_group_by_taxa.php _ &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1390, Q1357, Q10908&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+#generates wikipedia_en_traits_FTG.tar.gz
+
+# === STEP 3: final step
+# Wikipedia EN creates a new DwCA for its traits. Not like &apos;AmphibiaWeb text&apos;.
+# Thus there is an extra step for Wikipedia EN: it removes taxa without MoF
+php remove_taxa_without_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_FTG&quot;}&apos;
+# OLD: generates wikipedia_en_traits.tar.gz
+# NEW: generates wikipedia_en_traits_tmp1.tar.gz
+
+# === STEP 4: new step
+# remove contradicting traits in MoF
+php remove_contradicting_traits_from_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp1&quot;}&apos;
+# OLD: generates the final: wikipedia_en_traits.tar.gz
+# NEW: generates wikipedia_en_traits_tmp2.tar.gz
+
+# === STEP 5: remove all records for taxon with habitat value(s) that are 
+#             descendants of both marine and terrestrial
+php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;wikipedia_en_traits_tmp2&quot;}&apos;
+#generates: wikipedia_en_traits_tmp3.tar.gz
+
+# === STEP 6: fill-up missing parent entries
+php fill_up_undefined_parents_real.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp4&quot;, &quot;source_dwca&quot;: &quot;wikipedia_en_traits_tmp3&quot;, &quot;resource&quot;: &quot;fillup_missing_parents&quot;}&apos;
+#generates: wikipedia_en_traits_tmp4.tar.gz
+
+# === LAST STEP: copy wikipedia_en_traits_tmp4.tar.gz to wikipedia_en_traits.tar.gz OK
+cd /var/www/html/eol_php_code/applications/content_server/resources
+cp wikipedia_en_traits_tmp4.tar.gz wikipedia_en_traits.tar.gz
+ls -lt wikipedia_en_traits_tmp4.tar.gz
+ls -lt wikipedia_en_traits.tar.gz
+# then delete wikipedia_en_traits_tmp4.tar.gz
+rm -f wikipedia_en_traits_tmp4.tar.gz
+
+cd /var/www/html/eol_php_code/update_resources/connectors
+php ckan_api_access.php _ &quot;202fc4df-a6b3-4c12-8beb-6be8091bbbe0&quot;
+
+### works OK - a utility | Run separately after manually checking if file is good.
+### php update_Zenodo_record_using_EOL_resourceID.php _ &apos;wikipedia_en_traits&apos;
+### Better yet run it here: http://160.111.248.39:8090/job/Zenodo/job/update_Zenodo_record/
+### So u don&apos;t need to comment original intructions above.</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
