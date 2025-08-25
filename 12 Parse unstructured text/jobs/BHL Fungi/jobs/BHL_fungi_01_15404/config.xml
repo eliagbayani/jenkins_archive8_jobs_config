@@ -1,0 +1,42 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>This is up to: BHL_fungi_18_15421</description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php_code/update_resources/connectors
+
+php parse_unstructured_text_memoirs.php jenkins &apos;{&quot;resource_id&quot;: &quot;15404&quot;, &quot;resource_name&quot;:&quot;all_BHL&quot;}&apos;
+
+php process_SI_pdfs_memoirs.php jenkins &apos;{&quot;resource_id&quot;: &quot;15404&quot;, &quot;resource_name&quot;:&quot;NAF&quot;, &quot;doc&quot;: &quot;BHL&quot;, &quot;IOReport&quot;: &quot;NAF_Fungi&quot;}&apos;
+#generates 15404.tar.gz
+
+sleep 30 #wait for 60 seconds
+
+php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;15404&quot;, &quot;subjects&quot;:&quot;Description|Uses&quot;}&apos;
+#generates 15404_ENV.tar.gz</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
