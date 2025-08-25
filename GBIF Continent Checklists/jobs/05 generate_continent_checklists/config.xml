@@ -1,0 +1,64 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php_code/update_resources/connectors
+### orig
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;show_continents_metadata&quot;}&apos; 
+#obsolete since we don&apos;t generate individual continents anymore
+
+php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_compiled&quot;}&apos;
+php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;continent_compiled&quot;, &quot;source_dwca&quot;: &quot;continent_compiled&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+
+### -------- below: individual continent checklist is OBSOLETE --------
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;major_deletion&quot;}&apos;
+#php continent_checklists_2024.php jenkins &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;}&apos;
+
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;, &quot;sought_continent&quot;:&quot;South America&quot;}&apos;
+#php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;SC_southamerica&quot;, &quot;source_dwca&quot;: &quot;SC_southamerica&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;, &quot;sought_continent&quot;:&quot;North America&quot;}&apos;
+#php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;SC_northamerica&quot;, &quot;source_dwca&quot;: &quot;SC_northamerica&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;, &quot;sought_continent&quot;:&quot;Asia&quot;}&apos;
+#php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;SC_asia&quot;, &quot;source_dwca&quot;: &quot;SC_asia&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;, &quot;sought_continent&quot;:&quot;Africa&quot;}&apos;
+#php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;SC_africa&quot;, &quot;source_dwca&quot;: &quot;SC_africa&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;, &quot;sought_continent&quot;:&quot;Europe&quot;}&apos;
+#php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;SC_europe&quot;, &quot;source_dwca&quot;: &quot;SC_europe&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;, &quot;sought_continent&quot;:&quot;Oceania&quot;}&apos;
+#php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;SC_oceania&quot;, &quot;source_dwca&quot;: &quot;SC_oceania&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+
+#php continent_checklists_2024.php _ &apos;{&quot;task&quot;:&quot;generate_continent_checklists&quot;, &quot;sought_continent&quot;:&quot;Antarctica&quot;}&apos;
+#php fill_up_undefined_parents_real_GBIFChecklists.php _ &apos;{&quot;resource_id&quot;: &quot;SC_antarctica&quot;, &quot;source_dwca&quot;: &quot;SC_antarctica&quot;, &quot;resource&quot;: &quot;fillup_missing_parents_GBIFChecklists&quot;}&apos;
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
