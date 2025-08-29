@@ -7,7 +7,7 @@
     <jenkins.model.BuildDiscarderProperty>
       <strategy class="hudson.tasks.LogRotator">
         <daysToKeep>-1</daysToKeep>
-        <numToKeep>5</numToKeep>
+        <numToKeep>3</numToKeep>
         <artifactDaysToKeep>-1</artifactDaysToKeep>
         <artifactNumToKeep>-1</artifactNumToKeep>
         <removeLastBuild>false</removeLastBuild>
@@ -24,11 +24,18 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-
 ### php polytraits.php jenkins #OBSOLETE
 
-php polytraits_new.php jenkins
+#php polytraits_new.php jenkins #OK step 1
+### generates polytraits_01.tar.gz
 
+#php dwca_MoF_reassign_values.php _ &apos;{&quot;resource_id&quot;:&quot;polytraits_01&quot;, &quot;resource&quot;:&quot;MoF_reassign_values&quot;}&apos; #OK step 2
+### generates polytraits_new.tar.gz
+
+# Update Zenodo record: working... OK
+# But better to check first before uploading to Zenodo. Thus commented but should work.
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;polytraits_new&quot;, &quot;zenodo_id&quot;:&quot;16836354&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
