@@ -1,0 +1,56 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>#1st of the month. = Mar May Jul Sep Nov Jan
+# used in eol-archive OK
+#H H 1 3,5,7,9,11,1 *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php_code/update_resources/connectors
+### This will overwrite any current download request. Run this once ONLY every harvest per taxon group.
+php gbif_download_request_for_iNat.php jenkins &apos;{&quot;task&quot;:&quot;send_download_request&quot;, &quot;taxon&quot;:&quot;iNat_images&quot;}&apos;
+
+### Will wait for a half a day to check if downloads are ready
+sleep 5h
+
+### This does not do anything. Can be commented.
+### php gbif_download_request_for_iNat.php jenkins &apos;{&quot;task&quot;:&quot;start_download&quot;, &quot;taxon&quot;:&quot;iNat_images&quot;}&apos;
+
+### This will generate the .sh file if download is ready. The .sh file is the curl command to download.
+php gbif_download_request_for_iNat.php jenkins &apos;{&quot;task&quot;:&quot;generate_sh_file&quot;, &quot;taxon&quot;:&quot;iNat_images&quot;}&apos;
+
+
+### This will check if all downloads are ready
+php gbif_download_request_for_iNat.php jenkins &apos;{&quot;task&quot;:&quot;check_if_all_downloads_are_ready_YN&quot;}&apos;
+
+
+### orig: goes here next:
+### 02 Check if ready to start</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

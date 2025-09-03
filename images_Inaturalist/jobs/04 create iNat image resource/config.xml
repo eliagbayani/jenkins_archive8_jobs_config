@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>exit 0
+stopped bec of a memory allocation error. Need to investigate and update the connector.
+
+cd /var/www/html/eol_php_code/update_resources/connectors
+php inat_images.php jenkins
+## generates inat_images.tar.gz
+## generates inat_images_75limit.tar.gz
+## generates inat_images_20limit
+## generates inat_images_100limit.tar.gz --- final agreed upon
+
+
+## IMPORTANT: this last step will be run in command-line, 
+## since &apos;convert&apos; can&apos;t be accessed here in Jenkins.
+## &apos;convert&apos; is imageMagick
+# php inat_images_select.php jenkins
+## generates inat_images_100cap.tar.gz --- didn&apos;t materialize
+## generates inat_images_3Mcap
+## generates inat_images_3Mcap_2.tar.gz --- final agreed upon</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
