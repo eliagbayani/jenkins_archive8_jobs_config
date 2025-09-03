@@ -1,0 +1,65 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>### use this if you want to stop dead on its tracks
+#exit 1
+
+#cd /var/www/html/eol_php_code/applications/content_server/resources
+#rm -f wikipedia_generation_status*.txt 
+#[ -f wikipedia_*.tmp ] &amp;&amp; rm -f wikipedia_*.tmp || echo &quot;Files do not exist&quot;
+
+cd /var/www/html/eol_php_code/update_resources/connectors
+#php wikipedia.php _ en #English
+
+### this is the normal operation:
+php run.php _ &apos;{&quot;connector&quot;:&quot;gen_wikipedia_by_lang&quot;, &quot;divisor&quot;:10, &quot;task&quot;:&quot;initial&quot;, &quot;langx&quot;:&quot;en&quot;,  &quot;cont_2next_lang&quot;:&quot;Y&quot;, &quot;six_coverage&quot;:&quot;1st&quot;}&apos;
+### should generate 80.tar.gz
+
+### Just a utility: not part of normal operation - Works OK!!!
+### php update_Zenodo_record_using_EOL_resourceID.php _ &apos;80&apos;
+### - should update respective Zenodo record
+
+### Just a utility: investigate why the final 80.tr.gz doesn&apos;t have media extension
+### that is after finishing all the 80_1of10 to 80_10of10
+### php wikipedia.php _ &apos;{&quot;language&quot;:&quot;en&quot;,&quot;task&quot;:&quot;generate_resource&quot;,&quot;range_from&quot;:&quot;&quot;,&quot;range_to&quot;:&quot;&quot;,&quot;actual&quot;:&quot;&quot;,&quot;debug_taxon&quot;:&quot;&quot;,&quot;six_coverage&quot;:&quot;1st&quot;}&apos;
+
+#---------------------
+#initially six (6) connectors
+#echo &quot;start Wikipedia en build...&quot;
+#php wikipedia.php jenkins en generate_resource 1 416666 1of6
+#php wikipedia.php jenkins en generate_resource 416666 833332 2of6
+#php wikipedia.php jenkins en generate_resource 833332 1249998 3of6
+#php wikipedia.php jenkins en generate_resource 1249998 1666664 4of6
+#php wikipedia.php jenkins en generate_resource 1666664 2083330 5of6
+#php wikipedia.php jenkins en generate_resource 2083330 2500000 6of6 #all remaining
+
+### was set to continue with these 2 below. But they are very wrong, so I commented it now.
+### ../Environmental tagger for EOL resources/Wikipedia EN (English),
+### utility_taxon_wiki_per_language_stats</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

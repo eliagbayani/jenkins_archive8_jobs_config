@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>3</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command># first 3 lines, once every harvest:
+cd /var/www/html/eol_php_code/applications/content_server/resources
+rm -f wikipedia_generation_status*.txt 
+[ -f wikipedia_*.tmp ] &amp;&amp; rm -f wikipedia_*.tmp || echo &quot;Files do not exist&quot;
+
+# regular main:
+#cd /var/www/html/eol_php_code/update_resources/connectors
+
+#php wikipedia_ver2.php jenkins ce #Chechen
+# -&gt; orig 1 connector run
+
+#php wikipedia_ver2.php jenkins ce generate_resource_force #Chechen
+# -&gt; OK works orig 1 connector run --- same as above
+
+#php run.php jenkins &apos;{&quot;connector&quot;:&quot;gen_wikipedia_by_lang&quot;, &quot;divisor&quot;:6, &quot;task&quot;:&quot;initial&quot;, &quot;langx&quot;:&quot;en&quot;,  &quot;cont_2next_lang&quot;:&quot;Y&quot;, &quot;six_coverage&quot;:&quot;1st&quot;}&apos;
+#php run.php jenkins &apos;{&quot;connector&quot;:&quot;gen_wikipedia_by_lang&quot;, &quot;divisor&quot;:6, &quot;task&quot;:&quot;initial&quot;, &quot;langx&quot;:&quot;war&quot;, &quot;cont_2next_lang&quot;:&quot;Y&quot;}&apos;
+#php run.php jenkins &apos;{&quot;connector&quot;:&quot;gen_wikipedia_by_lang&quot;, &quot;divisor&quot;:6, &quot;task&quot;:&quot;initial&quot;, &quot;langx&quot;:&quot;ce&quot;}&apos;
+
+# post builds: as of Aug 28, 2023
+# en, no, tr -&gt; will start single connectors
+# es -&gt; will start 6c multiple connectors
+###../Wikipedia in different languages/Wikipedia - en, 
+###../Wikipedia in different languages/Wikipedia - es, 
+###../Wikipedia in different languages/Wikipedia - no, 
+###../Wikipedia in different languages/Wikipedia - tr
+
+# Latest post builds: as of Sep 3, 2025
+###../Wikipedia in different languages/Wikipedia - en,
+###../Wikipedia in different languages/Wikipedia - ka,
+###../Wikipedia in different languages/wikipedia-lt (Lithuanian),
+###../Wikipedia in different languages/wikipedia-lv (Latvian)
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>../Wikipedia in different languages/Wikipedia - en,../Wikipedia in different languages/Wikipedia - ka,../Wikipedia in different languages/wikipedia-lt (Lithuanian),../Wikipedia in different languages/wikipedia-lv (Latvian)</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
+  <buildWrappers/>
+</project>
