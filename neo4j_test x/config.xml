@@ -25,7 +25,12 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/php_neo4j/new/
 ls -lt
-php index.php
+#php index.php
+
+cd /usr/src/app
+python3 -V
+python3 test.py
+
 
 #ping localhost:7474
 
