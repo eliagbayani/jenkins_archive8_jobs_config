@@ -23,17 +23,17 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/php_neo4j/new/
-ls -lt
-#php index.php
+      <command>
+#cd /usr/src/app
+#python3 -V
 
-cd /usr/src/app
-python3 -V
-python3 test1.py
-python3 test2.py
+#which docker
+docker ps
 
+#docker exec -it 6d1 bash
+#ls -lt
+#neo4j-admin database import full
 
-#ping localhost:7474
 
 </command>
       <configuredLocalRules/>
