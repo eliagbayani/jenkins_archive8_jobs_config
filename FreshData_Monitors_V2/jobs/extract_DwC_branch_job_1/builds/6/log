@@ -1,7 +1,0 @@
-Started by user [8mha:////4Nfdx5rTh8Y1PtWOIuXE0inf7Sn23UCN/tzgFuqm1WMuAAAAmx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZ+/dLi1CL91MT0pMTKxLxMAP+wRBfEAAAA[0mELI AGBAYANI
-Running as SYSTEM
-Building in workspace /var/jenkins_home/workspace/FreshData_Monitors_V2/extract_DwC_branch_job_1
-[extract_DwC_branch_job_1] $ /bin/sh -xe /jenkins_tmp/jenkins10957126636623751871.sh
-+ cd /var/www/html/eol_php8_code/applications/DwC_branch_extractor
-+ cd /extra
-Finished: SUCCESS
