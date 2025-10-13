@@ -1,7 +1,8 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description>genHigherClass_job_1 to 3</description>
+  <description>run_wikipedia_lang_1 to 2&#xd;
+Last Success: 7 mo 19 days</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <jenkins.model.BuildDiscarderProperty>
@@ -31,7 +32,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/applications/genHigherClass_jenkins
+      <command>cd /var/www/html/eol_php_code/update_resources/connectors
 $myShell
 </command>
       <configuredLocalRules/>

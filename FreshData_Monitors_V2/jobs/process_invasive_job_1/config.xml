@@ -1,7 +1,6 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
-  <actions/>
-  <description>genHigherClass_job_1 to 3</description>
+  <description>process_invasive_job_1 to 3</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <jenkins.model.BuildDiscarderProperty>
@@ -31,7 +30,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/applications/genHigherClass_jenkins
+      <command>cd /html/FreshData
 $myShell
 </command>
       <configuredLocalRules/>
