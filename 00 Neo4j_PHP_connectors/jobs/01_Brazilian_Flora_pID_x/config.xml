@@ -29,16 +29,27 @@
 #php gen_higherClass.php
 
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
+### source is: Brazilian_Flora.tar.gz
 #php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
 ### generates FILENAME-with-hC.tar.gz
 
 ### This use gnparser one name at a time. Not entire file.
-### php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;}&apos;
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos;
+#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### Start matching taxa
-### php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;}&apos;
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos;</command>
+#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos; #OK gen neo4j_2
+
+### Convert taxon.tab, use EOLid value for taxonID.
+### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos; # gen neo4j_3
+
+### rename
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp Brazilian_Flora-with-hC_neo4j_3.tar.gz Brazilian_Flora_TraitBank_1_0.tar.gz
+ls -lt Brazilian_Flora-with-hC_neo4j_3.tar.gz
+ls -lt Brazilian_Flora_TraitBank_1_0.tar.gz
+rm -f Brazilian_Flora-with-hC_neo4j_3.tar.gz
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

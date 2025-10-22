@@ -27,17 +27,19 @@
 
 ### This will add higherClassification in taxon.tab. And rebuild the DwCA.
 ### globi_assoc has parentNameUsageID field but doesn&apos;t have any values, it&apos;s blank. So we use ancestry to compute for hC
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+### source is: globi_assoc.tar.gz
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+### generates FILENAME-with-hC.tar.gz
 
 ### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### Start matching taxa:
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_2
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_2
 
 ### Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-#php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; # gen neo4j_3
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; # gen neo4j_3
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
