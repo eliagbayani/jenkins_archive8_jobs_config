@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>exit 0
+cd /var/www/html/eol_php8_code/update_resources/connectors
 ### These two works OK but it computes the canonical form for the entire file, not one by one.
 #php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS2EoL_zip&quot;,           &quot;task&quot;: &quot;add_canonical_in_taxa&quot;}&apos;
 #php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc_2025_05_17&quot;,  &quot;task&quot;: &quot;add_canonical_in_taxa&quot;}&apos;
@@ -34,8 +35,6 @@
 #php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS2EoL&quot;}&apos;
 #php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;}&apos;
 php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits&quot;}&apos;
-
-
 
 ### a utility for testing:
 #php DHconn.php _
