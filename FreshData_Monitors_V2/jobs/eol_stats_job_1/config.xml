@@ -32,7 +32,8 @@ Last Success:  3 mo 24 days</description>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php_code/update_resources/connectors
+      <command>#cd /var/www/html/eol_php_code/update_resources/connectors
+cd /var/www/html/eol_php8_code/update_resources/connectors
 $myShell
 </command>
       <configuredLocalRules/>
