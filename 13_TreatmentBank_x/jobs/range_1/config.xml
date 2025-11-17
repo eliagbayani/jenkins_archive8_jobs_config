@@ -23,13 +23,12 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#cd /Library/WebServer/Documents/eol_php_code/update_resources/connectors
-cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #ls -lt
 #exit 0 # forece exit OK
 #exit 1 # force exit with error
 #php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #orig
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;20&quot;}&apos; #during dev
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;5&quot;}&apos; #during dev
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

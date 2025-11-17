@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-php annotator.php _ &apos;{&quot;text&quot;: &quot;C. alpina, a procumbent is a montane species occurring through most alpine birch forest and elsewhere&quot;, &quot;ontologies&quot;: &quot;envo,growth&quot;}&apos;
+php annotator.php _ &apos;{&quot;text&quot;: &quot;C. alpina is polygynous, a procumbent is a montane species occurring through most alpine birch forest and elsewhere&quot;, &quot;predicates&quot;: &quot;habitat, mating system, xyz&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

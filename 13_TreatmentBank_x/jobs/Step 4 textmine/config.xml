@@ -26,6 +26,8 @@
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;TreatmentBank&quot;, &quot;subjects&quot;:&quot;Uses&quot;}&apos;
 #-&gt; generates TreatmentBank_ENV.tar.gz
+#-&gt; lasted 3 days, 6 hrs; that is without any cache yet
+#-&gt; lasted 10 hrs; if with cache already
 
 # continue: normal operations
 # Step 5 Adjustments</command>
