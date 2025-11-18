@@ -27,12 +27,22 @@
 #ls -lt
 #exit 0 # forece exit OK
 #exit 1 # force exit with error
-#php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #orig
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;5&quot;}&apos; #during dev
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #orig
+#php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;5&quot;}&apos; #during dev
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>range_2</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

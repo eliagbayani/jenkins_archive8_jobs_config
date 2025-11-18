@@ -10,6 +10,7 @@
         <numToKeep>2</numToKeep>
         <artifactDaysToKeep>-1</artifactDaysToKeep>
         <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
       </strategy>
     </jenkins.model.BuildDiscarderProperty>
   </properties>
@@ -22,8 +23,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#cd /Library/WebServer/Documents/eol_php_code/update_resources/connectors
-cd /var/www/html/eol_php_code/update_resources/connectors
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 ## orig
 php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;600000&quot;, &quot;range_to&quot;:&quot;700000&quot;}&apos;
 
