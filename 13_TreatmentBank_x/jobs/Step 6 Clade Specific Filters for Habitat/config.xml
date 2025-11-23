@@ -27,10 +27,12 @@
 php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_adjustment_01&quot;}&apos; #OK
 ###-&gt; generates TreatmentBank_adjustment_02.tar.gz
 
-php georgia_cntry_vs_state.php jenkins &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_adjustment_02&quot;}&apos; #OK
+### Not needed anymore with our new Textmining Strings
+#php georgia_cntry_vs_state.php jenkins &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_adjustment_02&quot;}&apos; #OK
 ### generates TreatmentBank_adjustment_03.tar.gz
 
-php dwca_MoF_reassign_values.php _ &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_adjustment_03&quot;, &quot;resource&quot;:&quot;MoF_reassign_values&quot;}&apos; #OK
+### Not needed anymore with our new Textmining Strings
+#php dwca_MoF_reassign_values.php _ &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_adjustment_03&quot;, &quot;resource&quot;:&quot;MoF_reassign_values&quot;}&apos; #OK
 ### generates TreatmentBank_adjustment_04.tar.gz
 
 ### === LAST STEP: copy TreatmentBank_adjustment_04.tar.gz to TreatmentBank_final.tar.gz OK

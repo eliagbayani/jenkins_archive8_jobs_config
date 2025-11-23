@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#cd /Library/WebServer/Documents/eol_php_code/update_resources/connectors
+      <command>exit 0
+### this is now obsolete. Worked before. Not neeeded anymore with our Textmining Strings.
 cd /var/www/html/eol_php8_code/update_resources/connectors
 php treatmentbank_adjust.php jenkins
 #-&gt; generates TreatmentBank_adjustment_01.tar.gz

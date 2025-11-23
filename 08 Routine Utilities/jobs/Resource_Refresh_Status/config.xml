@@ -22,7 +22,7 @@
   <triggers>
     <hudson.triggers.TimerTrigger>
       <spec># Once in every 12 hours for the entire 24-hr period everyday: that means it runs 2 times a day
-H H(0-23)/12 * * 1-7
+### H H(0-23)/12 * * 1-7
 </spec>
     </hudson.triggers.TimerTrigger>
   </triggers>

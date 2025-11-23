@@ -22,7 +22,7 @@
   <triggers>
     <hudson.triggers.TimerTrigger>
       <spec># runs once a day
-H H * 1-12 *</spec>
+### H H * 1-12 *</spec>
     </hudson.triggers.TimerTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
