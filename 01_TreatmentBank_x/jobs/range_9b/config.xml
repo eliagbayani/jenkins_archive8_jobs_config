@@ -24,10 +24,10 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-#exit 0 # forece exit OK
-#exit 1 # force exit with error
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #orig
-#php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;82000&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #caching...
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;880000&quot;, &quot;range_to&quot;:&quot;900000&quot;}&apos;
+
+# total 778,468 as of Dec 4, 2023
+# total 846,037 as of Jul 8, 2024
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
