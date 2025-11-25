@@ -24,7 +24,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;180000&quot;, &quot;range_to&quot;:&quot;200000&quot;}&apos;
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;190000&quot;, &quot;range_to&quot;:&quot;200000&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

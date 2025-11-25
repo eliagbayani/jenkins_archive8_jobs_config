@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 ###php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;600000&quot;, &quot;range_to&quot;:&quot;700000&quot;}&apos;
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;670000&quot;, &quot;range_to&quot;:&quot;700000&quot;}&apos; #caching...
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;682000&quot;, &quot;range_to&quot;:&quot;700000&quot;}&apos; #caching...
 
 
 

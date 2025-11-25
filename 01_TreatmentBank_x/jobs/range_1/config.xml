@@ -27,7 +27,7 @@
 #exit 0 # forece exit OK
 #exit 1 # force exit with error
 ###php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #orig
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;71000&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #caching...
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;82000&quot;, &quot;range_to&quot;:&quot;100000&quot;}&apos; #caching...
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
