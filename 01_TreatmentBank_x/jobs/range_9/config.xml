@@ -24,10 +24,12 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;800000&quot;, &quot;range_to&quot;:&quot;900000&quot;}&apos;
+###php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;800000&quot;, &quot;range_to&quot;:&quot;900000&quot;}&apos; #main
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;800000&quot;, &quot;range_to&quot;:&quot;820000&quot;}&apos; #caching
 
 # total 778,468 as of Dec 4, 2023
 # total 846,037 as of Jul 8, 2024
+# Total &lt;item&gt;s as of [2025-11-25]: [1,079,139]
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
