@@ -7,7 +7,7 @@
     <jenkins.model.BuildDiscarderProperty>
       <strategy class="hudson.tasks.LogRotator">
         <daysToKeep>-1</daysToKeep>
-        <numToKeep>6</numToKeep>
+        <numToKeep>2</numToKeep>
         <artifactDaysToKeep>-1</artifactDaysToKeep>
         <artifactNumToKeep>-1</artifactNumToKeep>
         <removeLastBuild>false</removeLastBuild>
@@ -23,20 +23,12 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>## Utility: run only once a year
-## Run this if u want to delete all DwCAs (zip files) collected from Step 1 (range_1 - range_8).
-## Be careful with this one, since downloading the zip files took a long time.
-## We only run this once a year, I suppose. Or if you want to re-initialize all DwCA files downloaded already.
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;855000&quot;, &quot;range_to&quot;:&quot;860000&quot;}&apos; #caching
 
-## For eol-archive: production
-#cd /extra/dumps/TreatmentBank/
 
-## For Mac Studio: development
-#cd /Volumes/Crucial_2TB/other_files2/dumps/TreatmentBank/
-
-#ls -lt
-#rm -rf DwCA
-#ls -lt
+# total 778,468 as of Dec 4, 2023
+# total 846,037 as of Jul 8, 2024
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
