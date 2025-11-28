@@ -50,21 +50,21 @@
 #i.e. no saltwater insects, spiders, or amphibians.
 # per Eli: as of 24Nov2025 there are 87 MoF records removed during this STEP 2.
 #*/
-###php filter_term_group_by_taxa.php _ &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1390, Q1357, Q10908&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+php filter_term_group_by_taxa.php _ &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1390, Q1357, Q10908&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
 #generates wikipedia_en_traits_FTG.tar.gz
 
 # === STEP 3: final step OK
 # Wikipedia EN creates a new DwCA for its traits. Not like &apos;AmphibiaWeb text&apos;.
 # Thus there is an extra step for Wikipedia EN: it removes taxa without MoF
 # per Eli: as of 24Nov2025 removed taxa without MoF = 470508 - 150616 = 319892 (acceptable)
-###php remove_taxa_without_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_FTG&quot;}&apos;
+php remove_taxa_without_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_FTG&quot;}&apos;
 # OLD: generates wikipedia_en_traits.tar.gz
 # NEW: generates wikipedia_en_traits_tmp1.tar.gz
 
 # === STEP 4: new step OK
 # remove contradicting traits in MoF
 # per Eli: as of 24Nov2025 no MoF record removed. Numbers didn&apos;t change.
-###php remove_contradicting_traits_from_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp1&quot;}&apos;
+php remove_contradicting_traits_from_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp1&quot;}&apos;
 # OLD: generates the final: wikipedia_en_traits.tar.gz
 # NEW: generates wikipedia_en_traits_tmp2.tar.gz
 
@@ -72,16 +72,16 @@
 #             descendants of both marine and terrestrial OK
 # per Eli: as of 24Nov2025 taxon -&gt; 150616 - 149327 = 1289 taxa records removed
 #                            MoF -&gt; 141504 - 138237 = 3267 MoF records removed
-###php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;wikipedia_en_traits_tmp2&quot;}&apos;
+php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;wikipedia_en_traits_tmp2&quot;}&apos;
 #generates: wikipedia_en_traits_tmp3.tar.gz
 
 # === STEP 6: fill-up missing parent entries OK
 # per Eli: as of 24Nov2025 149327 - 149319 = 8 taxa were removed in this step.
 #                                   138237 = No change in MoF records.
-###php fill_up_undefined_parents_real.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp4&quot;, &quot;source_dwca&quot;: &quot;wikipedia_en_traits_tmp3&quot;, &quot;resource&quot;: &quot;fillup_missing_parents&quot;}&apos;
+php fill_up_undefined_parents_real.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp4&quot;, &quot;source_dwca&quot;: &quot;wikipedia_en_traits_tmp3&quot;, &quot;resource&quot;: &quot;fillup_missing_parents&quot;}&apos;
 #generates: wikipedia_en_traits_tmp4.tar.gz
 
-#exit 0
+exit 0
 
 # === STEP 7: LAST STEP: copy wikipedia_en_traits_tmp4.tar.gz to wikipedia_en_traits.tar.gz OK
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
