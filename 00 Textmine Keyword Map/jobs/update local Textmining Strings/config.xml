@@ -24,7 +24,7 @@
       <spec># Once a day
 #H H * 1-12 *
 
-# Every 3 hours
+# Every  hour
 H * * * *
 </spec>
     </hudson.triggers.TimerTrigger>
