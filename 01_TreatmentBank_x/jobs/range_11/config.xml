@@ -24,19 +24,19 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;600000&quot;, &quot;range_to&quot;:&quot;700000&quot;}&apos;
-#php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;682000&quot;, &quot;range_to&quot;:&quot;700000&quot;}&apos; #caching...
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1000000&quot;, &quot;range_to&quot;:&quot;1079139&quot;}&apos; #main
+#php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1000000&quot;, &quot;range_to&quot;:&quot;1020000&quot;}&apos; #caching
 
-
-
-
+# total 778,468 as of Dec 4, 2023
+# total 846,037 as of Jul 8, 2024
+# Total &lt;item&gt;s as of [2025-11-25]: [1,079,139]
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>range_08</childProjects>
+      <childProjects>Step 2 build_up_dwca_list</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

@@ -24,7 +24,8 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1000000&quot;, &quot;range_to&quot;:&quot;1079139&quot;}&apos; #main
+php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;900000&quot;, &quot;range_to&quot;:&quot;1000000&quot;}&apos; #main
+#php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1000000&quot;, &quot;range_to&quot;:&quot;1079139&quot;}&apos; #main
 #php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1000000&quot;, &quot;range_to&quot;:&quot;1020000&quot;}&apos; #caching
 
 # total 778,468 as of Dec 4, 2023
@@ -34,6 +35,16 @@ php treatment_bank.php jenkins &apos;{&quot;range_from&quot;: &quot;1000000&quot
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>range_11</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>
