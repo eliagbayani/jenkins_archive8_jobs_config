@@ -2,7 +2,7 @@
 <com.cloudbees.hudson.plugins.folder.Folder plugin="cloudbees-folder@6.1012.v79a_86a_1ea_c1f">
   <actions/>
   <description></description>
-  <displayName>01 Environmental tagger for EOL resources</displayName>
+  <displayName>01 Environmental tagger</displayName>
   <properties/>
   <folderViews class="com.cloudbees.hudson.plugins.folder.views.DefaultFolderViewHolder">
     <views>

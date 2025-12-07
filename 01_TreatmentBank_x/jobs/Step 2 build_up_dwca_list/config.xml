@@ -26,11 +26,22 @@
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
 php treatment_bank.php _ &apos;{&quot;task&quot;: &quot;build_up_dwca_list&quot;}&apos;
+# as of 1Dec2025 masterDocIds: 82858 -&gt; runtime: 27 mins if everything is cached already.
 
 # build other projects: [Step 3 generate_single_dwca]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>Step 3 generate_single_dwca</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

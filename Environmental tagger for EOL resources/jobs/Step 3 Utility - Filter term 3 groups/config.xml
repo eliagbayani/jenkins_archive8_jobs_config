@@ -19,22 +19,23 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers/>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec># quarterly Feb May Aug Nov
+#H H 12 2,5,8,11 *
+# 7 days after Wikimedia Dump (5+7=12)</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-php treatment_bank.php _ &apos;{&quot;task&quot;: &quot;generate_single_dwca&quot;}&apos;
-#generates TreatmentBank.tar.gz (this will be fed to the Pensoft annotator)
+# === just a utility
+#these 3 is just for stats = generates 3 reports
+php filter_term_group_by_taxa.php jenkins &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1357&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+php filter_term_group_by_taxa.php jenkins &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1390&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+php filter_term_group_by_taxa.php jenkins &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q10908&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
 
-# approximately takes this much time to generate_single_dwca 
-# elapsed time = 19.47 hours
-# elapsed time = 1 day (24 hrs) as of 2Dec2025
-# elapsed time = 22 hrs         as of 3Dec2025 (477.9 MB)
-
-### orig continues to:
-### Step 4 textmine
-### Step 4 textmine
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

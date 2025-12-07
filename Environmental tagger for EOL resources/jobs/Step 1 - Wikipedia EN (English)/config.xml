@@ -51,7 +51,10 @@
 # per Eli: as of 24Nov2025 there are 87 MoF records removed during this STEP 2.
 #*/
 php filter_term_group_by_taxa.php _ &apos;{&quot;source&quot;: &quot;617_ENV&quot;, &quot;target&quot;:&quot;wikipedia_en_traits_FTG&quot;, &quot;taxonIDs&quot;: &quot;Q1390, Q1357, Q10908&quot;, &quot;habitat_filter&quot;: &quot;saline water&quot;}&apos;
+#source is 617_ENV.tar.gz
 #generates wikipedia_en_traits_FTG.tar.gz
+
+#exit 0
 
 # === STEP 3: final step OK
 # Wikipedia EN creates a new DwCA for its traits. Not like &apos;AmphibiaWeb text&apos;.
