@@ -24,7 +24,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>## Utility: run only once a year
-## Run this if u want to delete all DwCAs (zip files) collected from Step 1 (range_1 - range_8).
+## Run this if u want to delete all DwCAs (zip files) collected from Step 1 (range_1 - range_11).
 ## Be careful with this one, since downloading the zip files took a long time.
 ## We only run this once a year, I suppose. Or if you want to re-initialize all DwCA files downloaded already.
 
