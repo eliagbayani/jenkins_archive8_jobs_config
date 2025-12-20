@@ -29,7 +29,7 @@
 ### Better yet run it here: http://160.111.248.39:8090/job/Zenodo/job/update_Zenodo_record/
 
 ### Better solution: works OK as of Nov 2025
-### php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;wikipedia_en_traits&quot;, &quot;zenodo_id&quot;:&quot;14927926&quot;}&apos;
+###php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;wikipedia_en_traits&quot;, &quot;zenodo_id&quot;:&quot;14927926&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
