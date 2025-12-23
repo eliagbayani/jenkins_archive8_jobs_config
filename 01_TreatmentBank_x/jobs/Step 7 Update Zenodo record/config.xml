@@ -24,10 +24,14 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-### works OK - a utility | Run separately after manually checking if file is good: TreatmentBank_final.tar.gz (from Step 6)
-php update_Zenodo_record_using_EOL_resourceID.php _ &apos;TreatmentBank_final&apos;
-### Better yet run it here: http://160.111.248.39:8090/job/Zenodo/job/update_Zenodo_record/
-### So u don&apos;t need to comment original intructions above.</command>
+# works OK - a utility | Run separately after manually checking if file is good: TreatmentBank_final.tar.gz (from Step 6)
+###php update_Zenodo_record_using_EOL_resourceID.php _ &apos;TreatmentBank_final&apos;
+# Better yet run it here: http://160.111.248.39:8090/job/Zenodo/job/update_Zenodo_record/
+# So u don&apos;t need to comment original intructions above.
+
+# Better solution: works OK as of Dec 2025 with Wikipedia Inferred traits. And soon for TreatmentBank_final once reviewed and cleared of issues.
+###php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_final&quot;, &quot;zenodo_id&quot;:&quot;16931434&quot;}&apos;
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

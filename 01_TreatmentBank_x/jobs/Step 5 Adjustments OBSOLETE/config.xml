@@ -35,7 +35,7 @@ php treatmentbank_adjust.php jenkins
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>Step 6 Clade Specific Filters for Habitat</childProjects>
+      <childProjects>Step 6 Clade Specific Filters for Habitat MOVED UP</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
