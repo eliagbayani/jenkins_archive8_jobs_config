@@ -23,19 +23,45 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>### eli is here...
-### cha is here...
-cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 ###php 21.php jenkins #XML from partner explodes atm. Fixed version is used here.
-#run once only, since source is static XML.
-#connector also now was migrated to PHP 8.2
-#generates 21.tar.gz
+# run ONCE only, since source is static XML.
+# connector also now was migrated to PHP 8.2
+# generates 21.tar.gz
 
+# === Step 1of3
 php environments_2_eol.php _ &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;AmphibiaWeb text&quot;, &quot;resource_id&quot;:&quot;21&quot;, &quot;subjects&quot;:&quot;Distribution&quot;}&apos;
-#generates 21_ENV.tar.gz
+# source is 21.tar.gz
+# generates 21_ENV.tar.gz
+
+exit 0
 
 ### NOTE: marine+terrestrial habitat filter didn&apos;t change the DwCA
 ### Also from Jen: it looks like we can discard this filter from both AntWeb and AmphibiaWeb. DATA-1870
+
+# === Step 2of3 OK: remove all MoF records with habitat value(s) that are descendants of both marine and terrestrial OK
+###php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;21_ENV&quot;}&apos;
+#source: 21_ENV.tar.gz 
+#generates: 21_ENV_01.tar.gz
+
+# Step 3of3 OK: Clade Specific Filters for Habitat
+###php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;21_ENV_01&quot;}&apos; #OK | result taxon.tab will be only those with occurrences.
+# source is 21_ENV_01.tar.gz
+# generates 21_ENV_02.tar.gz | TreatmentBank_adjustment_02
+
+# Step 4
+php remove_taxa_without_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;21_ENV_02&quot;}&apos;
+# generates 21_ENV_03.tar.gz
+
+exit 0
+
+# === STEP 4: LAST STEP: 
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp 21_ENV_02.tar.gz 21_ENV_final.tar.gz
+ls -lt 21_ENV_02.tar.gz
+ls -lt 21_ENV_final.tar.gz
+# then delete 21_ENV_02.tar.gz
+rm -f 21_ENV_02.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

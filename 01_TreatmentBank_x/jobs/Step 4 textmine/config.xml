@@ -48,7 +48,7 @@
 # Step 3of3 OK: Clade Specific Filters for Habitat
 ###cd /var/www/html/eol_php8_code/update_resources/connectors
 ########## OBSOLETE php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_adjustment_01&quot;}&apos; #OBSOLETE
-###php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_ENV_01&quot;}&apos; #OK
+###php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_ENV_01&quot;}&apos; #OK | result taxon.tab will be only those with occurrences.
 ###-&gt; generates TreatmentBank_adjustment_02.tar.gz
 
 #exit 0
