@@ -30,20 +30,22 @@
 ### exit 1
 
 #OK 1
-php 26.php jenkins
+###php 26.php jenkins
 #generates 26.tar.gz
 
 #OK 2
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 #generates 26_meta_recoded_1.tar.gz
 
 #OK 3
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 #generates 26_meta_recoded.tar.gz
 
 #OK 4
 php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
 #generates 26_ENV
+
+exit 0
 
 #OK 5
 php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
