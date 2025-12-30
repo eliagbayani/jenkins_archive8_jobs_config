@@ -42,14 +42,18 @@
 #generates 26_meta_recoded.tar.gz
 
 #OK 4
-php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
-#generates 26_ENV
+###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
+#source is 26_meta_recoded.tar.gz
+#generates 26_ENV.tar.gz
 
 exit 0
 
 #OK 5
 php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
+#source is 26_ENV.tar.gz
 #generates 26_ENV_final.tar.gz
+
+exit 0
 
 #OK 6
 php make_hash_IDs_4Deltas.php jenkins &apos;{&quot;task&quot;: &quot;&quot;, &quot;resource&quot;:&quot;Deltas_4hashing&quot;, &quot;resource_id&quot;:&quot;26_ENV_final&quot;}&apos;
