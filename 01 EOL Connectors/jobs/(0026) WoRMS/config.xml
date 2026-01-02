@@ -33,36 +33,59 @@
 ###php 26.php jenkins
 #generates 26.tar.gz
 
+#exit 0
+
 #OK 2
 ###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+#source is 26.tar.gz
 #generates 26_meta_recoded_1.tar.gz
 
+#exit 0
+
 #OK 3
-###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+#php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+#source is 26_meta_recoded_1.tar.gz
 #generates 26_meta_recoded.tar.gz
+# integrity-check 1 OK: All taxonID(s) in OCCURRENCE.tab have TAXON entries.
+
+#exit 0
 
 #OK 4
-###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
+#php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
 #source is 26_meta_recoded.tar.gz
 #generates 26_ENV.tar.gz
 
-exit 0
+#exit 0
+
+#OK 4.2: Special utility for WoRMS: remove MoF without taxon entry. To avoid debugging the WoRMS API, use this utility.
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_2&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa&quot;}&apos;
+#source is 26_ENV.tar.gz
+#generates 26_ENV_2.tar.gz
+
+#exit 0
 
 #OK 5
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
-#source is 26_ENV.tar.gz
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
+#source is 26_ENV.tar.gz OLD
+#source is 26_ENV_2.tar.gz NEW
 #generates 26_ENV_final.tar.gz
 
-exit 0
+#exit 0
 
 #OK 6
 php make_hash_IDs_4Deltas.php jenkins &apos;{&quot;task&quot;: &quot;&quot;, &quot;resource&quot;:&quot;Deltas_4hashing&quot;, &quot;resource_id&quot;:&quot;26_ENV_final&quot;}&apos;
+#source is 26_ENV_final.tar.gz
 #generates 26_delta.tar.gz
 
+#exit 0
+
 #OK 7: remove all Habitat contradicting MoF records for taxon;
-# i.e.  MoF habitat value(s) that are descendants of both marine and terrestrial
+# i.e. MoF habitat value(s) that are descendants of both marine and terrestrial
 php rem_marine_terr_desc.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta&quot;}&apos;
+#source is 26_delta.tar.gz
 #generates: 26_delta_new.tar.gz
+
+exit 0
 
 #OK 8: remove the orphan child records in MoF
 php dwca_MoF_fix.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta_new&quot;, &quot;resource&quot;:&quot;MoF_normalized&quot;}&apos;
