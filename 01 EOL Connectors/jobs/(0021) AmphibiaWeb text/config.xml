@@ -34,18 +34,18 @@ php environments_2_eol.php _ &apos;{&quot;task&quot;: &quot;generate_eol_tags_pe
 # source is 21.tar.gz
 # generates 21_ENV.tar.gz
 
-exit 0
+#exit 0
 
 ### NOTE: marine+terrestrial habitat filter didn&apos;t change the DwCA
 ### Also from Jen: it looks like we can discard this filter from both AntWeb and AmphibiaWeb. DATA-1870
 
 # === Step 2of3 OK: remove all MoF records with habitat value(s) that are descendants of both marine and terrestrial OK
-###php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;21_ENV&quot;}&apos;
+php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;21_ENV&quot;}&apos;
 #source: 21_ENV.tar.gz 
 #generates: 21_ENV_01.tar.gz
 
 # Step 3of3 OK: Clade Specific Filters for Habitat
-###php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;21_ENV_01&quot;}&apos; #OK | result taxon.tab will be only those with occurrences.
+php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;21_ENV_01&quot;}&apos; #OK | result taxon.tab will be only those with occurrences.
 # source is 21_ENV_01.tar.gz
 # generates 21_ENV_02.tar.gz | TreatmentBank_adjustment_02
 
