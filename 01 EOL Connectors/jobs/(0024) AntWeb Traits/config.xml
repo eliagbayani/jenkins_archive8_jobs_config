@@ -40,10 +40,11 @@
 
 # step 2: start textmine
 ###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;AntWeb&quot;, &quot;subjects&quot;:&quot;Description|Distribution|TaxonBiology&quot;}&apos;
+php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;AntWeb&quot;, &quot;subjects&quot;:&quot;DiagnosticDescription&quot;}&apos;
 #source is 24_pre_ENV.tar.gz
 #generates AntWeb_ENV.tar.gz
 
-#exit 0
+exit 0
 
 # step 3: Clade Specific Filters for Habitat. The 1st filter.
 ###php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;AntWeb_ENV&quot;}&apos; #OK | result taxon.tab will be only those with occurrences, media, etc.
