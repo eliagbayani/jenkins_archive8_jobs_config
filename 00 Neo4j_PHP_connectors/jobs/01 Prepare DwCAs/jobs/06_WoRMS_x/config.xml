@@ -30,7 +30,9 @@
 
 ### This will remove MoF and Occurrence records where occurrence!taxonID does not exist in taxon.tab
 #php remove_MoF_for_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;resource&quot;: &quot;remove_MoF_for_taxonID&quot;, &quot;resource_name&quot;: &quot;&quot;}&apos; #OK
+### source is WoRMS.tar.gz
 ### will generate WoRMS_cleaned.tar.gz
+
 #cd /var/www/html/eol_php8_code/applications/content_server/resources_3
 #cp WoRMS_cleaned.tar.gz WoRMS.tar.gz
 #ls -lt WoRMS_cleaned.tar.gz
@@ -53,11 +55,13 @@
 #php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; # gen neo4j_3
 
 ### rename
-#cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-#cp WoRMS-with-hC_neo4j_3.tar.gz WoRMS_TraitBank_1_0.tar.gz
-#ls -lt WoRMS-with-hC_neo4j_3.tar.gz
-#ls -lt WoRMS_TraitBank_1_0.tar.gz
-#rm -f WoRMS-with-hC_neo4j_3.tar.gz
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp WoRMS-with-hC_neo4j_3.tar.gz WoRMS_TraitBank_1_0.tar.gz
+ls -lt WoRMS-with-hC_neo4j_3.tar.gz
+ls -lt WoRMS_TraitBank_1_0.tar.gz
+rm -f WoRMS-with-hC_neo4j_3.tar.gz
+
+exit 0
 
 ### Generate CSV files for Neo4j: OK
 cd /var/www/html/eol_php8_code/update_resources/connectors
