@@ -25,12 +25,16 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
+# step 0: create Media from MoF&apos;s measurementRemarks
+###php dwca_create_Media_from_MoF.php _ &apos;{&quot;source_dwca&quot;: &quot;24_legacy_2024_11_15_EoL&quot;, &quot;resource_id&quot;:&quot;24_legacy_onwards1&quot;, &quot;resource&quot;:&quot;create_Media_from_MoF&quot;}&apos;
+# source is 24_legacy_2024_11_15_EoL.tar.gz
+# generates 24_legacy_onwards1.tar.gz
+
 # step 1: generate main DwCA resource
 ###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;24_pre_ENV&quot;, &quot;task&quot;: &quot;remove_MoF_Occurrence&quot;}&apos;
-# source is 24_legacy_2024_11_15_EoL.tar.gz
+# source is 24_legacy_2024_11_15_EoL.tar.gz -- obsolete
+# source is 24_legacy_onwards1.tar.gz
 # generates 24_pre_ENV.tar.gz
-
-#exit 0
 
 # Available subjects for AntWeb: Description|Distribution|DiagnosticDescription|TaxonBiology
 #http://rs.tdwg.org/ontology/voc/SPMInfoItems#Description: 17216
@@ -39,12 +43,10 @@
 #http://rs.tdwg.org/ontology/voc/SPMInfoItems#TaxonBiology: 122 --- 
 
 # step 2: start textmine
-###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;AntWeb&quot;, &quot;subjects&quot;:&quot;Description|Distribution|TaxonBiology&quot;}&apos;
-php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;AntWeb&quot;, &quot;subjects&quot;:&quot;DiagnosticDescription&quot;}&apos;
+###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;AntWeb&quot;, &quot;subjects&quot;:&quot;Description|Distribution|TaxonBiology|DiagnosticDescription&quot;}&apos;
+###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;all_BHL&quot;, &quot;resource_id&quot;:&quot;AntWeb&quot;, &quot;subjects&quot;:&quot;DiagnosticDescription&quot;}&apos;
 #source is 24_pre_ENV.tar.gz
 #generates AntWeb_ENV.tar.gz
-
-exit 0
 
 # step 3: Clade Specific Filters for Habitat. The 1st filter.
 ###php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;AntWeb_ENV&quot;}&apos; #OK | result taxon.tab will be only those with occurrences, media, etc.
@@ -56,15 +58,17 @@ exit 0
 #source is AntWeb_ENV_2
 #generates AntWeb_ENV_3
 
-#exit 0
+# step 5: remove Media recs with title = &apos;From MoF measurementRemarks&apos;
+php dwca_remove_Media_with_criteria.php _ &apos;{&quot;source_dwca&quot;: &quot;AntWeb_ENV_3&quot;, &quot;resource_id&quot;:&quot;AntWeb_ENV_4&quot;, &quot;resource&quot;:&quot;remove_Media_with_criteria&quot;}&apos;
+#source is AntWeb_ENV_3
+#generates AntWeb_ENV_4
 
 ### === LAST STEP:
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp AntWeb_ENV_3.tar.gz AntWeb_textmined.tar.gz
-ls -lt AntWeb_ENV_3.tar.gz
+cp AntWeb_ENV_4.tar.gz AntWeb_textmined.tar.gz
+ls -lt AntWeb_ENV_4.tar.gz
 ls -lt AntWeb_textmined.tar.gz
-### then delete AntWeb_ENV_3.tar.gz
-rm -f AntWeb_ENV_3.tar.gz
+rm -f AntWeb_ENV_4.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

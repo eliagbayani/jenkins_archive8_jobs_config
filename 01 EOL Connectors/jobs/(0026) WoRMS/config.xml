@@ -50,10 +50,15 @@ php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_t
 #source is 26_meta_recoded.tar.gz
 #generates 26_ENV.tar.gz
 
-#OK 4.2: Special utility for WoRMS: removes all non-textmined MoF entries; from original WoRMS resource.
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_2&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa&quot;}&apos;
+#OBSOLETE OK 4.2: Special utility for WoRMS: removes all non-textmined MoF entries; from original WoRMS resource.
+### php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_2&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa&quot;}&apos;
 #source is 26_ENV.tar.gz
 #generates 26_ENV_2.tar.gz
+
+#4.2: We don&apos;t remove non-textmined MoF anymore
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp 26_ENV.tar.gz 26_ENV_2.tar.gz
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
 #OK 4.3: Special utility for WoRMS: remove_MoF_without_taxa.
 php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_3&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa_REAL&quot;}&apos;
@@ -64,7 +69,7 @@ php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_3&
 php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
 #source is 26_ENV.tar.gz OLD
 #source is 26_ENV_2.tar.gz OLD
-#source is 26_ENV_3.tar.gz NEW
+#source is 26_ENV_3.tar.gz OLD
 #generates 26_ENV_final.tar.gz
 
 #OK 6
@@ -88,15 +93,20 @@ php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;26
 #source is 26_MoF_normalized.tar.gz
 #generates 26_MoF_normalized_2.tar.gz
 
-#exit 0
+exit 0
+
 # -------------------&gt; total 9 php files to run
 
 #LAST STEP: copy last transactional DwCA to WoRMS.tar.gz OK
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp 26_MoF_normalized_2.tar.gz WoRMS_textmined.tar.gz
+cp 26_MoF_normalized_2.tar.gz WoRMS.tar.gz
 ls -lt 26_MoF_normalized_2.tar.gz
-ls -lt WoRMS_textmined.tar.gz
+ls -lt WoRMS.tar.gz
 rm -f 26_MoF_normalized_2.tar.gz
+
+# WoRMS.tar.gz is the file uploaded to Zenodo
+# Better solution: works OK as of Nov 2025
+###php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;WoRMS&quot;, &quot;zenodo_id&quot;:&quot;16593687&quot;}&apos;
 
 ### but this only works if OpenData is set ot Public and not Private
 ### https://opendata.eol.org/dataset/worms-internal
