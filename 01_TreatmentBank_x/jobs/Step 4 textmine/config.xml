@@ -51,7 +51,7 @@ php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;TreatmentBan
 php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_ENV_01&quot;}&apos; #OK | result taxon.tab will be only those with occurrences.
 ###-&gt; generates TreatmentBank_adjustment_02.tar.gz
 
-exit 0
+#exit 0
 
 ### XXXXX This is now OBSOLETE. Not needed anymore with our new Textmining Strings
 #php georgia_cntry_vs_state.php jenkins &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_adjustment_02&quot;}&apos; #OK

@@ -23,38 +23,49 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>###cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+###cp WoRMS.tar.gz WoRMS.bak.tar.gz
+# to backup WoRMS.tar.gz
 
-### A utility. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process. Not part of operation.
-#php gen_higherClass.php
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
-### This will remove MoF and Occurrence records where occurrence!taxonID does not exist in taxon.tab
-#php remove_MoF_for_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;resource&quot;: &quot;remove_MoF_for_taxonID&quot;, &quot;resource_name&quot;: &quot;&quot;}&apos; #OK
-### source is WoRMS.tar.gz
-### will generate WoRMS_cleaned.tar.gz
+# Just a utility. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process. Not part of operation.
+###php gen_higherClass.php
+# Not part of operation.
 
-#cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-#cp WoRMS_cleaned.tar.gz WoRMS.tar.gz
-#ls -lt WoRMS_cleaned.tar.gz
-#ls -lt WoRMS.tar.gz
-#rm -f WoRMS_cleaned.tar.gz
-#cd /var/www/html/eol_php8_code/update_resources/connectors
+# This will remove MoF and Occurrence records where occurrence!taxonID does not exist in taxon.tab
+###php remove_MoF_for_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;resource&quot;: &quot;remove_MoF_for_taxonID&quot;, &quot;resource_name&quot;: &quot;&quot;}&apos; #OK
+# source is WoRMS.tar.gz
+# will generate WoRMS_cleaned.tar.gz
 
-### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-### No parentID but has ancestry, though limited still.
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+###cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+###cp WoRMS_cleaned.tar.gz WoRMS.tar.gz
+###ls -lt WoRMS_cleaned.tar.gz
+###ls -lt WoRMS.tar.gz
+###rm -f WoRMS_cleaned.tar.gz
+###cd /var/www/html/eol_php8_code/update_resources/connectors
 
-### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
+# This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
+# No parentID but has ancestry, though limited still.
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+# generates WoRMS-with-hC.tar.gz
 
-### Start matching taxa
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_2
+# This use gnparser one name at a time. Not entire file.
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
+# generates WoRMS-with-hC_neo4j_1.tar.gz
 
-### Convert taxon.tab, use EOLid value for taxonID.
-### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-#php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; # gen neo4j_3
+# Start matching taxa
+###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_2
+# generates WoRMS-with-hC_neo4j_2.tar.gz
+# Here is version for Zenodo. Next versions are for importing to Neo4j.
 
-### rename
+# Convert taxon.tab, use EOLid value for taxonID.
+# REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
+# Reminder: All taxonID is now EOLid. Images from Media tab now excluded.
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; # gen neo4j_3
+# generates WoRMS-with-hC_neo4j_3.tar.gz
+
+# rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
 cp WoRMS-with-hC_neo4j_3.tar.gz WoRMS_TraitBank_1_0.tar.gz
 ls -lt WoRMS-with-hC_neo4j_3.tar.gz

@@ -36,7 +36,7 @@ php environments_2_eol.php _ &apos;{&quot;task&quot;: &quot;generate_eol_tags_pe
 #source is 80.tar.gz --- via API call using resource name &quot;Raw English Wikipedia - initial step&quot;
 #generates 617_ENV.tar.gz
 
-exit 0
+#exit 0
 
 # === just a utility
 #these 3 is just for stats = generates 3 reports
@@ -64,6 +64,7 @@ php filter_term_group_by_taxa.php _ &apos;{&quot;source&quot;: &quot;617_ENV&quo
 # Thus there is an extra step for Wikipedia EN: it removes taxa without MoF
 # per Eli: as of 24Nov2025 removed taxa without MoF = 470508 - 150616 = 319892 (acceptable)
 php remove_taxa_without_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_FTG&quot;}&apos;
+# source is wikipedia_en_traits_FTG.tar.gz
 # OLD: generates wikipedia_en_traits.tar.gz
 # NEW: generates wikipedia_en_traits_tmp1.tar.gz
 
@@ -71,27 +72,31 @@ php remove_taxa_without_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedi
 # remove contradicting traits in MoF
 # per Eli: as of 24Nov2025 no MoF record removed. Numbers didn&apos;t change.
 php remove_contradicting_traits_from_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp1&quot;}&apos;
+# source is wikipedia_en_traits_tmp1.tar.gz
 # OLD: generates the final: wikipedia_en_traits.tar.gz
 # NEW: generates wikipedia_en_traits_tmp2.tar.gz
 
 # === STEP 5: remove all records for taxon with habitat value(s) that are 
 #             descendants of both marine and terrestrial OK
 php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;wikipedia_en_traits_tmp2&quot;}&apos;
+#source is wikipedia_en_traits_tmp2.tar.gz
 #generates: wikipedia_en_traits_tmp3.tar.gz
 
 #exit 0
 
 # === STEP 5-a: step OK
 php remove_taxa_without_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp3&quot;}&apos;
+#source is wikipedia_en_traits_tmp3.tar.gz
 #generates wikipedia_en_traits_tmp4.tar.gz
 
 # === STEP 6: fill-up missing parent entries OK
 # per Eli: as of 24Nov2025 149327 - 149319 = 8 taxa were removed in this step.
 #                                   138237 = No change in MoF records.
 php fill_up_undefined_parents_real.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_tmp5&quot;, &quot;source_dwca&quot;: &quot;wikipedia_en_traits_tmp4&quot;, &quot;resource&quot;: &quot;fillup_missing_parents&quot;}&apos;
+#source is wikipedia_en_traits_tmp4.tar.gz
 #generates: wikipedia_en_traits_tmp5.tar.gz
 
-exit 0
+#exit 0
 
 # === STEP 7: LAST STEP: copy wikipedia_en_traits_tmp5.tar.gz to wikipedia_en_traits.tar.gz OK
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3

@@ -30,9 +30,11 @@
 ### exit 1
 
 #OK 1
-###php 26.php jenkins
+php 26.php jenkins
 #source is WoRMS2EoL.zip (from WoRMS)
 #generates 26.tar.gz
+
+exit 0
 
 #OK 2
 php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
@@ -114,16 +116,6 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>/00 Neo4j_PHP_connectors/01 Prepare DwCAs/06_WoRMS_x</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

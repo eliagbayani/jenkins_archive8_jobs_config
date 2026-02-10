@@ -27,7 +27,6 @@
 
 ### source is: GloBI_TraitBank_1_0.tar.gz
 php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;GloBI_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;globi&quot;}&apos;
-#php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_2&quot;, &quot;eol_resource_id&quot;: &quot;globi&quot;}&apos;
 ### generates CSV files for import to Neo4j
 
 </command>
