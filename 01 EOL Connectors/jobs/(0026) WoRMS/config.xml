@@ -30,11 +30,11 @@
 ### exit 1
 
 #OK 1
-###php 26.php jenkins
+php 26.php jenkins
 #source is WoRMS2EoL.zip (from WoRMS)
 #generates 26.tar.gz
 
-#exit 0
+exit 0
 
 #OK 2
 ###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
