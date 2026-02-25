@@ -25,9 +25,11 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-### source is: WoRMS_TraitBank_1_0.tar.gz
+# source is: WoRMS_TraitBank_1_0.tar.gz
 php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;worms&quot;}&apos;
-### generates CSV files for import to Neo4j
+# generates CSV files for import to Neo4j
+# /neo4j_imports/nodes/*.csv
+# /neo4j_imports/edges/*.csv
 
 </command>
       <configuredLocalRules/>
