@@ -30,11 +30,11 @@
 
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: Brazilian_Flora.tar.gz
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
 ### generates FILENAME-with-hC.tar.gz
 
 ### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos; #OK gen neo4j_2

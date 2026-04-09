@@ -25,17 +25,21 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-###php mad_natdb.php jenkins
-# generates natdb.tar.gz OK
+# OK 1
+php mad_natdb.php jenkins
+#generates natdb.tar.gz OK
 
-###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;natdb_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+# OK 2
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;natdb_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 #-&gt;occurrenceRemarks
 # generates natdb_meta_recoded_1.tar.gz OK
 
-###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;natdb_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+# OK 3
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;natdb_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 #-&gt;lifeStage
 # generates natdb_meta_recoded.tar.gz OK
 
+# OK 4
 php dwca_MoF_reassign_values.php jenkins &apos;{&quot;resource_id&quot;:&quot;natdb_meta_recoded&quot;, &quot;resource&quot;:&quot;MoF_reassign_values&quot;}&apos;
 # generates natdb_temp_1.tar.gz OK
 

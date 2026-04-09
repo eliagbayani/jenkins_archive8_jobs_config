@@ -28,19 +28,19 @@
 ### A utility. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
 #php gen_higherClass.php
 
-### *Has parentID but no value. Has ancestry values.
+### OK 1: *Has parentID but no value. Has ancestry values.
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: TreatmentBank_final.tar.gz
 php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 ### generates FILENAME-with-hC.tar.gz
 
-### This use gnparser one name at a time. Not entire file.
+### OK 2: This use gnparser one name at a time. Not entire file.
 php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; #OK gen neo4j_1
 
-### Start matching taxa
+### OK 3: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; #OK gen neo4j_2
 
-### Convert taxon.tab, use EOLid value for taxonID.
+### OK 4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; # gen neo4j_3
 
@@ -51,10 +51,9 @@ ls -lt TreatmentBank_final-with-hC_neo4j_3.tar.gz
 ls -lt TreatmentBank_TraitBank_1_0.tar.gz
 rm -f TreatmentBank_final-with-hC_neo4j_3.tar.gz
 
-### Generate CSV files for Neo4j: OK
-cd /var/www/html/eol_php8_code/update_resources/connectors
-php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_TraitBank_1_0&quot;}&apos; #latest
-</command>
+### Generate CSV files for Neo4j: OK --- OBSOLETE
+#cd /var/www/html/eol_php8_code/update_resources/connectors
+#php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_TraitBank_1_0&quot;}&apos; #OBSOLETE</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

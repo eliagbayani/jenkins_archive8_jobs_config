@@ -23,17 +23,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/php_neo4j/new/
-ls -lt
-#php index.php
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-cd /usr/src/app
-#python3 -V
-#python3 test1.py
-#python3 test2.py
-python3 test_combined.py
-
-#ping localhost:7474
+### source is: GloBI_TraitBank_1_0.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;GloBI_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R20&quot;}&apos; #globi
+### generates CSV files for import to Neo4j
 
 </command>
       <configuredLocalRules/>

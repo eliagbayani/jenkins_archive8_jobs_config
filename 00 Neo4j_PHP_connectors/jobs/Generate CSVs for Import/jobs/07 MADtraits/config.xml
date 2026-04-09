@@ -23,17 +23,14 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/php_neo4j/new/
-ls -lt
-#php index.php
+      <command># first run: Apr 6, 2026
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
-cd /usr/src/app
-#python3 -V
-#python3 test1.py
-#python3 test2.py
-python3 test_combined.py
-
-#ping localhost:7474
+# source is: MAD_traits_TraitBank_1_0.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R838&quot;}&apos; #natdb_dwca_dw_na
+# generates CSV files for import to Neo4j
+# /neo4j_imports/nodes/*.csv
+# /neo4j_imports/edges/*.csv
 
 </command>
       <configuredLocalRules/>
