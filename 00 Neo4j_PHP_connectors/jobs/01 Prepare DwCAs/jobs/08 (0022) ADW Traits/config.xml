@@ -1,0 +1,67 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command># first run: Apr 9, 2026
+cd /var/www/html/eol_php8_code/update_resources/connectors
+
+# OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
+#     No parentID but has ancestry, though limited still.
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+# generates AnimalDiversityWeb-with-hC.tar.gz
+
+# OK 2: This use gnparser one name at a time. Not entire file.
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb-with-hC&quot;}&apos; #gen neo4j_1
+# generates AnimalDiversityWeb-with-hC_neo4j_1.tar.gz
+
+# OK 3: Start matching taxa
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb-with-hC&quot;}&apos; #gen neo4j_2
+# generates AnimalDiversityWeb-with-hC_neo4j_2.tar.gz
+# Here is version for Zenodo. Next versions are for importing to Neo4j.
+
+# OK 4: Convert taxon.tab, use EOLid value for taxonID.
+#     REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
+#     Reminder: All taxonID is now EOLid. Images from Media tab now excluded.
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb-with-hC&quot;}&apos; # gen neo4j_3
+# generates AnimalDiversityWeb-with-hC_neo4j_3.tar.gz
+
+# rename
+cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cp AnimalDiversityWeb-with-hC_neo4j_3.tar.gz AnimalDiversityWeb_TraitBank_1_0.tar.gz
+ls -lt AnimalDiversityWeb-with-hC_neo4j_3.tar.gz
+ls -lt AnimalDiversityWeb_TraitBank_1_0.tar.gz
+rm -f AnimalDiversityWeb-with-hC_neo4j_3.tar.gz
+
+exit 0
+
+# Generate CSV files for Neo4j: OK
+###cd /var/www/html/eol_php8_code/update_resources/connectors
+###php generate_csv_4neo4j.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb_TraitBank_1_0&quot;}&apos; #latest
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

@@ -119,7 +119,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>/00 Neo4j_PHP_connectors/01 Prepare DwCAs/06_WoRMS_x</childProjects>
+      <childProjects>/00 Neo4j_PHP_connectors/01 Prepare DwCAs/05_WoRMS_x</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
