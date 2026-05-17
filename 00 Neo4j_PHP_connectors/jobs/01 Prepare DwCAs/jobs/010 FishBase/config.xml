@@ -25,31 +25,31 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-### A utility. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
+### A UTILITY ONLY. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
 #php gen_higherClass.php
 
-### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-### source is: Brazilian_Flora_ancestry.tar.gz
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_ancestry&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
+### source is: fishbase.tar.gz
+### generates FILENAME-with-hC.tar.gz
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
-### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_ancestry-with-hC&quot;}&apos; #OK gen neo4j_1
+### OK 2of4: This use gnparser one name at a time. Not entire file.
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC&quot;}&apos; #OK gen neo4j_1
 
-### Start matching taxa
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_ancestry-with-hC&quot;}&apos; #OK gen neo4j_2
+### OK 3of4: Start matching taxa
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
-### Convert taxon.tab, use EOLid value for taxonID.
+### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_ancestry-with-hC&quot;}&apos; # gen neo4j_3
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1_eolID&quot;}&apos; # gen fishbase_final
 
-# rename
+### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp Brazilian_Flora_ancestry-with-hC_neo4j_3.tar.gz Brazilian_Flora_ancestry_TraitBank_1_0.tar.gz
-ls -lt Brazilian_Flora_ancestry-with-hC_neo4j_3.tar.gz
-ls -lt Brazilian_Flora_ancestry_TraitBank_1_0.tar.gz
-rm -f Brazilian_Flora_ancestry-with-hC_neo4j_3.tar.gz
-
-exit 0</command>
+cp fishbase_final.tar.gz FishBase_TraitBank_1_0.tar.gz
+ls -lt fishbase_final.tar.gz
+ls -lt FishBase_TraitBank_1_0.tar.gz
+rm -f fishbase_final.tar.gz
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

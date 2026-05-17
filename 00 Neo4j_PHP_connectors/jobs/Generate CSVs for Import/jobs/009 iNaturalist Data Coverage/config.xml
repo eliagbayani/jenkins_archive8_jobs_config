@@ -23,29 +23,15 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-# OK step 1
-php 42.php jenkins
-# generates 42.tar.gz
-
-# OK step 2
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;42_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
-# generates 42_meta_recoded.tar.gz
-
-# rename OK
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp 42_meta_recoded.tar.gz fishbase.tar.gz
-ls -lt 42_meta_recoded.tar.gz
-ls -lt fishbase.tar.gz
-rm -f 42_meta_recoded.tar.gz
-
-# OK step 3
+      <command># first run: Apr 14, 2026
 cd /var/www/html/eol_php8_code/update_resources/connectors
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase&quot;}&apos; #fishbase.tar.g
 
-# a utility:
-# generates FishBase_contributors.tsv
-###php contributor_map.php jenkins
+# source is: iNat_TraitBank_1_0.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;iNat_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R1219&quot;}&apos; #i_nat_dat_covera
+# generates CSV files for import to Neo4j
+# /neo4j_imports/nodes/*.csv
+# /neo4j_imports/edges/*.csv
+
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

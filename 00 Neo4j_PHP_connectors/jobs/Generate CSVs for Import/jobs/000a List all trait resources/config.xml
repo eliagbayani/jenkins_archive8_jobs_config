@@ -19,34 +19,18 @@
   <disabled>false</disabled>
   <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
-  <triggers/>
+  <triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec># runs everyday, once a day
+H H * 1-12 *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-# OK step 1
-php 42.php jenkins
-# generates 42.tar.gz
 
-# OK step 2
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;42_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
-# generates 42_meta_recoded.tar.gz
-
-# rename OK
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp 42_meta_recoded.tar.gz fishbase.tar.gz
-ls -lt 42_meta_recoded.tar.gz
-ls -lt fishbase.tar.gz
-rm -f 42_meta_recoded.tar.gz
-
-# OK step 3
-cd /var/www/html/eol_php8_code/update_resources/connectors
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase&quot;}&apos; #fishbase.tar.g
-
-# a utility:
-# generates FishBase_contributors.tsv
-###php contributor_map.php jenkins
-</command>
+php zenodo.php</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

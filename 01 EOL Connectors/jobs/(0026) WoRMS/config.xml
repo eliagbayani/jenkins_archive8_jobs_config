@@ -25,36 +25,36 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-### a utility - it works OK - updates the OpenData metadata but not if private.
+### A UTILITY - it works OK - updates the OpenData metadata but not if private.
 ### php ckan_api_access.php jenkins &quot;a74bcc92-d2a2-4a7b-b18f-b5fd2e3a5b5c&quot;                  
 ### exit 1
 
 #OK 1
-php 26.php jenkins
 #source is WoRMS2EoL.zip (from WoRMS)
 #generates 26.tar.gz
+php 26.php jenkins
 
 #OK 2
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 #source is 26.tar.gz
 #generates 26_meta_recoded_1.tar.gz
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 
 #OK 3
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 #source is 26_meta_recoded_1.tar.gz
 #generates 26_meta_recoded.tar.gz
 #integrity-check 1 OK: All taxonID(s) in OCCURRENCE.tab have TAXON entries.
 #Importantly, if lifeStage or sex is a child row in MoF. These will be moved as col in Occurrence.
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 
 #OK 4
-php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
 #source is 26_meta_recoded.tar.gz
 #generates 26_ENV.tar.gz
+php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
 
 #OBSOLETE OK 4.2: Special utility for WoRMS: removes all non-textmined MoF entries; from original WoRMS resource.
-### php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_2&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa&quot;}&apos;
 #source is 26_ENV.tar.gz
 #generates 26_ENV_2.tar.gz
+### php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_2&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa&quot;}&apos;
 
 #OK 4.2: We don&apos;t remove non-textmined MoF anymore
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
@@ -62,36 +62,36 @@ cp 26_ENV.tar.gz 26_ENV_2.tar.gz
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 #OK 4.3: Special utility for WoRMS: remove_MoF_without_taxa.
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_3&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa_REAL&quot;}&apos;
 #source is 26_ENV_2.tar.gz
 #generates 26_ENV_3.tar.gz
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_3&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa_REAL&quot;}&apos;
 
 #OK 5
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
 #source is 26_ENV.tar.gz OLD
 #source is 26_ENV_2.tar.gz OLD
 #source is 26_ENV_3.tar.gz OLD
 #generates 26_ENV_final.tar.gz
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
 
 #OK 6
-php make_hash_IDs_4Deltas.php jenkins &apos;{&quot;task&quot;: &quot;&quot;, &quot;resource&quot;:&quot;Deltas_4hashing&quot;, &quot;resource_id&quot;:&quot;26_ENV_final&quot;}&apos;
 #source is 26_ENV_final.tar.gz
 #generates 26_delta.tar.gz
+php make_hash_IDs_4Deltas.php jenkins &apos;{&quot;task&quot;: &quot;&quot;, &quot;resource&quot;:&quot;Deltas_4hashing&quot;, &quot;resource_id&quot;:&quot;26_ENV_final&quot;}&apos;
 
 #OK 7: The 2nd filter. MoF habitat values that are descendants of both marine and terrestrial
-php rem_marine_terr_desc.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta&quot;}&apos;
 #source is 26_delta.tar.gz
 #generates: 26_delta_new.tar.gz
+php rem_marine_terr_desc.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta&quot;}&apos;
 
 #OK 8: remove the orphan child records in MoF
-php dwca_MoF_fix.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta_new&quot;, &quot;resource&quot;:&quot;MoF_normalized&quot;}&apos;
 #source is 26_delta_new.tar.gz
 #generates 26_MoF_normalized.tar.gz
+php dwca_MoF_fix.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta_new&quot;, &quot;resource&quot;:&quot;MoF_normalized&quot;}&apos;
 
 #OK 9: Clade Specific Filters for Habitat. The 1st filter.
-php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_MoF_normalized&quot;}&apos; #OK | result taxon.tab will be NOT only those with occurrences.
 #source is 26_MoF_normalized.tar.gz
 #generates 26_MoF_normalized_2.tar.gz
+php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_MoF_normalized&quot;}&apos; #OK | result taxon.tab will be NOT only those with occurrences.
 
 # -------------------&gt; total 9 php files to run
 
@@ -106,9 +106,9 @@ rm -f 26_MoF_normalized_2.tar.gz
 # Better solution: works OK as of Nov 2025
 ###php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;WoRMS&quot;, &quot;zenodo_id&quot;:&quot;16593687&quot;}&apos;
 
-### but this only works if OpenData is set ot Public and not Private
-### https://opendata.eol.org/dataset/worms-internal
-cd /var/www/html/eol_php8_code/update_resources/connectors
+# but this only works if OpenData is set ot Public and not Private
+# https://opendata.eol.org/dataset/worms-internal
+###cd /var/www/html/eol_php8_code/update_resources/connectors
 ###php ckan_api_access.php jenkins &quot;a74bcc92-d2a2-4a7b-b18f-b5fd2e3a5b5c&quot;
 
 ###Build other projects:
@@ -119,7 +119,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>/00 Neo4j_PHP_connectors/01 Prepare DwCAs/05_WoRMS_x</childProjects>
+      <childProjects>/00 Neo4j_PHP_connectors/01 Prepare DwCAs/005_WoRMS_x</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

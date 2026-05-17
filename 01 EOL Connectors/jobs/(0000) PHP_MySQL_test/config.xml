@@ -25,7 +25,8 @@
     <hudson.tasks.Shell>
       <command>php -v
 cd /var/www/html
-php test.php
+#php test.php
+php test_development.php
 echo &quot;\n&quot; # &gt; /dev/null
 gnparser &quot;Gadus morhua Linnaeus, 1758&quot; -f pretty
 echo &quot;\n&quot; # &gt; /dev/null
