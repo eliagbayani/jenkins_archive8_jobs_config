@@ -56,8 +56,11 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;old&quot;}&apos; #OK gen +_eolID
 #php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase&quot;}&apos; #fishbase.tar.g
-#php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;42&quot;}&apos; #fishbase.tar.g
+#php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase&quot;}&apos; #fishbase.tar.g
+#php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae_TraitBank_1_0&quot;}&apos;
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_TraitBank_1_0&quot;}&apos;
+
+#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
