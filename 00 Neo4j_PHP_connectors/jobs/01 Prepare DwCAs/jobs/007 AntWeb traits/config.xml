@@ -46,14 +46,14 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-
 #      REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
 #      Reminder: All taxonID is now EOLid. Images from Media tab now excluded.
 # generates AntWeb_textmined_final.tar.gz
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC_neo4j_1_eolID&quot;}&apos; # gen AntWeb_textmined_final
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC_neo4j_1_eolID&quot;}&apos; # gen AntWeb_textmined_finale
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp AntWeb_textmined_final.tar.gz AntWeb_textmined_TraitBank_1_0.tar.gz
-ls -lt AntWeb_textmined_final.tar.gz
+cp AntWeb_textmined_finale.tar.gz AntWeb_textmined_TraitBank_1_0.tar.gz
+ls -lt AntWeb_textmined_finale.tar.gz
 ls -lt AntWeb_textmined_TraitBank_1_0.tar.gz
-rm -f AntWeb_textmined_final.tar.gz
+rm -f AntWeb_textmined_finale.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

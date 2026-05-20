@@ -44,14 +44,14 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits-with-h
 #      REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
 #      Reminder: All taxonID is now EOLid. Images from Media tab now excluded.
 # generates MAD_traits_final.tar.gz
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits-with-hC_neo4j_1_eolID&quot;}&apos; # gen MAD_traits_final
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits-with-hC_neo4j_1_eolID&quot;}&apos; # gen MAD_traits_finale
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp MAD_traits_final.tar.gz MAD_traits_TraitBank_1_0.tar.gz
-ls -lt MAD_traits_final.tar.gz
+cp MAD_traits_finale.tar.gz MAD_traits_TraitBank_1_0.tar.gz
+ls -lt MAD_traits_finale.tar.gz
 ls -lt MAD_traits_TraitBank_1_0.tar.gz
-rm -f MAD_traits_final.tar.gz
+rm -f MAD_traits_finale.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

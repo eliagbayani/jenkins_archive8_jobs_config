@@ -43,14 +43,14 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-w
 
 #OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1_eolID&quot;}&apos; # gen Brazilian_Flora_final
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1_eolID&quot;}&apos; # gen Brazilian_Flora_finale
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp Brazilian_Flora_final.tar.gz Brazilian_Flora_TraitBank_1_0.tar.gz
-ls -lt Brazilian_Flora_final.tar.gz
+cp Brazilian_Flora_finale.tar.gz Brazilian_Flora_TraitBank_1_0.tar.gz
+ls -lt Brazilian_Flora_finale.tar.gz
 ls -lt Brazilian_Flora_TraitBank_1_0.tar.gz
-rm -f Brazilian_Flora_final.tar.gz
+rm -f Brazilian_Flora_finale.tar.gz
 
 #build others: [002_TreatmentBank_OK]</command>
       <configuredLocalRules/>

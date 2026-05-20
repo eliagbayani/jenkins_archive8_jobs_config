@@ -40,15 +40,15 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-
 # OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
 # Reminder: All taxonID is now EOLid. Images from Media tab now excluded.
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1_eolID&quot;}&apos; # gen globi_assoc_final
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1_eolID&quot;}&apos; # gen globi_assoc_finale
 # generates globi_assoc_final.tar.gz
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp globi_assoc_final.tar.gz GloBI_TraitBank_1_0.tar.gz
-ls -lt globi_assoc_final.tar.gz
+cp globi_assoc_finale.tar.gz GloBI_TraitBank_1_0.tar.gz
+ls -lt globi_assoc_finale.tar.gz
 ls -lt GloBI_TraitBank_1_0.tar.gz
-rm -f globi_assoc_final.tar.gz
+rm -f globi_assoc_finale.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

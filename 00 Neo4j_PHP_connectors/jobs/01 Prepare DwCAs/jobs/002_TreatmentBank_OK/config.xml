@@ -42,20 +42,30 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_fin
 exit 0
 ### OK 4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1_eolID&quot;}&apos; # gen TreatmentBank_final_final
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1_eolID&quot;}&apos; # gen TreatmentBank_final_finale
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp TreatmentBank_final_final.tar.gz TreatmentBank_TraitBank_1_0.tar.gz
-ls -lt TreatmentBank_final_final.tar.gz
+cp TreatmentBank_final_finale.tar.gz TreatmentBank_TraitBank_1_0.tar.gz
+ls -lt TreatmentBank_final_finale.tar.gz
 ls -lt TreatmentBank_TraitBank_1_0.tar.gz
-rm -f TreatmentBank_final_final.tar.gz
+rm -f TreatmentBank_final_finale.tar.gz
 
 
 ### Build other projects: [003_Global_Biotic_Interactions_OK]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>003_Global_Biotic_Interactions_OK</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

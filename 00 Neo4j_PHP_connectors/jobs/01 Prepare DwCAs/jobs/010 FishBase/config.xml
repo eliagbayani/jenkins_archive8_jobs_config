@@ -38,14 +38,14 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_
 
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1_eolID&quot;}&apos; # gen fishbase_final
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1_eolID&quot;}&apos; # gen fishbase_finale
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp fishbase_final.tar.gz FishBase_TraitBank_1_0.tar.gz
-ls -lt fishbase_final.tar.gz
+cp fishbase_finale.tar.gz FishBase_TraitBank_1_0.tar.gz
+ls -lt fishbase_finale.tar.gz
 ls -lt FishBase_TraitBank_1_0.tar.gz
-rm -f fishbase_final.tar.gz
+rm -f fishbase_finale.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
