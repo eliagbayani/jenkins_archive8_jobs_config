@@ -57,11 +57,12 @@ exit 0
 
 # === STEP 4: LAST STEP: 
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp 21_ENV_02.tar.gz 21_ENV_final.tar.gz
+cp 21_ENV_02.tar.gz AmphibiaWeb.tar.gz #21_ENV_final.tar.gz - before this was the final file. Now it is: AmphibiaWeb.tar.gz
 ls -lt 21_ENV_02.tar.gz
-ls -lt 21_ENV_final.tar.gz
+ls -lt AmphibiaWeb.tar.gz
 # then delete 21_ENV_02.tar.gz
 rm -f 21_ENV_02.tar.gz
+
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

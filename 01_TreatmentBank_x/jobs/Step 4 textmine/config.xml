@@ -30,14 +30,14 @@ php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_t
 #-&gt; lasted 3 days, 6 hrs; that is without any cache yet
 #-&gt; lasted 10 hrs; if with cache already
 
-#exit 0
+exit 0
 
 # === Step 2of3 OK: remove all MoF records with habitat value(s) that are descendants of both marine and terrestrial OK. The 2nd filter.
 php rem_marine_terr_desc.php _ &apos;{&quot;resource_id&quot;:&quot;TreatmentBank_ENV&quot;}&apos;
 #source: TreatmentBank_ENV.tar.gz 
 #generates: TreatmentBank_ENV_01.tar.gz
 
-#exit 0
+exit 0
 
 # XXXXX Step Adjustments OBSOLETE
 ### This is now OBSOLETE. Worked before. Not neeeded anymore with our Textmining Strings.

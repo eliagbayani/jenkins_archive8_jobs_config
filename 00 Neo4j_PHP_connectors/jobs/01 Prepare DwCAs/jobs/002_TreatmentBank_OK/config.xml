@@ -32,16 +32,14 @@
 ### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: TreatmentBank_final.tar.gz
 ### generates FILENAME-with-hC.tar.gz
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 ### OK 2: This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### OK 3: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
-
 exit 0
-
 ### OK 4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1_eolID&quot;}&apos; # gen TreatmentBank_final_final
