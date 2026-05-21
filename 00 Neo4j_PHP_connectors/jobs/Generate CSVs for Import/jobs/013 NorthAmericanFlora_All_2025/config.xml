@@ -23,10 +23,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command># first run: May 21, 2026
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
-# source is: TreatmentBank_TraitBank_1_0.tar.gz
-php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R562&quot;}&apos;
+# source is: NorthAmericanFlora_All_2025_TraitBank_1_0.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R1124&quot;}&apos; #n_am_flora
 # generates CSV files for import to Neo4j
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
