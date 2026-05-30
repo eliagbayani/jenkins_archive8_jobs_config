@@ -23,19 +23,16 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command># first run: May 25, 2026
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
-### A utility. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
-#php gen_higherClass.php
+# source is: ZooKeys_TraitBank_1_0.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;ZooKeys_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R587&quot;}&apos; #Zookeys
+# generates CSV files for import to Neo4j
+# /neo4j_imports/nodes/*.csv
+# /neo4j_imports/edges/*.csv
 
-### This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;protisten_v2_Eli&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
-
-### This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;protisten_v2_Eli-with-higherClassification&quot;}&apos;
-
-### Start matching taxa
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;protisten_v2_Eli-with-higherClassification&quot;}&apos;</command>
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

@@ -23,46 +23,34 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-
-### JUST A UTILITY. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
-#php gen_higherClass.php
+      <command># first run: May 25, 2026
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-### source is: iNat.tar.gz
+### source is: 20_ENV_final.tar.gz
 ### generates FILENAME-with-hC.tar.gz
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;iNat&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;20_ENV_final&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
 ### OK 2of4: This use gnparser one name at a time. Not entire file.
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;iNat-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;20_ENV_final-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### OK 3of4: Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;iNat-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;20_ENV_final-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;iNat-with-hC_neo4j_1_eolID&quot;}&apos; # gen iNat_finale
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;iNat_finale&quot;}&apos;
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;20_ENV_final-with-hC_neo4j_1_eolID&quot;}&apos; # gen 20_ENV_final_finale
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;20_ENV_final_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp iNat_finale.tar.gz iNat_TraitBank_1_0.tar.gz
-ls -lt iNat_finale.tar.gz
-ls -lt iNat_TraitBank_1_0.tar.gz
-rm -f iNat_finale.tar.gz
+cp 20_ENV_final_finale.tar.gz ZooKeys_TraitBank_1_0.tar.gz
+ls -lt 20_ENV_final_finale.tar.gz
+ls -lt ZooKeys_TraitBank_1_0.tar.gz
+rm -f 20_ENV_final_finale.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>010 FishBase</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

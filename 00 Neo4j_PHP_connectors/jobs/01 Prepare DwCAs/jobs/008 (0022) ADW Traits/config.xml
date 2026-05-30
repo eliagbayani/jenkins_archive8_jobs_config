@@ -45,7 +45,7 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWe
 #      Reminder: All taxonID is now EOLid. Images from Media tab now excluded.
 # generates AnimalDiversityWeb_final.tar.gz
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb-with-hC_neo4j_1_eolID&quot;}&apos; # gen AnimalDiversityWeb_finale
-
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb_finale&quot;}&apos;
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
 cp AnimalDiversityWeb_finale.tar.gz AnimalDiversityWeb_TraitBank_1_0.tar.gz

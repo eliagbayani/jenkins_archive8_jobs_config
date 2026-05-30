@@ -66,14 +66,16 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo
 #      REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
 #      Reminder: All taxonID is now EOLid. Images from Media tab now excluded.
 # generates WoRMS_final.tar.gz
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_1_eolID&quot;}&apos; # gen WoRMS_final
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_1_eolID&quot;}&apos; # gen WoRMS_finale
+
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;}&apos;
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp WoRMS_final.tar.gz WoRMS_TraitBank_1_0.tar.gz
-ls -lt WoRMS_final.tar.gz
+cp WoRMS_finale.tar.gz WoRMS_TraitBank_1_0.tar.gz
+ls -lt WoRMS_finale.tar.gz
 ls -lt WoRMS_TraitBank_1_0.tar.gz
-rm -f WoRMS_final.tar.gz
+rm -f WoRMS_finale.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

@@ -43,6 +43,8 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_trai
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC_neo4j_1_eolID&quot;}&apos; # gen wikipedia_en_traits_finale
 
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_finale&quot;}&apos;
+
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
 cp wikipedia_en_traits_finale.tar.gz Wikipedia_TraitBank_1_0.tar.gz

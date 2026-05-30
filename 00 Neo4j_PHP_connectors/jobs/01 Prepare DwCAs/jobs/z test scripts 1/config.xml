@@ -61,7 +61,8 @@
 
 #php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
-###works OK: php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;10088_6943_ENV&quot;, &quot;zenodo_id&quot;:&quot;15003278&quot;}&apos;
+###works OK: 
+php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;20_ENV_final&quot;, &quot;zenodo_id&quot;:&quot;14889857&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

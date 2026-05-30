@@ -47,9 +47,7 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;SIcontrib2Botany_
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;SIcontrib2Botany_taxaFixed-with-hC_neo4j_1_eolID&quot;}&apos; # gen SIcontrib2Botany_taxaFixed_finale
-
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;SIcontrib2Botany_taxaFixed_finale&quot;}&apos;
-
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
 cp SIcontrib2Botany_taxaFixed_finale.tar.gz SIcontrib2Botany_TraitBank_1_0.tar.gz

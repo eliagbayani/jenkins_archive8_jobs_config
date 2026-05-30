@@ -41,14 +41,14 @@ exit 0
 
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb-with-hC_neo4j_1_eolID&quot;}&apos; # gen AmphibiaWeb_final
-
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb-with-hC_neo4j_1_eolID&quot;}&apos; # gen AmphibiaWeb_finale
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp AmphibiaWeb_final.tar.gz AmphibiaWeb_TraitBank_1_0.tar.gz
-ls -lt AmphibiaWeb_final.tar.gz
+cp AmphibiaWeb_finale.tar.gz AmphibiaWeb_TraitBank_1_0.tar.gz
+ls -lt AmphibiaWeb_finale.tar.gz
 ls -lt AmphibiaWeb_TraitBank_1_0.tar.gz
-rm -f AmphibiaWeb_final.tar.gz
+rm -f AmphibiaWeb_finale.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

@@ -44,6 +44,8 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_fin
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1_eolID&quot;}&apos; # gen TreatmentBank_final_finale
 
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final_finale&quot;}&apos;
+
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
 cp TreatmentBank_final_finale.tar.gz TreatmentBank_TraitBank_1_0.tar.gz
@@ -56,16 +58,6 @@ rm -f TreatmentBank_final_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>003_Global_Biotic_Interactions_OK</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

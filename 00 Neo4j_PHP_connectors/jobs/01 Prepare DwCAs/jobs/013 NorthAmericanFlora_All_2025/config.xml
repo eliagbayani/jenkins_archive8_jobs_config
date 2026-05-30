@@ -44,9 +44,7 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlor
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed-with-hC_neo4j_1_eolID&quot;}&apos; # gen NorthAmericanFlora_All_2025_taxaFixed_finale
-
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed_finale&quot;}&apos;
-
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
 cp NorthAmericanFlora_All_2025_taxaFixed_finale.tar.gz NorthAmericanFlora_All_2025_TraitBank_1_0.tar.gz
