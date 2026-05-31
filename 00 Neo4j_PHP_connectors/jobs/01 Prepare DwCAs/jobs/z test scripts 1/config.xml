@@ -57,12 +57,12 @@
 
 #php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase&quot;}&apos; #fishbase.tar.g
 #php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae_TraitBank_1_0&quot;}&apos;
-#php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_TraitBank_1_0&quot;}&apos;
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_TraitBank_1_0&quot;}&apos;
 
 #php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
 ###works OK: 
-php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;20_ENV_final&quot;, &quot;zenodo_id&quot;:&quot;14889857&quot;}&apos;
+#php update_Zenodo_record_using_EOL_resourceID_directly.php _ &apos;{&quot;resource_id&quot;:&quot;20_ENV_final&quot;, &quot;zenodo_id&quot;:&quot;14889857&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

@@ -23,12 +23,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;lift the exit 0 line...&quot;
-exit 0
+      <command># first run: May 31, 2026
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
-# source is: WoRMS_TraitBank_1_0.tar.gz
-php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R533&quot;}&apos; #worms
+# source is: FungiEcomorphological_TraitBank_1_0.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;FungiEcomorphological_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R1213&quot;}&apos; #fun_ecomorpholog
 # generates CSV files for import to Neo4j
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
