@@ -28,18 +28,19 @@
 ### OK 0of4: This will add a &apos;genus&apos; column in taxa extension. This is an adjustment for MoftheAES_resources.tar.gz
 ### source is: NorthAmericanFlora_All_2025.tar.gz
 ### generates: NorthAmericanFlora_All_2025_taxaFixed.tar.gz
-php dwca_update_taxa.php _ &apos;{&quot;source_dwca&quot;: &quot;NorthAmericanFlora_All_2025&quot;, &quot;resource_id&quot;:&quot;NorthAmericanFlora_All_2025_taxaFixed&quot;, &quot;resource&quot;:&quot;update_taxa&quot;}&apos;
+#php dwca_update_taxa.php _ &apos;{&quot;source_dwca&quot;: &quot;NorthAmericanFlora_All_2025&quot;, &quot;resource_id&quot;:&quot;NorthAmericanFlora_All_2025_taxaFixed&quot;, &quot;resource&quot;:&quot;update_taxa&quot;}&apos;
 
 ### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: MoftheAES_resources_taxaFixed.tar.gz
 ### generates FILENAME-with-hC.tar.gz
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
 ### OK 2of4: This use gnparser one name at a time. Not entire file.
 php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### OK 3of4: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+exit 0
 
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid

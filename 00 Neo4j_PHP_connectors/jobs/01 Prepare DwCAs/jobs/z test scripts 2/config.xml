@@ -57,15 +57,16 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;old&quot;}&apos; #OK gen +_eolID
 #php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;}&apos;
+#php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;}&apos;
 
 # rename
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp WoRMS_finale.tar.gz WoRMS_TraitBank_1_0.tar.gz
-ls -lt WoRMS_finale.tar.gz
-ls -lt WoRMS_TraitBank_1_0.tar.gz
-rm -f WoRMS_finale.tar.gz
+#cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+#cp WoRMS_finale.tar.gz WoRMS_TraitBank_1_0.tar.gz
+#ls -lt WoRMS_finale.tar.gz
+#ls -lt WoRMS_TraitBank_1_0.tar.gz
+#rm -f WoRMS_finale.tar.gz
 
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

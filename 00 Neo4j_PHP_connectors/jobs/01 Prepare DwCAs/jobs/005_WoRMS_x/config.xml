@@ -24,8 +24,8 @@
   <builders>
     <hudson.tasks.Shell>
       <command># OK
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp WoRMS.tar.gz WoRMS.bak2.tar.gz
+###cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+###cp WoRMS.tar.gz WoRMS.bak2.tar.gz
 # to backup WoRMS.tar.gz
 
 cd /var/www/html/eol_php8_code/update_resources/connectors
@@ -38,29 +38,30 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #      This will also remove MoF children /terms/locality where value is not URI.
 # source is WoRMS.tar.gz
 # generates WoRMS_cleaned.tar.gz
-php remove_MoF_for_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;resource&quot;: &quot;remove_MoF_for_taxonID&quot;, &quot;resource_name&quot;: &quot;&quot;}&apos; #OK
+###php remove_MoF_for_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;resource&quot;: &quot;remove_MoF_for_taxonID&quot;, &quot;resource_name&quot;: &quot;&quot;}&apos; #OK
 
 # OK2: It is what it is: bring back WoRMS.tar.gz
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp WoRMS_cleaned.tar.gz WoRMS.tar.gz
-ls -lt WoRMS_cleaned.tar.gz
-ls -lt WoRMS.tar.gz
-rm -f WoRMS_cleaned.tar.gz
-cd /var/www/html/eol_php8_code/update_resources/connectors
+###cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+###cp WoRMS_cleaned.tar.gz WoRMS.tar.gz
+###ls -lt WoRMS_cleaned.tar.gz
+###ls -lt WoRMS.tar.gz
+###rm -f WoRMS_cleaned.tar.gz
+###cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # OK3: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 #      No parentID but has ancestry, though limited still.
 # generates WoRMS-with-hC.tar.gz
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 # OK4: This use gnparser one name at a time. Not entire file.
 # generates WoRMS-with-hC_neo4j_1.tar.gz
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
 
 # OK5: Start matching taxa
 # generates WoRMS-with-hC_neo4j_2.tar.gz
 # Here is version for Zenodo. Next versions are for importing to Neo4j.
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+exit 0
 
 # OK6: Convert taxon.tab, use EOLid value for taxonID.
 #      REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid

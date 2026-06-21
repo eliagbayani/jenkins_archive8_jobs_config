@@ -29,7 +29,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # OK1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 #      No parentID but has ancestry, though limited still.
 # generates MAD_traits-with-hC.tar.gz
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
 # OK2: This use gnparser one name at a time. Not entire file.
 # generates MAD_traits-with-hC_neo4j_1.tar.gz
@@ -39,6 +39,7 @@ php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits-wit
 # generates MAD_traits-with-hC_neo4j_1_eolID.tar.gz
 # Here is version for Zenodo. Next versions are for importing to Neo4j.
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+exit 0
 
 # OK4: Convert taxon.tab, use EOLid value for taxonID.
 #      REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid

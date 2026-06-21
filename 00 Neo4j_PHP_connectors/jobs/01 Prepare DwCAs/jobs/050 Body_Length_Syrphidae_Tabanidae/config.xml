@@ -32,10 +32,11 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
 ### OK 2of4: This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### OK 3of4: Start matching taxa
-#php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+exit 0
 
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid

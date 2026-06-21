@@ -28,7 +28,7 @@
 # OK 1: This will add higherClassification in taxon.tab. And rebuild the DwCA.
 # globi_assoc has parentNameUsageID field but doesn&apos;t have any values, it&apos;s blank. So we use ancestry to compute for hC
 # source is: globi_assoc.tar.gz
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 # generates FILENAME-with-hC.tar.gz
 
 # OK 2: This use gnparser one name at a time. Not entire file.
@@ -36,6 +36,7 @@ php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-wi
 
 # OK 3: Start matching taxa:
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+exit 0
 
 # OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
@@ -51,20 +52,11 @@ cp globi_assoc_finale.tar.gz GloBI_TraitBank_1_0.tar.gz
 ls -lt globi_assoc_finale.tar.gz
 ls -lt GloBI_TraitBank_1_0.tar.gz
 rm -f globi_assoc_finale.tar.gz
-</command>
+
+#build other projects: [004_Wikipedia_traits_OK]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>004_Wikipedia_traits_OK</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
