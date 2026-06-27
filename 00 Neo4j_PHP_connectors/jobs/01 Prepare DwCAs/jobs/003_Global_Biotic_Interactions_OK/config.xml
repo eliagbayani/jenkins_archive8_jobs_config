@@ -32,7 +32,7 @@
 # generates FILENAME-with-hC.tar.gz
 
 # OK 2: This use gnparser one name at a time. Not entire file.
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_1
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_1
 
 # OK 3: Start matching taxa:
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID

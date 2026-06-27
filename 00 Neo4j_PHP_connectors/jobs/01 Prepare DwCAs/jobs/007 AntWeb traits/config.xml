@@ -55,20 +55,11 @@ cp AntWeb_textmined_finale.tar.gz AntWeb_textmined_TraitBank_1_0.tar.gz
 ls -lt AntWeb_textmined_finale.tar.gz
 ls -lt AntWeb_textmined_TraitBank_1_0.tar.gz
 rm -f AntWeb_textmined_finale.tar.gz
-</command>
+
+### build other projects: [008 (0022) ADW Traits]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>008 (0022) ADW Traits</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

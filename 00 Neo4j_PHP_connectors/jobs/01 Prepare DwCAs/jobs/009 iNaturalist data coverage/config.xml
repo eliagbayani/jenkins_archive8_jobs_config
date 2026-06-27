@@ -50,20 +50,11 @@ cp iNat_finale.tar.gz iNat_TraitBank_1_0.tar.gz
 ls -lt iNat_finale.tar.gz
 ls -lt iNat_TraitBank_1_0.tar.gz
 rm -f iNat_finale.tar.gz
-</command>
+
+### build other projects: [010 FishBase]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>010 FishBase</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

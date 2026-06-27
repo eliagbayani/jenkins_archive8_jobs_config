@@ -53,20 +53,11 @@ cp AnimalDiversityWeb_finale.tar.gz AnimalDiversityWeb_TraitBank_1_0.tar.gz
 ls -lt AnimalDiversityWeb_finale.tar.gz
 ls -lt AnimalDiversityWeb_TraitBank_1_0.tar.gz
 rm -f AnimalDiversityWeb_finale.tar.gz
-</command>
+
+### build other projects: [009 iNaturalist data coverage]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>009 iNaturalist data coverage</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

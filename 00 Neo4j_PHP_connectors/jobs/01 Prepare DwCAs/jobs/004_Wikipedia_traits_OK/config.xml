@@ -53,20 +53,10 @@ ls -lt wikipedia_en_traits_finale.tar.gz
 ls -lt Wikipedia_TraitBank_1_0.tar.gz
 rm -f wikipedia_en_traits_finale.tar.gz
 
-</command>
+### build other projects: [006 MADtraits]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>006 MADtraits</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
