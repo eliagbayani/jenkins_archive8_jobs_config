@@ -33,7 +33,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # OK2: This use gnparser one name at a time. Not entire file.
 # generates AntWeb_textmined-with-hC_neo4j_1.tar.gz
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC&quot;}&apos; #gen neo4j_1
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC&quot;}&apos; #gen neo4j_1
 
 # OK3: Start matching taxa
 ###OBSOLETE: php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;old&quot;}&apos; #OK gen +_eolID

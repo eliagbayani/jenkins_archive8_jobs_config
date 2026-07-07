@@ -35,7 +35,7 @@
 #php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 ### OK 2: This use gnparser one name at a time. Not entire file.
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; #OK gen neo4j_1
+#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### OK 3: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID

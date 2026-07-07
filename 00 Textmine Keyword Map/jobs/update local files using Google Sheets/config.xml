@@ -21,12 +21,11 @@
   <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
   <triggers>
     <hudson.triggers.TimerTrigger>
-      <spec># Once a day
-#H H * 1-12 *
+      <spec># Every  hour
+#H * * * *
 
-# Every  hour
-H * * * *
-</spec>
+# Once a day
+H H * 1-12 *</spec>
     </hudson.triggers.TimerTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
@@ -34,7 +33,10 @@ H * * * *
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-php update_local_textmining_strings.php 
+php update_local_withGoogleSheet.php _ &apos;{&quot;google_sheet&quot;: &quot;mapped_strings&quot;}&apos;
+php update_local_withGoogleSheet.php _ &apos;{&quot;google_sheet&quot;: &quot;AncestryIndex_new&quot;}&apos;
+php update_local_withGoogleSheet.php _ &apos;{&quot;google_sheet&quot;: &quot;AncestryIndex_compatibleAncestors&quot;}&apos;
+
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

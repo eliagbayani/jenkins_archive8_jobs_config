@@ -28,11 +28,11 @@
 # OK 1: This will add higherClassification in taxon.tab. And rebuild the DwCA.
 # globi_assoc has parentNameUsageID field but doesn&apos;t have any values, it&apos;s blank. So we use ancestry to compute for hC
 # source is: globi_assoc.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 # generates FILENAME-with-hC.tar.gz
 
 # OK 2: This use gnparser one name at a time. Not entire file.
-###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC&quot;}&apos; #OK gen neo4j_1
 
 # OK 3: Start matching taxa:
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID

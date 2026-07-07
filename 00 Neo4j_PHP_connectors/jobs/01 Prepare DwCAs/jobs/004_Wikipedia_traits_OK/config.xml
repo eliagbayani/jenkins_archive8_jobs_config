@@ -31,7 +31,7 @@
 ###OK1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: wikipedia_en_traits.tar.gz
 ### generates FILENAME-with-hC.tar.gz
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
 
 ###OK2: This use gnparser one name at a time. Not entire file.
 php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC&quot;}&apos; #OK gen neo4j_1

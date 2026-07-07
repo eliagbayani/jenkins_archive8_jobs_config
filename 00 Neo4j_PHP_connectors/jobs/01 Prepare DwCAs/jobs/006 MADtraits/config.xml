@@ -29,7 +29,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # OK1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 #      No parentID but has ancestry, though limited still.
 # generates MAD_traits-with-hC.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
 # OK2: This use gnparser one name at a time. Not entire file.
 # generates MAD_traits-with-hC_neo4j_1.tar.gz
