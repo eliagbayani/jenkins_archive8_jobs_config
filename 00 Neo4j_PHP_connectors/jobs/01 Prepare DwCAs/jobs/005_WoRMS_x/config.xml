@@ -51,11 +51,11 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # OK3: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 #      No parentID but has ancestry, though limited still.
 # generates WoRMS-with-hC.tar.gz
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
 
 # OK4: This use gnparser one name at a time. Not entire file.
 # generates WoRMS-with-hC_neo4j_1.tar.gz
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC&quot;}&apos; #gen neo4j_1
 
 # OK5: Start matching taxa
 # generates WoRMS-with-hC_neo4j_2.tar.gz
