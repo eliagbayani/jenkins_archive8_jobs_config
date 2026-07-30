@@ -32,19 +32,20 @@
 #OK 1
 #source is WoRMS2EoL.zip (from WoRMS)
 #generates 26.tar.gz
-###php 26.php jenkins
+php 26.php jenkins
+exit 0
 
 #OK 2
 #source is 26.tar.gz
 #generates 26_meta_recoded_1.tar.gz
-###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 
 #OK 3
 #source is 26_meta_recoded_1.tar.gz
 #generates 26_meta_recoded.tar.gz
 #integrity-check 1 OK: All taxonID(s) in OCCURRENCE.tab have TAXON entries.
 #Importantly, if lifeStage or sex is a child row in MoF. These will be moved as col in Occurrence.
-###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 
 #OK 4
 #source is 26_meta_recoded.tar.gz
