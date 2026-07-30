@@ -49,7 +49,8 @@
 #OK 4
 #source is 26_meta_recoded.tar.gz
 #generates 26_ENV.tar.gz
-###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
+php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
+exit 0
 
 #OBSOLETE OK 4.2: Special utility for WoRMS: removes all non-textmined MoF entries; from original WoRMS resource.
 #source is 26_ENV.tar.gz
@@ -112,21 +113,11 @@ rm -f 26_MoF_normalized_2.tar.gz
 ###php ckan_api_access.php jenkins &quot;a74bcc92-d2a2-4a7b-b18f-b5fd2e3a5b5c&quot;
 
 ###Build other projects:
-###/00 Neo4j_PHP_connectors/01 Prepare DwCAs/06_WoRMS_x
+###/00 Neo4j_PHP_connectors/01 Prepare DwCAs/005_WoRMS_x
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>/00 Neo4j_PHP_connectors/01 Prepare DwCAs/005_WoRMS_x</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
