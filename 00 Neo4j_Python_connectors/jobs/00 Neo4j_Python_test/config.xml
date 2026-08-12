@@ -29,8 +29,8 @@ ls -lt
 
 cd /usr/src/app
 #python3 -V
-#python3 test1.py
-#python3 test2.py
+python3 test1.py
+python3 test2.py
 python3 test_combined.py
 
 #ping localhost:7474

@@ -33,9 +33,9 @@ H H * 1-12 *</spec>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-php update_local_withGoogleSheet.php _ &apos;{&quot;google_sheet&quot;: &quot;mapped_strings&quot;}&apos;
-php update_local_withGoogleSheet.php _ &apos;{&quot;google_sheet&quot;: &quot;AncestryIndex_new&quot;}&apos;
-php update_local_withGoogleSheet.php _ &apos;{&quot;google_sheet&quot;: &quot;AncestryIndex_compatibleAncestors&quot;}&apos;
+php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;mapped_strings&quot;}&apos;
+php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;AncestryIndex_new&quot;}&apos;
+php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;AncestryIndex_compatibleAncestors&quot;}&apos;
 
 </command>
       <configuredLocalRules/>

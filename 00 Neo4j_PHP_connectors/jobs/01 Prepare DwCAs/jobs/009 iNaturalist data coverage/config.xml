@@ -38,7 +38,6 @@ php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;iNat-with-hC&q
 
 ### OK 3of4: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;iNat-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
-exit 0
 
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
@@ -55,6 +54,16 @@ rm -f iNat_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>010 FishBase</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

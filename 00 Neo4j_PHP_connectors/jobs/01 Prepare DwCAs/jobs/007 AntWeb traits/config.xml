@@ -29,11 +29,11 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # OK1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 #      No parentID but has ancestry, though limited still.
 # generates AntWeb_textmined-with-hC.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
 # OK2: This use gnparser one name at a time. Not entire file.
 # generates AntWeb_textmined-with-hC_neo4j_1.tar.gz
-###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC&quot;}&apos; #gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC&quot;}&apos; #gen neo4j_1
 
 # OK3: Start matching taxa
 ###OBSOLETE: php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;old&quot;}&apos; #OK gen +_eolID
@@ -41,7 +41,6 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # generates AntWeb_textmined-with-hC_neo4j_1_eolID.tar.gz
 # Here is version for Zenodo. Next versions are for importing to Neo4j.
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
-exit 0
 
 # OK4: Convert taxon.tab, use EOLid value for taxonID.
 #      REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
@@ -50,16 +49,26 @@ exit 0
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined-with-hC_neo4j_1_eolID&quot;}&apos; # gen AntWeb_textmined_finale
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined_finale&quot;}&apos;
 # rename
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cd /var/www/html/eol_php8_code/applications/content_server/resources
 cp AntWeb_textmined_finale.tar.gz AntWeb_textmined_TraitBank_1_0.tar.gz
 ls -lt AntWeb_textmined_finale.tar.gz
 ls -lt AntWeb_textmined_TraitBank_1_0.tar.gz
 rm -f AntWeb_textmined_finale.tar.gz
 
-### build other projects: [008 (0022) ADW Traits]</command>
+### build other projects: [008 (0022) AnimalDiversityWeb Traits]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>008 (0022) AnimalDiversityWeb Traits</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

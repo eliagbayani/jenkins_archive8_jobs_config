@@ -32,26 +32,24 @@
 #OK 1
 #source is WoRMS2EoL.zip (from WoRMS)
 #generates 26.tar.gz
-php 26.php jenkins
-exit 0
+###php 26.php jenkins
 
 #OK 2
 #source is 26.tar.gz
 #generates 26_meta_recoded_1.tar.gz
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded_1&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 
 #OK 3
 #source is 26_meta_recoded_1.tar.gz
 #generates 26_meta_recoded.tar.gz
 #integrity-check 1 OK: All taxonID(s) in OCCURRENCE.tab have TAXON entries.
 #Importantly, if lifeStage or sex is a child row in MoF. These will be moved as col in Occurrence.
-php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
 
 #OK 4
 #source is 26_meta_recoded.tar.gz
 #generates 26_ENV.tar.gz
-php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
-exit 0
+###php environments_2_eol.php jenkins &apos;{&quot;task&quot;: &quot;generate_eol_tags_pensoft&quot;, &quot;resource&quot;:&quot;World Register of Marine Species&quot;, &quot;resource_id&quot;:&quot;26&quot;, &quot;subjects&quot;:&quot;Habitat|Distribution&quot;}&apos;
 
 #OBSOLETE OK 4.2: Special utility for WoRMS: removes all non-textmined MoF entries; from original WoRMS resource.
 #source is 26_ENV.tar.gz
@@ -59,31 +57,31 @@ exit 0
 ### php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_2&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa&quot;}&apos;
 
 #OK 4.2: We don&apos;t remove non-textmined MoF anymore
-###cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-###cp 26_ENV.tar.gz 26_ENV_2.tar.gz
-###cd /var/www/html/eol_php8_code/update_resources/connectors
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 26_ENV.tar.gz 26_ENV_2.tar.gz
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
 #OK 4.3: Special utility for WoRMS: remove_MoF_without_taxa.
 #source is 26_ENV_2.tar.gz
 #generates 26_ENV_3.tar.gz
-###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_3&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa_REAL&quot;}&apos;
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_3&quot;, &quot;task&quot;: &quot;remove_MoF_without_taxa_REAL&quot;}&apos;
 
 #OK 5
 #source is 26_ENV.tar.gz OLD
 #source is 26_ENV_2.tar.gz OLD
 #source is 26_ENV_3.tar.gz OLD
 #generates 26_ENV_final.tar.gz
-###php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
+php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;26_ENV_final&quot;, &quot;task&quot;: &quot;change_measurementIDs&quot;}&apos;
 
 #OK 6
 #source is 26_ENV_final.tar.gz
 #generates 26_delta.tar.gz
-###php make_hash_IDs_4Deltas.php jenkins &apos;{&quot;task&quot;: &quot;&quot;, &quot;resource&quot;:&quot;Deltas_4hashing&quot;, &quot;resource_id&quot;:&quot;26_ENV_final&quot;}&apos;
+php make_hash_IDs_4Deltas.php jenkins &apos;{&quot;task&quot;: &quot;&quot;, &quot;resource&quot;:&quot;Deltas_4hashing&quot;, &quot;resource_id&quot;:&quot;26_ENV_final&quot;}&apos;
 
 #OK 7: The 2nd filter. MoF habitat values that are descendants of both marine and terrestrial
 #source is 26_delta.tar.gz
 #generates: 26_delta_new.tar.gz
-###php rem_marine_terr_desc.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta&quot;}&apos;
+php rem_marine_terr_desc.php jenkins &apos;{&quot;resource_id&quot;:&quot;26_delta&quot;}&apos;
 
 #OK 8: remove the orphan child records in MoF
 #source is 26_delta_new.tar.gz
@@ -98,11 +96,12 @@ php clade_filters_4_habitats.php jenkins &apos;{&quot;resource_id&quot;:&quot;26
 # -------------------&gt; total 9 php files to run
 
 #LAST STEP: copy last transactional DwCA to WoRMS.tar.gz OK
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cd /var/www/html/eol_php8_code/applications/content_server/resources
 cp 26_MoF_normalized_2.tar.gz WoRMS.tar.gz
 ls -lt 26_MoF_normalized_2.tar.gz
 ls -lt WoRMS.tar.gz
-rm -f 26_MoF_normalized_2.tar.gz
+###rm -f 26_MoF_normalized_2.tar.gz
+### final decision is not to delete this file anymore: 26_MoF_normalized_2.tar.gz. So we can easily revert back to its prev. version.
 
 # WoRMS.tar.gz is the file uploaded to Zenodo
 # Better solution: works OK as of Nov 2025
@@ -119,6 +118,16 @@ rm -f 26_MoF_normalized_2.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>/00 Neo4j_PHP_connectors/01 Prepare DwCAs/005_WoRMS_x</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

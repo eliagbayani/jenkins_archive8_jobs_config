@@ -39,7 +39,6 @@ php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversit
 # generates AnimalDiversityWeb-with-hC_neo4j_1_eolID.tar.gz
 # Here is version for Zenodo. Next versions are for importing to Neo4j.
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
-exit 0
 
 # OK4: Convert taxon.tab, use EOLid value for taxonID.
 #      REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid
@@ -48,7 +47,7 @@ exit 0
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb-with-hC_neo4j_1_eolID&quot;}&apos; # gen AnimalDiversityWeb_finale
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;AnimalDiversityWeb_finale&quot;}&apos;
 # rename
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cd /var/www/html/eol_php8_code/applications/content_server/resources
 cp AnimalDiversityWeb_finale.tar.gz AnimalDiversityWeb_TraitBank_1_0.tar.gz
 ls -lt AnimalDiversityWeb_finale.tar.gz
 ls -lt AnimalDiversityWeb_TraitBank_1_0.tar.gz
@@ -58,6 +57,16 @@ rm -f AnimalDiversityWeb_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>009 iNaturalist data coverage</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

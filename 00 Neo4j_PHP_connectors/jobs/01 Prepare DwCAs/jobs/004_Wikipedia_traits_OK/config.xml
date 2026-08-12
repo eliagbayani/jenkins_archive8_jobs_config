@@ -31,14 +31,13 @@
 ###OK1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: wikipedia_en_traits.tar.gz
 ### generates FILENAME-with-hC.tar.gz
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
 
 ###OK2: This use gnparser one name at a time. Not entire file.
-#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ###OK3: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
-exit 0
 
 ###OK4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
@@ -47,7 +46,7 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_e
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_finale&quot;}&apos;
 
 ### rename
-cd /var/www/html/eol_php8_code/applications/content_server/resources_3
+cd /var/www/html/eol_php8_code/applications/content_server/resources
 cp wikipedia_en_traits_finale.tar.gz Wikipedia_TraitBank_1_0.tar.gz
 ls -lt wikipedia_en_traits_finale.tar.gz
 ls -lt Wikipedia_TraitBank_1_0.tar.gz
@@ -57,6 +56,16 @@ rm -f wikipedia_en_traits_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>006 MADtraits</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>
