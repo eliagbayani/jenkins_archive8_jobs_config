@@ -50,7 +50,8 @@ cp TrophicGuildDataForFungi_finale.tar.gz TrophicGuildDataForFungi_TraitBank_1_0
 ls -lt TrophicGuildDataForFungi_finale.tar.gz
 ls -lt TrophicGuildDataForFungi_TraitBank_1_0.tar.gz
 rm -f TrophicGuildDataForFungi_finale.tar.gz
-</command>
+
+elix</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
