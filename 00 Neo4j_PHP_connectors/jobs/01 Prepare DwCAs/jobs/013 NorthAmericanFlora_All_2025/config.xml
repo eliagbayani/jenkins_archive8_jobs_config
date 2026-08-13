@@ -31,7 +31,7 @@
 php dwca_update_taxa.php _ &apos;{&quot;source_dwca&quot;: &quot;NorthAmericanFlora_All_2025&quot;, &quot;resource_id&quot;:&quot;NorthAmericanFlora_All_2025_taxaFixed&quot;, &quot;resource&quot;:&quot;update_taxa&quot;}&apos;
 
 ### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-### source is: MoftheAES_resources_taxaFixed.tar.gz
+### source is: NorthAmericanFlora_All_2025_taxaFixed.tar.gz
 ### generates FILENAME-with-hC.tar.gz
 php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
@@ -55,16 +55,6 @@ rm -f NorthAmericanFlora_All_2025_taxaFixed_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>014 Smithsonian Contributions to Botany</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

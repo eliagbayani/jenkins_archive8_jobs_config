@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>exit 0
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### JUST A UTILITY. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
 #php gen_higherClass.php #NOT PART OF THE MAIN OPERATION
