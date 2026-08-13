@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command># first run: Apr 6, 2026
+      <command>exit 0
+# first run: Apr 6, 2026
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # OK1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.

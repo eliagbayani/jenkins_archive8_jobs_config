@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command># first run: Aug xx, 2026
+      <command>exit 0
+# first run: Aug 13, 2026
 # orig from Zenodo: 1736872256.tar.gz
 # renamed to: TrophicGuildDataForFungi.tar.gz
 
@@ -50,8 +51,7 @@ cp TrophicGuildDataForFungi_finale.tar.gz TrophicGuildDataForFungi_TraitBank_1_0
 ls -lt TrophicGuildDataForFungi_finale.tar.gz
 ls -lt TrophicGuildDataForFungi_TraitBank_1_0.tar.gz
 rm -f TrophicGuildDataForFungi_finale.tar.gz
-
-elix</command>
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

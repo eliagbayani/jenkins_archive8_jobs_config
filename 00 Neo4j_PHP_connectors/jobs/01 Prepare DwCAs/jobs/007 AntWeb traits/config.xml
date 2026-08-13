@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command># first run: Apr 9, 2026
+      <command>exit 0
+# first run: Apr 9, 2026
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # OK1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
@@ -59,16 +60,6 @@ rm -f AntWeb_textmined_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>008 (0022) AnimalDiversityWeb Traits</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
