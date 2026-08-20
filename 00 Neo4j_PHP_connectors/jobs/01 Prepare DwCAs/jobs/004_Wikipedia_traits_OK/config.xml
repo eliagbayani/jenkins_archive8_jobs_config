@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>exit 0
+cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### JUST A UTILITY. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
 #php gen_higherClass.php
@@ -43,14 +44,14 @@ php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_trai
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits-with-hC_neo4j_1_eolID&quot;}&apos; # gen wikipedia_en_traits_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_finale&quot;}&apos;
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_finale&quot;}&apos; #generate *_analyzed.tar.gz
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp wikipedia_en_traits_finale.tar.gz Wikipedia_TraitBank_1_0.tar.gz
-ls -lt wikipedia_en_traits_finale.tar.gz
+cp wikipedia_en_traits_finale_analyzed.tar.gz Wikipedia_TraitBank_1_0.tar.gz
+ls -lt wikipedia_en_traits_finale_analyzed.tar.gz
 ls -lt Wikipedia_TraitBank_1_0.tar.gz
-rm -f wikipedia_en_traits_finale.tar.gz
+rm -f wikipedia_en_traits_finale_analyzed.tar.gz
 
 ### build other projects: [006 MADtraits]</command>
       <configuredLocalRules/>

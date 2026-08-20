@@ -23,7 +23,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>exit 0
+      <command>#exit 0
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # JUST A UTILITY. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process. Not part of operation.
@@ -67,14 +67,15 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # generates WoRMS_final.tar.gz
 ###php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_1_eolID&quot;}&apos; # gen WoRMS_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;}&apos;
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;}&apos; # gen WoRMS_finale_analyzed
+exit 0
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp WoRMS_finale.tar.gz WoRMS_TraitBank_1_0.tar.gz
-ls -lt WoRMS_finale.tar.gz
+cp WoRMS_finale_analyzed.tar.gz WoRMS_TraitBank_1_0.tar.gz
+ls -lt WoRMS_finale_analyzed.tar.gz
 ls -lt WoRMS_TraitBank_1_0.tar.gz
-rm -f WoRMS_finale.tar.gz
+rm -f WoRMS_finale_analyzed.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

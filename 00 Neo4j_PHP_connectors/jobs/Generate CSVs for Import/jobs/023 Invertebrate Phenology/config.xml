@@ -23,11 +23,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command># first run: May 31, 2026
+      <command># first run: Aug 18, 2026
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
-# source is: FungiEcomorphological_TraitBank_1_0.tar.gz
-php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;FungiEcomorphological_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R1213&quot;}&apos; #fun_ecomorpholog
+# source is: InvertebratePhenology_TraitBank_1_0.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;InvertebratePhenology_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R1214&quot;}&apos; #invertebrate_phe
 # generates CSV files for import to Neo4j
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
@@ -38,7 +38,7 @@ php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;FungiEcom
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>020 Body_Length_Syrphidae_Tabanidae</childProjects>
+      <childProjects>024 Habitat data for Fungi</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

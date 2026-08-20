@@ -23,9 +23,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;lift the exit 0 line...&quot;
-exit 0
-cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # source is: WoRMS_TraitBank_1_0.tar.gz
 php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R533&quot;}&apos; #worms
@@ -37,6 +35,16 @@ php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_Tra
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>006 MADtraits</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

@@ -23,11 +23,11 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command># first run: May 15, 2026
+      <command># first run: Aug 19, 2026
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
-# source is: BLength_Syrphidae_Tabanidae_TraitBank_1_0.tar.gz
-php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae_TraitBank_1_0&quot;, &quot;eol_resource_id&quot;: &quot;R1193&quot;}&apos; #bldnas
+# source is: filename.tar.gz
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;filename&quot;, &quot;eol_resource_id&quot;: &quot;Rxxx&quot;}&apos; #xxx
 # generates CSV files for import to Neo4j
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
