@@ -1,0 +1,60 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command># first run: Aug xx, 2026
+# https://zenodo.org/records/13795618
+# GBIF.tar.gz - from Zenodo
+
+cd /var/www/html/eol_php8_code/update_resources/connectors
+### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
+### source is: FILENAME_taxaFixed.tar.gz
+### generates FILENAME-with-hC.tar.gz
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
+
+### OK 2of4: This use gnparser one name at a time. Not entire file.
+#php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF-with-hC&quot;}&apos; #OK gen neo4j_1
+
+### OK 3of4: Start matching taxa
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+
+### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
+### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF-with-hC_neo4j_1_eolID&quot;}&apos; # gen GBIF_finale
+
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF_finale&quot;}&apos; #gen GBIF_finale_analyzed
+
+### rename
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp GBIF_finale_analyzed.tar.gz GBIF_TraitBank_1_0.tar.gz
+ls -lt GBIF_finale_analyzed.tar.gz
+ls -lt GBIF_TraitBank_1_0.tar.gz
+rm -f GBIF_finale_analyzed.tar.gz
+#build other projects: [016 Zoosystematics and Evolution (834)]</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
