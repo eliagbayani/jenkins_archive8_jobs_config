@@ -31,7 +31,8 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 ### OK 0of4: This will add a &apos;genus&apos; column in taxa extension. This is an adjustment for OBISenvDataRecords.tar.gz
 ### source is: OBISenvDataRecords.tar.gz
 ### generates: OBISenvDataRecords_taxaFixed.tar.gz
-#php dwca_update_taxa.php _ &apos;{&quot;source_dwca&quot;: &quot;OBISenvDataRecords&quot;, &quot;resource_id&quot;:&quot;OBISenvDataRecords_taxaFixed&quot;, &quot;resource&quot;:&quot;update_taxa&quot;}&apos;
+php dwca_update_taxa.php _ &apos;{&quot;source_dwca&quot;: &quot;OBISenvDataRecords&quot;, &quot;resource_id&quot;:&quot;OBISenvDataRecords_taxaFixed&quot;, &quot;resource&quot;:&quot;update_taxa&quot;}&apos;
+exit 0
 
 ### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: FILENAME_taxaFixed.tar.gz
