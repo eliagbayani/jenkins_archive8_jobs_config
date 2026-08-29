@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command># first run: Aug 21, 2026
+      <command>exit 0
+# first run: Aug 21, 2026
 # 201_meta_recoded_2.tar.gz - orig from Zenodo | https://zenodo.org/records/20183510
 # renamed to: HarvardMusCompaZoology.tar.gz
 

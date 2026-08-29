@@ -25,6 +25,7 @@
     <hudson.tasks.Shell>
       <command>exit 0
 # first run: May 20, 2026
+# source: AmphibiaWeb.tar.gz --- used a version from local MacStudio not from Zenodo
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.

@@ -23,7 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command># first run: Aug 21, 2026
+      <command>exit 0
+# first run: Aug 21, 2026
 # usda_plant_traits.tar.gz - orig from Zenodo | https://zenodo.org/records/20646743
 # renamed to: USDAPlantsTraits.tar.gz
 
