@@ -32,13 +32,13 @@ php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;AnAge_Tra
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
 
-</command>
+# build other: [046 FAO Fishery Statistics]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>046 FAO Fishery Statistics</childProjects>
+      <childProjects>000 aggregate CSVs</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

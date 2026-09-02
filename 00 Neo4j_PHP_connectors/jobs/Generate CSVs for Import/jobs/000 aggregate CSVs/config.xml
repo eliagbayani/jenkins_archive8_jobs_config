@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-php aggregate_neo4j_CSVs.php # wipe all and append all datasets
+#php aggregate_neo4j_CSVs.php # wipe all and append all datasets
 #php aggregate_neo4j_CSVs.php _ &apos;{&quot;folder_2_append&quot;: &quot;TRYdbase_TraitBank_1_0_csv&quot;}&apos; # will append a new dataset
 #php aggregate_neo4j_CSVs.php _ &apos;{&quot;folder_2_append&quot;: &quot;USDAPlantsTraits_TraitBank_1_0_csv&quot;}&apos; # will append a new dataset
 #php aggregate_neo4j_CSVs.php _ &apos;{&quot;folder_2_append&quot;: &quot;ShelledAnimalBodyMass_TraitBank_1_0_csv&quot;}&apos; # will append a new dataset
@@ -33,7 +33,7 @@ php aggregate_neo4j_CSVs.php # wipe all and append all datasets
 #php aggregate_neo4j_CSVs.php _ &apos;{&quot;folder_2_append&quot;: &quot;Pantheria_TraitBank_1_0_csv&quot;}&apos; # will append a new dataset
 
 ### AnAge and FishBase have both a vernacular called &quot;Marbled goby&quot;
-#php aggregate_neo4j_CSVs.php _ &apos;{&quot;folder_2_append&quot;: &quot;AnAge_TraitBank_1_0_csv&quot;}&apos; # will append a new dataset
+php aggregate_neo4j_CSVs.php _ &apos;{&quot;folder_2_append&quot;: &quot;AnAge_TraitBank_1_0_csv&quot;}&apos; # will append a new dataset
 #php aggregate_neo4j_CSVs.php _ &apos;{&quot;folder_2_append&quot;: &quot;FishBase_TraitBank_1_0_csv&quot;}&apos; # will append a new dataset
 
 </command>
