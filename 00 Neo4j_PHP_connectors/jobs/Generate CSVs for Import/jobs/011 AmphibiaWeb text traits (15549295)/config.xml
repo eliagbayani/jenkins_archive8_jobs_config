@@ -32,20 +32,10 @@ php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaW
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
 
-</command>
+#build other proj:012 MoftheAES_resources</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>012 MoftheAES_resources</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
