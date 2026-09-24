@@ -24,36 +24,38 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-# source is: archive.zip --- https://zenodo.org/records/13319595
-# renamed to: EuropeanVegetationArchive.tar.gz
+# source is: archive.zip --- https://zenodo.org/records/13316357
+# renamed to: Smith_et_al_2011.tar.gz
 
-#OK 0: Need to fix first, duplicate taxonID in taxa ext., duplicate occurrenceID in occurrences ext.
-php dwca_update_taxa.php _ &apos;{&quot;source_dwca&quot;: &quot;EuropeanVegetationArchive&quot;, &quot;resource_id&quot;:&quot;EVA_taxaFixed&quot;, &quot;resource&quot;:&quot;update_taxa&quot;}&apos;
+#OK 0: case where lifeStage is a col in MoF =&gt; move to a col in occurrence.
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Smith_et_al_2011_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+# source: [Smith_et_al_2011.tar.gz] hard-coded input in resource_utility.php
+# generates: Smith_et_al_2011_meta_recoded.tar.gz.tar.gz
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp EVA_taxaFixed.tar.gz EuropeanVegetation.tar.gz
+cp Smith_et_al_2011_meta_recoded.tar.gz Smith_etal_2011.tar.gz
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;EuropeanVegetation&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Smith_etal_2011&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
 
 #OK 2: This use gnparser one name at a time. Not entire file.
-php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;EuropeanVegetation-with-hC&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Smith_etal_2011-with-hC&quot;}&apos; #OK gen neo4j_1
 
 #OK 3: Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;EuropeanVegetation-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Smith_etal_2011-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
 #OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;EuropeanVegetation-with-hC_neo4j_1_eolID&quot;}&apos; # gen EuropeanVegetation_finale
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Smith_etal_2011-with-hC_neo4j_1_eolID&quot;}&apos; # gen Smith_et_al_2011_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;EuropeanVegetation_finale&quot;}&apos; #gen EuropeanVegetation_finale_analyzed
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Smith_etal_2011_finale&quot;}&apos; #gen Smith_et_al_2011_finale_analyzed
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp EuropeanVegetation_finale_analyzed.tar.gz EuropeanVegetation_TraitBank_1_0.tar.gz
-ls -lt EuropeanVegetation_finale_analyzed.tar.gz
-ls -lt EuropeanVegetation_TraitBank_1_0.tar.gz
-rm -f EuropeanVegetation_finale_analyzed.tar.gz
+cp Smith_etal_2011_finale_analyzed.tar.gz Smith_etal_2011_TraitBank_1_0.tar.gz
+ls -lt Smith_etal_2011_finale_analyzed.tar.gz
+ls -lt Smith_etal_2011_TraitBank_1_0.tar.gz
+rm -f Smith_etal_2011_finale_analyzed.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

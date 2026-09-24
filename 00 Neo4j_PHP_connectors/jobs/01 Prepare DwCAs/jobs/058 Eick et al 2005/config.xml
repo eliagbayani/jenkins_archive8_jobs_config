@@ -23,33 +23,35 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>echo &quot;run for: 1 day 13+ hrs&quot;
-exit 0
-
-cd /var/www/html/eol_php8_code/update_resources/connectors
-# source is: GBIF.tar.gz --- https://zenodo.org/records/13795618
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+# source is: archive.zip --- https://zenodo.org/records/13319469
+# renamed to: Eick_et_al_2005.tar.gz
 
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos;
 
 #OK 2: This use gnparser one name at a time. Not entire file.
-###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF-with-hC&quot;}&apos; #OK gen neo4j_1
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005-with-hC&quot;}&apos; #OK gen neo4j_1
 
 #OK 3: Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
 
 #OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF-with-hC_neo4j_1_eolID&quot;}&apos; # gen GBIF_finale
+###php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005-with-hC_neo4j_1_eolID&quot;}&apos; # gen Eick_et_al_2005_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF_finale&quot;}&apos; #gen GBIF_finale_analyzed
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005&quot;}&apos; # gen Eick_et_al_2005_finale
+# ALERT: steps 1,2,3 were not run. It started in step 4.
+# this is kinda diff approach, since taxon has EOLid already
+
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005_finale&quot;}&apos; #gen Eick_et_al_2005_finale_analyzed
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp GBIF_finale_analyzed.tar.gz GBIF_TraitBank_1_0.tar.gz
-ls -lt GBIF_finale_analyzed.tar.gz
-ls -lt GBIF_TraitBank_1_0.tar.gz
-rm -f GBIF_finale_analyzed.tar.gz
+cp Eick_et_al_2005_finale_analyzed.tar.gz Eick_et_al_2005_TraitBank_1_0.tar.gz
+ls -lt Eick_et_al_2005_finale_analyzed.tar.gz
+ls -lt Eick_et_al_2005_TraitBank_1_0.tar.gz
+rm -f Eick_et_al_2005_finale_analyzed.tar.gz
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
