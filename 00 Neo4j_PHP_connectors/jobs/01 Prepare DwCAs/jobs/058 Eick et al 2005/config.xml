@@ -40,6 +40,8 @@
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 ###php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005-with-hC_neo4j_1_eolID&quot;}&apos; # gen Eick_et_al_2005_finale
 
+# STARTS HERE:
+
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005&quot;}&apos; # gen Eick_et_al_2005_finale
 # ALERT: steps 1,2,3 were not run. It started in step 4.
 # this is kinda diff approach, since taxon has EOLid already

@@ -7,7 +7,7 @@
     <jenkins.model.BuildDiscarderProperty>
       <strategy class="hudson.tasks.LogRotator">
         <daysToKeep>-1</daysToKeep>
-        <numToKeep>5</numToKeep>
+        <numToKeep>10</numToKeep>
         <artifactDaysToKeep>-1</artifactDaysToKeep>
         <artifactNumToKeep>-1</artifactNumToKeep>
         <removeLastBuild>false</removeLastBuild>
@@ -23,7 +23,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>exit 0
+      <command>#exit 0
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### JUST A UTILITY. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
@@ -32,7 +32,8 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: Brazilian_Flora.tar.gz
 # generates FILENAME-with-hC.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_pID&quot;}&apos; #using parentNameUsageID
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, etc. - latest per Katja 1Oct2026
 
 #OK 2: This use gnparser one name at a time. Not entire file.
 ###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC&quot;}&apos; #OK gen neo4j_1
@@ -40,11 +41,12 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #OK 3: Start matching taxa
 # obsolete php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1&quot;}&apos; #OK gen +_eolID
 # OBSOLETE php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;old&quot;}&apos; #OK gen +_eolID OBSOLETE
-###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+exit 0
 
 #OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-###php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1_eolID&quot;}&apos; # gen Brazilian_Flora_finale
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1_eolID&quot;}&apos; # gen Brazilian_Flora_finale
 
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_finale&quot;}&apos;
 
@@ -56,20 +58,11 @@ ls -lt Brazilian_Flora_TraitBank_1_0.tar.gz
 rm -f Brazilian_Flora_finale.tar.gz
 
 #build others: [002_TreatmentBank_OK]
-#              [002_TreatmentBank_OK]</command>
+#              [002_TreatmentBank_OK]
+#004_Wikipedia_traits_OK</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>002_TreatmentBank_OK</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

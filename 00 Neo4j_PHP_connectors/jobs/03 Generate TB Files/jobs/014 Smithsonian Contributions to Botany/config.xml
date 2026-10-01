@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+
+#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;SIcontrib2Botany_TraitBank_1_0&quot;}&apos; #existing SIcontrib2Botany_TraitBank_1_0.tar.gz
+#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb_TraitBank_1_0&quot;}&apos; #existing AmphibiaWeb_TraitBank_1_0.tar.gz
+#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;AnAge_TraitBank_1_0&quot;}&apos; #existing AnAge_TraitBank_1_0.tar.gz
+
+#========================================
+#php generate_csv_new_model.php _ &apos;{&quot;task&quot;: &quot;generate_Zenodo_TraitBank_datasets_inCSV&quot;}&apos; #generates: /TB_files/TraitBank_datasets.csv
+#php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;22776578&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Main:Terms file&quot;}&apos;
+php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; Resource: Biochemistry and Natural Products
+
+
+
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
