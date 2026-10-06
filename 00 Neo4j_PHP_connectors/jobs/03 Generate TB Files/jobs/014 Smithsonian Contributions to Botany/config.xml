@@ -24,17 +24,22 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-
+#========================================
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; Biochemistry and Natural Products
+# 01 Prepare DwCAs
+#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Bioc_and_Natu_Prod_TraitBank_1_0&quot;}&apos;	
+#========================================
 #php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;SIcontrib2Botany_TraitBank_1_0&quot;}&apos; #existing SIcontrib2Botany_TraitBank_1_0.tar.gz
-#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb_TraitBank_1_0&quot;}&apos; #existing AmphibiaWeb_TraitBank_1_0.tar.gz
-#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;AnAge_TraitBank_1_0&quot;}&apos; #existing AnAge_TraitBank_1_0.tar.gz
-
+#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb_TraitBank_1_0&quot;}&apos; 	 #existing AmphibiaWeb_TraitBank_1_0.tar.gz
+#php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;AnAge_TraitBank_1_0&quot;}&apos; 			 #existing AnAge_TraitBank_1_0.tar.gz
 #========================================
 #php generate_csv_new_model.php _ &apos;{&quot;task&quot;: &quot;generate_Zenodo_TraitBank_datasets_inCSV&quot;}&apos; #generates: /TB_files/TraitBank_datasets.csv
+#========================================
 #php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;22776578&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Main:Terms file&quot;}&apos;
-php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; Resource: Biochemistry and Natural Products
-
-
+#========================================
+#php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; Resource: Biochemistry and Natural Products
+#php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23073330&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; Resource: Botany Literature
+#========================================
 
 </command>
       <configuredLocalRules/>

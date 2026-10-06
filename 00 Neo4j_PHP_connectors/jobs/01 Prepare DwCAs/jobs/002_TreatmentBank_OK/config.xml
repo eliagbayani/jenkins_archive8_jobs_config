@@ -39,7 +39,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC&quot;}&apos; #OK gen neo4j_1
 
 ### OK 3: Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
 
 ### OK 4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid

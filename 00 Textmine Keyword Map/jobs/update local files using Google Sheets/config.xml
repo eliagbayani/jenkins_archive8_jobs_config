@@ -25,7 +25,10 @@
 #H * * * *
 
 # Once a day
-H H * 1-12 *</spec>
+#H H * 1-12 *
+
+# Once in every two hours
+H H(0-23)/2 * * *</spec>
     </hudson.triggers.TimerTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
@@ -34,9 +37,13 @@ H H * 1-12 *</spec>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
 php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;mapped_strings&quot;}&apos;
-php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;AncestryIndex_new&quot;}&apos;
-php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;AncestryIndex_compatibleAncestors&quot;}&apos;
+ls -lt /var/www/html/eol_php8_code/applications/content_server/resources/neo4j_tasks//Textmining_Strings_-_mapped_strings.tsv
 
+php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;AncestryIndex_new&quot;}&apos;
+ls -lt /var/www/html/eol_php8_code/applications/content_server/resources/neo4j_tasks//AncestryIndex_new.tsv
+
+php update_local_withGoogleSheet.php _ &apos;{&quot;resource&quot;: &quot;AncestryIndex_compatibleAncestors&quot;}&apos;
+ls -lt /var/www/html/eol_php8_code/applications/content_server/resources/neo4j_tasks//AncestryIndex_compatibleAncestors.tsv
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
