@@ -40,6 +40,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### OK 3: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
+exit 0
 
 ### OK 4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid

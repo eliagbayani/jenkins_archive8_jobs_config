@@ -55,20 +55,11 @@ ls -lt MAD_traits_finale.tar.gz
 ls -lt MAD_traits_TraitBank_1_0.tar.gz
 rm -f MAD_traits_finale.tar.gz
 
-### build other projects: [007 AntWeb traits]</command>
+### build other projects: [007 AntWeb traits]
+### 010 FishBase</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>010 FishBase</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

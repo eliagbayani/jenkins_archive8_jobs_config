@@ -37,6 +37,7 @@ php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-wi
 
 # OK 3: Start matching taxa:
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;globi_assoc-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
+exit 0
 
 # OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs may have the same canonical thus will have the same EOLid

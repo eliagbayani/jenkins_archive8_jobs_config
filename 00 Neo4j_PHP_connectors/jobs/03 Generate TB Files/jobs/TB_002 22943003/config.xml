@@ -25,10 +25,11 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; Biochemistry and Natural Products
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22943003&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; PalmTraits
 #downloads zip file: TB_files/23067562.zip
 #extracts to:        TB_files/23067562_Bioc_and_Natu_Prod/input_files/*.*
 #generates:          23067562_Bioc_and_Natu_Prod.tar.gz
+exit 0
 #======================================== Part 3
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Bioc_and_Natu_Prod_TraitBank_1_0&quot;}&apos;
 exit 0
