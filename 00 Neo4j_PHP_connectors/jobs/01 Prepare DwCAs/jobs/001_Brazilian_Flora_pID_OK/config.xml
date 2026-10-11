@@ -23,7 +23,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#exit 0
+      <command>exit 0
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
 ### JUST A UTILITY. This one you&apos;ll need to edit the PHP file and enter wich taxon file you want to process.
@@ -63,6 +63,16 @@ rm -f Brazilian_Flora_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>002_TreatmentBank_OK</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

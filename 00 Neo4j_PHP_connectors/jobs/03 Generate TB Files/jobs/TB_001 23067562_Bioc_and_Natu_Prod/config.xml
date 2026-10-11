@@ -25,22 +25,24 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; Biochemistry and Natural Products
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; Biochemistry and Natural Products
+exit 0
 #downloads zip file: TB_files/23067562.zip
 #extracts to:        TB_files/23067562_Bioc_and_Natu_Prod/input_files/*.*
 #generates:          23067562_Bioc_and_Natu_Prod.tar.gz
 #======================================== Part 3
-php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Bioc_and_Natu_Prod_TraitBank_1_0&quot;}&apos;
-exit 0
+###php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Bioc_and_Natu_Prod_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
+###exit 0
 #======================================== Part 4 (last step)
-###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; Resource: Biochemistry and Natural Products
+###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #FINALLY generates the CSVs for import
 ###exit 0
 #======================================== Part 2
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23067562_Bioc_and_Natu_Prod.tar.gz
 # generates FILENAME-with-hC.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Bioc_and_Natu_Prod&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Bioc_and_Natu_Prod&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
+exit 0
 # -&gt; using kingdom, phylum, class etc. - latest decision per Katja 1-Oct-2026
 
 #OK 2: This use gnparser one name at a time. Not entire file.
