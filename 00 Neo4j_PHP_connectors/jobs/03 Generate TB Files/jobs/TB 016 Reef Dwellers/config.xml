@@ -1,0 +1,86 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+#======================================== Part 1 23073097_Reef_Dwel
+###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073097&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073097
+###exit 0
+# downloads zip file: TB_files/23073097.zip
+# extracts to:        TB_files/23073097_Reef_Dwel/input_files/*.*
+# generates:          23073097_Reef_Dwel.tar.gz
+
+#======================================== Part 3
+###php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
+###exit 0
+#======================================== Part 4
+###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23073097&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #FINALLY generates the CSVs for import
+###exit 0
+#======================================== Part 5: 02 Generate CSVs for Import
+# first run: Oct 9, 2026
+###cd /var/www/html/eol_php8_code/update_resources/connectors
+# source is: 23073097_Reef_Dwel_TraitBank.tar.gz
+###php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel_TraitBank&quot;, &quot;eol_resource_id&quot;: &quot;R23073097&quot;}&apos;
+###exit 0
+# generates CSV files for import to Neo4j
+# /neo4j_imports/nodes/*.csv
+# /neo4j_imports/edges/*.csv
+
+#======================================== Part 2
+# ----- 01 Prepare DwCAs -----
+#OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
+# source is: 23073097_Reef_Dwel.tar.gz
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
+
+#OK 2: This use gnparser one name at a time. Not entire file.
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1
+
+#OK 3: Start matching taxa
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen +_eolID
+
+#OK 4: Convert taxon.tab, use EOLid value for taxonID.
+# REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # gen 23073097_Reef_Dwel_finale
+
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel_finale&quot;}&apos;
+
+# rename
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 23073097_Reef_Dwel_finale.tar.gz 23073097_Reef_Dwel_TraitBank.tar.gz
+ls -lt 23073097_Reef_Dwel_finale.tar.gz
+ls -lt 23073097_Reef_Dwel_TraitBank.tar.gz
+rm -f 23073097_Reef_Dwel_finale.tar.gz
+###exit 0
+#======================================== end of Part 2
+#======================================== Part 3
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23073097_Reef_Dwel_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
+exit 0
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

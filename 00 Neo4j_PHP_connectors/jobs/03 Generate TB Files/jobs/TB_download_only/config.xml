@@ -28,9 +28,12 @@
 # 22776577 - Terms: Data vocabulary for trait records.
 # 22776838 - References: Scientific works cited by trait records
 # 22776209 - TraitBank Reference Hierarchy Version 0.9: Names and taxonomic relationships to support the new TraitBank information architecture.            
-        
-###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;22776578&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Main:Terms file&quot;}&apos;
+# REMINDER: Reference Hierarchy wasn&apos;t downloaded here
+
+php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;22776577&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Main:Terms file&quot;}&apos;
 php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;22776838&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Main:References&quot;}&apos;
+
+
 
 </command>
       <configuredLocalRules/>
