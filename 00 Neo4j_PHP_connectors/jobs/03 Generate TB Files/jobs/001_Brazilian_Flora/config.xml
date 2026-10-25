@@ -26,7 +26,8 @@
       <command>#exit 0
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
-php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_TraitBank_1_0&quot;}&apos; #existing TreatmentBank_TraitBank_1_0.tar.gz
+php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_TraitBank_1_0&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #
+#Generates the /input_files/ back to TB_files.
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

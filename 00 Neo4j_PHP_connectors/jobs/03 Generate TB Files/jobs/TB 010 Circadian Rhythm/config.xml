@@ -25,15 +25,15 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23066259_Circadian_Rhyt
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23066259&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23066259
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23066259&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23066259
 ###exit 0
 # downloads zip file: TB_files/23066259.zip
 # extracts to:        TB_files/23066259_Circadian_Rhyt/input_files/*.*
 # generates:          23066259_Circadian_Rhyt.tar.gz
 
 #======================================== Part 3
-php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23066259_Circadian_Rhyt_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
-exit 0
+###php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23066259_Circadian_Rhyt_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
+###exit 0
 #======================================== Part 4
 ###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23066259&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #FINALLY generates the CSVs for import
 ###exit 0
@@ -71,8 +71,12 @@ cp 23066259_Circadian_Rhyt_finale.tar.gz 23066259_Circadian_Rhyt_TraitBank.tar.g
 ls -lt 23066259_Circadian_Rhyt_finale.tar.gz
 ls -lt 23066259_Circadian_Rhyt_TraitBank.tar.gz
 rm -f 23066259_Circadian_Rhyt_finale.tar.gz
-exit 0
-#======================================== end of Part 2</command>
+###exit 0
+#======================================== end of Part 2
+#======================================== Part 3
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23066259_Circadian_Rhyt_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
+exit 0</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

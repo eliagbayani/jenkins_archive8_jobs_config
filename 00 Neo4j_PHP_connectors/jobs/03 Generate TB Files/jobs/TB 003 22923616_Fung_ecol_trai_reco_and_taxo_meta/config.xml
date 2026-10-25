@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 22923616_Fungal_ecol_trai_reco_and_taxo_meta
-php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; xxx
+###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; xxx
 ###exit 0
 # downloads zip file: TB_files/22923616.zip
 # extracts to:        TB_files/22923616_Fungal_ecol_trai_reco_and_taxo_meta/input_files/*.*
@@ -51,7 +51,8 @@ php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 22923616_Fungal_ecol_trai_reco_and_taxo_meta.tar.gz
-###xxxphp dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;22923616_Fungal_ecol_trai_reco_and_taxo_meta&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
+###xxxphp dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;22923616_Fungal_ecol_trai_reco_and_taxo_meta&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, 
+###xxx                         &quot;resource_type&quot;: &quot;TB_dwca&quot;, &quot;todo_with_hC&quot;: &quot;compute hC only if it is blank&quot;}&apos; # + &apos;-with-hC&apos;
 
 #OK 2: This use gnparser one name at a time. Not entire file.
 ###xxxphp run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;22923616_Fungal_ecol_trai_reco_and_taxo_meta-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1

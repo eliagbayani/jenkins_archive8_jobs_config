@@ -25,14 +25,14 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 https://doi.org/10.5281/zenodo.23067562 23067562_Biochemistry_and_Natu_Prod
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; Biochemistry and Natural Products
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; Biochemistry and Natural Products
 ###exit 0
 #downloads zip file: TB_files/23067562.zip
 #extracts to:        TB_files/23067562_Biochemistry_and_Natu_Prod/input_files/*.*
 #generates:          23067562_Biochemistry_and_Natu_Prod.tar.gz
 #======================================== Part 3
-php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
-exit 0
+###php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
+###exit 0
 #======================================== Part 4 (last step)
 ###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23067562&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #FINALLY generates the CSVs for import
 ###exit 0
@@ -41,16 +41,16 @@ exit 0
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23067562_Biochemistry_and_Natu_Prod.tar.gz
 # generates FILENAME-with-hC.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
 
 #OK 2: This use gnparser one name at a time. Not entire file.
-###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1
 
 # --- DWCA NOT FOUND; higherClassification already exists. BUT ITS ORIG HC IS NO GOOD, SO WE STICK WITH OUR GENERATED HC
 ###xxxphp run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1 
 
 #OK 3: Start matching taxa
-###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Biochemistry_and_Natu_Prod-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen +_eolID
 
 #OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid

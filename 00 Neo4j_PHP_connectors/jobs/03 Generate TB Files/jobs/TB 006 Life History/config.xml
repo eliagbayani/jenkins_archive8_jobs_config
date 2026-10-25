@@ -25,15 +25,15 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22948871&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.22948871
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22948871&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.22948871
 ###exit 0
 # downloads zip file: TB_files/22948871.zip
 # extracts to:        TB_files/22948871_Life_Hist/input_files/*.*
 # generates:          22948871_Life_Hist.tar.gz
 
 #======================================== Part 3
-php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;22948871_Life_Hist_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
-exit 0
+###php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;22948871_Life_Hist_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
+###exit 0
 #======================================== Part 4
 ###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;22948871&quot;, &quot;redownload_zip_file_YN&quot;: 0}&apos; #FINALLY generates the CSVs for import
 ###exit 0

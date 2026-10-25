@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23072529_Algae
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23072529&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23072529
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23072529&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23072529
 ###exit 0
 # downloads zip file: TB_files/23072529.zip
 # extracts to:        TB_files/23072529_Algae/input_files/*.*
@@ -76,8 +76,7 @@ rm -f 23072529_Algae_finale.tar.gz
 #======================================== Part 3
 cd /var/www/html/eol_php8_code/update_resources/connectors
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23072529_Algae_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
-exit 0
-</command>
+exit 0</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

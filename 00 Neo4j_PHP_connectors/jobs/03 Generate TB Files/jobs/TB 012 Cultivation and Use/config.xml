@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23067266_Cultivation_and_Use
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067266&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23067266
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23067266&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23067266
 ###exit 0
 # downloads zip file: TB_files/23067266.zip
 # extracts to:        TB_files/23067266_Cultivation_and_Use/input_files/*.*
