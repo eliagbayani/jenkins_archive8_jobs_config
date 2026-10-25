@@ -23,7 +23,10 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+      <command>php -v
+exit 0
+
+cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 22923616_Fungal_ecol_trai_reco_and_taxo_meta
 ###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; xxx
 ###exit 0
