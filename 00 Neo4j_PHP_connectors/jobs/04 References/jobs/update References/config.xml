@@ -25,13 +25,19 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;prepare_undefined_referenceIDs_list&quot;}&apos;               #steps 1 &amp; 2
-###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_References_from_UndefinedRefIDs_files&quot;}&apos;      #steps 3 &amp; 4
-###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingMaster&quot;}&apos;        #step 5
-php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingItself&quot;}&apos;        #step 5.1
+#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;prepare_undefined_referenceIDs_list&quot;}&apos;               #steps 1 &amp; 2
+#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_References_from_UndefinedRefIDs_files&quot;}&apos;      #steps 3 &amp; 4
+#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingMaster&quot;}&apos;        #step 5
+#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingItself&quot;}&apos;        #step 5.1
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingDatasets&quot;}&apos;      #step 5.2
+#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;utility_report_duplicate_identifiers_from_master&quot;}&apos;  #Utility : step 6
+#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;merge_zenodo_references&quot;}&apos;                           #merge Zenodo&apos;s new copy of references.tsv into our local master
 
-###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;utility_report_duplicate_identifiers_from_master&quot;}&apos;  #Utility : step 6
-</command>
+#These local copies must be (re-)downloaded first:
+#- 23066982 &quot;Body Size&quot;: local version 23570169 is older than Zenodo&apos;s latest 23695697
+#    php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23066982&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Body Size&quot;}&apos;
+#- 23073052 &quot;Sensory&quot;: local version 23537781 is older than Zenodo&apos;s latest 23680197
+#    php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Sensory&quot;}&apos;</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
