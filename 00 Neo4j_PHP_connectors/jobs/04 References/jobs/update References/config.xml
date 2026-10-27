@@ -25,7 +25,12 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_References_from_UndefinedRefIDs_files&quot;}&apos;
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;prepare_undefined_referenceIDs_list&quot;}&apos;               #steps 1 &amp; 2
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_References_from_UndefinedRefIDs_files&quot;}&apos;      #steps 3 &amp; 4
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingMaster&quot;}&apos;        #step 5
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingItself&quot;}&apos;        #step 5.1
+
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;utility_report_duplicate_identifiers_from_master&quot;}&apos;  #Utility : step 6
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
