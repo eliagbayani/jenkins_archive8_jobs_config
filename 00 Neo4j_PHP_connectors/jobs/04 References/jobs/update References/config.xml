@@ -25,13 +25,43 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;prepare_undefined_referenceIDs_list&quot;}&apos;               #steps 1 &amp; 2
-#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_References_from_UndefinedRefIDs_files&quot;}&apos;      #steps 3 &amp; 4
-#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingMaster&quot;}&apos;        #step 5
-#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingItself&quot;}&apos;        #step 5.1
-php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingDatasets&quot;}&apos;      #step 5.2
-#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;utility_report_duplicate_identifiers_from_master&quot;}&apos;  #Utility : step 6
-#php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;merge_zenodo_references&quot;}&apos;                           #merge Zenodo&apos;s new copy of references.tsv into our local master
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;prepare_undefined_referenceIDs_list&quot;}&apos;               #//steps 1 &amp; 2
+#    - Step 1: collects the undefined referenceIDs from the latest numbers_UndefinedRefIDs_debug_*.txt file of each dataset (older dates are deleted)
+#      into undefined_referenceIDs_YYYYMMDD.tsv (referenceID, concept_id). The debug files are then renamed with an x_ prefix.
+#    - Step 2: looks up each referenceID in CrossRef -&gt; undefined_referenceIDs_YYYYMMDD_processed.tsv (referenceID, citation, status).
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_References_from_UndefinedRefIDs_files&quot;}&apos;      #//steps 3 &amp; 4
+#    - Step 3: adds the referenceIDs that got a citation (status OK) to our master references.tsv (identifier, full_reference). Backup made first.
+#    - Step 4: adds the ones with no citation to unmappable_identifiers.tsv (identifier, status, full_reference), for the Data Manager to fill in by hand.
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingMaster&quot;}&apos;        #//step 5
+#    - Removes from unmappable_identifiers.tsv the identifiers that now have a citation in our master references.tsv.
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingItself&quot;}&apos;        #//step 5.1
+#    - Downloads unmappable_identifiers.tsv from the private GitHub repo EOL/unmappable_reference_identifiers (needs GITHUB_TOKEN).
+#      Stops, and explains the difference, if it isn&apos;t identical to our local copy. Otherwise the citations the Data Manager typed in
+#      (full_reference column) are added to our master references.tsv, and those identifiers are removed from unmappable_identifiers.tsv.
+
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingDatasets&quot;}&apos;      #//step 5.2
+#    - Removes from unmappable_identifiers.tsv the identifiers no longer cited in the traits file of any TraitBank dataset on Zenodo
+#      (except Terms, References, DH). Uses our downloaded copies; stops and removes nothing if any copy is missing or older than
+#      Zenodo&apos;s latest version (prints the re-download commands). Backup and a record of the removed rows are saved.
+
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;utility_report_duplicate_identifiers_from_master&quot;}&apos;  #//Utility : step 6
+#    - Report only, changes nothing: lists the identifiers that appear more than once in our master references.tsv
+#      -&gt; references_duplicate_identifiers_YYYYMMDD.tsv, sorted by identifier.
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;merge_zenodo_references&quot;}&apos;                           #//merge Zenodo&apos;s new copy of references.tsv into our local master
+#    - A Zenodo download keeps our master and saves Zenodo&apos;s copy beside the folder (references_from_zenodo_record&lt;N&gt;.tsv).
+#      This adds the identifiers only Zenodo has to our master (backup made first). Different citations for the same identifier are not
+#      changed, but listed in a conflicts TSV for review. Zenodo&apos;s copy is then renamed ..._merged so it isn&apos;t suggested again.
+
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;}&apos;                  #//upload our local master as a new version on Zenodo: draft only, for review
+#    - Creates a new version of the dataset on Zenodo with our local file (default: references.tsv for References); other files are kept.
+#      Stops at a draft, to be reviewed and published on Zenodo. Optional: &quot;file&quot;: &quot;traits&quot;, &quot;version&quot;: &quot;2026-10-28&quot;.
+#      Stops and uploads nothing if Zenodo has changes we don&apos;t have yet (an unmerged Zenodo copy, or a newer version than our download).
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;, &quot;publish&quot;: 1}&apos;    #//same, but publish now -- CANNOT be undone
+#    - Same as above, but publishes the new version right away. A published Zenodo version can never be deleted.
+
+#Note: every time unmappable_identifiers.tsv or our master references.tsv changes, it is also copied to
+#/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/
+
 
 #These local copies must be (re-)downloaded first:
 #- 23066982 &quot;Body Size&quot;: local version 23570169 is older than Zenodo&apos;s latest 23695697
