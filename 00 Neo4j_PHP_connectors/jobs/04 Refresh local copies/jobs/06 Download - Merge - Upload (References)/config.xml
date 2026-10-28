@@ -1,0 +1,48 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+#1. Download Zenodo&apos;s latest References. Our master is kept; Zenodo&apos;s copy is saved beside it.
+php generate_csv_new_model.php _ &apos;{&quot;task&quot;: &quot;refresh_all_TraitBank_datasets&quot;, &quot;only&quot;: &quot;References&quot;}&apos;
+#2. Merge Zenodo&apos;s changes into our master.
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;set_zenodo_base_references&quot;}&apos;                 #one time only, before the first sync
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_zenodo_references&quot;, &quot;dry_run_YN&quot;: 1}&apos;    #preview: what would be added/removed
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_zenodo_references&quot;}&apos;                     #apply
+#3. Upload our master to Zenodo as a new version.
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;}&apos;                 #draft only, review it on Zenodo
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;, &quot;publish&quot;: 1}&apos;   #publish now -- CANNOT be undone
+#After a real publish, what we published becomes the base for the next sync automatically.
+
+#The normal cycle from now on, for example after the data managers&apos; clean-up:
+#1. Download (#1).
+#2. Sync preview, then apply (#2, without the setup line).
+#3. Draft upload, then review it on Zenodo, then publish (#3).
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
