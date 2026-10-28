@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+#What it does (refresh_all_TraitBank_datasets() in ZenodoTraitBankAPI.php):
+#- Fresh list: it gets the dataset list fresh from Zenodo, like step 5.2 does.
+#- Datasets covered: it leaves out Terms and References unless you add them with the two options. DH is always left out.
+#- Downloads only what changed: a dataset is downloaded only if our copy is older than Zenodo&apos;s latest version or has no files. Everything else is skipped.
+#- Avoids the 1-day cache problem: before downloading a dataset, it gets that dataset&apos;s version info fresh, so do_zenodo_stuff() can&apos;t use a stale cached version.
+#- Summary at the end: it lists which datasets are up to date, which were refreshed and which failed.
+#- References stays protected: with include_References_YN, our master references.tsv is kept as usual, Zenodo&apos;s copy is saved beside it, and the merge suggestion appears.
+#- dry_run_YN: an option I added. It only reports which datasets are outdated and downloads nothing.
+###php generate_csv_new_model.php _ &apos;{&quot;task&quot;: &quot;refresh_all_TraitBank_datasets&quot;, &quot;dry_run_YN&quot;: 1}&apos; #report only, no downloads
+php generate_csv_new_model.php _ &apos;{&quot;task&quot;: &quot;refresh_all_TraitBank_datasets&quot;}&apos;                  #community datasets only
+###php generate_csv_new_model.php _ &apos;{&quot;task&quot;: &quot;refresh_all_TraitBank_datasets&quot;, &quot;include_Terms_YN&quot;: 1, &quot;include_References_YN&quot;: 1}&apos;
+
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
