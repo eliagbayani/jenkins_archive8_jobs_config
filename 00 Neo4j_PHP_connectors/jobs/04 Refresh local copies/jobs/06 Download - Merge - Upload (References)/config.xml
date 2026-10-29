@@ -27,12 +27,12 @@
 #1. Download Zenodo&apos;s latest References. Our master is kept; Zenodo&apos;s copy is saved beside it.
 php generate_csv_new_model.php _ &apos;{&quot;task&quot;: &quot;refresh_all_TraitBank_datasets&quot;, &quot;only&quot;: &quot;References&quot;}&apos;
 #2. Merge Zenodo&apos;s changes into our master.
-php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;set_zenodo_base_references&quot;}&apos;                 #one time only, before the first sync
+###xxxphp do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;set_zenodo_base_references&quot;}&apos;                 #one time only, before the first sync DONE ALREADY
 php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_zenodo_references&quot;, &quot;dry_run_YN&quot;: 1}&apos;    #preview: what would be added/removed
-php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_zenodo_references&quot;}&apos;                     #apply
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_zenodo_references&quot;}&apos;                     #apply
 #3. Upload our master to Zenodo as a new version.
 php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;}&apos;                 #draft only, review it on Zenodo
-php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;, &quot;publish&quot;: 1}&apos;   #publish now -- CANNOT be undone
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;, &quot;publish&quot;: 1}&apos;   #publish now -- CANNOT be undone
 #After a real publish, what we published becomes the base for the next sync automatically.
 
 #The normal cycle from now on, for example after the data managers&apos; clean-up:

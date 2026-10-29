@@ -25,13 +25,12 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
-###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;}&apos;                  #//upload our local master as a new version on Zenodo: draft only, for review
+### php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;}&apos;                  #//upload our local master as a new version on Zenodo: draft only, for review
 #    - Creates a new version of the dataset on Zenodo with our local file (default: references.tsv for References); other files are kept.
 #      Stops at a draft, to be reviewed and published on Zenodo. Optional: &quot;file&quot;: &quot;traits&quot;, &quot;version&quot;: &quot;2026-10-28&quot;.
 #      Stops and uploads nothing if Zenodo has changes we don&apos;t have yet (an unmerged Zenodo copy, or a newer version than our download).
-###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;, &quot;publish&quot;: 1}&apos;    #//same, but publish now -- CANNOT be undone
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;, &quot;publish&quot;: 1}&apos;    #//same, but publish now -- CANNOT be undone
 #    - Same as above, but publishes the new version right away. A published Zenodo version can never be deleted.
-
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
