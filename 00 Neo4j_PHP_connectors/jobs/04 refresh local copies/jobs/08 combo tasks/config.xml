@@ -1,0 +1,66 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>remove_file</name>
+          <description>data manager&apos;s remove file
+</description>
+          <defaultValue>/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/from_Jen/references_remove_template.tsv</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>add_file</name>
+          <description>data manager&apos;s add_file</description>
+          <defaultValue>/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/from_Jen/references_add_template.tsv</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+# 1st remove_file used: &quot;/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/from_Jen/references_remove_template.tsv&quot;
+###xxxphp do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, &quot;dry_run_YN&quot;: 1}&apos;  #//preview only: changes nothing
+###xxxphp do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;}&apos;                   #//uploads a draft to Zenodo
+###xxxphp do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, &quot;publish&quot;: 1}&apos;     #//publishes on Zenodo -- CANNOT be undone
+
+#The real sequence is now: 1st run 29Oct2026 OK
+# 1. delete the duplicates, no upload yet
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&apos;&quot;$remove_file&quot;&apos;&quot;, &quot;no_upload_YN&quot;: 1}&apos;
+
+# 2. corrected citations + the one new reference, then ONE upload carrying both changes
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&apos;&quot;$add_file&quot;&apos;&quot;, 
+                              &quot;skip_unmappable_update_YN&quot;: 1, &quot;replace_existing_YN&quot;: 1, &quot;publish&quot;: 1}&apos;
+
+# Add &quot;dry_run_YN&quot;: 1 to either command to preview it first. 
+# Leaving out &quot;publish&quot;: 1 in step 2 stops at a draft for review on Zenodo.
+
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

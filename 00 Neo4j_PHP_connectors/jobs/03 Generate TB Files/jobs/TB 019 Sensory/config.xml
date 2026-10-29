@@ -26,7 +26,7 @@
       <command>php -v
 cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23073052_Sensory
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073052
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073052
 ###exit 0
 # downloads zip file: TB_files/23073052.zip
 # extracts to:        TB_files/23073052_Sensory/input_files/*.*
