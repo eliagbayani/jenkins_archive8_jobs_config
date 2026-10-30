@@ -24,11 +24,9 @@
   <builders>
     <hudson.tasks.Shell>
       <command>php -v
-exit 0
-
 cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 22923616_Fungal_ecol_trai_reco_and_taxo_meta
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; xxx
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; xxx
 ###exit 0
 # downloads zip file: TB_files/22923616.zip
 # extracts to:        TB_files/22923616_Fungal_ecol_trai_reco_and_taxo_meta/input_files/*.*

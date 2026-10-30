@@ -1,7 +1,7 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
   <actions/>
-  <description></description>
+  <description>-&gt; Local master references is updated by data manager supplied files</description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <jenkins.model.BuildDiscarderProperty>
@@ -41,10 +41,12 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-# 1st remove_file used: &quot;/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/from_Jen/references_remove_template.tsv&quot;
 ###xxxphp do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, &quot;dry_run_YN&quot;: 1}&apos;  #//preview only: changes nothing
 ###xxxphp do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;}&apos;                   #//uploads a draft to Zenodo
 ###xxxphp do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, &quot;publish&quot;: 1}&apos;     #//publishes on Zenodo -- CANNOT be undone
+
+# 1st remove_file: /Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/from_Jen/references_remove_template.tsv
+# 1st add_file:    /Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/from_Jen/references_add_template.tsv
 
 #The real sequence is now: 1st run 29Oct2026 OK
 # 1. delete the duplicates, no upload yet
@@ -52,7 +54,7 @@
 
 # 2. corrected citations + the one new reference, then ONE upload carrying both changes
 ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&apos;&quot;$add_file&quot;&apos;&quot;, 
-                              &quot;skip_unmappable_update_YN&quot;: 1, &quot;replace_existing_YN&quot;: 1, &quot;publish&quot;: 1}&apos;
+###                              &quot;skip_unmappable_update_YN&quot;: 1, &quot;replace_existing_YN&quot;: 1, &quot;publish&quot;: 1}&apos;
 
 # Add &quot;dry_run_YN&quot;: 1 to either command to preview it first. 
 # Leaving out &quot;publish&quot;: 1 in step 2 stops at a draft for review on Zenodo.
