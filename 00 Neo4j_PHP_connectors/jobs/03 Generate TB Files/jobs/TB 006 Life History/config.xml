@@ -49,6 +49,14 @@ php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22948871&
 # /neo4j_imports/edges/*.csv
 
 #======================================== Part 2
+#OK 0: case where lifeStage is a col in MoF =&gt; move to a col in occurrence.
+# source: 22948871_Life_Hist.tar.gz
+# generates: 22948871_Life_Hist_meta_recoded.tar.gz
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;22948871_Life_Hist_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 22948871_Life_Hist_meta_recoded.tar.gz 22948871_Life_Hist.tar.gz #back to filename of source
+cd /var/www/html/eol_php8_code/update_resources/connectors
+
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 22948871_Life_Hist.tar.gz
@@ -82,6 +90,16 @@ exit 0
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>TB 005 Dietary Traits</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

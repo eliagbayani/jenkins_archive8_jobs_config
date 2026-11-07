@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23072941_Locomotion
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23072941&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23072941
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23072941&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23072941
 ###exit 0
 # downloads zip file: TB_files/23072941.zip
 # extracts to:        TB_files/23072941_Locomotion/input_files/*.*
@@ -46,8 +46,16 @@
 # generates CSV files for import to Neo4j
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
-
 #======================================== Part 2
+
+#OK 0: case where lifeStage|bodyPart is a col in MoF =&gt; move to a col in occurrence.
+# source: 23072941_Locomotion.tar.gz
+# generates: 23072941_Locomotion_meta_recoded.tar.gz
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23072941_Locomotion_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 23072941_Locomotion_meta_recoded.tar.gz 23072941_Locomotion.tar.gz #back to filename of source
+cd /var/www/html/eol_php8_code/update_resources/connectors
+
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23072941_Locomotion.tar.gz
@@ -77,10 +85,21 @@ rm -f 23072941_Locomotion_finale.tar.gz
 cd /var/www/html/eol_php8_code/update_resources/connectors
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23072941_Locomotion_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
 exit 0
-</command>
+
+#TB 012 Cultivation and Use</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>TB 012 Cultivation and Use</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

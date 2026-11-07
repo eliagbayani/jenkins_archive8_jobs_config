@@ -23,8 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#cd /extra/other_files/GBIF_occurrence/
-cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/ #for Mac Studio PHP 8.2
+      <command>cd /extra/other_files/GBIF_occurrence/
+#cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/ #for Mac Studio PHP 8.2
 [ ! -d &quot;WaterBody_checklists&quot; ] &amp;&amp; mkdir WaterBody_checklists
 cd WaterBody_checklists
 [ -e WaterBody_checklists_DwCA.zip ] &amp;&amp; ls -lt WaterBody_checklists_DwCA.zip

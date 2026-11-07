@@ -24,7 +24,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-#======================================== Part 1 23073232_TRY_plan_trai
+#======================================== Part 1 23073232_TRY_plan_trai --- REMINDER: BIG DOWNLOADS!
 ###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073232&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073232
 ###exit 0
 # downloads zip file: TB_files/23073232.zip
@@ -48,6 +48,15 @@
 # /neo4j_imports/edges/*.csv
 
 #======================================== Part 2
+#OK 0: case where bodyPart is a col in MoF =&gt; move to a col in occurrence.
+# source: 23073232_TRY_plan_trai.tar.gz
+# generates: 23073232_TRY_plan_trai_meta_recoded.tar.gz
+###php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+###cd /var/www/html/eol_php8_code/applications/content_server/resources
+###cp 23073232_TRY_plan_trai_meta_recoded.tar.gz 23073232_TRY_plan_trai.tar.gz #back to filename of source
+###cd /var/www/html/eol_php8_code/update_resources/connectors
+###exit 0
+
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23073232_TRY_plan_trai.tar.gz
@@ -57,7 +66,7 @@
 ###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1
 
 #OK 3: Start matching taxa
-###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen +_eolID
 
 #OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
@@ -81,6 +90,16 @@ exit 0
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>TB 015 Locomotion</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

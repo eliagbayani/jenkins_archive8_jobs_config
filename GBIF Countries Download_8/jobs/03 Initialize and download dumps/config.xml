@@ -23,8 +23,8 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#cd /extra/other_files/GBIF_occurrence/
-cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/
+      <command>cd /extra/other_files/GBIF_occurrence/
+#cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/
 [ ! -d &quot;GBIF_Netherlands&quot; ] &amp;&amp; mkdir GBIF_Netherlands
 cd GBIF_Netherlands
 [ -e GBIF_Netherlands_DwCA.zip ] &amp;&amp; rm GBIF_Netherlands_DwCA.zip

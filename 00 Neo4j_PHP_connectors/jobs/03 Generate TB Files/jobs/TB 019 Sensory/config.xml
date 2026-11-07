@@ -49,6 +49,14 @@ php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&
 # /neo4j_imports/edges/*.csv
 
 #======================================== Part 2
+#OK 0: case where lifeStage|sex is a col in MoF =&gt; move to a col in occurrence.
+# source: 23073052_Sensory.tar.gz
+# generates: 23073052_Sensory_meta_recoded.tar.gz
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23073052_Sensory_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 23073052_Sensory_meta_recoded.tar.gz 23073052_Sensory.tar.gz #back to filename of source
+cd /var/www/html/eol_php8_code/update_resources/connectors
+
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23073052_Sensory.tar.gz

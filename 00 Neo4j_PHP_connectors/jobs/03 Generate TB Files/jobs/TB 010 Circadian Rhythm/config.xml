@@ -48,6 +48,14 @@ php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23066259&
 # /neo4j_imports/edges/*.csv
 
 #======================================== Part 2
+#OK 0: case where lifeStage|sex is a col in MoF =&gt; move to a col in occurrence.
+# source: 23066259_Circadian_Rhyt.tar.gz
+# generates: 23066259_Circadian_Rhyt_meta_recoded.tar.gz
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23066259_Circadian_Rhyt_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 23066259_Circadian_Rhyt_meta_recoded.tar.gz 23066259_Circadian_Rhyt.tar.gz #back to filename of source
+cd /var/www/html/eol_php8_code/update_resources/connectors
+
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23066259_Circadian_Rhyt.tar.gz
@@ -76,10 +84,21 @@ rm -f 23066259_Circadian_Rhyt_finale.tar.gz
 #======================================== Part 3
 cd /var/www/html/eol_php8_code/update_resources/connectors
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23066259_Circadian_Rhyt_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
-exit 0</command>
+exit 0
+#TB 006 Life History</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>TB 006 Life History</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

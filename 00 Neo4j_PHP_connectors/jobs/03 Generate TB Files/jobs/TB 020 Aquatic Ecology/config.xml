@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23072612_Aquatic_Ecol
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23072612&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23072612
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23072612&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23072612
 ###exit 0
 # downloads zip file: TB_files/23072612.zip
 # extracts to:        TB_files/23072612_Aquatic_Ecol/input_files/*.*
@@ -48,6 +48,15 @@
 # /neo4j_imports/edges/*.csv
 
 #======================================== Part 2
+#OK 0: case where lifeStage|bodyPart is a col in MoF =&gt; move to a col in occurrence.
+# source: 23072612_Aquatic_Ecol.tar.gz
+# generates: 23072612_Aquatic_Ecol_meta_recoded.tar.gz
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23072612_Aquatic_Ecol_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 23072612_Aquatic_Ecol_meta_recoded.tar.gz 23072612_Aquatic_Ecol.tar.gz #back to filename of source
+cd /var/www/html/eol_php8_code/update_resources/connectors
+###exit 0
+
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23072612_Aquatic_Ecol.tar.gz

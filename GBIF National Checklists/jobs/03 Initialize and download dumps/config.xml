@@ -23,9 +23,9 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>#cd /extra/other_files/GBIF_occurrence/ #for eol-archive
+      <command>cd /extra/other_files/GBIF_occurrence/ #for eol-archive
 #cd /var/www/html/other_files/GBIF_occurrence/ #folder not found | for Mac Studio PHP 8.2
-cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/ #for Mac Studio PHP 8.2
+#cd /Volumes/Crucial_4TB/other_files/GBIF_occurrence/ #for Mac Studio PHP 8.2
 
 [ ! -d &quot;Country_checklists&quot; ] &amp;&amp; mkdir Country_checklists #creates folder [Country_checklists] if it does not exist yet.
 cd Country_checklists

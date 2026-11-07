@@ -25,14 +25,19 @@
     <hudson.tasks.Shell>
       <command>exit 0
 Hi Eli, 
-When the taxonKey column contains pipe-delimited values, it means that the taxon has been mapped manually. If the trait data set has a higher taxon that is not represented in our hierarchy, we map it to all the subgroups that are contained within that higher taxon. Sorry, I have not yet gotten around to adding the taxonMap column to the Brusca file to indicate manual mappings. It would probably be a good idea to include a rule in your name matching script to not skip taxa with pipes in the taxonKey column, even if the taxonMap column is missing or empty.
+When the taxonKey column contains pipe-delimited values, it means that the taxon has been mapped manually. 
+If the trait data set has a higher taxon that is not represented in our hierarchy, we map it to all the subgroups that are 
+contained within that higher taxon. Sorry, I have not yet gotten around to adding the taxonMap column to the Brusca file to indicate manual mappings. 
+It would probably be a good idea to include a rule in your name matching script to not skip taxa with pipes in the taxonKey column, 
+even if the taxonMap column is missing or empty.
 Thanks for checking, Katja
 ----------------
-Ah yes, I forgot. If there are no ancestry or higherClassification fields, we should not try to map automatically. In these cases, Jen &amp; I would either add ancestry information later or do the mappings manually.
+Ah yes, I forgot. If there are no ancestry or higherClassification fields, we should not try to map automatically. 
+In these cases, Jen &amp; I would either add ancestry information later or do the mappings manually.
 ----------------
 cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta
-php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22777311&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; https://doi.org/10.5281/zenodo.22777311
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22777311&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; https://doi.org/10.5281/zenodo.22777311
 ###exit 0
 # downloads zip file: TB_files/22777311.zip
 # extracts to:        TB_files/22777311_Brusca_and_Brus_trai_reco_and_taxo_meta/input_files/*.*
@@ -56,6 +61,14 @@ php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22777311&
 # /neo4j_imports/edges/*.csv
 
 #======================================== Part 2
+#OK 0: case where lifeStage is a col in MoF =&gt; move to a col in occurrence.
+# source: 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta.tar.gz
+# generates: 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta_meta_recoded.tar.gz
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;22777311_Brusca_and_Brus_trai_reco_and_taxo_meta_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta_meta_recoded.tar.gz 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta.tar.gz #back to filename of source
+cd /var/www/html/eol_php8_code/update_resources/connectors
+
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta.tar.gz

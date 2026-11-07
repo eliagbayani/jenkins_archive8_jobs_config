@@ -22,7 +22,7 @@
   <triggers>
     <hudson.triggers.TimerTrigger>
       <spec># Once a day on the 1st and 15th of every month:
-H H 1,15 1-12 *
+#H H 1,15 1-12 *
 </spec>
     </hudson.triggers.TimerTrigger>
   </triggers>

@@ -27,7 +27,7 @@
 #H 0-23/6 * * 1-5 # working 3x a day
 
 # Once a day:
-H H * 1-12 *
+#H H * 1-12 *
 </spec>
     </hudson.triggers.TimerTrigger>
   </triggers>

@@ -22,7 +22,7 @@
   <triggers>
     <hudson.triggers.TimerTrigger>
       <spec># once every Sundays
-H H * 1-12 7</spec>
+#H H * 1-12 7</spec>
     </hudson.triggers.TimerTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>

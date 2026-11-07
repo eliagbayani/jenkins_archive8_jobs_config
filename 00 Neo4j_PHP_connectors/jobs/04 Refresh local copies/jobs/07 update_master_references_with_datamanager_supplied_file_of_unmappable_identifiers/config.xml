@@ -18,7 +18,7 @@
         <hudson.model.StringParameterDefinition>
           <name>dm_file</name>
           <description>data manager&apos;s file</description>
-          <defaultValue>/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/unmappable_identifiers_oct28_2026.tsv</defaultValue>
+          <defaultValue>/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/mapping_nov6_2026.tsv</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
@@ -36,14 +36,19 @@
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # first file: &quot;/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/unmappable_identifiers_oct28_2026.tsv&quot;
+# 2nd file:   &quot;/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/mapping_nov6_2026.tsv&quot;
 
-#To run it for real, preview first, then do a draft:
+#To run it for real, preview first, then do a draft, or proceed to publish with `&quot;publish&quot;: 1`
 
 ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, 
-###                              &quot;dry_run_YN&quot;: 1}&apos;
+###                              &quot;dry_run_YN&quot;: 1, &quot;replace_existing_YN&quot;: 1}&apos;
 
-php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;}&apos;
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, 
+###                              &quot;replace_existing_YN&quot;: 1, &quot;publish&quot;: 1}&apos;
 
+#This will refresh the unmappable_identifiers using local master references.tsv (IMPORTANT STEP)
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingMaster&quot;}&apos;        #//step 5
+#    - Removes from unmappable_identifiers.tsv the identifiers that now have a citation in our master references.tsv.
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
