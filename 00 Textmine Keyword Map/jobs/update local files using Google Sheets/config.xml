@@ -28,7 +28,7 @@
 #H H * 1-12 *
 
 # Once in every two hours
-H H(0-23)/2 * * *</spec>
+H H(0-23)/12 * * *</spec>
     </hudson.triggers.TimerTrigger>
   </triggers>
   <concurrentBuild>false</concurrentBuild>
