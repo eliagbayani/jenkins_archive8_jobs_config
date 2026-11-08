@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22948922&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.22948922
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22948922&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.22948922
 ###exit 0
 # downloads zip file: TB_files/22948922.zip
 # extracts to:        TB_files/22948922_Body_type/input_files/*.*
@@ -42,8 +42,8 @@
 # first run: Oct 9, 2026
 ###cd /var/www/html/eol_php8_code/update_resources/connectors
 # source is: 22948922_Body_type_TraitBank.tar.gz
-php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;22948922_Body_type_TraitBank&quot;, &quot;eol_resource_id&quot;: &quot;R22948922&quot;}&apos;
-exit 0
+###php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;22948922_Body_type_TraitBank&quot;, &quot;eol_resource_id&quot;: &quot;R22948922&quot;}&apos;
+###exit 0
 # generates CSV files for import to Neo4j
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv
@@ -90,6 +90,16 @@ exit 0
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>TB 008 Kubitzki</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

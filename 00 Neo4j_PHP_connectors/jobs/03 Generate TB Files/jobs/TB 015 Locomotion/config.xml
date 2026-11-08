@@ -84,15 +84,13 @@ rm -f 23072941_Locomotion_finale.tar.gz
 #======================================== Part 3
 cd /var/www/html/eol_php8_code/update_resources/connectors
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23072941_Locomotion_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
-exit 0
-
-#TB 012 Cultivation and Use</command>
+exit 0</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>TB 012 Cultivation and Use</childProjects>
+      <childProjects>TB 016 Reef Dwellers</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

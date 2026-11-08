@@ -55,7 +55,6 @@ php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23072351_Corals
 cd /var/www/html/eol_php8_code/applications/content_server/resources
 cp 23072351_Corals_meta_recoded.tar.gz 23072351_Corals.tar.gz #back to filename of source
 cd /var/www/html/eol_php8_code/update_resources/connectors
-###exit 0
 
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
@@ -90,6 +89,16 @@ exit 0
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers/>
+  <publishers>
+    <hudson.tasks.BuildTrigger>
+      <childProjects>TB 014 Algae</childProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </hudson.tasks.BuildTrigger>
+  </publishers>
   <buildWrappers/>
 </project>

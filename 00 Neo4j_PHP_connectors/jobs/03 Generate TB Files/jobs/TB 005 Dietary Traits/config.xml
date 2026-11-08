@@ -92,7 +92,7 @@ exit 0
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>TB 009 Sexual Systems and Characters OK</childProjects>
+      <childProjects>TB 006 Life History</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

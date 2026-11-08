@@ -92,7 +92,7 @@ exit 0
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>TB 005 Dietary Traits</childProjects>
+      <childProjects>TB 007 Body type</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

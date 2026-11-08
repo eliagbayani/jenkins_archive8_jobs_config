@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23073232_TRY_plan_trai --- REMINDER: BIG DOWNLOADS!
-###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073232&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073232
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073232&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073232
 ###exit 0
 # downloads zip file: TB_files/23073232.zip
 # extracts to:        TB_files/23073232_TRY_plan_trai/input_files/*.*
@@ -51,19 +51,19 @@
 #OK 0: case where bodyPart is a col in MoF =&gt; move to a col in occurrence.
 # source: 23073232_TRY_plan_trai.tar.gz
 # generates: 23073232_TRY_plan_trai_meta_recoded.tar.gz
-###php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
-###cd /var/www/html/eol_php8_code/applications/content_server/resources
-###cp 23073232_TRY_plan_trai_meta_recoded.tar.gz 23073232_TRY_plan_trai.tar.gz #back to filename of source
-###cd /var/www/html/eol_php8_code/update_resources/connectors
+php resource_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+cp 23073232_TRY_plan_trai_meta_recoded.tar.gz 23073232_TRY_plan_trai.tar.gz #back to filename of source
+cd /var/www/html/eol_php8_code/update_resources/connectors
 ###exit 0
 
 # ----- 01 Prepare DwCAs -----
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 23073232_TRY_plan_trai.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
 
 #OK 2: This use gnparser one name at a time. Not entire file.
-###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1
+php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1
 
 #OK 3: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;23073232_TRY_plan_trai-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen +_eolID
@@ -92,7 +92,7 @@ exit 0
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>TB 015 Locomotion</childProjects>
+      <childProjects>TB 018 Botany Literature</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

@@ -91,7 +91,7 @@ exit 0
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>TB 021 Body Size</childProjects>
+      <childProjects>TB 010 Circadian Rhythm</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>

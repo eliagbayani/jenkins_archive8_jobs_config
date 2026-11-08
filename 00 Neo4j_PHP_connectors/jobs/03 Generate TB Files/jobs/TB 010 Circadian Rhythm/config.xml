@@ -91,7 +91,7 @@ exit 0
   </builders>
   <publishers>
     <hudson.tasks.BuildTrigger>
-      <childProjects>TB 006 Life History</childProjects>
+      <childProjects>TB 011 Vegetation Units</childProjects>
       <threshold>
         <name>SUCCESS</name>
         <ordinal>0</ordinal>
