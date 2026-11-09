@@ -1,0 +1,134 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+
+#A. Make sure our copies are current
+#1. Is our master in step with Zenodo?
+	# report only, changes nothing: compares both versions (record IDs) and both md5s; if the files differ, lists the rows that differ
+	###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;compare_master_with_zenodo&quot;}&apos;
+    
+    #1.1 IDENTICAL: go on to step 2.
+    
+    #1.2 Zenodo has a newer version (someone else published): download it and merge it into our master first.
+      # download Zenodo&apos;s latest References; our own master is kept, Zenodo&apos;s copy is saved beside the folder
+      ###php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;22776838&quot;, &quot;redownload_zip_file_YN&quot;: 1, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;References&quot;}&apos;
+      # merge Zenodo&apos;s additions, changes and deletions into our master; our own additions are kept. Preview first.
+      ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_zenodo_references&quot;, &quot;dry_run_YN&quot;: 1}&apos;
+      ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_zenodo_references&quot;}&apos;
+    
+    #1.3 Same version, but the files differ: these are our own unpublished changes. Publish them in step 6.
+    
+#2. Are the datasets&apos; copies current?
+	#2.1 No need to check by hand: step 3 checks every dataset against Zenodo&apos;s latest version. 
+    #  If a copy is missing or older, it stops, changes nothing, and prints the download command for each one, 
+    #  e.g.: php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23066982&quot;, &quot;redownload_zip_file_YN&quot;: 1, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Body Size&quot;}&apos;
+
+    #2.2 Run those commands, then run step 3 again.
+    #2.3 With &quot;redownload_zip_file_YN&quot;: 1, a dataset is downloaded only if Zenodo has a different version from ours.
+
+#B. Update the unmappable list
+#3. Sync the unmappable list with the datasets
+  # preview: shows what would be added and removed, changes nothing
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_unmappable_identifiers_with_datasets&quot;, &quot;dry_run_YN&quot;: 1}&apos;
+  # real run, with the new references looked up in CrossRef first
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;sync_unmappable_identifiers_with_datasets&quot;, &quot;crossref_YN&quot;: 1}&apos;
+
+  #3.1 What it reads: the referenceID and source columns of all 21 datasets, from our downloaded copies, so no conversion is needed first.
+  #3.2 Adds the references the datasets cite that the master doesn&apos;t have and the list doesn&apos;t have yet. 
+  #    They get status &quot;Not in master&quot; and a blank citation.
+  #3.3 Removes the references now in the master, and those no dataset cites any more.
+  #3.4 &quot;crossref_YN&quot;: 1: DOIs that CrossRef has a citation for go straight into the master instead of the list. 
+  #    You then publish the master in step 6. Leave it out to send everything to the list.
+  #3.5 Saved:
+    #3.5.1 a backup of the list
+    #3.5.2 a record of every added and removed row, with the datasets that cite it: unmappable_identifiers_sync_&lt;date&gt;.tsv
+    #3.5.3 a copy of the list in the GitHub folder
+
+#C. The Data Manager fills in the citations
+#4. Send the list to the Data Manager
+  #4.1 The updated unmappable_identifiers.tsv is copied automatically to /Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/.
+  #4.2 Commit and push it in that repo (private: EOL/unmappable_reference_identifiers) for the Data Manager.
+#5. Bring in the Data Manager&apos;s citations
+  # preview
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&lt;path&gt;&quot;, &quot;dry_run_YN&quot;: 1}&apos;
+  # real run: adds the citations to the master, updates the GitHub copy, publishes on Zenodo, removes them from the unmappable list
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&lt;path&gt;&quot;, &quot;publish&quot;: 1}&apos;
+  #5.1 &quot;file&quot;: the Data Manager&apos;s filled-in copy of the list, with the columns identifier, status and full_reference. A 2-column file (identifier, full_reference) works too.
+  #5.2 Options:
+  #  5.2.1 &quot;replace_existing_YN&quot;: 1: the file also corrects citations that are already in the master (the old and new citations are saved).
+  #  5.2.2 &quot;no_upload_YN&quot;: 1: no Zenodo upload, e.g. when another change follows and one upload should carry both.
+  #5.3 Reading the counts:
+  #  5.3.1 &quot;Added, but NOT on our unmappable list&quot; = new references in the file that were never on our list.
+  #  5.3.2 The Result&apos;s &quot;ignored&quot; is the total for all reasons (already in the master, or listed twice in the file).
+  #5.4 If the file has duplicates to delete first (identifier, full_reference, master_row):
+	  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;fix_duplicate_issue_in_master_references&quot;, &quot;file&quot;: &quot;&lt;path&gt;&quot;, &quot;no_upload_YN&quot;: 1}&apos;
+      #Then run step 5 with &quot;publish&quot;: 1, so one upload carries both changes. Which is this one:
+        ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&lt;path&gt;&quot;, &quot;publish&quot;: 1}&apos;
+
+#D. Publish anything still unpublished, and check
+#6. Publish the master on Zenodo (only if needed)
+  #6.1 Needed if step 3 added CrossRef citations to the master and step 5 didn&apos;t run. Step 5 already uploads.
+  #6.2 Not sure? Step 7&apos;s compare tells you.
+    # draft, for review on Zenodo
+    ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;}&apos;
+    # publish -- CAN&apos;T be undone
+    ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;upload_file_toZenodo&quot;, &quot;concept_id&quot;: &quot;22776838&quot;, &quot;publish&quot;: 1}&apos;
+  #6.3 It uploads nothing if Zenodo has changes we don&apos;t have yet (go back to step 1), or if Zenodo already has this exact file.
+
+#7. Final checks
+  # report only: identifiers listed more than once in the master -&gt; references_duplicate_identifiers_YYYYMMDD.tsv. Should be none.
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;utility_report_duplicate_identifiers_from_master&quot;}&apos;
+  # report only: our master vs Zenodo&apos;s latest. Should say IDENTICAL.
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;compare_master_with_zenodo&quot;}&apos;
+
+#E. Optional
+#8. Rebuild datasets
+	###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;&lt;id&gt;&quot;, &quot;redownload_zip_file_YN&quot;: 1}&apos;
+    #8.1 Worth it for the datasets that cite new or corrected references in their referenceID column: 
+    #    the converter writes those citations into the dataset&apos;s TraitBank files.
+    #8.2 References cited only in source don&apos;t need a rebuild: the converter only checks that they&apos;re in the master. 
+    #.   A rebuild would just update the dataset&apos;s report of missing references (&lt;concept_id&gt;_UndefinedRefIDs_debug_&lt;date&gt;.txt).
+    
+#------------------------------------------------------
+#The older path (still works, replaced by step 3)
+#The same result in several runs. It reads the converter&apos;s reports instead of the datasets, so every dataset must be converted first (step 8).
+
+# steps 1 &amp; 2: collect the latest UndefinedRefIDs reports -&gt; undefined_referenceIDs_YYYYMMDD.tsv, then look each one up in CrossRef
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;prepare_undefined_referenceIDs_list&quot;}&apos;
+# steps 3 &amp; 4: CrossRef hits -&gt; master; the rest -&gt; unmappable list
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_References_from_UndefinedRefIDs_files&quot;}&apos;
+# step 5: remove from the list what the master now has
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingMaster&quot;}&apos;
+# step 5.2: remove from the list what no dataset cites any more (referenceID or source)
+###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingDatasets&quot;}&apos;
+	#Which file steps 2–4 use: the newest undefined_referenceIDs_YYYYMMDD.tsv. To use another one, add e.g. &quot;basename&quot;: &quot;undefined_referenceIDs_20261106&quot;.
+    </command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
