@@ -1,0 +1,44 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#What it shows:
+#1. Versions: Zenodo&apos;s latest record, fetched fresh rather than from the cache, next to ours from TB_files/22776838.record_id.
+#2. Files: both md5s. If they match, it prints IDENTICAL with the row count and stops there.
+#3. If the files differ:
+#   - It downloads Zenodo&apos;s file to a temporary file, compares the two row by row, then deletes the temporary file.
+#   - It prints the row counts, the rows only in our master, the rows only on Zenodo, and the identifiers whose citation differs, with up to 10 examples.
+#   - It saves every difference in references_22776838_compare_zenodo_record&lt;N&gt;_&lt;date&gt;.tsv.
+#   - The header, row order and line endings are ignored.
+#4. Advice: if Zenodo has a newer version, it says to download and sync before uploading. If the versions match, it says the differences are our own changes, so upload when ready.
+
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;compare_master_with_zenodo&quot;}&apos;
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

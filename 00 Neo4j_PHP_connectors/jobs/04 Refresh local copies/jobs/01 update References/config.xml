@@ -42,12 +42,13 @@
 #      Stops, and explains the difference, if it isn&apos;t identical to our local copy. Otherwise the citations the Data Manager typed in
 #      (full_reference column) are added to our master references.tsv, and those identifiers are removed from unmappable_identifiers.tsv.
 
-###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingDatasets&quot;}&apos;      #//step 5.2 - ran last
+php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;refresh_unmappable_identifiers_usingDatasets&quot;}&apos;      #//step 5.2 - ran last
 #    - Removes from unmappable_identifiers.tsv the identifiers no longer cited in the traits file of any TraitBank dataset on Zenodo
 #      (except Terms, References, DH). Uses our downloaded copies; stops and removes nothing if any copy is missing or older than
 #      Zenodo&apos;s latest version (prints the re-download commands). Backup and a record of the removed rows are saved.
 
-php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23066982&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Body Size&quot;}&apos;
+#These local copies must be (re-)downloaded first:
+#php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23066982&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Body Size&quot;}&apos;
 
 ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;utility_report_duplicate_identifiers_from_master&quot;}&apos;  #//Utility : step 6
 #    - Report only, changes nothing: lists the identifiers that appear more than once in our master references.tsv
@@ -60,11 +61,7 @@ php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23066982&q
 #Note: every time unmappable_identifiers.tsv or our master references.tsv changes, it is also copied to
 #/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/
 
-#These local copies must be (re-)downloaded first:
-#- 23066982 &quot;Body Size&quot;: local version 23570169 is older than Zenodo&apos;s latest 23695697
-#    php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23066982&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Body Size&quot;}&apos;
-#- 23073052 &quot;Sensory&quot;: local version 23537781 is older than Zenodo&apos;s latest 23680197
-#    php generate_csv_new_model.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&quot;, &quot;redownload_zip_file_YN&quot;: 0, &quot;task&quot;: &quot;download_only&quot;, &quot;what&quot;: &quot;Sensory&quot;}&apos;</command>
+</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
