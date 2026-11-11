@@ -13,6 +13,15 @@
         <removeLastBuild>false</removeLastBuild>
       </strategy>
     </jenkins.model.BuildDiscarderProperty>
+    <hudson.model.ParametersDefinitionProperty>
+      <parameterDefinitions>
+        <hudson.model.StringParameterDefinition>
+          <name>dm_file</name>
+          <defaultValue>/Volumes/Crucial_2TB/Desktop_Main/GitHub/unmappable_reference_identifiers/unmappable_identifiers_20261110.tsv</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
+      </parameterDefinitions>
+    </hudson.model.ParametersDefinitionProperty>
   </properties>
   <scm class="hudson.scm.NullSCM"/>
   <canRoam>true</canRoam>
@@ -73,9 +82,11 @@
   #4.2 Commit and push it in that repo (private: EOL/unmappable_reference_identifiers) for the Data Manager.
 #5. Bring in the Data Manager&apos;s citations
   # preview
-  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&lt;path&gt;&quot;, &quot;dry_run_YN&quot;: 1}&apos;
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, 
+  ###                              &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, &quot;dry_run_YN&quot;: 1}&apos;
   # real run: adds the citations to the master, updates the GitHub copy, publishes on Zenodo, removes them from the unmappable list
-  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, &quot;file&quot;: &quot;&lt;path&gt;&quot;, &quot;publish&quot;: 1}&apos;
+  ###php do_reference_mtce.php _ &apos;{&quot;task&quot;: &quot;update_master_references_with_datamanager_supplied_file_of_unmappable_identifiers&quot;, 
+  ###                              &quot;file&quot;: &quot;&apos;&quot;$dm_file&quot;&apos;&quot;, &quot;replace_existing_YN&quot;: 1, &quot;publish&quot;: 1}&apos;
   #5.1 &quot;file&quot;: the Data Manager&apos;s filled-in copy of the list, with the columns identifier, status and full_reference. A 2-column file (identifier, full_reference) works too.
   #5.2 Options:
   #  5.2.1 &quot;replace_existing_YN&quot;: 1: the file also corrects citations that are already in the master (the old and new citations are saved).

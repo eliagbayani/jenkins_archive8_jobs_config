@@ -86,20 +86,10 @@ rm -f 23073052_Sensory_finale.tar.gz
 cd /var/www/html/eol_php8_code/update_resources/connectors
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;23073052_Sensory_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
 exit 0
-</command>
+#Build other projects: [TB 020 Aquatic Ecology]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>TB 020 Aquatic Ecology</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
