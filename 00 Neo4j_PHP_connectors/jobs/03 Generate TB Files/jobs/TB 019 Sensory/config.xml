@@ -26,7 +26,7 @@
       <command>php -v
 cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 23073052_Sensory
-php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073052
+###php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos; #-&gt; https://doi.org/10.5281/zenodo.23073052
 ###exit 0
 # downloads zip file: TB_files/23073052.zip
 # extracts to:        TB_files/23073052_Sensory/input_files/*.*
@@ -42,8 +42,8 @@ php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;23073052&
 # first run: Oct 9, 2026
 ###cd /var/www/html/eol_php8_code/update_resources/connectors
 # source is: 23073052_Sensory_TraitBank.tar.gz
-###php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;23073052_Sensory_TraitBank&quot;, &quot;eol_resource_id&quot;: &quot;R23073052&quot;}&apos;
-###exit 0
+php generate_csv_4EOLneo4j.php _ &apos;{&quot;resource_id&quot;: &quot;23073052_Sensory_TraitBank&quot;, &quot;eol_resource_id&quot;: &quot;R23073052&quot;}&apos;
+exit 0
 # generates CSV files for import to Neo4j
 # /neo4j_imports/nodes/*.csv
 # /neo4j_imports/edges/*.csv

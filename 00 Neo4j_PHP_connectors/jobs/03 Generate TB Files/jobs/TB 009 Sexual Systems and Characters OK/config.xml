@@ -85,20 +85,10 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;22943466_Sexual_Syst_and_Char_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
 exit 0
 
-</command>
+#TB 010 Circadian Rhythm</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>TB 010 Circadian Rhythm</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

@@ -25,7 +25,7 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 22923616_Fungal_ecol_trai_reco_and_taxo_meta
-php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22923616&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;
 ###exit 0
 # downloads zip file: TB_files/22923616.zip
 # extracts to:        TB_files/22923616_Fungal_ecol_trai_reco_and_taxo_meta/input_files/*.*
@@ -82,20 +82,11 @@ rm -f 22923616_Fungal_ecol_trai_reco_and_taxo_meta_finale.tar.gz
 #======================================== Part 3
 cd /var/www/html/eol_php8_code/update_resources/connectors
 php generate_TB_files.php _ &apos;{&quot;resource_id&quot;: &quot;22923616_Fungal_ecol_trai_reco_and_taxo_meta_TraitBank&quot;}&apos; #Generates the /input_files/ back to TB_files.
-exit 0</command>
+exit 0
+#build other projects: [TB 004 Brusca and Brusca_ trait records and taxonomic metadata]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>TB 004 Brusca and Brusca_ trait records and taxonomic metadata</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
