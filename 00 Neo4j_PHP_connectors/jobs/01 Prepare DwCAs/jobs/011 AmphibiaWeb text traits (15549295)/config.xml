@@ -28,29 +28,35 @@
 # source: AmphibiaWeb.tar.gz --- used a version from local MacStudio not from Zenodo
 cd /var/www/html/eol_php8_code/update_resources/connectors
 
+# OK step 0:
+###php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;download_file_from_zenodo&quot;, &quot;concept_id&quot;: &quot;13318109&quot;, &quot;supplied_name&quot;: &quot;AmphibiaWeb&quot;, &quot;file_type&quot;: &quot;.tar.gz&quot;}&apos;
+#generates: 13318109_AmphibiaWeb.tar.gz
+
 # OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-# source is: AmphibiaWeb.tar.gz
+# source is		: AmphibiaWeb.tar.gz
+# new source is	: 13318109_AmphibiaWeb.tar.gz
 # generates FILENAME-with-hC.tar.gz
-###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 
 # OK 2of4: This use gnparser one name at a time. Not entire file.
-###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb-with-hC&quot;}&apos; #OK gen neo4j_1
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC&quot;}&apos; #OK gen neo4j_1
 
 # OK 3of4: Start matching taxa
-###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
 
 # OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb-with-hC_neo4j_1_eolID&quot;}&apos; # gen AmphibiaWeb_finale
+###php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen 13318109_AmphibiaWeb_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;AmphibiaWeb_finale&quot;}&apos;
+
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb_finale&quot;}&apos; #gen 13318109_AmphibiaWeb_finale_analyzed
 exit 0
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp AmphibiaWeb_finale.tar.gz AmphibiaWeb_TraitBank_1_0.tar.gz
-ls -lt AmphibiaWeb_finale.tar.gz
+cp 13318109_AmphibiaWeb_finale_analyzed.tar.gz AmphibiaWeb_TraitBank_1_0.tar.gz
+ls -lt 13318109_AmphibiaWeb_finale_analyzed.tar.gz
 ls -lt AmphibiaWeb_TraitBank_1_0.tar.gz
-rm -f AmphibiaWeb_finale.tar.gz
+rm -f 13318109_AmphibiaWeb_finale_analyzed.tar.gz
 
 #build other projects: [012 MoftheAES_resources]</command>
       <configuredLocalRules/>
