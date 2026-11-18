@@ -36,7 +36,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 ### OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 ### source is: FILENAME_taxaFixed.tar.gz
 ### generates FILENAME-with-hC.tar.gz
-#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+#php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #using kingdom, phylum, class, order, family, genus
 exit 0
 ### ended here --- I was advised that &apos;data coverage&apos; resources will be excluded for TraitBank 1.0.
 
@@ -45,11 +45,11 @@ php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed-
 ### this part didn&apos;t finish anymore...
 
 ### OK 3of4: Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
 
 ### OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed-with-hC_neo4j_1_eolID&quot;}&apos; # gen BHL_taxaFixed_finale
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen BHL_taxaFixed_finale
 
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed_finale&quot;}&apos; #gen BHL_taxaFixed_finale_analyzed
 

@@ -28,17 +28,17 @@
 # renamed to: USNVC.tar.gz
 
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
-php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;}&apos;
+php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos;
 
 #OK 2: This use gnparser one name at a time. Not entire file.
 php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC-with-hC&quot;}&apos; #OK gen neo4j_1
 
 #OK 3: Start matching taxa
-php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;}&apos; #OK gen +_eolID
+php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC-with-hC_neo4j_1&quot;, &quot;AncestryIndexVer&quot;: &quot;new&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
 
 #OK 4: Convert taxon.tab, use EOLid value for taxonID.
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
-php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC-with-hC_neo4j_1_eolID&quot;}&apos; # gen USNVC_finale
+php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen USNVC_finale
 
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC_finale&quot;}&apos; #gen USNVC_finale_analyzed
 
