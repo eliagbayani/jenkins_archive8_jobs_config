@@ -48,7 +48,6 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 ###php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen 13318109_AmphibiaWeb_finale
 
-
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb_finale&quot;}&apos; #gen 13318109_AmphibiaWeb_finale_analyzed
 exit 0
 # rename
