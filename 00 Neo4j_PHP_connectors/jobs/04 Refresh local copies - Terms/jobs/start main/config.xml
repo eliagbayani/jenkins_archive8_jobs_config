@@ -24,9 +24,12 @@
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-php do_terms_mtce.php _ &apos;{&quot;task&quot;: &quot;update_terms_from_googlesheet&quot;, &quot;dry_run_YN&quot;: 1}&apos; #download + build + QC only: never uploads
+###php do_terms_mtce.php _ &apos;{&quot;task&quot;: &quot;update_terms_from_googlesheet&quot;, &quot;dry_run_YN&quot;: 1}&apos; #download + build + QC only: never uploads
 ###php do_terms_mtce.php _ &apos;{&quot;task&quot;: &quot;update_terms_from_googlesheet&quot;}&apos;                  #... + upload a Zenodo DRAFT if QC passes, for review on Zenodo
 ###php do_terms_mtce.php _ &apos;{&quot;task&quot;: &quot;update_terms_from_googlesheet&quot;, &quot;publish&quot;: 1}&apos;    #... + publish on Zenodo -- CANNOT be undone
+
+php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, &quot;start&quot;: 209749, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/reference_01.tab&quot;}&apos;
+
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
