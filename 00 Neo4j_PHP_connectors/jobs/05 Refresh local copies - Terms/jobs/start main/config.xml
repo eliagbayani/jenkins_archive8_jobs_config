@@ -1,0 +1,36 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+php do_terms_mtce.php _ &apos;{&quot;task&quot;: &quot;update_terms_from_googlesheet&quot;, &quot;dry_run_YN&quot;: 1}&apos; #download + build + QC only: never uploads
+###php do_terms_mtce.php _ &apos;{&quot;task&quot;: &quot;update_terms_from_googlesheet&quot;}&apos;                  #... + upload a Zenodo DRAFT if QC passes, for review on Zenodo
+###php do_terms_mtce.php _ &apos;{&quot;task&quot;: &quot;update_terms_from_googlesheet&quot;, &quot;publish&quot;: 1}&apos;    #... + publish on Zenodo -- CANNOT be undone
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
