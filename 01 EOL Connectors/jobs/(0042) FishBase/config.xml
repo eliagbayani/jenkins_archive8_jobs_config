@@ -25,8 +25,9 @@
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
 # OK step 1
-php 42.php jenkins
+php 42.php jenkins #can no longer generate 42.tar.gz anymore, source file no longer available.
 # generates 42.tar.gz
+exit 0
 
 # OK step 2
 php resource_utility.php jenkins &apos;{&quot;resource_id&quot;: &quot;42_meta_recoded&quot;, &quot;task&quot;: &quot;metadata_recoding&quot;}&apos;

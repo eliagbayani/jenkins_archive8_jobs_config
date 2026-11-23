@@ -1,0 +1,45 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>cd /var/www/html/eol_php8_code/update_resources/connectors
+#Use &quot;remove_files&quot; with the old file&apos;s name. For FishBase (12730071), whose only file is 42_meta_recoded.tar.gz:
+###php zenodo_upload.php _ &apos;{&quot;concept_id&quot;: &quot;12730071&quot;, &quot;file&quot;: &quot;/Volumes/.../fishbase.tar.gz&quot;, 
+###                          &quot;remove_files&quot;: [&quot;42_meta_recoded.tar.gz&quot;], &quot;dry_run&quot;: 1}&apos;
+
+#The dry run lists what will happen: remove 42_meta_recoded.tar.gz, add fishbase.tar.gz, set today&apos;s date, and stop at a draft. 
+#If that looks right, run it again without &quot;dry_run&quot;:
+php zenodo_upload.php _ &apos;{&quot;concept_id&quot;: &quot;12730071&quot;, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/fishbase.tar.gz&quot;, 
+                          &quot;remove_files&quot;: [&quot;42_meta_recoded.tar.gz&quot;]}&apos;
+
+#That makes the new version draft for you to check on Zenodo. To publish it straight away, add &quot;publish&quot;: 1, which cannot be undone.
+###php zenodo_upload.php _ &apos;{&quot;concept_id&quot;: &quot;12730071&quot;, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/fishbase.tar.gz&quot;, 
+###                          &quot;remove_files&quot;: [&quot;42_meta_recoded.tar.gz&quot;], &quot;publish&quot;: 1}&apos;
+</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

@@ -25,9 +25,20 @@ So when connector runs, all lookup is cached already, faster process for connect
   <builders>
     <hudson.tasks.Shell>
       <command>cd /var/www/html/eol_php8_code/update_resources/connectors
-
-php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/reference.tab&quot;}&apos;
+###php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/reference_GloBi.tab&quot;}&apos;
 #&quot;start&quot;: 226747
+
+#FishBase can start now. In Jenkins, job &quot;06 Search Full Reference&quot;:
+#It should take about 1.5–2 days with DataCite on. To finish sooner without DataCite, add &quot;datacite_search&quot;: false.
+###php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, 
+###                                     &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/reference_fishbase.tab&quot;}&apos;
+
+#Set DataCite to false will be faster:
+php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, 
+                                     &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/reference_fishbase.tab&quot;, 
+                                     &quot;datacite_search&quot;: false}&apos;
+
+
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
