@@ -30,12 +30,13 @@
 
 #The dry run lists what will happen: remove 42_meta_recoded.tar.gz, add fishbase.tar.gz, set today&apos;s date, and stop at a draft. 
 #If that looks right, run it again without &quot;dry_run&quot;:
-php zenodo_upload.php _ &apos;{&quot;concept_id&quot;: &quot;12730071&quot;, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/fishbase.tar.gz&quot;, 
-                          &quot;remove_files&quot;: [&quot;42_meta_recoded.tar.gz&quot;]}&apos;
+###php zenodo_upload.php _ &apos;{&quot;concept_id&quot;: &quot;12730071&quot;, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/fishbase.tar.gz&quot;, 
+###                          &quot;remove_files&quot;: [&quot;42_meta_recoded.tar.gz&quot;]}&apos;
 
 #That makes the new version draft for you to check on Zenodo. To publish it straight away, add &quot;publish&quot;: 1, which cannot be undone.
 ###php zenodo_upload.php _ &apos;{&quot;concept_id&quot;: &quot;12730071&quot;, &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/fishbase.tar.gz&quot;, 
 ###                          &quot;remove_files&quot;: [&quot;42_meta_recoded.tar.gz&quot;], &quot;publish&quot;: 1}&apos;
+# Worked OK!
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
