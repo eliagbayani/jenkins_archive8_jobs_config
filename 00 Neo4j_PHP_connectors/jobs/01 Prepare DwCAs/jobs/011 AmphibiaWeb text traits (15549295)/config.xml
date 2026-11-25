@@ -43,7 +43,6 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 
 # OK 3of4: Start matching taxa
 php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
-exit 0
 
 ### IMPORTANT: ONLY RUN steps 4 IF U WANT DWCA TO BECOME CSV FOR GRAPH DATABASE, IF NOT THEN SKIP THIS STEP:
 # OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
@@ -54,7 +53,6 @@ exit 0
 ###If it now goes only through the Taxon.tsv/Traits.tsv route, DON&apos;T RUN STEP 4.
 
 TARGET=&quot;13318109_AmphibiaWeb_TB_1_0.tar.gz&quot;
-
 # OK step 5: this also converts references identifier to DOI_URL :=&gt; Generate CSVs for Import job
 ###php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb_finale&quot;}&apos;                #gen 13318109_AmphibiaWeb_finale_analyzed
 # Step 6 rename
@@ -64,11 +62,11 @@ TARGET=&quot;13318109_AmphibiaWeb_TB_1_0.tar.gz&quot;
 ###exit 0 # the end
 
 # OK step 5: this also converts references identifier to DOI_URL :=&gt; Taxon.tsv/Traits.tsv route
-###php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID&quot;}&apos; #gen 13318109_AmphibiaWeb-with-hC_neo4j_1_eolID_analyzed
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID&quot;}&apos; #gen 13318109_AmphibiaWeb-with-hC_neo4j_1_eolID_analyzed
 # Step 6 rename
-###cd /var/www/html/eol_php8_code/applications/content_server/resources
-###SOURCE=&quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID_analyzed.tar.gz&quot;
-###mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+SOURCE=&quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID_analyzed.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 
 # OK step 7:
 cd /var/www/html/eol_php8_code/update_resources/connectors

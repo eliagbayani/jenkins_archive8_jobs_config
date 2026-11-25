@@ -48,11 +48,12 @@ exit 0
 # REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen Brazilian_Flora_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_finale&quot;}&apos;
+#php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_finale&quot;}&apos; #orig
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_finale&quot;, &quot;min_year&quot;: 1900, &quot;datacite_search&quot;: false}&apos; #use this moving forward
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp Brazilian_Flora_finale.tar.gz Brazilian_Flora_TraitBank_1_0.tar.gz
+cp Brazilian_Flora_finale_analyzed.tar.gz Brazilian_Flora_TraitBank_1_0.tar.gz
 ls -lt Brazilian_Flora_finale.tar.gz
 ls -lt Brazilian_Flora_TraitBank_1_0.tar.gz
 rm -f Brazilian_Flora_finale.tar.gz
