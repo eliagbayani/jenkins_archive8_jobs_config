@@ -38,15 +38,19 @@ So when connector runs, all lookup is cached already, faster process for connect
 ###                                     &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/reference_fishbase.tab&quot;, 
 ###                                     &quot;datacite_search&quot;: false}&apos;
 
-php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, 
-                                     &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/BrazilianFlora_reference_1900_on.tab&quot;,
-                                     &quot;datacite_search&quot;: false}&apos;
-# OR this below but it will be ~20mins longer
+###php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, 
+###                                     &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/BrazilianFlora_reference_1900_on.tab&quot;,
+###                                     &quot;datacite_search&quot;: false}&apos;
+
+# OR this below but it will be ~20mins longer - DONE
 ###php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, 
 ### 									&quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/BrazilianFlora_reference.tab&quot;, 
 ###	    								&quot;datacite_search&quot;: false, &quot;min_year&quot;: 1900}&apos;
 
 
+php do_full_reference_search.php _ &apos;{&quot;task&quot;: &quot;search_DOIs_for_full_references&quot;, 
+                                     &quot;file&quot;: &quot;/Volumes/Crucial_2TB/eol_resources/divide_and_conquer/ShelledAnimalBodyMass_reference.tab&quot;}&apos;
+#Its references are from the 1970s to the 2010s, so it doesn&apos;t need min_year, and DataCite can stay on.
 
 </command>
       <configuredLocalRules/>
