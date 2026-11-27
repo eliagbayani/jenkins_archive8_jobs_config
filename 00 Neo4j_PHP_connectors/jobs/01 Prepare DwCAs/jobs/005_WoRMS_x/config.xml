@@ -67,7 +67,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 # generates WoRMS_final.tar.gz
 ###php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen WoRMS_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;}&apos; # gen WoRMS_finale_analyzed
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;, &quot;supplied_name&quot;: &quot;WoRMS&quot;}&apos; # gen WoRMS_finale_analyzed
 exit 0
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources

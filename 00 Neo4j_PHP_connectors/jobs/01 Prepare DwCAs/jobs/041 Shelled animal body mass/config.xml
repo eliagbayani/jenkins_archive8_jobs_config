@@ -44,7 +44,7 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 ### REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;ShelledAnimalBodyMass-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen ShelledAnimalBodyMass_finale
 
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;ShelledAnimalBodyMass_finale&quot;}&apos; #gen ShelledAnimalBodyMass_finale_analyzed
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;ShelledAnimalBodyMass_finale&quot;, &quot;supplied_name&quot;: &quot;ShellBodyMass&quot;}&apos; #gen ShelledAnimalBodyMass_finale_analyzed
 exit 0
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources

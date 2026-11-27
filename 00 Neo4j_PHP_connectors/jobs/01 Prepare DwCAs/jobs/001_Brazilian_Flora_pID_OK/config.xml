@@ -49,7 +49,7 @@ exit 0
 php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen Brazilian_Flora_finale
 
 #php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_finale&quot;}&apos; #orig
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_finale&quot;, &quot;min_year&quot;: 1900, &quot;datacite_search&quot;: false}&apos; #use this moving forward
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_finale&quot;, &quot;min_year&quot;: 1900, &quot;datacite_search&quot;: false, &quot;supplied_name&quot;: &quot;BrazilFlora&quot;}&apos; #use this moving forward
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources

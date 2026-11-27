@@ -52,7 +52,7 @@ TARGET=&quot;FishBase_TraitBank_1_0.tar.gz&quot;
 ###exit 0 # the end
 
 # OK step 5: this also converts references identifier to DOI_URL :=&gt; Taxon.tsv/Traits.tsv route
-php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1_eolID&quot;, &quot;datacite_search&quot;: false}&apos; #gen +&quot;_analyzed&quot; -- use this moving forward.
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;fishbase-with-hC_neo4j_1_eolID&quot;, &quot;datacite_search&quot;: false, &quot;supplied_name&quot;: &quot;FishBase&quot;}&apos; #gen +&quot;_analyzed&quot; -- use this moving forward.
 
 # Step 6 rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
