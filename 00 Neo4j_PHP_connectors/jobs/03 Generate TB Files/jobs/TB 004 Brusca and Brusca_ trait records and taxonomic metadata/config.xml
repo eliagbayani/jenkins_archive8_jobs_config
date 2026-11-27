@@ -23,22 +23,22 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>exit 0
-Hi Eli, 
-When the taxonKey column contains pipe-delimited values, it means that the taxon has been mapped manually. 
-If the trait data set has a higher taxon that is not represented in our hierarchy, we map it to all the subgroups that are 
-contained within that higher taxon. Sorry, I have not yet gotten around to adding the taxonMap column to the Brusca file to indicate manual mappings. 
-It would probably be a good idea to include a rule in your name matching script to not skip taxa with pipes in the taxonKey column, 
-even if the taxonMap column is missing or empty.
-Thanks for checking, Katja
-----------------
-Ah yes, I forgot. If there are no ancestry or higherClassification fields, we should not try to map automatically. 
-In these cases, Jen &amp; I would either add ancestry information later or do the mappings manually.
-----------------
+      <command>#exit 0
+#Hi Eli, 
+#When the taxonKey column contains pipe-delimited values, it means that the taxon has been mapped manually. 
+#If the trait data set has a higher taxon that is not represented in our hierarchy, we map it to all the subgroups that are 
+#contained within that higher taxon. Sorry, I have not yet gotten around to adding the taxonMap column to the Brusca file to indicate manual mappings. 
+#It would probably be a good idea to include a rule in your name matching script to not skip taxa with pipes in the taxonKey column, 
+#even if the taxonMap column is missing or empty.
+#Thanks for checking, Katja
+#----------------
+#Ah yes, I forgot. If there are no ancestry or higherClassification fields, we should not try to map automatically. 
+#In these cases, Jen &amp; I would either add ancestry information later or do the mappings manually.
+#----------------
 cd /var/www/html/eol_php8_code/update_resources/connectors
 #======================================== Part 1 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta
-php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22777311&quot; , &quot;redownload_zip_file_YN&quot;: 1}&apos;  	#-&gt; https://doi.org/10.5281/zenodo.22777311
-###exit 0
+php convert_new_model_2DwCA.php _ &apos;{&quot;concept_id&quot;: &quot;22777311&quot; , &quot;redownload_zip_file_YN&quot;: 0}&apos;  	#-&gt; https://doi.org/10.5281/zenodo.22777311
+exit 0
 # downloads zip file: TB_files/22777311.zip
 # extracts to:        TB_files/22777311_Brusca_and_Brus_trai_reco_and_taxo_meta/input_files/*.*
 # generates:          22777311_Brusca_and_Brus_trai_reco_and_taxo_meta.tar.gz
@@ -73,10 +73,11 @@ cd /var/www/html/eol_php8_code/update_resources/connectors
 #OK 1: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
 # source is: 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta.tar.gz
 php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;22777311_Brusca_and_Brus_trai_reco_and_taxo_meta&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; # + &apos;-with-hC&apos;
+#exit 0
 
 #OK 2: This use gnparser one name at a time. Not entire file.
 php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;22777311_Brusca_and_Brus_trai_reco_and_taxo_meta-with-hC&quot;, &quot;resource_type&quot;: &quot;TB_dwca&quot;}&apos; #OK gen neo4j_1
-exit 0
+#exit 0
 
 ### IT HAS higherClassification AND canonicalName ALREADY
 cd /var/www/html/eol_php8_code/applications/content_server/resources
@@ -99,20 +100,11 @@ ls -lt 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta_finale.tar.gz
 ls -lt 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta_TraitBank.tar.gz
 rm -f 22777311_Brusca_and_Brus_trai_reco_and_taxo_meta_finale.tar.gz
 exit 0
-#======================================== end of Part 2</command>
+#======================================== end of Part 2
+#build other proj: [TB 005 Dietary Traits]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>TB 005 Dietary Traits</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>
