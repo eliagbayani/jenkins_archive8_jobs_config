@@ -1,0 +1,84 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <jenkins.model.BuildDiscarderProperty>
+      <strategy class="hudson.tasks.LogRotator">
+        <daysToKeep>-1</daysToKeep>
+        <numToKeep>5</numToKeep>
+        <artifactDaysToKeep>-1</artifactDaysToKeep>
+        <artifactNumToKeep>-1</artifactNumToKeep>
+        <removeLastBuild>false</removeLastBuild>
+      </strategy>
+    </jenkins.model.BuildDiscarderProperty>
+  </properties>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>###exit 0
+# first run: May 20, 2026
+# source: AmphibiaWeb.tar.gz --- used a version from local MacStudio not from Zenodo
+cd /var/www/html/eol_php8_code/update_resources/connectors
+
+# OK step 0:
+###php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;download_file_from_zenodo&quot;, &quot;concept_id&quot;: &quot;13318109&quot;, &quot;supplied_name&quot;: &quot;AmphibiaWeb&quot;, &quot;file_type&quot;: &quot;.tar.gz&quot;}&apos;
+#generates: 13318109_AmphibiaWeb.tar.gz
+
+# OK 1of4: This will add higherClassification in taxon.tab and rebuild the DwCA. With carry-over of other extensions.
+# source is		: AmphibiaWeb.tar.gz
+# new source is	: 13318109_AmphibiaWeb.tar.gz
+# generates FILENAME-with-hC.tar.gz
+###php dwca_utility.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb&quot;, &quot;task&quot;: &quot;gen_hC_using_ancestry&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #using kingdom, phylum, class, order, family, genus
+
+# OK 2of4: This use gnparser one name at a time. Not entire file.
+###php run_gnparser_dwca.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC&quot;}&apos; #OK gen neo4j_1
+
+# OK 3of4: Start matching taxa
+###php match_taxa_2DH.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; #OK gen +_eolID
+
+### IMPORTANT: ONLY RUN steps 4 IF U WANT DWCA TO BECOME CSV FOR GRAPH DATABASE, IF NOT THEN SKIP THIS STEP:
+# OK 4of4: Convert taxon.tab, use EOLid value for taxonID.
+# REMINDER: Multiple scinames with different taxonIDs have the same canonical thus will have the same EOLid
+### php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID&quot;, &quot;resource_type&quot;: &quot;legacy_dwca&quot;}&apos; # gen 13318109_AmphibiaWeb_finale
+
+###If this archive also goes to a Generate CSVs for Import job, that job needs taxonID == EOLid, as above, and would find no taxa. RUN STEP 4. 
+###If it now goes only through the Taxon.tsv/Traits.tsv route, DON&apos;T RUN STEP 4.
+
+TARGET=&quot;13318109_AmphibiaWeb_TB_1_0.tar.gz&quot;
+# OK step 5: this also converts references identifier to DOI_URL :=&gt; Generate CSVs for Import job
+###php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb_finale&quot;}&apos;                #gen 13318109_AmphibiaWeb_finale_analyzed
+# Step 6 rename
+###cd /var/www/html/eol_php8_code/applications/content_server/resources
+###SOURCE=&quot;13318109_AmphibiaWeb_finale_analyzed.tar.gz&quot;
+###mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
+###exit 0 # the end
+
+# OK step 5: this also converts references identifier to DOI_URL :=&gt; Taxon.tsv/Traits.tsv route
+php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID&quot;, &quot;supplied_name&quot;: &quot;AmphibiaW&quot;}&apos; # + _analyzed
+#exit 0
+# Step 6 rename
+cd /var/www/html/eol_php8_code/applications/content_server/resources
+SOURCE=&quot;13318109_AmphibiaWeb-with-hC_neo4j_1_eolID_analyzed.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
+
+# OK step 7:
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;convert_dwca_to_new_input_files&quot;, &quot;concept_id&quot;: &quot;13318109&quot;, &quot;supplied_name&quot;: &quot;AmphibiaWeb&quot;}&apos;
+### OR php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;convert_dwca_to_new_input_files&quot;, &quot;source&quot;: &quot;13318109_AmphibiaWeb_TB_1_0.tar.gz&quot;}&apos;
+exit 0 # the end
+
+#build other projects: [012 MoftheAES_resources]</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
