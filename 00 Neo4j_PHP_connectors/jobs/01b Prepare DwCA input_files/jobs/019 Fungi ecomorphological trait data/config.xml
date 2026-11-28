@@ -44,9 +44,9 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;1736875776-
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;1736875776_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp 1736875776_finale.tar.gz FungiEcomorphological_TraitBank_1_0.tar.gz
-ls -lt 1736875776_finale.tar.gz
-ls -lt FungiEcomorphological_TraitBank_1_0.tar.gz
+SOURCE=&quot;1736875776_finale_analyzed.tar.gz&quot;
+TARGET=&quot;FungiEcomorphological_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f 1736875776_finale.tar.gz
 #build other projects: [020 Body_Length_Syrphidae_Tabanidae]</command>
       <configuredLocalRules/>

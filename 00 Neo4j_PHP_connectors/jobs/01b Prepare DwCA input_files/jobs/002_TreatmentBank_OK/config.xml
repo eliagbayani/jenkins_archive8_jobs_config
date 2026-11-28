@@ -49,10 +49,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;TreatmentBank_final_
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp TreatmentBank_final_finale_analyzed.tar.gz TreatmentBank_TraitBank_1_0.tar.gz
-ls -lt TreatmentBank_final_finale_analyzed.tar.gz
-ls -lt TreatmentBank_TraitBank_1_0.tar.gz
-rm -f TreatmentBank_final_finale_analyzed.tar.gz
+SOURCE=&quot;TreatmentBank_final_finale_analyzed.tar.gz&quot;
+TARGET=&quot;TreatmentBank_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 
 
 ### Build other projects: [003_Global_Biotic_Interactions_OK]</command>

@@ -46,10 +46,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;GBIF_finale&quot;}&a
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp GBIF_finale_analyzed.tar.gz GBIF_TraitBank_1_0.tar.gz
-ls -lt GBIF_finale_analyzed.tar.gz
-ls -lt GBIF_TraitBank_1_0.tar.gz
-rm -f GBIF_finale_analyzed.tar.gz
+SOURCE=&quot;GBIF_finale_analyzed.tar.gz&quot;
+TARGET=&quot;GBIF_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

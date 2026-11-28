@@ -50,9 +50,9 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits-
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;MAD_traits_finale&quot;}&apos;
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp MAD_traits_finale.tar.gz MAD_traits_TraitBank_1_0.tar.gz
-ls -lt MAD_traits_finale.tar.gz
-ls -lt MAD_traits_TraitBank_1_0.tar.gz
+SOURCE=&quot;MAD_traits_finale_analyzed.tar.gz&quot;
+TARGET=&quot;MAD_traits_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f MAD_traits_finale.tar.gz
 
 ### build other projects: [007 AntWeb traits]

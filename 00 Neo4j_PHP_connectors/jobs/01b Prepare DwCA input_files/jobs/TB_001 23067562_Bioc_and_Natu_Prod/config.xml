@@ -45,9 +45,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;23067562_Bioc_and_Na
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp 23067562_Bioc_and_Natu_Prod_finale.tar.gz 23067562_Bioc_and_Natu_Prod_TraitBank_1_0.tar.gz
-ls -lt 23067562_Bioc_and_Natu_Prod_finale.tar.gz
-ls -lt 23067562_Bioc_and_Natu_Prod_TraitBank_1_0.tar.gz
+SOURCE=&quot;23067562_Bioc_and_Natu_Prod_finale_analyzed.tar.gz&quot;
+TARGET=&quot;23067562_Bioc_and_Natu_Prod_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f 23067562_Bioc_and_Natu_Prod_finale.tar.gz
 </command>
       <configuredLocalRules/>

@@ -53,10 +53,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;AnAge2_finale&quot;}
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp AnAge2_finale_analyzed.tar.gz AnAge_TraitBank_1_0.tar.gz
-ls -lt AnAge2_finale_analyzed.tar.gz
-ls -lt AnAge_TraitBank_1_0.tar.gz
-rm -f AnAge2_finale_analyzed.tar.gz
+SOURCE=&quot;AnAge2_finale_analyzed.tar.gz&quot;
+TARGET=&quot;AnAge_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

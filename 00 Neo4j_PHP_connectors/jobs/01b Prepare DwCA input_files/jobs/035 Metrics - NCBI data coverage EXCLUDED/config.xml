@@ -50,10 +50,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;NCBI_finale&quot;}&a
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp NCBI_finale_analyzed.tar.gz NCBI_TraitBank_1_0.tar.gz
-ls -lt NCBI_finale_analyzed.tar.gz
-ls -lt NCBI_TraitBank_1_0.tar.gz
-rm -f NCBI_finale_analyzed.tar.gz
+SOURCE=&quot;NCBI_finale_analyzed.tar.gz&quot;
+TARGET=&quot;NCBI_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

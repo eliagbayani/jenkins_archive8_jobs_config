@@ -45,10 +45,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;KubitzkiEtAl_finale&
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp KubitzkiEtAl_finale_analyzed.tar.gz KubitzkiEtAl_TraitBank_1_0.tar.gz
-ls -lt KubitzkiEtAl_finale_analyzed.tar.gz
-ls -lt KubitzkiEtAl_TraitBank_1_0.tar.gz
-rm -f KubitzkiEtAl_finale_analyzed.tar.gz
+SOURCE=&quot;KubitzkiEtAl_finale_analyzed.tar.gz&quot;
+TARGET=&quot;KubitzkiEtAl_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

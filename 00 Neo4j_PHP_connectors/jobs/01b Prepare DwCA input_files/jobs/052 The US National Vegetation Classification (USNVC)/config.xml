@@ -44,10 +44,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;USNVC_finale&quot;}&
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp USNVC_finale_analyzed.tar.gz USNVC_TraitBank_1_0.tar.gz
-ls -lt USNVC_finale_analyzed.tar.gz
-ls -lt USNVC_TraitBank_1_0.tar.gz
-rm -f USNVC_finale_analyzed.tar.gz
+SOURCE=&quot;USNVC_finale_analyzed.tar.gz&quot;
+TARGET=&quot;USNVC_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

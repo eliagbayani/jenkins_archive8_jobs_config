@@ -49,10 +49,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;PaleobiologyDB_final
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp PaleobiologyDB_finale_analyzed.tar.gz PaleobiologyDB_TraitBank_1_0.tar.gz
-ls -lt PaleobiologyDB_finale_analyzed.tar.gz
-ls -lt PaleobiologyDB_TraitBank_1_0.tar.gz
-rm -f PaleobiologyDB_finale_analyzed.tar.gz
+SOURCE=&quot;PaleobiologyDB_finale_analyzed.tar.gz&quot;
+TARGET=&quot;PaleobiologyDB_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

@@ -55,10 +55,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;BHL_taxaFixed_finale
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp BHL_taxaFixed_finale_analyzed.tar.gz BHL_TraitBank_1_0.tar.gz
-ls -lt BHL_taxaFixed_finale_analyzed.tar.gz
-ls -lt BHL_TraitBank_1_0.tar.gz
-rm -f BHL_taxaFixed_finale_analyzed.tar.gz
+SOURCE=&quot;BHL_taxaFixed_finale_analyzed.tar.gz&quot;
+TARGET=&quot;BHL_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 #build other projects: [016 Zoosystematics and Evolution (834)]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

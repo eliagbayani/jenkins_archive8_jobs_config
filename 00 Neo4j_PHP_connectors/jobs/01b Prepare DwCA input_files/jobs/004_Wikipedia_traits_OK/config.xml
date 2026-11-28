@@ -49,10 +49,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;wikipedia_en_traits_
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp wikipedia_en_traits_finale_analyzed.tar.gz Wikipedia_TraitBank_1_0.tar.gz
-ls -lt wikipedia_en_traits_finale_analyzed.tar.gz
-ls -lt Wikipedia_TraitBank_1_0.tar.gz
-rm -f wikipedia_en_traits_finale_analyzed.tar.gz
+SOURCE=&quot;wikipedia_en_traits_finale_analyzed.tar.gz&quot;
+TARGET=&quot;Wikipedia_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 
 ### build other projects: [006 MADtraits]</command>
       <configuredLocalRules/>

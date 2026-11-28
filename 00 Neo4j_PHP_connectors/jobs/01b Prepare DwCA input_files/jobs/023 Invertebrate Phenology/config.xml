@@ -48,10 +48,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;InvertebratePhenolog
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp InvertebratePhenology_finale_analyzed.tar.gz InvertebratePhenology_TraitBank_1_0.tar.gz
-ls -lt InvertebratePhenology_finale_analyzed.tar.gz
-ls -lt InvertebratePhenology_TraitBank_1_0.tar.gz
-rm -f InvertebratePhenology_finale_analyzed.tar.gz
+SOURCE=&quot;InvertebratePhenology_finale_analyzed.tar.gz&quot;
+TARGET=&quot;InvertebratePhenology_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

@@ -47,10 +47,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;iNat_finale&quot;}&a
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp iNat_finale_analyzed.tar.gz iNat_TraitBank_1_0.tar.gz
-ls -lt iNat_finale_analyzed.tar.gz
-ls -lt iNat_TraitBank_1_0.tar.gz
-rm -f iNat_finale_analyzed.tar.gz
+SOURCE=&quot;iNat_finale_analyzed.tar.gz&quot;
+TARGET=&quot;iNat_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

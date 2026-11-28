@@ -52,10 +52,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Smith_etal_2011_fina
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp Smith_etal_2011_finale_analyzed.tar.gz Smith_etal_2011_TraitBank_1_0.tar.gz
-ls -lt Smith_etal_2011_finale_analyzed.tar.gz
-ls -lt Smith_etal_2011_TraitBank_1_0.tar.gz
-rm -f Smith_etal_2011_finale_analyzed.tar.gz
+SOURCE=&quot;Smith_etal_2011_finale_analyzed.tar.gz&quot;
+TARGET=&quot;Smith_etal_2011_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

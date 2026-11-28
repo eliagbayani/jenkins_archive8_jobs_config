@@ -53,10 +53,14 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Brazilian_Flora_fina
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp Brazilian_Flora_finale_analyzed.tar.gz Brazilian_Flora_TraitBank_1_0.tar.gz
-ls -lt Brazilian_Flora_finale.tar.gz
-ls -lt Brazilian_Flora_TraitBank_1_0.tar.gz
+SOURCE=&quot;Brazilian_Flora_finale_analyzed.tar.gz&quot;
+TARGET=&quot;Brazilian_Flora_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f Brazilian_Flora_finale.tar.gz
+
+# step 7: convert the DwCA to TraitBank input files (Taxon.tsv, Traits.tsv, Sources.tsv) -&gt; TB_files_from_DwCA/Brazilian_Flora_TraitBank/input_files/
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;convert_dwca_to_new_input_files&quot;, &quot;source&quot;: &quot;Brazilian_Flora_TraitBank_1_0.tar.gz&quot;}&apos;
 
 #build others: [002_TreatmentBank_OK]
 #              [002_TreatmentBank_OK]
@@ -64,16 +68,6 @@ rm -f Brazilian_Flora_finale.tar.gz
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>
-  <publishers>
-    <hudson.tasks.BuildTrigger>
-      <childProjects>002_TreatmentBank_OK</childProjects>
-      <threshold>
-        <name>SUCCESS</name>
-        <ordinal>0</ordinal>
-        <color>BLUE</color>
-        <completeBuild>true</completeBuild>
-      </threshold>
-    </hudson.tasks.BuildTrigger>
-  </publishers>
+  <publishers/>
   <buildWrappers/>
 </project>

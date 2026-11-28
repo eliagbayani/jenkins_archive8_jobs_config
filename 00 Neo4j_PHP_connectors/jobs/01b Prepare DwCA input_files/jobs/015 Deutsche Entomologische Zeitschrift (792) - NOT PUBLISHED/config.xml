@@ -46,9 +46,9 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;792_ENV-wit
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;792_ENV_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources_3
-cp 792_ENV_finale.tar.gz DeutscheEntZeitschrift_TraitBank_1_0.tar.gz
-ls -lt 792_ENV_finale.tar.gz
-ls -lt DeutscheEntZeitschrift_TraitBank_1_0.tar.gz
+SOURCE=&quot;792_ENV_finale_analyzed.tar.gz&quot;
+TARGET=&quot;DeutscheEntZeitschrift_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f 792_ENV_finale.tar.gz
 </command>
       <configuredLocalRules/>

@@ -48,10 +48,13 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;ShelledAnimalBodyMas
 exit 0
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp ShelledAnimalBodyMass_finale_analyzed.tar.gz ShelledAnimalBodyMass_TraitBank_1_0.tar.gz
-ls -lt ShelledAnimalBodyMass_finale_analyzed.tar.gz
-ls -lt ShelledAnimalBodyMass_TraitBank_1_0.tar.gz
-rm -f ShelledAnimalBodyMass_finale_analyzed.tar.gz
+SOURCE=&quot;ShelledAnimalBodyMass_finale_analyzed.tar.gz&quot;
+TARGET=&quot;ShelledAnimalBodyMass_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
+
+# step 7: convert the DwCA to TraitBank input files (Taxon.tsv, Traits.tsv, Sources.tsv) -> TB_files_from_DwCA/ShelledAnimalBodyMass_TraitBank/input_files/
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;convert_dwca_to_new_input_files&quot;, &quot;source&quot;: &quot;ShelledAnimalBodyMass_TraitBank_1_0.tar.gz&quot;}&apos;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

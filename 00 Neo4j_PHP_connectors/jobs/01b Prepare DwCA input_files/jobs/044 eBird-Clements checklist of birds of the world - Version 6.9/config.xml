@@ -47,10 +47,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;eBirdClementsV69_fin
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp eBirdClementsV69_finale_analyzed.tar.gz eBirdClementsV69_TraitBank_1_0.tar.gz
-ls -lt eBirdClementsV69_finale_analyzed.tar.gz
-ls -lt eBirdClementsV69_TraitBank_1_0.tar.gz
-rm -f eBirdClementsV69_finale_analyzed.tar.gz
+SOURCE=&quot;eBirdClementsV69_finale_analyzed.tar.gz&quot;
+TARGET=&quot;eBirdClementsV69_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

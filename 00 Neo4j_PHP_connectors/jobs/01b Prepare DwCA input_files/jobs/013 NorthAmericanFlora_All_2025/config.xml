@@ -47,9 +47,9 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmeric
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;NorthAmericanFlora_All_2025_taxaFixed_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp NorthAmericanFlora_All_2025_taxaFixed_finale.tar.gz NorthAmericanFlora_All_2025_TraitBank_1_0.tar.gz
-ls -lt NorthAmericanFlora_All_2025_taxaFixed_finale.tar.gz
-ls -lt NorthAmericanFlora_All_2025_TraitBank_1_0.tar.gz
+SOURCE=&quot;NorthAmericanFlora_All_2025_taxaFixed_finale_analyzed.tar.gz&quot;
+TARGET=&quot;NorthAmericanFlora_All_2025_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f NorthAmericanFlora_All_2025_taxaFixed_finale.tar.gz
 #build other proj: [014 Smithsonian Contributions to Botany]</command>
       <configuredLocalRules/>

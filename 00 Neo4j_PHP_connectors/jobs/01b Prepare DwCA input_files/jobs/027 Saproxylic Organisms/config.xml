@@ -50,9 +50,9 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;saproxylicn
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;saproxylicnov25_taxaFixed_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp saproxylicnov25_taxaFixed_finale.tar.gz saproxylicnov25_TraitBank_1_0.tar.gz
-ls -lt saproxylicnov25_taxaFixed_finale.tar.gz
-ls -lt saproxylicnov25_TraitBank_1_0.tar.gz
+SOURCE=&quot;saproxylicnov25_taxaFixed_finale_analyzed.tar.gz&quot;
+TARGET=&quot;saproxylicnov25_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f saproxylicnov25_taxaFixed_finale.tar.gz
 #build other projects: [016 Zoosystematics and Evolution (834)]</command>
       <configuredLocalRules/>

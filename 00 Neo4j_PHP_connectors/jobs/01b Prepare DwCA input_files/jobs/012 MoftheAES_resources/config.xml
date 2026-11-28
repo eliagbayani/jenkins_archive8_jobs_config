@@ -47,9 +47,9 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;MoftheAES_r
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;MoftheAES_resources_taxaFixed_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp MoftheAES_resources_taxaFixed_finale.tar.gz MoftheAES_resources_TraitBank_1_0.tar.gz
-ls -lt MoftheAES_resources_taxaFixed_finale.tar.gz
-ls -lt MoftheAES_resources_TraitBank_1_0.tar.gz
+SOURCE=&quot;MoftheAES_resources_taxaFixed_finale_analyzed.tar.gz&quot;
+TARGET=&quot;MoftheAES_resources_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f MoftheAES_resources_taxaFixed_finale.tar.gz
 
 #build other projects: [013 NorthAmericanFlora_All_2025]</command>

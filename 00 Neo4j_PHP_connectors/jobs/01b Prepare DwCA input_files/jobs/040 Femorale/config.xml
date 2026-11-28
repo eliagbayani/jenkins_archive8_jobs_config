@@ -48,10 +48,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Femorale_finale&quot
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp Femorale_finale_analyzed.tar.gz Femorale_TraitBank_1_0.tar.gz
-ls -lt Femorale_finale_analyzed.tar.gz
-ls -lt Femorale_TraitBank_1_0.tar.gz
-rm -f Femorale_finale_analyzed.tar.gz
+SOURCE=&quot;Femorale_finale_analyzed.tar.gz&quot;
+TARGET=&quot;Femorale_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

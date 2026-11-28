@@ -50,10 +50,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;Eick_et_al_2005_fina
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp Eick_et_al_2005_finale_analyzed.tar.gz Eick_et_al_2005_TraitBank_1_0.tar.gz
-ls -lt Eick_et_al_2005_finale_analyzed.tar.gz
-ls -lt Eick_et_al_2005_TraitBank_1_0.tar.gz
-rm -f Eick_et_al_2005_finale_analyzed.tar.gz
+SOURCE=&quot;Eick_et_al_2005_finale_analyzed.tar.gz&quot;
+TARGET=&quot;Eick_et_al_2005_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

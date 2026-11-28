@@ -53,9 +53,9 @@ exit 0
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;AntWeb_textmined_finale&quot;}&apos;
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp AntWeb_textmined_finale.tar.gz AntWeb_textmined_TraitBank_1_0.tar.gz
-ls -lt AntWeb_textmined_finale.tar.gz
-ls -lt AntWeb_textmined_TraitBank_1_0.tar.gz
+SOURCE=&quot;AntWeb_textmined_finale_analyzed.tar.gz&quot;
+TARGET=&quot;AntWeb_textmined_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f AntWeb_textmined_finale.tar.gz
 
 ### build other projects: [008 (0022) AnimalDiversityWeb Traits]</command>

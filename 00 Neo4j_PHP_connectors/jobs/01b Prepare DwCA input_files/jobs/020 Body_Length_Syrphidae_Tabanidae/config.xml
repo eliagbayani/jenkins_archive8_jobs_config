@@ -44,9 +44,9 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syr
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;BLength_Syrphidae_Tabanidae_finale&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp BLength_Syrphidae_Tabanidae_finale.tar.gz BLength_Syrphidae_Tabanidae_TraitBank_1_0.tar.gz
-ls -lt BLength_Syrphidae_Tabanidae_finale.tar.gz
-ls -lt BLength_Syrphidae_Tabanidae_TraitBank_1_0.tar.gz
+SOURCE=&quot;BLength_Syrphidae_Tabanidae_finale_analyzed.tar.gz&quot;
+TARGET=&quot;BLength_Syrphidae_Tabanidae_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f BLength_Syrphidae_Tabanidae_finale.tar.gz
 </command>
       <configuredLocalRules/>

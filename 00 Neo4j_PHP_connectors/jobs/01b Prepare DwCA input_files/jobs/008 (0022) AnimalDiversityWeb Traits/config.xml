@@ -51,9 +51,9 @@ exit 0
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp AnimalDiversityWeb_finale.tar.gz AnimalDiversityWeb_TraitBank_1_0.tar.gz
-ls -lt AnimalDiversityWeb_finale.tar.gz
-ls -lt AnimalDiversityWeb_TraitBank_1_0.tar.gz
+SOURCE=&quot;AnimalDiversityWeb_finale_analyzed.tar.gz&quot;
+TARGET=&quot;AnimalDiversityWeb_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f AnimalDiversityWeb_finale.tar.gz
 
 ### build other projects: [009 iNaturalist data coverage]</command>

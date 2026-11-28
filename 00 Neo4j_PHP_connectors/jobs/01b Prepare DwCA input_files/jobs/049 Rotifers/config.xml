@@ -54,10 +54,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;RotiferTypedHab_fina
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp RotiferTypedHab_finale_analyzed.tar.gz RotiferTypedHab_TraitBank_1_0.tar.gz
-ls -lt RotiferTypedHab_finale_analyzed.tar.gz
-ls -lt RotiferTypedHab_TraitBank_1_0.tar.gz
-rm -f RotiferTypedHab_finale_analyzed.tar.gz
+SOURCE=&quot;RotiferTypedHab_finale_analyzed.tar.gz&quot;
+TARGET=&quot;RotiferTypedHab_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

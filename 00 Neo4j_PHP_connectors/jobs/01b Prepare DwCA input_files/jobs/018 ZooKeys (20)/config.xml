@@ -44,10 +44,14 @@ php use_EOLid_as_taxonID.php _ &apos;{&quot;resource_id&quot;: &quot;20_ENV_fina
 php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;20_ENV_final_finale&quot;, &quot;supplied_name&quot;: &quot;ZooKeys&quot;}&apos;
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp 20_ENV_final_finale.tar.gz ZooKeys_TraitBank_1_0.tar.gz
-ls -lt 20_ENV_final_finale.tar.gz
-ls -lt ZooKeys_TraitBank_1_0.tar.gz
+SOURCE=&quot;20_ENV_final_finale_analyzed.tar.gz&quot;
+TARGET=&quot;ZooKeys_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 rm -f 20_ENV_final_finale.tar.gz
+
+# step 7: convert the DwCA to TraitBank input files (Taxon.tsv, Traits.tsv, Sources.tsv) -> TB_files_from_DwCA/ZooKeys_TraitBank/input_files/
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;convert_dwca_to_new_input_files&quot;, &quot;source&quot;: &quot;ZooKeys_TraitBank_1_0.tar.gz&quot;}&apos;
 #build other projects: [019 Fungi ecomorphological trait data]</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

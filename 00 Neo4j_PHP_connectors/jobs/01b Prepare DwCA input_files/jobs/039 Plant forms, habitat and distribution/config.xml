@@ -56,10 +56,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;PlantFormsHabiDistri
 
 ### rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp PlantFormsHabiDistrib_taxaFixed_finale_analyzed.tar.gz PlantFormsHabiDistrib_TraitBank_1_0.tar.gz
-ls -lt PlantFormsHabiDistrib_taxaFixed_finale_analyzed.tar.gz
-ls -lt PlantFormsHabiDistrib_TraitBank_1_0.tar.gz
-rm -f PlantFormsHabiDistrib_taxaFixed_finale_analyzed.tar.gz
+SOURCE=&quot;PlantFormsHabiDistrib_taxaFixed_finale_analyzed.tar.gz&quot;
+TARGET=&quot;PlantFormsHabiDistrib_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

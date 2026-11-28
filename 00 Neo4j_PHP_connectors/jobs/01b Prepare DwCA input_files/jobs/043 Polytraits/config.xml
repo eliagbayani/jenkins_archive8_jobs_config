@@ -45,10 +45,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;polytraits_new_final
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp polytraits_new_finale_analyzed.tar.gz polytraits_new_TraitBank_1_0.tar.gz
-ls -lt polytraits_new_finale_analyzed.tar.gz
-ls -lt polytraits_new_TraitBank_1_0.tar.gz
-rm -f polytraits_new_finale_analyzed.tar.gz
+SOURCE=&quot;polytraits_new_finale_analyzed.tar.gz&quot;
+TARGET=&quot;polytraits_new_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>

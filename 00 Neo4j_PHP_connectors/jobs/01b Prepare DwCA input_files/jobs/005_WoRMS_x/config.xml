@@ -71,10 +71,13 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;WoRMS_finale&quot;, 
 exit 0
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp WoRMS_finale_analyzed.tar.gz WoRMS_TraitBank_1_0.tar.gz
-ls -lt WoRMS_finale_analyzed.tar.gz
-ls -lt WoRMS_TraitBank_1_0.tar.gz
-rm -f WoRMS_finale_analyzed.tar.gz
+SOURCE=&quot;WoRMS_finale_analyzed.tar.gz&quot;
+TARGET=&quot;WoRMS_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
+
+# step 7: convert the DwCA to TraitBank input files (Taxon.tsv, Traits.tsv, Sources.tsv) -> TB_files_from_DwCA/WoRMS_TraitBank/input_files/
+cd /var/www/html/eol_php8_code/update_resources/connectors
+php process_legacy_dwca.php _ &apos;{&quot;task&quot;: &quot;convert_dwca_to_new_input_files&quot;, &quot;source&quot;: &quot;WoRMS_TraitBank_1_0.tar.gz&quot;}&apos;
 
 #006 MADtraits</command>
       <configuredLocalRules/>

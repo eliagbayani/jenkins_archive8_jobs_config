@@ -44,10 +44,9 @@ php analyze_MoF.php _ &apos;{&quot;resource_id&quot;: &quot;CrustaceanBodySizes_
 
 # rename
 cd /var/www/html/eol_php8_code/applications/content_server/resources
-cp CrustaceanBodySizes_finale_analyzed.tar.gz CrustaceanBodySizes_TraitBank_1_0.tar.gz
-ls -lt CrustaceanBodySizes_finale_analyzed.tar.gz
-ls -lt CrustaceanBodySizes_TraitBank_1_0.tar.gz
-rm -f CrustaceanBodySizes_finale_analyzed.tar.gz
+SOURCE=&quot;CrustaceanBodySizes_finale_analyzed.tar.gz&quot;
+TARGET=&quot;CrustaceanBodySizes_TraitBank_1_0.tar.gz&quot;
+mv &quot;$SOURCE&quot; &quot;$TARGET&quot; &amp;&amp; ls -lt &quot;$TARGET&quot;
 </command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
